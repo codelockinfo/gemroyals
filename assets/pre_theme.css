@@ -2179,7 +2179,7 @@ white-space: nowrap;
 .dib { display: inline-block; }
 
 .tl { text-align: left;   }
-.tc { text-align: center; }
+/* .tc { text-align: center; } */
 .tr { text-align: right;  }
 
 .fl { float: left; }
@@ -6924,7 +6924,7 @@ font-weight: 400;
   }
   .tl_md {text-align: left}
   .tr_md {text-align: right}
-  .tc_md {text-align: center}
+  /* .tc_md {text-align: center} */
   .dn_mb,.dn_md {display: none} 
   .db_mb,.db_md {display: block} 
   .dib_mb,.dib_md {display: inline-block}
@@ -7237,7 +7237,7 @@ background-position: 50% 50%;
   .fs_lg_60 { font-size: 60px }
   .tl_lg {text-align: left}
   .tr_lg {text-align: right}
-  .tc_lg {text-align: center}
+  /* .tc_lg {text-align: center} */
   .wrapper_wide .container,.wrapper_wide #ntheader .container,.wrapper_wide .caption-w-1,.container_cat.cat_wide { 
     max-width: 1600px;
     /* width: 95%; */

@@ -2948,7 +2948,7 @@
           "image_size": "nt_cover",
           "image_position": "8",
           "layout": "nt_full",
-          "cl_bg": "#fff",
+          "cl_bg": "#ffffff",
           "mg": "50px,,50px,",
           "pd": "",
           "mg_mb": "",
@@ -2958,8 +2958,8 @@
     },
     "content_for_index": [
       "banner_section_GgqCN4",
-      "footer_botton_xiVb4k",
-      "instagram_feed_EJfntL"
+      "instagram_feed_EJfntL",
+      "footer_botton_xiVb4k"
     ]
   }
 }

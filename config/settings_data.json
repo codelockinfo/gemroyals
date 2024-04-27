@@ -724,6 +724,25 @@
       },
       "footer_top": {
         "type": "footer_top",
+        "blocks": {
+          "logo_JHqENb": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/f3695c9ae590ec1db22a56fe83769272-Photoroom.png-Photoroom.png",
+              "logo_width": 100,
+              "title": "",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit",
+              "social_mode": "3",
+              "order": "1",
+              "cl": "15",
+              "cl_tb": "6",
+              "cl_mb": "12"
+            }
+          }
+        },
+        "block_order": [
+          "logo_JHqENb"
+        ],
         "settings": {
           "sticky": false,
           "accordions": true,
@@ -1543,6 +1562,7 @@
             "type": "des",
             "settings": {
               "des": "2",
+              "page": "",
               "length": 31,
               "readm": false,
               "readm_txt": "Read more"
@@ -1570,7 +1590,6 @@
               "mess": "",
               "size": 16,
               "source": "1",
-              "image": "shopify:\/\/shop_images\/trust_img2.png",
               "al": "tl",
               "wimg": 60,
               "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
@@ -1582,8 +1601,10 @@
             "settings": {
               "size_chart": "2",
               "sc_type": "1",
+              "page": "",
               "size_ck": "",
               "delivery": true,
+              "page_dr": "",
               "ask": true
             }
           },
@@ -1634,7 +1655,8 @@
           "1585724379549": {
             "type": "html",
             "settings": {
-              "title": "Custom tab"
+              "title": "Custom tab",
+              "page": ""
             }
           },
           "pr_description-2": {
@@ -2953,6 +2975,25 @@
       "footer_botton_W7KHEh": {
         "type": "Footer_Botton",
         "settings": {
+          "footer_paragraph": "",
+          "ul_heading": "",
+          "li_menu1": "",
+          "li_menu2": "",
+          "li_menu3": "",
+          "li_menu4": "",
+          "li_menu5": "",
+          "li_menu6": "",
+          "ul_heading_2": "",
+          "li_content1": "",
+          "li_content2": "",
+          "li_content3": "",
+          "li_content4": "",
+          "li_content5": "",
+          "li_content6": "",
+          "contact": "",
+          "address": "",
+          "Email_id": "",
+          "footer_line": ""
         }
       }
     },

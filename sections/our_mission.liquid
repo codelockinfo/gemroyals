@@ -1,0 +1,103 @@
+<div class="our-mission">
+  <div class="width-container">
+    <div class="width-row">
+      <div class="width-box-33">
+        <div class="our-mission-content">
+          <h1 class="ourmission-h1">Our Mission</h1>
+          <p class="ourmission-p">The #1 trusted source for Moissanite jewelry for 15 years</p>
+        </div>
+      </div>
+      <div class="width-box-66">
+        <div class="our-grid-vector-box">
+            {%- for block in section.blocks -%}
+          <div class="grid-vector-box">
+            <div class="vector-img"><img src="{{ block.settings.our_img  |  img_url: 'master'}}" /></div>
+            <div class="vector-content">
+                <p class="vector-p">{{block.settings.our_content}}</p>
+            </div>
+          </div>
+           {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "our mission section",
+  "settings": [],
+  "blocks": [
+    {
+      "name": "Add mission",
+      "type": "img",
+      "settings": [
+         {
+            "type": "image_picker",
+            "id": "our_img",
+            "label": "Select mission img"
+         },
+         {
+            "type": "text",
+            "id": "our_content",
+            "label": "Select mission content"
+         }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Our mission section"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+  .width-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .width-box-33 {
+    width: 33%;
+    padding: 15px;
+  }
+  .width-box-66 {
+    width: 66%;
+    padding: 15px;
+  }
+  .our-mission {
+    padding: 80px 0;
+    background-color: #ede9eb;
+  }
+  .ourmission-h1 {
+    font-size: 64px;
+    font-family: 'Vindea' !important;
+    line-height: 83.43px;
+  }
+  .our-grid-vector-box {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+  }
+  .grid-vector-box {
+    padding: 30px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 10px 13px;
+    /* grid-column: 4/1; */
+  }
+  .vector-p{
+    font-family: 'Montserrat Alternates';
+    font-size: 16px;
+    line-height: 36px;
+    margin-top: 20px !important;
+    margin: 0;
+  }
+</style>

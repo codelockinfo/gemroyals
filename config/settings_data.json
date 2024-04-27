@@ -2996,41 +2996,48 @@
           "pd_mb": ""
         }
       },
-      "footer_botton_W7KHEh": {
-        "type": "Footer_Botton",
-        "settings": {
-          "footer_paragraph": "",
-          "ul_heading": "",
-          "li_menu1": "",
-          "li_menu2": "",
-          "li_menu3": "",
-          "li_menu4": "",
-          "li_menu5": "",
-          "li_menu6": "",
-          "ul_heading_2": "",
-          "li_content1": "",
-          "li_content2": "",
-          "li_content3": "",
-          "li_content4": "",
-          "li_content5": "",
-          "li_content6": "",
-          "contact": "",
-          "address": "",
-          "Email_id": "",
-          "footer_line": ""
-        }
-      },
       "our_mission_F7HaXC": {
         "type": "our_mission",
+        "blocks": {
+          "img_33T7tU": {
+            "type": "img",
+            "settings": {
+              "our_content": ""
+            }
+          },
+          "img_bcxqPN": {
+            "type": "img",
+            "settings": {
+              "our_content": ""
+            }
+          },
+          "img_43W64r": {
+            "type": "img",
+            "settings": {
+              "our_content": ""
+            }
+          },
+          "img_KJiKeX": {
+            "type": "img",
+            "settings": {
+              "our_content": ""
+            }
+          }
+        },
+        "block_order": [
+          "img_33T7tU",
+          "img_bcxqPN",
+          "img_43W64r",
+          "img_KJiKeX"
+        ],
         "settings": {
         }
       }
     },
     "content_for_index": [
       "banner_section_GgqCN4",
-      "instagram_feed_EJfntL",
-      "footer_botton_W7KHEh",
-      "our_mission_F7HaXC"
+      "our_mission_F7HaXC",
+      "instagram_feed_EJfntL"
     ]
   }
 }

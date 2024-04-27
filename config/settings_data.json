@@ -2841,9 +2841,18 @@
       },
       "banner_section_GgqCN4": {
         "type": "banner-section",
+        "custom_css": [
+          "p {margin-bottom: 0;}"
+        ],
         "settings": {
           "bannarbackimg": "shopify:\/\/shop_images\/background_header.jpg",
-          "banner_img": "shopify:\/\/shop_images\/banner_img.jpg"
+          "banner_img": "shopify:\/\/shop_images\/banner_img.jpg",
+          "banner_png_img": "shopify:\/\/shop_images\/sparkle.png",
+          "banner_heading": "<p>A legacy of luxury<br\/><\/p>",
+          "Paragraph_text": "Conveys a sense of heritage and high-end luxury appealing to those who appreciate tradition  and quality",
+          "button_text": "View Collection",
+          "button_background": "",
+          "button_link": ""
         }
       }
     },

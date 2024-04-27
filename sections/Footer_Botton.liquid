@@ -1,52 +1,54 @@
 <div class="main_footer">
   <div class="main_footer1">
     <div class="footer_content1">
-      <img src="https://s3-alpha-sig.figma.com/img/76fc/2dfc/f3695c9ae590ec1db22a56fe83769272?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lZglw7KKB9FOnEilRc7zgPCqx5wKPwXni4wmJu9A1rigQ3wU3XnmoIW2pv7tPanp292fp5Sr6qvDu3OMWPMQkf7YyvclyIb02ibbW8cVTU-hL06Khf5lFOP8HNu00Rw8ri3C7T16vRYKvPlsVPIW3gxiG2MeSSZy~INiI8-UGUrnYewEC5mGinYKCm8J0RCiXVXY65F818tvk8cCjTLVNrEH1LtE9iK85VRMQjz8udlGnl8ckzn-0F8UZNv2GfTK8id6X~Qy8A4mJA5yrhrUc4asDxcQxLhfOf5E0h3iSfvVe38kMFBcLrIjoiMX6c2QYVvDo1XiBqgrZAzeEIiuMQ__" alt="">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit
-      </p>
+      <img src="{{ section.settings.content1_image |  img_url: 'master' }}" alt="">
+      <p>{{ section.settings.footer_paragraph }}</p>
     </div>
     <div class="footer_content2">
-      <p>UseFul Link</p>
+      <p>{{ section.settings.ul_heading }}</p>
       <ul>
-        <li>Engagement Rings</li>
-        <li>Wedding Bands</li>
-        <li>Fine Jewelry</li>
-        <li>Customization</li>
-        <li>Blogs</li>
-        <li>About us</li>
+        <li>{{ section.settings.li_menu1 }}</li>
+        <li>{{ section.settings.li_menu2 }}</li>
+        <li>{{ section.settings.li_menu3 }}</li>
+        <li>{{ section.settings.li_menu4 }}</li>
+        <li>{{ section.settings.li_menu5 }}</li>
+        <li>{{ section.settings.li_menu6 }}</li>
       </ul>
     </div>
     <div class="footer_content3">
-      <p>Policies & Services</p>
+      <p>{{ section.settings.ul_heading_2 }}</p>
       <ul>
-        <li>Terms Of Services</li>
-        <li>Privacy Policy</li>
-        <li>Shiping Policy</li>
-        <li>Warranty & Repair Policy</li>
-        <li>Return & Exchange Policy</li>
-        <li>Cancellation Policy</li>
+        <li>{{ section.settings.li_content1 }}</li>
+        <li>{{ section.settings.li_content2 }}</li>
+        <li>{{ section.settings.li_content3 }}</li>
+        <li>{{ section.settings.li_content4 }}</li>
+        <li>{{ section.settings.li_content5 }}</li>
+        <li>{{ section.settings.li_content6 }}</li>
       </ul>
     </div>
     <div class="footer_content4">
       <div class="content4_paragraph">
-        <p>Contact Details</p>
+        <p>{{ section.settings.contact }}</p>
       </div>
       <div class="content4_location">
-        <img src="https://cdn-icons-png.flaticon.com/128/484/484167.png" alt="">
-        <p>Houston, Texas 77039, <br> united States</p>
+        <img src="{{ section.settings.location_img |  img_url: 'master' }}" alt="">
+        <p>{{ section.settings.address }}</p>
       </div>
       <div class="content4_address">
-        <img src="https://cdn-icons-png.flaticon.com/128/3059/3059474.png" alt="">
-        <p>sales.gemroyals@gmail.com</p>
+        <img src="{{ section.settings.Email |  img_url: 'master' }}" alt="">
+        <p>{{ section.settings.Email_id }}</p>
       </div>
       <div class="content4_image">
-        <img src="https://cdn-icons-png.flaticon.com/128/2168/2168281.png" alt="">
-        <img src="https://cdn-icons-png.flaticon.com/128/5969/5969020.png" alt="">
-        <img src="https://cdn-icons-png.flaticon.com/128/3669/3669688.png" alt="">
-        <img src="https://cdn-icons-png.flaticon.com/128/1384/1384014.png" alt="">
-        <img src="https://cdn-icons-png.flaticon.com/128/1384/1384015.png" alt="">
+        <img src="{{ section.settings.facebook |  img_url: 'master' }}" alt="">
+        <img src="{{ section.settings.twitter |  img_url: 'master' }}" alt="">
+        <img src="{{ section.settings.youtube |  img_url: 'master' }}" alt="">
+        <img src="{{ section.settings.linkedin |  img_url: 'master' }}" alt="">
+        <img src="{{ section.settings.instagram |  img_url: 'master' }}" alt="">
       </div>
     </div>
+  </div>
+  <div class="footer_line">
+    <p>{{ section.settings.footer_line }}</p>
   </div>
 </div>
 
@@ -55,7 +57,120 @@
 
   {
     "name": "Footer_botton",
-    "settings": [],
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "content1_image",
+        "label": "footer_logo"
+      },
+      {
+        "type": "text",
+        "id": "footer_paragraph",
+        "label": "footer_paragraph"
+      },
+      {
+        "type": "text",
+        "id": "ul_heading",
+        "label": "ul_heading"
+      },
+      {
+        "type": "text",
+        "id": "li_menu1",
+        "label": "li_menu1"
+      }, {
+        "type": "text",
+        "id": "li_menu2",
+        "label": "li_menu2"
+      }, {
+        "type": "text",
+        "id": "li_menu3",
+        "label": "li_menu3"
+      }, {
+        "type": "text",
+        "id": "li_menu4",
+        "label": "li_menu4"
+      }, {
+        "type": "text",
+        "id": "li_menu5",
+        "label": "li_menu5"
+      }, {
+        "type": "text",
+        "id": "li_menu6",
+        "label": "li_menu6"
+      }, {
+        "type": "text",
+        "id": "ul_heading_2",
+        "label": "ul_heading_2"
+      }, {
+        "type": "text",
+        "id": "li_content1",
+        "label": "li_content1"
+      }, {
+        "type": "text",
+        "id": "li_content2",
+        "label": "li_content2"
+      }, {
+        "type": "text",
+        "id": "li_content3",
+        "label": "li_content3"
+      }, {
+        "type": "text",
+        "id": "li_content4",
+        "label": "li_content4"
+      }, {
+        "type": "text",
+        "id": "li_content5",
+        "label": "li_content5"
+      }, {
+        "type": "text",
+        "id": "li_content6",
+        "label": "li_content6"
+      }, {
+        "type": "text",
+        "id": "contact",
+        "label": "contact"
+      }, {
+        "type": "image_picker",
+        "id": "location_img",
+        "label": "location_img"
+      }, {
+        "type": "text",
+        "id": "address",
+        "label": "address"
+      }, {
+        "type": "image_picker",
+        "id": "Email",
+        "label": "Email_logo"
+      }, {
+        "type": "text",
+        "id": "Email_id",
+        "label": "Email-id"
+      }, {
+        "type": "image_picker",
+        "id": "facebook",
+        "label": "facebook_logo"
+      }, {
+        "type": "image_picker",
+        "id": "twitter",
+        "label": "twitter_logo"
+      }, {
+        "type": "image_picker",
+        "id": "youtube",
+        "label": "youtube_logo"
+      }, {
+        "type": "image_picker",
+        "id": "linkedin",
+        "label": "linkedin_logo"
+      }, {
+        "type": "image_picker",
+        "id": "instagram",
+        "label": "instagram_logo"
+      }, {
+        "type": "text",
+        "id": "footer_line",
+        "label": "footer_line"
+      }
+    ],
     "presets": [
       {
         "name": "Footer_botton"
@@ -66,7 +181,7 @@
 
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat + Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 &display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat + Alternates:ital, wght@0, 100;0, 200;0, 300;0, 400;0, 500;0, 600;0, 700;0, 800;0, 900;1, 100;1, 200;1, 300;1, 400;1, 500;1, 600;1, 700;1, 800;1, 900 &display=swap');
 
   * {
     margin: 0;
@@ -77,9 +192,12 @@
     width: 100%;
     height: auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 60px 0;
+
+    padding-top: 60px;
+    padding-bottom: 20px;
     background: #EDE9EB;
   }
 
@@ -87,8 +205,12 @@
     width: 80%;
     height: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #bbb6b6;
   }
 
   .footer_content1 {
@@ -114,21 +236,37 @@
 
   }
 
-  .footer_content2 {
-    width: 25%;
+  .footer_content2 p {
+    font-size: 25px;
+  }
+  .footer_content2 ul li {
+    list-style: none;
+    font-family: Montserrat Alternates;
+    font-weight: 500;
+    padding: 2px 0;
   }
 
-  .footer_content3 {
-    width: 25%;
+
+  .footer_content3 p {
+    font-size: 25px;
+  }
+  .footer_content3 ul li {
+    list-style: none;
+    font-family: Montserrat Alternates;
+    font-weight: 500;
+    padding: 2px 0;
   }
 
   .footer_content4 {
-    width: 25%;
+
     display: flex;
     flex-direction: column;
     text-align: left;
   }
 
+  .footer_content4 p {
+    font-size: 25px;
+  }
 
   .content4_location {
     display: flex;
@@ -149,7 +287,6 @@
 
   }
 
-
   .content4_address {
     display: flex;
     align-items: flex-start;
@@ -168,9 +305,10 @@
   .content4_address p {
     font-size: 15px;
     font-family: Montserrat Alternates;
-
   }
-
+  .content4_paragraph {
+    margin-bottom: 25px;
+  }
 
   .content4_image {
     display: flex;
@@ -181,6 +319,12 @@
   .content4_image img {
     width: 23px;
 
+  }
+  .footer_line p {
+    color: black;
+    font-family: Montserrat Alternates;
+    font-size: 15px;
+    font-weight: 500;
   }
 
 </style>

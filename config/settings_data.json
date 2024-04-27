@@ -724,77 +724,6 @@
       },
       "footer_top": {
         "type": "footer_top",
-        "blocks": {
-          "1581507819652": {
-            "type": "logo",
-            "settings": {
-              "logo_width": 200,
-              "title": "GET IN TOUCH",
-              "content": "<p><i class=\"pegk pe-7s-map-marker\"> <\/i><span>184 Main Rd E, St Albans <br> <span class=\"pl__30\">VIC 3021, Australia<\/span><\/span><\/p><p><i class=\"pegk pe-7s-mail\"><\/i><span> <a href=\"mailto:contact@company.com\">contact@company.com<\/a><\/span><\/p><p><i class=\"pegk pe-7s-call\"><\/i> <span>+001 2233 456 <\/span><\/p>",
-              "social_mode": "3",
-              "order": "1",
-              "cl": "3",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
-          },
-          "1581507824602": {
-            "type": "menu",
-            "settings": {
-              "title": "CATEGORIES",
-              "menu": "",
-              "order": "1",
-              "cl": "2",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
-          },
-          "1581507828337": {
-            "type": "menu",
-            "settings": {
-              "title": "INFORMATION",
-              "menu": "",
-              "order": "1",
-              "cl": "2",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
-          },
-          "1581507840818": {
-            "type": "menu",
-            "settings": {
-              "title": "USEFUL LINKS",
-              "menu": "",
-              "order": "1",
-              "cl": "2",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
-          },
-          "1581507835369": {
-            "type": "mail",
-            "settings": {
-              "newl_des": "1",
-              "btn_icon": false,
-              "title": "NEWSLETTER SIGNUP",
-              "sub_title": "Subscribe to our newsletter and get 10% off your first purchase",
-              "source": "1",
-              "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
-              "height": 30,
-              "order": "1",
-              "cl": "3",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
-          }
-        },
-        "block_order": [
-          "1581507819652",
-          "1581507824602",
-          "1581507828337",
-          "1581507840818",
-          "1581507835369"
-        ],
         "settings": {
           "sticky": false,
           "accordions": true,
@@ -818,24 +747,6 @@
       },
       "footer_bot": {
         "type": "footer_bot",
-        "blocks": {
-          "1581507860120": {
-            "type": "copy",
-            "settings": {
-              "text": "Copyright © [year] <span class=\"cp\">Gecko<\/span> All Rights Reserved. Powered by <a href=\"https:\/\/the4.co\">The4<\/a>"
-            }
-          },
-          "1581507855652": {
-            "type": "menu",
-            "settings": {
-              "menu": "footer"
-            }
-          }
-        },
-        "block_order": [
-          "1581507860120",
-          "1581507855652"
-        ],
         "settings": {
           "layout": "6",
           "bg": "#222222",

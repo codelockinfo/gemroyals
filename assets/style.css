@@ -1,12 +1,7 @@
 /* icongecko */
 @font-face {
-  font-family: 'icongecko';font-display:swap;
-  src:
-    url('icongecko.ttf?1945') format('truetype'),
-    url('icongecko.woff?1945') format('woff'),
-    url('icongecko.svg?1945#icongecko') format('svg');
-  font-weight: normal;
-  font-style: normal;
+  font-family: "Dunbar Low";
+  src: url(https://cdn.shopify.com/s/files/1/0721/5946/1667/files/DUNBARTEXTREGULAR.TTF?v=1713353911);
 }
 
 .iccl {

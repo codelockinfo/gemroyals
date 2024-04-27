@@ -12,23 +12,30 @@
                               <button class="banner-button"><a href="#" class="button-a">View Collection</a></button>
                               <div class="button-arrow"><a href="#" class="Button-arrow"><i class="fa-solid fa-arrow-down arrow"></i></a></div>
                          </div>
-                        <img src="img/banner img.jpg" class="banner-img" alt="">
+                        <img src="{{section.settings.banner_img | image_url}}" class="banner-img" alt="">
                  </div>
              </div>
         </div>
     </div>
     
-
-    {%- schema -%}
+      {% schema %}
         {
-          "name": "Custom banner",
+          "name": "serving section",
           "settings": [
-            
-          ],
-          "presets": [
+             {
+              "type": "image_picker",
+              "id": "bannarbackimg",
+              "label": "Select Background img"
+            },
             {
-              "name": "custom-banner"
-        
+              "type": "image_picker",
+              "id": "banner_img",
+              "label": "Select banner img"
+            }
+          ],
+           "presets": [
+            {
+                "name": "custom-banner"
             }
           ]
         }
@@ -36,8 +43,13 @@
 
     <style>
         /* BANNER SECTION  */
+        .width-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .banner{
-    background-image: url(../img/background\ header.jpg);
+    background-image: url({{section.settings.bannarbackimg |  image_url }});
     max-width: 100%;
     /* height: 100vh; */
     position: relative;

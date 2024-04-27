@@ -86,7 +86,7 @@
                     </style>
                     <p class="mt__20 payment_footer_svg">
                       {%- for img in arr -%}
-                        {%- if img contains 'cust4__' - %}
+                        {%- if img contains 'cust4__' -%}
                           {%- assign getIMG = img | remove_first: "cust4__" -%}
                           {%- assign image = images[getIMG] -%}
                           {%- if image == blank %}
@@ -1976,7 +1976,7 @@
             ]
           }, {
             "type": "select",
-            "id": "cl_t",
+            "id": "cl_tb",
             "label": "Container width tablet",
             "default": "6",
             "options": [

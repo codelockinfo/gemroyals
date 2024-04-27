@@ -2854,10 +2854,16 @@
           "button_background": "",
           "button_link": ""
         }
+      },
+      "footer_botton_xiVb4k": {
+        "type": "Footer_Botton",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
-      "banner_section_GgqCN4"
+      "banner_section_GgqCN4",
+      "footer_botton_xiVb4k"
     ]
   }
 }

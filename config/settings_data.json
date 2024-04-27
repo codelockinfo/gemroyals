@@ -2843,7 +2843,13 @@
         "type": "banner-section",
         "settings": {
           "bannarbackimg": "shopify:\/\/shop_images\/background_header.jpg",
-          "banner_img": "shopify:\/\/shop_images\/banner_img.jpg"
+          "banner_img": "shopify:\/\/shop_images\/banner_img.jpg",
+          "banner_png_img": "shopify:\/\/shop_images\/sparkle.png",
+          "banner_heading": "",
+          "Paragraph_text": "",
+          "button_text": "",
+          "button_background": "",
+          "button_link": ""
         }
       }
     },

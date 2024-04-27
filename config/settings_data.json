@@ -2854,10 +2854,112 @@
           "button_background": "",
           "button_link": ""
         }
+      },
+      "footer_botton_xiVb4k": {
+        "type": "Footer_Botton",
+        "settings": {
+        }
+      },
+      "instagram_feed_EJfntL": {
+        "type": "instagram_feed",
+        "blocks": {
+          "1_bRJdB7": {
+            "type": "1",
+            "settings": {
+              "title": "",
+              "sub_title": "",
+              "sub_font": "2",
+              "style_title": "title_1",
+              "ic_tt": "gem",
+              "show_clpr": false
+            }
+          },
+          "img_KpzXcT": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/34a06a445a9c75685fa8c40772acbab7.jpg",
+              "url": ""
+            }
+          },
+          "img_rzXeJd": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bbe5e6c2b9bdc03c19bdfb785e5806d0.jpg",
+              "url": ""
+            }
+          },
+          "img_AYBR7r": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/abede63a5f986b18b8d9da115da555c6.jpg",
+              "url": ""
+            }
+          },
+          "img_rFXzwJ": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/8df2c9583e8906ca75db5dc13cdacaf9.jpg",
+              "url": ""
+            }
+          },
+          "img_nTzKFg": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/5823ceaa617542586fd5be8db073b14c.jpg",
+              "url": ""
+            }
+          },
+          "img_PcQ4Kz": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/aae3fef7fe9da329fd9c4764018ff2a1.jpg",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "1_bRJdB7",
+          "img_KpzXcT",
+          "img_rzXeJd",
+          "img_AYBR7r",
+          "img_rFXzwJ",
+          "img_nTzKFg",
+          "img_PcQ4Kz"
+        ],
+        "settings": {
+          "open_link": "_self",
+          "layout_des": "2",
+          "space": "0",
+          "rounded_ins": "0",
+          "col_pr": "2",
+          "col_pr_tb": "3",
+          "col_pr_mb": "6",
+          "loop": false,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot_owl": "1",
+          "dot_color": "1",
+          "use_eq_height": true,
+          "image_ratio": "ratio1_1",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "layout": "nt_full",
+          "cl_bg": "#ffffff",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
-      "banner_section_GgqCN4"
+      "banner_section_GgqCN4",
+      "instagram_feed_EJfntL",
+      "footer_botton_xiVb4k"
     ]
   }
 }

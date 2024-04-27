@@ -11,7 +11,7 @@
   assign block = section_blocks.first
   assign b_type = block.type -%}
 
-<div class="nt_se_{{sid}} {{section.settings.layout}} pr ins_loaded">
+<div class=" pr ins_loaded">
   {%- if b_type == '1' -%}
     {%- render 'block_title',block:block,block_title:'mb__20' -%}
   {%- elsif b_type != blank -%}
@@ -43,12 +43,14 @@
         {%- assign image = bl.settings.image %}{% assign ratio = image.aspect_ratio |default:1.0 %}{% assign url = bl.settings.url -%}
          <div id="pin_{{bl.id}}" class="pin__wr_js col_ins col-lg-{{col}} col-md-{{col_tb}} col-{{col_mb}} item pr oh" {{ bl.shopify_attributes }}>
             {%- if url != blank -%}
-              <a data-no-instant rel="nofollow" class="wrap_ins_img db pr oh" href="{{url}}" target="{{open_link}}">
+              <a data-no-instant rel="nofollow" class="wrap_ins_img db pr oh " href="{{url}}" target="{{open_link}}">
                 <div class="lazyload nt_bg_lz pr_lazy_img" data-bgset="{% if image != blank %}{{ image | img_url: '1x1' }}{% else %}https://placehold.jp/80/f5f5f5/999/1080x1080.png{% endif %}" data-ratio="{{ratio}}" data-sizes="auto"></div>
                 <div class="info pa tc flex ts__03 fl_center al_center op__0 t__0 l__0 r__0 b__0 h__100 pe_none"><span class="pr cw mr__5 ml__5"><i class="facl facl-instagram"></i></span></div>
               </a>
             {%- else -%}
-              <div class="wrap_ins_img db pr oh"><div class="lazyload nt_bg_lz pr_lazy_img" data-bgset="{% if image != blank %}{{ image | img_url: '1x1' }}{% else %}https://placehold.jp/80/f5f5f5/999/1080x1080.png{% endif %}" data-ratio="{{ratio}}" data-sizes="auto"></div></div>
+              <div class="wrap_ins_img db pr oh instagram-icon-box">
+                <div class="insta-icon"><a href="#"><i class="fa-brands fa-instagram insta"></i></a></div>
+                <div class="lazyload nt_bg_lz pr_lazy_img" data-bgset="{% if image != blank %}{{ image | img_url: '1x1' }}{% else %}https://placehold.jp/80/f5f5f5/999/1080x1080.png{% endif %}" data-ratio="{{ratio}}" data-sizes="auto"></div></div>
             {%- endif -%}
          </div>
          {%- endfor -%}
@@ -337,13 +339,7 @@
         "type": "paragraph",
         "content": "Page Dot:"
       },
-      {
-        "type": "checkbox",
-        "id": "dot",
-        "label": "Enable Page Dot?",
-        "info": "Creates and enables page dots.",
-        "default": true
-      },
+     
       {
         "type": "select",
         "id": "dot_owl",
@@ -896,3 +892,28 @@
     ]
   }
 {% endschema %}
+   
+<style>
+   .instagram-icon-box{
+     position: relative;
+   }
+   .insta-icon{
+     position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    z-index: 1;
+    text-align: center;
+    line-height: 40px;
+    top: 5%;
+    right: 5%;
+   }
+   .insta-icon .insta{
+    font-size: 16px;
+
+   }
+</style>
+
+
+

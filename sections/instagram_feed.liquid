@@ -11,7 +11,7 @@
   assign block = section_blocks.first
   assign b_type = block.type -%}
 
-<div class="nt_se_{{sid}} {{section.settings.layout}} pr ins_loaded">
+<div class=" pr ins_loaded">
   {%- if b_type == '1' -%}
     {%- render 'block_title',block:block,block_title:'mb__20' -%}
   {%- elsif b_type != blank -%}

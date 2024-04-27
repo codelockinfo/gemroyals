@@ -738,10 +738,34 @@
               "cl_tb": "6",
               "cl_mb": "12"
             }
+          },
+          "menu_RjMjQH": {
+            "type": "menu",
+            "settings": {
+              "title": "Quick links",
+              "menu": "footer",
+              "order": "1",
+              "cl": "15",
+              "cl_tb": "6",
+              "cl_mb": "12"
+            }
+          },
+          "menu_LJfVXE": {
+            "type": "menu",
+            "settings": {
+              "title": "Quick links",
+              "menu": "home",
+              "order": "1",
+              "cl": "15",
+              "cl_tb": "6",
+              "cl_mb": "12"
+            }
           }
         },
         "block_order": [
-          "logo_JHqENb"
+          "logo_JHqENb",
+          "menu_RjMjQH",
+          "menu_LJfVXE"
         ],
         "settings": {
           "sticky": false,

@@ -4,7 +4,7 @@
     <div class="banner-box">
       <div class="width-row">
         <div class="banner-content">
-          <div class="banner-vector"><img src="{{section.settings.banner_png_img | image_url }}" alt=""></div>
+          <div class="banner-vector"><img src="{{section.settings.banner_png_img | image_url }}" class="banner-png" alt=""></div>
           <h1 class="heading-h1">{{section.settings.banner_heading}}</h1>
           <p class="banner-p">{{section.settings.Paragraph_text}}</p>
           <button class="banner-button"><a href="{{section.settings.button_link}}" class="button-a">{{section.settings.button_text}}</a></button>
@@ -121,6 +121,10 @@
       font-family: 'Vindea';
       font-weight: 400;
   }
+  .banner .banner-box .banner-content .banner-png{
+     max-width: 90px;
+     max-height: 90px;
+  }
   .banner .banner-box .banner-content .banner-p{
       font-size: 24px;
       font-weight: 500;
@@ -176,14 +180,44 @@
  
 
   @media  (max-width:768px) {
-    .banner .banner-img {
-        height: auto;
+  
+    .banner .banner-box .banner-content .heading-h1{
+    font-size: 70px;
+  }
+  .banner .banner-box .banner-content .banner-png{
+     max-width: 60px;
+  }
+  .banner .banner-box .banner-content .banner-p{
+      font-size: 18px;
+      margin: 20px 0;
+  }
+  .banner .banner-box .banner-content .banner-button{ font-size: 18px;
+       padding: 5px 10px;
+       margin-top: 20px;
+  } 
+  .banner .banner-box .banner-content .button-a{
+       font-size: 16px;
+  }
+  .banner .banner-box .banner-content .button-arrow{
+       width: 35px;
+       height: 60px;
+       line-height: 60px;
+       margin-top: 20px;
+  }
+  .banner .banner-box .banner-content .button-arrow .arrow{
+       font-size: 12px;
+       border: 2px solid #ECE9EB;
+       padding: 10px 5px;
   }
   }
   @media  (max-width:1024px) {
+    .width-container{
+        padding: 0 30px;
+    }
     .banner .banner-img {
         
         right: -25%;
   }
+  
   }
 </style>

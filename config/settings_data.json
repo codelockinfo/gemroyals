@@ -2842,6 +2842,8 @@
       "banner_section_GgqCN4": {
         "type": "banner-section",
         "settings": {
+          "bannarbackimg": "shopify:\/\/shop_images\/background_header.jpg",
+          "banner_img": "shopify:\/\/shop_images\/banner_img.jpg"
         }
       }
     },

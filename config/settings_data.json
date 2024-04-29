@@ -804,9 +804,20 @@
       },
       "footer_bot": {
         "type": "footer_bot",
+        "blocks": {
+          "copy_qFYpPx": {
+            "type": "copy",
+            "settings": {
+              "text": "© Copyright 2024, All Rights Reserved"
+            }
+          }
+        },
+        "block_order": [
+          "copy_qFYpPx"
+        ],
         "settings": {
           "layout": "6",
-          "bg": "#222222",
+          "bg": "#ede9eb",
           "cl": "#ffffff",
           "cl_a": "#ffffff",
           "cl_hover": "#b59677"

@@ -3470,12 +3470,24 @@
           "dia_heading": "Shop Diamonds by Shape",
           "background": "#f9f9f9"
         }
+      },
+      "image_para_gdjHEA": {
+        "type": "image_para",
+        "settings": {
+          "heading": "Etsy.com",
+          "paragraph": "Gem Royals is a brand who is dealing in all types of Gems and <br> Jewelry like Gemstone, Moissanite, Lab Grown Diamond Etc. <br> We are also available in Etsy as well and continuously <br> expanding our business.",
+          "button_name": "Explore More",
+          "image1": "shopify:\/\/shop_images\/bbe5e6c2b9bdc03c19bdfb785e5806d0_7e287340-364f-4ac6-a88f-699db8621ceb.jpg",
+          "image_head": "Etsy.com",
+          "image2": "shopify:\/\/shop_images\/415d2c7eae996a9e0f9c48d849481485.jpg"
+        }
       }
     },
     "content_for_index": [
       "banner_section_GgqCN4",
       "dimond_section_yFdqY6",
       "our_mission_F7HaXC",
+      "image_para_gdjHEA",
       "testimonials_J6TrF9",
       "brand_list_Kbyikt",
       "instagram_feed_EJfntL"

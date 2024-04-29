@@ -2,18 +2,18 @@
   <div class="content_main2">
     <div class="paragraph_section">
       <div class="para_content_1">
-        <h1>Etsy.com</h1>
-        <p>Gem Royals is a brand who is dealing in all types of Gems and <br> Jewelry like Gemstone, Moissanite, Lab Grown Diamond Etc. <br> We are also available in Etsy as well and continuously <br> expanding our business.</p>
-        <button>Explore More</button>
+        <h1>{{ section.settings.heading }}</h1>
+        <p>{{ section.settings.paragraph }}</p>
+        <button>{{ section.settings.button_name }}</button>
       </div>
     </div>
     <div class="image_section">
       <div class="image1">
-        <img src="https://s3-alpha-sig.figma.com/img/66e1/8d04/bbe5e6c2b9bdc03c19bdfb785e5806d0?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NrsKDRSsV3PXxyrLY-uxL4QWrrUN5zyazs0pNTK5jagqa-kg4XJFx0nzOMewO56QW9B-i~JyW3dJWKyjEepSETF9v5srFJ3-X7yXC0TOnk3rfNXQF8irU4u9EoFxliFfmMc6YIXG0U0FM9MRcly~XUS5wueI9hZzsQ4mHHox10uMd9sVf2pfGWGijEnePK~qNTxkwtxqoGF5syZrjUrzOMTrr1oRaoe7qLD6ayFLafNz7ulRltyeZFNph1aKj21lvlC7FPqDnAviKjQKrUNtHzIsL4P9BJZgasyqiTd3D4GndY8iLzHtFdgNyLldvf5VPpVwoRJhXenyRoYHpIeMDQ__" alt="">
+        <img src="{{ section.settings.image1 |  img_url: 'master' }}" alt="">
       </div>
       <div class="image2">
-        <h1>Etsy.com</h1>
-        <img src="https://s3-alpha-sig.figma.com/img/3346/b51f/415d2c7eae996a9e0f9c48d849481485?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Mg1A5YzbhCD6Shtcne3QtwALmSzjEczJ32405NMbvefOGS2kX9lP32vZriBxspAXxDDQa6oWUKisewU~2I51BfNskBGMT9uq4lCb0y2F51wAoec6sEisdi6pSqHuATyLPlIjtovgXRkKg69UjCm2lK4uczXVZU1M6UuTPCIWn5bGe1TwrwW5Z9YeTYQpwCyDxC23rIKYQRn5EKIRisp6M0MGkptgsUGhXRlPIeU7EkdwpgV-F2H2GWuGkthK05EsQ-rcU6rn0p6etZZWhVn3Gbl9Aq7PeaVom0yayc6xVpLJljk04iVB-Dkt46y3slg1gHxL4Avkwr~yOlcfWXJDDA__" alt="">
+        <h1>{{ section.settings.image_head }}</h1>
+        <img src="{{ section.settings.image2 |  img_url: 'master' }}" alt="">
       </div>
     </div>
   </div>
@@ -23,7 +23,36 @@
 {%- schema -%}
   {
     "name": "Etsycom",
-    "settings": [],
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "header"
+      },
+      {
+        "type": "text",
+        "id": "paragraph",
+        "label": "paragraph"
+      },
+      {
+        "type": "text",
+        "id": "button_name",
+        "label": "button_name"
+      },
+      {
+        "type": "image_picker",
+        "id": "image1",
+        "label": "image1"
+      }, {
+        "type": "text",
+        "id": "image_head",
+        "label": "image_head"
+      }, {
+        "type": "image_picker",
+        "id": "image2",
+        "label": "image2"
+      }
+    ],
     "presets": [
       {
         "name": "Etsycom"
@@ -40,7 +69,7 @@
 
   .content_main {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,14 +78,15 @@
 
   .content_main2 {
     width: 80%;
-    height: 100%;
+    height: auto;
     display: flex;
-    align-items: center;
+    position: relative;
     justify-content: space-between;
   }
 
   .paragraph_section {
-    width: 50%;
+    width: 64%;
+
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -73,7 +103,7 @@
 
   .para_content_1 p {
     font-family: 'Montserrat Alternates';
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 33px;
     text-align: left;
@@ -90,34 +120,58 @@
   }
 
   .image_section {
-    width: 50%;
+    width: 36%;
+    height: 400px;
     position: relative;
-    display: flex;
   }
 
   .image1 {
     position: absolute;
     left: 0;
-    bottom: 0;
-    width: 175px;
-    height: 342.12px;
+    top: 0;
+    width: 270px;
+    height: 365px;
   }
 
   .image1 img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
   }
 
   .image2 {
     position: absolute;
-    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
     right: 0;
-    width: 241.8px;
-    height: 353.56px;
+    width: 175px;
+    height: 240px;
   }
-
+  .image2 h1 {
+    font-size: 28px;
+    font-family: 'Vindea';
+    font-weight: 500;
+    color: #262626;
+  }
   .image2 img {
     width: 100%;
     height: 100%;
+  }
+
+
+  @media only screen and (max-width: 1024px) {
+    .content_main2 {
+      display: flex;
+      flex-direction: column;
+    }
+    .paragraph_section {
+      width: 100%;
+    }
+    .image_section {
+      width: 100%;
+      margin-top: 20px;
+    }
   }
 </style>

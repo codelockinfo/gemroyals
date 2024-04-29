@@ -3032,12 +3032,103 @@
         ],
         "settings": {
         }
+      },
+      "testimonials_J6TrF9": {
+        "type": "testimonials",
+        "blocks": {
+          "quote_aFQt3H": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "title": "Leo",
+              "pos": "Lead Designer",
+              "rating": 5
+            }
+          },
+          "quote_rmqCVA": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "title": "Leo",
+              "pos": "Lead Designer",
+              "rating": 5
+            }
+          },
+          "quote_ArjiFb": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "title": "Leo",
+              "pos": "Lead Designer",
+              "rating": 5
+            }
+          },
+          "quote_QCjPtn": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "title": "Leo",
+              "pos": "Lead Designer",
+              "rating": 5
+            }
+          },
+          "quote_cX3eU4": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "title": "Leo",
+              "pos": "Lead Designer",
+              "rating": 5
+            }
+          }
+        },
+        "block_order": [
+          "quote_aFQt3H",
+          "quote_rmqCVA",
+          "quote_ArjiFb",
+          "quote_QCjPtn",
+          "quote_cX3eU4"
+        ],
+        "settings": {
+          "title": "Testimonials",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "layout_des": "2",
+          "ter_des": "1",
+          "col_pr": "3",
+          "col_pr_tb": "6",
+          "loop": true,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "1",
+          "dot": true,
+          "dot_owl": "2",
+          "dot_color": "1",
+          "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
       "banner_section_GgqCN4",
       "our_mission_F7HaXC",
-      "instagram_feed_EJfntL"
+      "instagram_feed_EJfntL",
+      "testimonials_J6TrF9"
     ]
   }
 }

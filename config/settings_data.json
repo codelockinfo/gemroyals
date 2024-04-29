@@ -786,8 +786,8 @@
           "accordions": true,
           "border": false,
           "bd_cl": "#ededed",
-          "cl_h": "#000",
-          "cl": "#000",
+          "cl_h": "#000000",
+          "cl": "#000000",
           "cl_a": "#000000",
           "cl_hover": "#b59677",
           "cl_ip": "#ffffff",
@@ -2921,7 +2921,7 @@
           "1_bRJdB7": {
             "type": "1",
             "settings": {
-              "title": "See Our Instagram Feed",
+              "title": "",
               "sub_title": "",
               "sub_font": "2",
               "style_title": "title_1",

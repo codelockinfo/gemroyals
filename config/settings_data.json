@@ -728,7 +728,6 @@
           "logo_JHqENb": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/f3695c9ae590ec1db22a56fe83769272-Photoroom.png-Photoroom.png",
               "logo_width": 100,
               "title": "",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit",
@@ -743,7 +742,7 @@
             "type": "menu",
             "settings": {
               "title": "Useful link",
-              "menu": "useful-link",
+              "menu": "",
               "order": "1",
               "cl": "2",
               "cl_tb": "6",
@@ -754,7 +753,7 @@
             "type": "menu",
             "settings": {
               "title": "Policies & Services",
-              "menu": "policies-services",
+              "menu": "",
               "order": "1",
               "cl": "2",
               "cl_tb": "6",
@@ -2916,9 +2915,8 @@
           "p {margin-bottom: 0;}"
         ],
         "settings": {
-          "bannarbackimg": "shopify:\/\/shop_images\/background_header.jpg",
-          "banner_img": "shopify:\/\/shop_images\/banner_img.jpg",
-          "banner_png_img": "shopify:\/\/shop_images\/sparkle.png",
+          "bannarbackimg": "shopify:\/\/shop_images\/8b3ced88ac7ed54cc0ffa1abf7205673.jpg",
+          "banner_img": "shopify:\/\/shop_images\/7722a0c90981d3ca297254515ceff046.jpg",
           "banner_heading": "<p>A legacy of luxury<br\/><\/p>",
           "Paragraph_text": "Conveys a sense of heritage and high-end luxury appealing to those who appreciate tradition  and quality",
           "button_text": "View Collection",
@@ -2943,42 +2941,42 @@
           "img_KpzXcT": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/34a06a445a9c75685fa8c40772acbab7.jpg",
+              "image": "shopify:\/\/shop_images\/1_c2abb65d-bab8-4247-a77d-edc877309b91.jpg",
               "url": ""
             }
           },
           "img_rzXeJd": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/bbe5e6c2b9bdc03c19bdfb785e5806d0.jpg",
+              "image": "shopify:\/\/shop_images\/2.jpg",
               "url": ""
             }
           },
           "img_AYBR7r": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/abede63a5f986b18b8d9da115da555c6.jpg",
+              "image": "shopify:\/\/shop_images\/3.jpg",
               "url": ""
             }
           },
           "img_rFXzwJ": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/8df2c9583e8906ca75db5dc13cdacaf9.jpg",
+              "image": "shopify:\/\/shop_images\/4.jpg",
               "url": ""
             }
           },
           "img_nTzKFg": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/5823ceaa617542586fd5be8db073b14c.jpg",
+              "image": "shopify:\/\/shop_images\/5.jpg",
               "url": ""
             }
           },
           "img_PcQ4Kz": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/aae3fef7fe9da329fd9c4764018ff2a1.jpg",
+              "image": "shopify:\/\/shop_images\/6.jpg",
               "url": ""
             }
           }
@@ -3027,28 +3025,24 @@
           "img_33T7tU": {
             "type": "img",
             "settings": {
-              "our_img": "shopify:\/\/shop_images\/quality-service_293c60ca-e3e6-4330-bca9-f02f6dad29d7.png",
               "our_content": "Superior Quality Moissanite"
             }
           },
           "img_bcxqPN": {
             "type": "img",
             "settings": {
-              "our_img": "shopify:\/\/shop_images\/leaves_610e5778-d88e-4324-ade9-ac012a42ceae.png",
               "our_content": "Conflict Free Gems & Metals"
             }
           },
           "img_43W64r": {
             "type": "img",
             "settings": {
-              "our_img": "shopify:\/\/shop_images\/guarantee_ee88750e-1ff2-43e0-84e0-88d5567210a9.png",
               "our_content": "Lifetime Gem Warranty"
             }
           },
           "img_KJiKeX": {
             "type": "img",
             "settings": {
-              "our_img": "shopify:\/\/shop_images\/rating_d462c45a-019a-4c6b-a592-cd985f0ffdfb.png",
               "our_content": "100,000 Happy Customers"
             }
           }
@@ -3073,7 +3067,7 @@
           "quote_aFQt3H": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4.jpg",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3083,7 +3077,6 @@
           "quote_8rmGL6": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3093,7 +3086,6 @@
           "quote_DUy8kV": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3103,7 +3095,6 @@
           "quote_JTPJLD": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3113,7 +3104,6 @@
           "quote_cfphEj": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3123,7 +3113,6 @@
           "quote_RYCq4W": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3133,7 +3122,6 @@
           "quote_NrGRMP": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3143,7 +3131,6 @@
           "quote_UWLfWQ": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3153,7 +3140,6 @@
           "quote_Baf9Gi": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3163,7 +3149,6 @@
           "quote_PahcCD": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3173,7 +3158,6 @@
           "quote_Jjh9D4": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3183,7 +3167,6 @@
           "quote_izgenQ": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3193,7 +3176,6 @@
           "quote_rmqCVA": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3203,7 +3185,6 @@
           "quote_ArjiFb": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3213,7 +3194,6 @@
           "quote_QCjPtn": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3223,7 +3203,6 @@
           "quote_cX3eU4": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Ellipse_15.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3257,7 +3236,7 @@
           "ic_tt": "gem",
           "show_clpr": false,
           "layout_des": "2",
-          "ter_des": "1",
+          "ter_des": "4",
           "col_pr": "3",
           "col_pr_tb": "6",
           "loop": true,
@@ -3284,7 +3263,6 @@
           "brand_gkyREq": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Trusted_by.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3292,7 +3270,6 @@
           "brand_WdwQRc": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/GIA-Logo-PNG_zeevector_1.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3300,7 +3277,6 @@
           "brand_9ig3qm": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/C_SGL_LOGO_1-removebg-preview.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3308,7 +3284,6 @@
           "brand_GMtzdq": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Google-Review-Logo_1.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3316,7 +3291,6 @@
           "brand_gk7JJc": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/image_6-removebg-preview.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3324,7 +3298,6 @@
           "brand_ngGqXF": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/image_7-removebg-preview.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3477,9 +3450,27 @@
           "heading": "Etsy.com",
           "paragraph": "Gem Royals is a brand who is dealing in all types of Gems and <br> Jewelry like Gemstone, Moissanite, Lab Grown Diamond Etc. <br> We are also available in Etsy as well and continuously <br> expanding our business.",
           "button_name": "Explore More",
-          "image1": "shopify:\/\/shop_images\/bbe5e6c2b9bdc03c19bdfb785e5806d0_7e287340-364f-4ac6-a88f-699db8621ceb.jpg",
+          "image1": "shopify:\/\/shop_images\/bbe5e6c2b9bdc03c19bdfb785e5806d0.jpg",
           "image_head": "Etsy.com",
           "image2": "shopify:\/\/shop_images\/415d2c7eae996a9e0f9c48d849481485.jpg"
+        }
+      },
+      "category_section_D9kHnp": {
+        "type": "category-section",
+        "blocks": {
+          "text_NJ9AKt": {
+            "type": "text",
+            "settings": {
+              "category_text": "",
+              "collection_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_NJ9AKt"
+        ],
+        "settings": {
+          "background": ""
         }
       }
     },
@@ -3490,7 +3481,8 @@
       "image_para_gdjHEA",
       "testimonials_J6TrF9",
       "brand_list_Kbyikt",
-      "instagram_feed_EJfntL"
+      "instagram_feed_EJfntL",
+      "category_section_D9kHnp"
     ]
   }
 }

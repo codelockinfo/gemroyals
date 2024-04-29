@@ -1,0 +1,112 @@
+<div class="category">
+   <div class="width-container">
+    
+   <div class="diaplygrid">
+    <div class="gird2column">
+        <h1 class="category-h1">Shop By Category</h1>
+        <p class="category-p">Conveys a sense of heritage and high-end luxury appealing to those who appreciate tradition 
+            and quality </p>
+    </div>
+    {%- for block in section.blocks -%}
+    <div class="category-collection-box">
+        <div class="category-img-box">
+            {% if block.settings.category_img != blank %}
+             <img src="{{ block.settings.category_img | img_url:'master' }}" class="collection-img" alt="">
+            {% endif %}
+        </div>
+        <a href="{{block.settings.collection_url}}"><div class="category-heading-box collection-heading">{{block.settings.category_text}}</div></a>
+    </div>
+{% endfor %}
+    
+</div>
+
+   </div>
+</div>
+
+{% schema %}
+    {
+      "name": "category Section",
+      "settings": [
+            {
+              "type": "color",
+              "id": "background",
+              "label": "section background"
+            }
+      ],
+      "blocks" : [
+        {
+          "name" : "block",
+          "type" : "text",
+          "settings" : [
+                {
+                  "type": "image_picker",
+                  "id": "category_img",
+                  "label": "category collection img"
+                },
+                {
+                  "type": "richtext",
+                  "id": "category_text",
+                  "label": "category collection name"
+                },
+                {
+                  "type": "url",
+                  "id": "collection_url",
+                  "label": "select collection"
+                }
+          ]
+        }
+      ],
+      "presets" : [
+        {
+          "name" : "Category section"
+        }
+      ]
+    }
+  {% endschema %} 
+
+<style>
+.category{
+   padding-bottom: 60px;
+   background-color: {{section.settings.background}};
+}
+.diaplygrid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+}
+.gird2column{
+    grid-column: 1/3;
+
+}
+.category-h1{
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 83.43px;
+    font-family: 'Vindea' !important;
+    color:#282828;
+}
+.category-p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    font-family: 'Montserrat Alternates';
+    color:#777777;
+}
+.collection-img{
+  max-width: 100%;
+}
+.collection-heading{
+    font-size: 24px;
+    color:#282828;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: 'Montserrat Alternates' !important;
+}
+.category-heading-box{
+    width: 100%;
+    padding: 5px 0;
+    background-color: #E9E5E1;
+    text-align: center;
+    margin-top: 5px;
+}
+</style>

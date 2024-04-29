@@ -3377,7 +3377,7 @@
             "type": "text",
             "settings": {
               "diamond_img": "shopify:\/\/shop_images\/1-removebg-preview.png",
-              "dia_title": "",
+              "dia_title": "Round",
               "diamond_back": "#f0eeef"
             }
           },
@@ -3385,7 +3385,7 @@
             "type": "text",
             "settings": {
               "diamond_img": "shopify:\/\/shop_images\/2-removebg-preview.png",
-              "dia_title": "",
+              "dia_title": "Oval",
               "diamond_back": "#f0eeef"
             }
           },
@@ -3393,7 +3393,7 @@
             "type": "text",
             "settings": {
               "diamond_img": "shopify:\/\/shop_images\/3-removebg-preview.png",
-              "dia_title": "",
+              "dia_title": "Emerald",
               "diamond_back": "#f0eeef"
             }
           },
@@ -3401,7 +3401,7 @@
             "type": "text",
             "settings": {
               "diamond_img": "shopify:\/\/shop_images\/4-removebg-preview.png",
-              "dia_title": "",
+              "dia_title": "Cushion",
               "diamond_back": "#f0eeef"
             }
           },
@@ -3409,7 +3409,7 @@
             "type": "text",
             "settings": {
               "diamond_img": "shopify:\/\/shop_images\/5-removebg-preview.png",
-              "dia_title": "",
+              "dia_title": "Pear",
               "diamond_back": "#f0eeef"
             }
           },
@@ -3417,7 +3417,7 @@
             "type": "text",
             "settings": {
               "diamond_img": "shopify:\/\/shop_images\/6-removebg-preview.png",
-              "dia_title": "",
+              "dia_title": "Radiant",
               "diamond_back": "#f0eeef"
             }
           },
@@ -3425,7 +3425,7 @@
             "type": "text",
             "settings": {
               "diamond_img": "shopify:\/\/shop_images\/7-removebg-preview.png",
-              "dia_title": "",
+              "dia_title": "Princess",
               "diamond_back": "#f0eeef"
             }
           },
@@ -3433,7 +3433,7 @@
             "type": "text",
             "settings": {
               "diamond_img": "shopify:\/\/shop_images\/fa4e1337d5e3b7fde22414341b33cb80-removebg-preview.png",
-              "dia_title": "",
+              "dia_title": "Marquise",
               "diamond_back": "#f0eeef"
             }
           },
@@ -3441,7 +3441,7 @@
             "type": "text",
             "settings": {
               "diamond_img": "shopify:\/\/shop_images\/9-removebg-preview.png",
-              "dia_title": "",
+              "dia_title": "Asscher",
               "diamond_back": "#f0eeef"
             }
           },
@@ -3449,7 +3449,7 @@
             "type": "text",
             "settings": {
               "diamond_img": "shopify:\/\/shop_images\/e70c85cf1fca2cbd90628491e92e6c1e-removebg-preview.png",
-              "dia_title": "",
+              "dia_title": "Heart",
               "diamond_back": "#f0eeef"
             }
           }

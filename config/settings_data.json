@@ -732,9 +732,9 @@
               "logo_width": 100,
               "title": "",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit",
-              "social_mode": "3",
+              "social_mode": "1",
               "order": "1",
-              "cl": "15",
+              "cl": "4",
               "cl_tb": "6",
               "cl_mb": "12"
             }
@@ -745,7 +745,7 @@
               "title": "Quick links",
               "menu": "footer",
               "order": "1",
-              "cl": "15",
+              "cl": "2",
               "cl_tb": "6",
               "cl_mb": "12"
             }
@@ -756,7 +756,20 @@
               "title": "Quick links",
               "menu": "home",
               "order": "1",
-              "cl": "15",
+              "cl": "2",
+              "cl_tb": "6",
+              "cl_mb": "12"
+            }
+          },
+          "logo_hnVqMY": {
+            "type": "logo",
+            "settings": {
+              "logo_width": 100,
+              "title": "Contact Details",
+              "content": "<p><i class=\"pegk pe-7s-map-marker\"> <\/i><span>184 Main Rd E, St Albans <br> <span class=\"pl__30\">VIC 3021, Australia<\/span><\/span><\/p><p><i class=\"pegk pe-7s-mail\"><\/i><span> <a href=\"mailto:contact@company.com\">contact@company.com<\/a><\/span><\/p><p><i class=\"pegk pe-7s-call\"><\/i> <span>+001 2233 456 <\/span><\/p>",
+              "social_mode": "3",
+              "order": "1",
+              "cl": "4",
               "cl_tb": "6",
               "cl_mb": "12"
             }
@@ -765,7 +778,8 @@
         "block_order": [
           "logo_JHqENb",
           "menu_RjMjQH",
-          "menu_LJfVXE"
+          "menu_LJfVXE",
+          "logo_hnVqMY"
         ],
         "settings": {
           "sticky": false,
@@ -3031,6 +3045,8 @@
           "img_KJiKeX"
         ],
         "settings": {
+          "ourmission_h1": "",
+          "ourmission_p": ""
         }
       },
       "testimonials_J6TrF9": {

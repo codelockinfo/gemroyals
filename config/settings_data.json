@@ -3436,6 +3436,18 @@
       },
       "category_section_D9kHnp": {
         "type": "category-section",
+        "blocks": {
+          "text_NJ9AKt": {
+            "type": "text",
+            "settings": {
+              "category_text": "",
+              "collection_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_NJ9AKt"
+        ],
         "settings": {
           "background": ""
         }

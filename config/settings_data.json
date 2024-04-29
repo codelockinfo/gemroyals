@@ -818,9 +818,9 @@
         "settings": {
           "layout": "6",
           "bg": "#ede9eb",
-          "cl": "#000",
+          "cl": "#000000",
           "cl_a": "#000000",
-          "cl_hover": "#000"
+          "cl_hover": "#000000"
         }
       },
       "nt_custom_color": {
@@ -3369,10 +3369,112 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "dimond_section_yFdqY6": {
+        "type": "dimond-section",
+        "blocks": {
+          "text_zjmtM8": {
+            "type": "text",
+            "settings": {
+              "diamond_img": "shopify:\/\/shop_images\/1-removebg-preview.png",
+              "dia_title": "Round",
+              "diamond_back": "#f0eeef"
+            }
+          },
+          "text_PPCdQC": {
+            "type": "text",
+            "settings": {
+              "diamond_img": "shopify:\/\/shop_images\/2-removebg-preview.png",
+              "dia_title": "Oval",
+              "diamond_back": "#f0eeef"
+            }
+          },
+          "text_NLnPKt": {
+            "type": "text",
+            "settings": {
+              "diamond_img": "shopify:\/\/shop_images\/3-removebg-preview.png",
+              "dia_title": "Emerald",
+              "diamond_back": "#f0eeef"
+            }
+          },
+          "text_tqP4U6": {
+            "type": "text",
+            "settings": {
+              "diamond_img": "shopify:\/\/shop_images\/4-removebg-preview.png",
+              "dia_title": "Cushion",
+              "diamond_back": "#f0eeef"
+            }
+          },
+          "text_KEJ7Di": {
+            "type": "text",
+            "settings": {
+              "diamond_img": "shopify:\/\/shop_images\/5-removebg-preview.png",
+              "dia_title": "Pear",
+              "diamond_back": "#f0eeef"
+            }
+          },
+          "text_z3cxke": {
+            "type": "text",
+            "settings": {
+              "diamond_img": "shopify:\/\/shop_images\/6-removebg-preview.png",
+              "dia_title": "Radiant",
+              "diamond_back": "#f0eeef"
+            }
+          },
+          "text_aUtB33": {
+            "type": "text",
+            "settings": {
+              "diamond_img": "shopify:\/\/shop_images\/7-removebg-preview.png",
+              "dia_title": "Princess",
+              "diamond_back": "#f0eeef"
+            }
+          },
+          "text_hUHfxH": {
+            "type": "text",
+            "settings": {
+              "diamond_img": "shopify:\/\/shop_images\/fa4e1337d5e3b7fde22414341b33cb80-removebg-preview.png",
+              "dia_title": "Marquise",
+              "diamond_back": "#f0eeef"
+            }
+          },
+          "text_hn4bLX": {
+            "type": "text",
+            "settings": {
+              "diamond_img": "shopify:\/\/shop_images\/9-removebg-preview.png",
+              "dia_title": "Asscher",
+              "diamond_back": "#f0eeef"
+            }
+          },
+          "text_ktYQyP": {
+            "type": "text",
+            "settings": {
+              "diamond_img": "shopify:\/\/shop_images\/e70c85cf1fca2cbd90628491e92e6c1e-removebg-preview.png",
+              "dia_title": "Heart",
+              "diamond_back": "#f0eeef"
+            }
+          }
+        },
+        "block_order": [
+          "text_zjmtM8",
+          "text_PPCdQC",
+          "text_NLnPKt",
+          "text_tqP4U6",
+          "text_KEJ7Di",
+          "text_z3cxke",
+          "text_aUtB33",
+          "text_hUHfxH",
+          "text_hn4bLX",
+          "text_ktYQyP"
+        ],
+        "settings": {
+          "dia_heading": "Shop Diamonds by Shape",
+          "background": "#f9f9f9"
+        }
       }
     },
     "content_for_index": [
       "banner_section_GgqCN4",
+      "dimond_section_yFdqY6",
       "our_mission_F7HaXC",
       "testimonials_J6TrF9",
       "brand_list_Kbyikt",

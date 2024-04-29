@@ -3372,6 +3372,90 @@
       },
       "dimond_section_yFdqY6": {
         "type": "dimond-section",
+        "blocks": {
+          "text_zjmtM8": {
+            "type": "text",
+            "settings": {
+              "dia_title": "",
+              "diamond_back": ""
+            }
+          },
+          "text_PPCdQC": {
+            "type": "text",
+            "settings": {
+              "dia_title": "",
+              "diamond_back": ""
+            }
+          },
+          "text_NLnPKt": {
+            "type": "text",
+            "settings": {
+              "dia_title": "",
+              "diamond_back": ""
+            }
+          },
+          "text_tqP4U6": {
+            "type": "text",
+            "settings": {
+              "dia_title": "",
+              "diamond_back": ""
+            }
+          },
+          "text_KEJ7Di": {
+            "type": "text",
+            "settings": {
+              "dia_title": "",
+              "diamond_back": ""
+            }
+          },
+          "text_z3cxke": {
+            "type": "text",
+            "settings": {
+              "dia_title": "",
+              "diamond_back": ""
+            }
+          },
+          "text_aUtB33": {
+            "type": "text",
+            "settings": {
+              "dia_title": "",
+              "diamond_back": ""
+            }
+          },
+          "text_hUHfxH": {
+            "type": "text",
+            "settings": {
+              "dia_title": "",
+              "diamond_back": ""
+            }
+          },
+          "text_hn4bLX": {
+            "type": "text",
+            "settings": {
+              "dia_title": "",
+              "diamond_back": ""
+            }
+          },
+          "text_ktYQyP": {
+            "type": "text",
+            "settings": {
+              "dia_title": "",
+              "diamond_back": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_zjmtM8",
+          "text_PPCdQC",
+          "text_NLnPKt",
+          "text_tqP4U6",
+          "text_KEJ7Di",
+          "text_z3cxke",
+          "text_aUtB33",
+          "text_hUHfxH",
+          "text_hn4bLX",
+          "text_ktYQyP"
+        ],
         "settings": {
           "dia_heading": "Shop Diamonds by Shape",
           "background": "#f9f9f9"

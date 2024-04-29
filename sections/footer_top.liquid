@@ -111,7 +111,7 @@
             {%- when 'collection' -%}
               {%- liquid
                 assign on_sale_txt = 'products.product.on_sale' | t
-                assign save_js = 'products.product.save_js' | t: saved_amount: 'saved_amount'-%}
+                assign save_js = 'products.product.save_js' | t: saved_amount: 'saved_amount' -%}
               <aside id="block_{{block.id}}" class="widget widget_product_list">
                 {%- if bk_stts.title != blank -%}
                   <h3 class="widget-title fwsb flex al_center fl_between fs__16 mg__0 mb__30">
@@ -333,7 +333,7 @@
   {
     "name": "Footer Top",
     "class": "footer__top type_instagram",
-    "max_blocks": 6,
+    "max_blocks": 7,
     "settings": [
       {
         "type": "header",

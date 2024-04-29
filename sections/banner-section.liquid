@@ -5,7 +5,7 @@
       <div class="width-row">
         <div class="banner-content">
           <div class="banner-vector"><img
-              src="{{section.settings.banner_png_img | image_url }}"
+              src="{{section.settings.banner_png_img | | img_url: 'master' }}"
               class="banner-png"
               alt=""></div>
           <h1 class="heading-h1">{{ section.settings.banner_heading }}</h1>
@@ -23,7 +23,7 @@
     </div>
   </div>
   <img
-    src="{{section.settings.banner_img | image_url}}"
+    src="{{section.settings.banner_img |  img_url: 'master'}}"
     class="banner-img"
     alt="">
 </div>

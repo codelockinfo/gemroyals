@@ -818,9 +818,9 @@
         "settings": {
           "layout": "6",
           "bg": "#ede9eb",
-          "cl": "#ffffff",
-          "cl_a": "#ffffff",
-          "cl_hover": "#b59677"
+          "cl": "#000",
+          "cl_a": "#000000",
+          "cl_hover": "#000"
         }
       },
       "nt_custom_color": {

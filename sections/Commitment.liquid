@@ -1,0 +1,249 @@
+<div class="Commitment">
+  <div class="Commitment_main">
+    <div class="content_section">
+
+      <div class="item1">
+        <div class="head_main">
+          <h1 class="commit-h1">{{ section.settings.Commitment_head }}</h1>
+        </div>
+      </div>
+
+      <div class="item">
+
+        <div class="image_content_1">
+          <div class="img_1">
+            <img src="{{ section.settings.Commitment_img_1 |  img_url: 'master' }}" alt="">
+          </div>
+          <div class="para_1">
+            <p>{{ section.settings.Commitment_para_1 }}</p>
+          </div>
+        </div>
+
+
+        <div class="image_content_1">
+          <div class="img_1">
+            <img src="{{ section.settings.Commitment_img_2 |  img_url: 'master' }}" alt="">
+          </div>
+          <div class="para_1">
+            <p>{{ section.settings.Commitment_para_2 }}</p>
+          </div>
+        </div>
+
+
+        <div class="image_content_1">
+          <div class="img_1">
+            <img src="{{ section.settings.Commitment_img_3 |  img_url: 'master' }}" alt="">
+          </div>
+          <div class="para_1">
+            <p>{{ section.settings.Commitment_para_3 }}</p>
+          </div>
+        </div>
+
+
+        <div class="image_content_1">
+          <div class="img_1">
+            <img src="{{ section.settings.Commitment_img_4 |  img_url: 'master' }}" alt="">
+          </div>
+          <div class="para_1">
+            <p>{{ section.settings.Commitment_para_4 }}</p>
+          </div>
+        </div>
+
+
+        <div class="image_content_1">
+          <div class="img_1">
+            <img src="{{ section.settings.Commitment_img_5 |  img_url: 'master' }}" alt="">
+          </div>
+          <div class="para_1">
+            <p>{{ section.settings.Commitment_para_5 }}</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+{%- schema -%}
+  {
+    "name": "Commitment",
+    "settings": [
+      {
+        "type": "text",
+        "id": "Commitment_head",
+        "label": "Commitment_head"
+      },
+      {
+        "type": "image_picker",
+        "id": "Commitment_img_1",
+        "label": "Commitment_img_1"
+      },
+      {
+        "type": "text",
+        "id": "Commitment_para_1",
+        "label": "Commitment_para_1"
+      },
+      {
+        "type": "image_picker",
+        "id": "Commitment_img_2",
+        "label": "Commitment_img_2"
+      }, {
+        "type": "text",
+        "id": "Commitment_para_2",
+        "label": "Commitment_para_2"
+      }, {
+        "type": "image_picker",
+        "id": "Commitment_img_3",
+        "label": "Commitment_img_3"
+      }, {
+        "type": "text",
+        "id": "Commitment_para_3",
+        "label": "Commitment_para_3"
+      }, {
+        "type": "image_picker",
+        "id": "Commitment_img_4",
+        "label": "Commitment_img_4"
+      }, {
+        "type": "text",
+        "id": "Commitment_para_4",
+        "label": "Commitment_para_4"
+      }, {
+        "type": "image_picker",
+        "id": "Commitment_img_5",
+        "label": "Commitment_img_5"
+      }, {
+        "type": "text",
+        "id": "Commitment_para_5",
+        "label": "Commitment_para_5"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Commitment"
+      }
+    ]
+  }
+{% endschema %}
+
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .commit-h1 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.57px;
+    font-family: 'Vindea ' !important;
+  }
+  .Commitment {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+
+  }
+
+  .Commitment_main {
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+    position: absolute;
+    bottom: -115px;
+  }
+  .content_section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+  }
+  .item {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .item1 {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .head_main {
+    font-family: 'Vindea';
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 62.57px;
+    text-align: left;
+
+  }
+  .image_content_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .img_1 {
+    width: 50px;
+    height: 50px;
+    background: #EDE9EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+  }
+  .img_1 img {
+    width: 25px;
+    height: 25px;
+  }
+  .para_1 {
+    font-family: 'Montserrat Alternates';
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .item {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .item1 {
+      margin-left: 0;
+
+    }
+
+    .head_main .commit-h1 {
+
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 32.57px;
+      text-align: center;
+
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .content_section {
+      display: flex;
+      flex-direction: column;
+    }
+    .item {
+      margin-top: 5px;
+    }
+  }
+</style>

@@ -3,18 +3,18 @@
     <div class="head">
       <h2 class="diamond-h1">{{ section.settings.dia_heading }}</h2>
     </div>
-    
+
     <div class="diamond-main-box">
       {% for block in section.blocks %}
-        <div class="diamond-box" >
+        <div class="diamond-box">
           <div class="diamond-img-box " style="background-color:{{block.settings.diamond_back}};">
-        {% if block.settings.diamond_img != blank %}
-            <img src="{{ block.settings.diamond_img | img_url: 'master' }}" class="diamond-img">
+            {% if block.settings.diamond_img != blank %}
+              <img src="{{ block.settings.diamond_img | img_url: 'master' }}" class="diamond-img">
             {% endif %}
           </div>
           <h2 class="diamond-h2">
             {% if block.settings.dia_title != blank %}
-                {{ block.settings.dia_title }}
+              {{ block.settings.dia_title }}
             {% endif %}
           </h2>
         </div>
@@ -24,107 +24,104 @@
 </div>
 
 {% schema %}
-    {
-      "name": "diamond Section",
-      "settings": [
-        {
-          "id" : "dia_heading",
-          "type" : "text",
-          "label" : "Heading"
-        },
-        {
-          "id" : "background",
-          "type" : "color",
-          "label" : "Background Color"
-        }
-      ],
-      "blocks" : [
-        {
-          "name" : "block",
-          "type" : "text",
-          "settings" : [
-            {
-              "id" : "diamond_img",
-              "type" : "image_picker",
-              "label" : "Image"
-            },
-            {
-              "id" : "dia_title",
-              "type" : "text",
-              "label" : "Image heading"
-            },
-            {
-              "id" : "diamond_back",
-              "type" : "color",
-              "label" : "Diamond backgroud"
-            }
-          ]
-        }
-      ],
-      "presets" : [
-        {
-          "name" : "diamond section"
-        }
-      ]
+  {
+    "name": "diamond Section",
+    "settings": [
+      {
+        "id": "dia_heading",
+        "type": "text",
+        "label": "Heading"
+      }, {
+        "id": "background",
+        "type": "color",
+        "label": "Background Color"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "block",
+        "type": "text",
+        "settings": [
+          {
+            "id": "diamond_img",
+            "type": "image_picker",
+            "label": "Image"
+          }, {
+            "id": "dia_title",
+            "type": "text",
+            "label": "Image heading"
+          }, {
+            "id": "diamond_back",
+            "type": "color",
+            "label": "Diamond backgroud"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "diamond section"
+      }
+    ]
+  }
+{% endschema %}
+<style>
+  .dimond-grid-section {
+    background-color: {{ section.settings.background }};
+    padding: 80px 0;
+  }
+  .diamond-main-box {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+  .diamond-h2 {
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 600px;
+    font-family: "Montserrat Alternates";
+  }
+  .diamond-h1 {
+    font-size: 64px;
+    line-height: 83.43px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Vindea' !important;
+  }
+  .diamond-box {
+    margin: 10px;
+  }
+  .diamond-img {
+    width: 100%;
+  }
+  .diamond-img-box {
+    padding: 10px;
+  }
+  @media (max-width: 1024px) {
+    .diamond-main-box {
+      grid-template-columns: repeat(5, 1fr);
     }
-  {% endschema %}
-  <style>
-    .dimond-grid-section{
-        background-color: {{section.settings.background}};
-        padding:80px 0;
+  }
+  @media (max-width: 768px) {
+
+    .diamond-h1 {
+      font-size: 50px;
     }
-     .diamond-main-box{
-        display: grid;
-        grid-template-columns: repeat(10,1fr);
-     }
-     
-     .diamond-h2{
-        font-size: 16px;
-        line-height: 36px;
-        text-align: center;
-        font-weight: 600px;
-        font-family:"Montserrat Alternates";
-     }
-     .diamond-h1{
-        font-size: 64px;
-        line-height: 83.43px;
-        font-weight: 400;
-        text-align: center;
-        font-family: 'Vindea' !important;
-     }
-     .diamond-box{
-       margin: 10px;
-     }     
-     .diamond-img{
-        width: 100%;
-     }
-     .diamond-img-box{
-       padding: 10px;
-     }
-     @media (max-width:1024px) {
-        .diamond-main-box{
-            grid-template-columns: repeat(5,1fr);
-     }
-     }
-     @media (max-width:768px) {
-     .dimond-grid-section{
-        padding:30px 0;
+  }
+  @media (max-width: 576px) {
+    .diamond-main-box {
+      grid-template-columns: repeat(3, 1fr);
     }
-    .diamond-h1{
-        font-size: 50px;
-     }
+    .dimond-grid-section {
+      padding-top: 100px 30px;
     }
-     @media (max-width:576px) {
-        .diamond-main-box{
-            grid-template-columns: repeat(3,1fr);
-     }
-    
-   
-     }
-     @media (max-width:400px) {
-        .diamond-main-box{
-            grid-template-columns: repeat(2,1fr);
-     }
-     
-     }
-  </style>
+
+  }
+  @media (max-width: 400px) {
+    .diamond-main-box {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+  }
+</style>

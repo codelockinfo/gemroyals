@@ -4,247 +4,267 @@
     <div class="banner-box">
       <div class="width-row">
         <div class="banner-content">
-          <div class="banner-vector"><img src="{{section.settings.banner_png_img | image_url }}" class="banner-png" alt=""></div>
-          <h1 class="heading-h1">{{section.settings.banner_heading}}</h1>
-          <p class="banner-p">{{section.settings.Paragraph_text}}</p>
-          <button class="banner-button"><a href="{{section.settings.button_link}}" class="button-a">{{section.settings.button_text}}</a></button>
+          <div class="banner-vector"><img
+              src="{{section.settings.banner_png_img | image_url }}"
+              class="banner-png"
+              alt=""></div>
+          <h1 class="heading-h1">{{ section.settings.banner_heading }}</h1>
+          <p class="banner-p">{{ section.settings.Paragraph_text }}</p>
+          <button class="banner-button">
+            <a href="{{section.settings.button_link}}" class="button-a">{{ section.settings.button_text }}</a>
+          </button>
           <div class="button-arrow">
-            <a href="#" class="Button-arrow"><i class="fa-solid fa-arrow-down arrow"></i></a>
-          </div> 
+            <a href="#" class="Button-arrow">
+              <i class="fa-solid fa-arrow-down arrow"></i>
+            </a>
+          </div>
         </div>
-        </div>
-        </div>
-        </div>
-        <img src="{{section.settings.banner_img | image_url}}" class="banner-img" alt="">
+      </div>
+    </div>
+  </div>
+  <img
+    src="{{section.settings.banner_img | image_url}}"
+    class="banner-img"
+    alt="">
 </div>
 
 {% schema %}
-{
-  "name": "custom banner",
-  "settings": [
-    {
-      "type": "image_picker",
-      "id": "bannarbackimg",
-      "label": "Select Background img"
-    },
-    {
-      "type": "image_picker",
-      "id": "banner_img",
-      "label": "Select Banner img"
-    },
-    {
-      "type": "image_picker",
-      "id": "banner_png_img",
-      "label": "Select png img"
-    },
-    {
-      "type": "richtext",
-      "id": "banner_heading",
-      "label": "Add main heading"
-    },
-    {
-      "type": "text",
-      "id": "Paragraph_text",
-      "label": "Add Content"
-    },
-    {
-      "type": "text",
-      "id": "button_text",
-      "label": "Add button text"
-    },
-    {
-      "type": "color",
-      "id": "button_background",
-      "label": "Button backgroud color"
-    },
-    {
-      "type": "url",
-      "id": "button_link",
-      "label": "Add button link"
-    }
+  {
+    "name": "custom banner",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "bannarbackimg",
+        "label": "Select Background img"
+      },
+      {
+        "type": "image_picker",
+        "id": "banner_img",
+        "label": "Select Banner img"
+      },
+      {
+        "type": "image_picker",
+        "id": "banner_png_img",
+        "label": "Select png img"
+      },
+      {
+        "type": "richtext",
+        "id": "banner_heading",
+        "label": "Add main heading"
+      }, {
+        "type": "text",
+        "id": "Paragraph_text",
+        "label": "Add Content"
+      }, {
+        "type": "text",
+        "id": "button_text",
+        "label": "Add button text"
+      }, {
+        "type": "color",
+        "id": "button_background",
+        "label": "Button backgroud color"
+      }, {
+        "type": "url",
+        "id": "button_link",
+        "label": "Add button link"
+      }
 
-  ],
-  "presets": [
-    {
-      "name": "custom-banner"
-    }
-  ]
-}
+    ],
+    "presets": [
+      {
+        "name": "custom-banner"
+      }
+    ]
+  }
 {% endschema %}
 
 <style>
-          /* BANNER SECTION  */
-          .width-container {
-      max-width: 1440px;
-      margin: 0 auto;
-      padding: 0 15px;
+  /* BANNER SECTION  */
+  .width-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
   }
-  .banner{
-      background-image: url({{section.settings.bannarbackimg |  image_url }});
-      max-width: 100%;
-      /* height: 100vh; */
-      position: relative;
-      z-index: 1;
-      overflow: hidden;
+  .banner {
+    background-image: url('{{section.settings.bannarbackimg | image_url }}');
+    max-width: 100%;
+    /* height: 100vh; */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
   }
-  .banner::after{
-      position: absolute;
-      content: "";
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: #f0f0f0dc;
-      z-index: -1;
+  .banner::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f0f0f0dc;
+    z-index: -1;
   }
-  .banner .banner-box{
-      z-index: 9;
+  .banner .banner-box {
+    z-index: 9;
   }
-  .banner .width-66{
-      width: 66%;
-      /* padding: 12px ; */
+  .banner .width-66 {
+    width: 66%;
+    /* padding: 12px ; */
   }
-  .banner .banner-box .width-row{
-      display: flex;
-      align-items: center;
-      justify-content: left;
+  .banner .banner-box .width-row {
+    display: flex;
+    align-items: center;
+    justify-content: left;
   }
   .banner .banner-box .banner-content {
-      width: 66%;
-      padding:100px 0;
-      z-index: 9;
+    width: 66%;
+    padding: 100px 0;
+    z-index: 9;
   }
-  .banner .banner-box .banner-content .heading-h1{
-      font-size: 110px;
-      font-family: 'Vindea';
-      font-weight: 400;
+  .banner .banner-box .banner-content .heading-h1 {
+    font-size: 110px;
+    font-family: 'Vindea';
+    font-weight: 400;
   }
-  .banner .banner-box .banner-content .banner-png{
-     max-width: 90px;
-     max-height: 90px;
+  .banner .banner-box .banner-content .banner-png {
+    max-width: 90px;
+    max-height: 90px;
   }
-  .banner .banner-box .banner-content .banner-p{
-      font-size: 24px;
-      font-weight: 500;
-      line-height: 36px;
-      font-family: 'Montserrat Alternates';
-      width: 60%;
-      color: #777777;
-      margin: 40px 0;
+  .banner .banner-box .banner-content .banner-p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    font-family: 'Montserrat Alternates';
+    width: 60%;
+    color: #777777;
+    margin: 40px 0;
   }
-  .banner .banner-box .banner-content .banner-button{
-       font-size: 24px;
-       font-family: 'Montserrat Alternates';
-       background-color: #B69D62;
-       padding: 10px 15px;
-      border: none;
-      margin-bottom: 30px;
-      margin-top: 40px;
+  .banner .banner-box .banner-content .banner-button {
+    font-size: 24px;
+    font-family: 'Montserrat Alternates';
+    background-color: #B69D62;
+    padding: 10px 15px;
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 40px;
   }
-  .banner .banner-box .banner-content .button-a{
-       text-decoration: none;
-       color: #ffffff;
-       font-size: 24px;
-       font-family: 'Montserrat Alternates' ;
-       font-weight: 500px;
+  .banner .banner-box .banner-content .button-a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 500px;
   }
-  .banner .banner-box .banner-content .button-arrow{
-       width: 50px;
-       height: 80px;
-       background-color: #282828;
-       border-radius: 100px;
-       text-align: center;
-       line-height: 80px;
-       margin-top: 30px;
+  .banner .banner-box .banner-content .button-arrow {
+    width: 50px;
+    height: 80px;
+    background-color: #282828;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 80px;
+    margin-top: 30px;
   }
-  .banner .banner-box .banner-content .button-arrow .arrow{
-       font-size: 20px;
-       border: 3px solid #ECE9EB;
-       padding: 15px 5px;
-       border-radius: 20px;
-       color: #ECE9EB;
+  .banner .banner-box .banner-content .button-arrow .arrow {
+    font-size: 20px;
+    border: 3px solid #ECE9EB;
+    padding: 15px 5px;
+    border-radius: 20px;
+    color: #ECE9EB;
   }
 
   .banner .banner-img {
-      max-width: 100%;
-      height: 100%;
-      position: absolute;
-      object-fit: cover;
-      object-position: bottom;
-      z-index: 1;
-      top: 0;
-      right: -5%;
+    max-width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    object-position: bottom;
+    z-index: 1;
+    top: 0;
+    right: -5%;
   }
 
-  @media  (max-width:1024px) {
-    .width-container{
-        padding: 0 30px;
+  @media (max-width: 1024px) {
+    .width-container {
+      padding: 0 30px;
     }
     .banner .banner-img {
-        
-        right: -25%;
+
+      right: -25%;
+    }
   }
-}
 
 
-  @media  (max-width:768px) {
-  
-    .banner .banner-box .banner-content .heading-h1{
-    font-size: 70px;
+  @media (max-width: 787px) {
+    .width-container {
+      margin-bottom: 150px;
+    }
   }
-  .banner .banner-box .banner-content .banner-png{
-     max-width: 60px;
-  }
-  .banner .banner-box .banner-content .banner-p{
+
+  @media (max-width: 768px) {
+
+    .banner .banner-box .banner-content .heading-h1 {
+      font-size: 70px;
+    }
+    .banner .banner-box .banner-content .banner-png {
+      max-width: 60px;
+    }
+    .banner .banner-box .banner-content .banner-p {
       font-size: 18px;
       margin: 20px 0;
+    }
+    .banner .banner-box .banner-content .banner-button {
+      font-size: 18px;
+      padding: 5px 10px;
+      margin-top: 20px;
+    }
+    .banner .banner-box .banner-content .button-a {
+      font-size: 16px;
+    }
+    .banner .banner-box .banner-content .button-arrow {
+      width: 35px;
+      height: 60px;
+      line-height: 60px;
+      margin-top: 20px;
+    }
+    .banner .banner-box .banner-content .button-arrow .arrow {
+      font-size: 12px;
+      border: 2px solid #ECE9EB;
+      padding: 10px 5px;
+    }
   }
-  .banner .banner-box .banner-content .banner-button{ font-size: 18px;
-       padding: 5px 10px;
-       margin-top: 20px;
-  } 
-  .banner .banner-box .banner-content .button-a{
-       font-size: 16px;
-  }
-  .banner .banner-box .banner-content .button-arrow{
-       width: 35px;
-       height: 60px;
-       line-height: 60px;
-       margin-top: 20px;
-  }
-  .banner .banner-box .banner-content .button-arrow .arrow{
-       font-size: 12px;
-       border: 2px solid #ECE9EB;
-       padding: 10px 5px;
-  }
-  }
-  @media  (max-width:576px) {
-    .banner .banner-box .banner-content .heading-h1{
-    font-size: 50px;
-    width: 66%;
-   }
-   .banner .banner-box .banner-content .banner-p{
+  @media (max-width: 576px) {
+    .banner .banner-box .banner-content .heading-h1 {
+      font-size: 50px;
+      width: 66%;
+    }
+    .banner .banner-box .banner-content .banner-p {
       font-size: 14px;
     }
     .banner .banner-box .banner-content .button-arrow {
       display: inline-block;
       margin-left: 20px;
-  }
-  .banner .banner-box .banner-content {
-    width: 100%;
+    }
+    .banner .banner-box .banner-content {
+      width: 100%;
 
+    }
   }
+
+
+  @media (max-width: 409px) {
+    .width-container {
+      margin-bottom: 260px;
+    }
   }
-  @media  (max-width:400px) {
-    .banner .banner-box .banner-content .heading-h1{
-    font-size: 30px;
-   }
-   .banner .banner-box .banner-content .banner-p{
+  @media (max-width: 400px) {
+    .banner .banner-box .banner-content .heading-h1 {
+      font-size: 30px;
+    }
+    .banner .banner-box .banner-content .banner-p {
       font-size: 12px;
     }
   }
- 
+
 
 </style>

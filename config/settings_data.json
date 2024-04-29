@@ -3067,6 +3067,7 @@
           "quote_aFQt3H": {
             "type": "quote",
             "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4.jpg",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3235,7 +3236,7 @@
           "ic_tt": "gem",
           "show_clpr": false,
           "layout_des": "2",
-          "ter_des": "1",
+          "ter_des": "4",
           "col_pr": "3",
           "col_pr_tb": "6",
           "loop": true,

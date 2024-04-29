@@ -3243,13 +3243,106 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "brand_list_Kbyikt": {
+        "type": "brand_list",
+        "blocks": {
+          "brand_gkyREq": {
+            "type": "brand",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Trusted_by.png",
+              "url": "",
+              "open_link": "_blank"
+            }
+          },
+          "brand_WdwQRc": {
+            "type": "brand",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/GIA-Logo-PNG_zeevector_1.png",
+              "url": "",
+              "open_link": "_blank"
+            }
+          },
+          "brand_9ig3qm": {
+            "type": "brand",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/C_SGL_LOGO_1.png",
+              "url": "",
+              "open_link": "_blank"
+            }
+          },
+          "brand_GMtzdq": {
+            "type": "brand",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Google-Review-Logo_1.png",
+              "url": "",
+              "open_link": "_blank"
+            }
+          },
+          "brand_gk7JJc": {
+            "type": "brand",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_6.png",
+              "url": "",
+              "open_link": "_blank"
+            }
+          },
+          "brand_ngGqXF": {
+            "type": "brand",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_7.png",
+              "url": "",
+              "open_link": "_blank"
+            }
+          }
+        },
+        "block_order": [
+          "brand_gkyREq",
+          "brand_WdwQRc",
+          "brand_9ig3qm",
+          "brand_GMtzdq",
+          "brand_gk7JJc",
+          "brand_ngGqXF"
+        ],
+        "settings": {
+          "title": "",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "brand_layout": "1",
+          "cat_space": "30",
+          "col": "2",
+          "col_md": "6",
+          "col_mb": "6",
+          "brand_hover": "0",
+          "loop": true,
+          "autoplay": false,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "2",
+          "btn_color": "0",
+          "dot": true,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
       "banner_section_GgqCN4",
       "our_mission_F7HaXC",
       "testimonials_J6TrF9",
-      "instagram_feed_EJfntL"
+      "instagram_feed_EJfntL",
+      "brand_list_Kbyikt"
     ]
   }
 }

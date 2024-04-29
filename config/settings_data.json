@@ -3016,25 +3016,29 @@
           "img_33T7tU": {
             "type": "img",
             "settings": {
-              "our_content": ""
+              "our_img": "shopify:\/\/shop_images\/quality-service_293c60ca-e3e6-4330-bca9-f02f6dad29d7.png",
+              "our_content": "Superior Quality Moissanite"
             }
           },
           "img_bcxqPN": {
             "type": "img",
             "settings": {
-              "our_content": ""
+              "our_img": "shopify:\/\/shop_images\/leaves_610e5778-d88e-4324-ade9-ac012a42ceae.png",
+              "our_content": "Conflict Free Gems & Metals"
             }
           },
           "img_43W64r": {
             "type": "img",
             "settings": {
-              "our_content": ""
+              "our_img": "shopify:\/\/shop_images\/guarantee_ee88750e-1ff2-43e0-84e0-88d5567210a9.png",
+              "our_content": "Lifetime Gem Warranty"
             }
           },
           "img_KJiKeX": {
             "type": "img",
             "settings": {
-              "our_content": ""
+              "our_img": "shopify:\/\/shop_images\/rating_d462c45a-019a-4c6b-a592-cd985f0ffdfb.png",
+              "our_content": "100,000 Happy Customers"
             }
           }
         },

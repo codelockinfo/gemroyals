@@ -3,15 +3,17 @@
     <div class="width-row">
       <div class="width-box-33">
         <div class="our-mission-content">
-          <h1 class="ourmission-h1">Our Mission</h1>
-          <p class="ourmission-p">The #1 trusted source for Moissanite jewelry for 15 years</p>
+          <h1 class="ourmission-h1">{{section.settings.ourmission_h1}}</h1>
+          <p class="ourmission-p">{{section.settings.ourmission_p}}</p>
         </div>
       </div>
       <div class="width-box-66">
         <div class="our-grid-vector-box">
             {%- for block in section.blocks -%}
           <div class="grid-vector-box">
+            {% if block.settings.our_img != blank %}
             <div class="vector-img"><img src="{{ block.settings.our_img  |  img_url: 'master'}}" /></div>
+            {% endif %}
             <div class="vector-content">
                 <p class="vector-p">{{block.settings.our_content}}</p>
             </div>
@@ -26,7 +28,18 @@
 {% schema %}
 {
   "name": "our mission section",
-  "settings": [],
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "ourmission_h1",
+      "label": "Add heading text"
+    },
+    {
+      "type": "text",
+      "id": "ourmission_p",
+      "label": "Add content text"
+    }
+  ],
   "blocks": [
     {
       "name": "Add mission",
@@ -99,5 +112,46 @@
     line-height: 36px;
     margin-top: 20px !important;
     margin: 0;
+  }
+
+  @media (max-width:1024px) {
+    .grid-vector-box {
+    padding: 20px 10px;
+    }
+    .vector-p{
+      font-size: 14px;
+    }
+  }
+  @media (max-width:768px) {
+    .our-grid-vector-box {
+    grid-template-columns: repeat(2,1fr);
+  }
+  .ourmission-h1 {
+    font-size: 50px;
+  }
+  
+  }
+  @media (max-width:576px) {
+    .our-mission {
+    padding: 40px 0;
+  }
+    .width-box-33 {
+    width: 100%;
+  }
+  .width-box-66 {
+    width: 100%;
+  }
+  .ourmission-h1{
+    font-size: 40px;
+    text-align: center;
+  }
+  .ourmission-p{
+    text-align: center;
+  }
+  }
+  @media (max-width:320px) {
+    .our-grid-vector-box {
+    grid-template-columns: repeat(1,1fr);
+  }
   }
 </style>

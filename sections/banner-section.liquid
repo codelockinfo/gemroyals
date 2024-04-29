@@ -12,10 +12,10 @@
             <a href="#" class="Button-arrow"><i class="fa-solid fa-arrow-down arrow"></i></a>
           </div> 
         </div>
+        </div>
+        </div>
+        </div>
         <img src="{{section.settings.banner_img | image_url}}" class="banner-img" alt="">
-      </div>
-    </div>
-  </div>
 </div>
 
 {% schema %}
@@ -177,7 +177,17 @@
       top: 0;
       right: -5%;
   }
- 
+
+  @media  (max-width:1024px) {
+    .width-container{
+        padding: 0 30px;
+    }
+    .banner .banner-img {
+        
+        right: -25%;
+  }
+}
+
 
   @media  (max-width:768px) {
   
@@ -210,14 +220,31 @@
        padding: 10px 5px;
   }
   }
-  @media  (max-width:1024px) {
-    .width-container{
-        padding: 0 30px;
+  @media  (max-width:576px) {
+    .banner .banner-box .banner-content .heading-h1{
+    font-size: 50px;
+    width: 66%;
+   }
+   .banner .banner-box .banner-content .banner-p{
+      font-size: 14px;
     }
-    .banner .banner-img {
-        
-        right: -25%;
+    .banner .banner-box .banner-content .button-arrow {
+      display: inline-block;
+      margin-left: 20px;
   }
-  
+  .banner .banner-box .banner-content {
+    width: 100%;
+
   }
+  }
+  @media  (max-width:400px) {
+    .banner .banner-box .banner-content .heading-h1{
+    font-size: 30px;
+   }
+   .banner .banner-box .banner-content .banner-p{
+      font-size: 12px;
+    }
+  }
+ 
+
 </style>

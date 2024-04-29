@@ -3048,6 +3048,9 @@
           "img_43W64r",
           "img_KJiKeX"
         ],
+        "custom_css": [
+          "p {margin: 0;}"
+        ],
         "settings": {
           "ourmission_h1": "<p>Our Mission<\/p>",
           "ourmission_p": "The #1 trusted source for Moissanite jewelry for 15 years"

@@ -742,8 +742,8 @@
           "menu_RjMjQH": {
             "type": "menu",
             "settings": {
-              "title": "Quick links",
-              "menu": "footer",
+              "title": "Useful link",
+              "menu": "useful-link",
               "order": "1",
               "cl": "2",
               "cl_tb": "6",
@@ -753,8 +753,8 @@
           "menu_LJfVXE": {
             "type": "menu",
             "settings": {
-              "title": "Quick links",
-              "menu": "home",
+              "title": "",
+              "menu": "policies-services",
               "order": "1",
               "cl": "2",
               "cl_tb": "6",

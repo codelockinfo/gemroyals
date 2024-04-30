@@ -3526,12 +3526,17 @@
       "commitment_zrjTb9": {
         "type": "Commitment",
         "settings": {
-          "Commitment_head": "",
-          "Commitment_para_1": "",
-          "Commitment_para_2": "",
-          "Commitment_para_3": "",
-          "Commitment_para_4": "",
-          "Commitment_para_5": ""
+          "Commitment_head": "Our Commitment to Excellence",
+          "Commitment_img_1": "shopify:\/\/shop_images\/9585979.png",
+          "Commitment_para_1": "World Wide <br> Shipping",
+          "Commitment_img_2": "shopify:\/\/shop_images\/3917727.png",
+          "Commitment_para_2": "24\/7 Customer <br> Service",
+          "Commitment_img_3": "shopify:\/\/shop_images\/7653682.png",
+          "Commitment_para_3": "100% Money <br> Back Guarantee",
+          "Commitment_img_4": "shopify:\/\/shop_images\/7661461.png",
+          "Commitment_para_4": "Unbeatable <br> Market Price",
+          "Commitment_img_5": "shopify:\/\/shop_images\/14655978.png",
+          "Commitment_para_5": "Eco Friendly <br> Element"
         }
       }
     },

@@ -3253,7 +3253,7 @@
           "dot": true,
           "dot_owl": "2",
           "dot_color": "1",
-          "layout": "wrap",
+          "layout": "container",
           "cl_bg": "",
           "mg": "50px,,50px,",
           "pd": "",

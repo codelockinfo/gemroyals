@@ -5,7 +5,7 @@
   assign image = se_stts.image
   assign ccol = 'col-lg-1x col-md-2x col-3x' | replace: '1x', se_stts.col | replace: '2x', se_stts.col_md | replace: '3x', se_stts.col_mb
   if layout == 'wrap'
-   assign html_layout = '<div class="container">__</div>' | split:'__'
+   assign html_layout = '<div class="width-container">__</div>' | split:'__'
   else
    assign html_layout = '__' | split:'__'
   endif -%}

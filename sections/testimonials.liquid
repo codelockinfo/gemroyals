@@ -8,7 +8,7 @@
   assign ter_des = se_stts.ter_des
   assign image = se_stts.image
   if layout == 'wrap'
-   assign html_layout = '<div class="container">__</div>' | split:'__'
+   assign html_layout = '<div class="width-container">__</div>' | split:'__'
   else
    assign html_layout = '__' | split:'__'
   endif -%}

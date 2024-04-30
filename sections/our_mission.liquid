@@ -94,6 +94,19 @@
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
   }
+  .grid-vector-box{
+    transition:all 0.5s;
+  }
+  .grid-vector-box:hover .vector-img{
+    filter: grayscale(0);
+  }
+  .grid-vector-box:hover .vector-p{
+    filter: grayscale(0);
+  }
+  .vector-img{
+    filter: grayscale(1);
+    transition:all 0.5s;
+  }
   .grid-vector-box {
     padding: 30px;
     background-color: #ffffff;
@@ -112,6 +125,9 @@
     line-height: 36px;
     margin-top: 20px !important;
     margin: 0;
+    color: #B69D62;
+    filter: grayscale(1);
+    transition:all 0.5s;
   }
 
   @media (max-width:1024px) {

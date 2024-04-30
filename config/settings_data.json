@@ -3521,10 +3521,22 @@
         "settings": {
           "background": "#f9f9f9"
         }
+      },
+      "commitment_zrjTb9": {
+        "type": "Commitment",
+        "settings": {
+          "Commitment_head": "",
+          "Commitment_para_1": "",
+          "Commitment_para_2": "",
+          "Commitment_para_3": "",
+          "Commitment_para_4": "",
+          "Commitment_para_5": ""
+        }
       }
     },
     "content_for_index": [
       "banner_section_GgqCN4",
+      "commitment_zrjTb9",
       "dimond_section_yFdqY6",
       "category_section_D9kHnp",
       "our_mission_F7HaXC",

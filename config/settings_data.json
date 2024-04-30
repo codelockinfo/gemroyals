@@ -3551,8 +3551,48 @@
       },
       "ring_collection_section_K9qq3c": {
         "type": "ring-collection-section",
+        "blocks": {
+          "text_8xB7Xa": {
+            "type": "text",
+            "settings": {
+              "ring_img": "shopify:\/\/shop_images\/1_0faa480d-1efe-420c-9bc9-a9461d5e62d7.jpg",
+              "ring_h2": "<p>Moissanite<\/p>",
+              "ring_p1": "Browse our bespoke collection of brilliant and durable moissanite jewelry.",
+              "ring_p2": "DISCOVER",
+              "ring_p2url": ""
+            }
+          },
+          "text_ANNjJn": {
+            "type": "text",
+            "settings": {
+              "ring_img": "shopify:\/\/shop_images\/2_3bd1c867-a6d7-48e4-9328-18a40c1b53a4.jpg",
+              "ring_h2": "<p>Lab Grown Diamond<\/p>",
+              "ring_p1": "Discover luxury with our collection of conflict-free lab-diamond jewelry.",
+              "ring_p2": "DISCOVER",
+              "ring_p2url": ""
+            }
+          },
+          "text_ARBaNC": {
+            "type": "text",
+            "settings": {
+              "ring_img": "shopify:\/\/shop_images\/3_41eaeec4-4164-49b0-b02c-93f3b1a139ec.jpg",
+              "ring_h2": "<p>Bespoke Engagement Rings<br\/><\/p>",
+              "ring_p1": "",
+              "ring_p2": "DISCOVER",
+              "ring_p2url": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_8xB7Xa",
+          "text_ANNjJn",
+          "text_ARBaNC"
+        ],
+        "custom_css": [
+          "p{margin:0;}"
+        ],
         "settings": {
-          "background": ""
+          "background": "#ffffff"
         }
       }
     },

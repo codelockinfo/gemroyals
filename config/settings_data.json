@@ -3526,19 +3526,19 @@
           "text_TTiRRP"
         ],
         "settings": {
-          "background": ""
+          "background": "#f9f9f9"
         }
       }
     },
     "content_for_index": [
       "banner_section_GgqCN4",
       "dimond_section_yFdqY6",
+      "category_section_D9kHnp",
       "our_mission_F7HaXC",
       "image_para_gdjHEA",
       "testimonials_J6TrF9",
       "brand_list_Kbyikt",
-      "instagram_feed_EJfntL",
-      "category_section_D9kHnp"
+      "instagram_feed_EJfntL"
     ]
   }
 }

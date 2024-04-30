@@ -2915,8 +2915,8 @@
           "p {margin-bottom: 0;}"
         ],
         "settings": {
-          "bannarbackimg": "shopify:\/\/shop_images\/background_header.jpg",
-          "banner_img": "shopify:\/\/shop_images\/banner_img.jpg",
+          "bannarbackimg": "shopify:\/\/shop_images\/8b3ced88ac7ed54cc0ffa1abf7205673.jpg",
+          "banner_img": "shopify:\/\/shop_images\/7722a0c90981d3ca297254515ceff046.jpg",
           "banner_heading": "<p>A legacy of luxury<br\/><\/p>",
           "Paragraph_text": "Conveys a sense of heritage and high-end luxury appealing to those who appreciate tradition  and quality",
           "button_text": "View Collection",
@@ -2941,36 +2941,42 @@
           "img_KpzXcT": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/1_c2abb65d-bab8-4247-a77d-edc877309b91.jpg",
               "url": ""
             }
           },
           "img_rzXeJd": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/2.jpg",
               "url": ""
             }
           },
           "img_AYBR7r": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/3.jpg",
               "url": ""
             }
           },
           "img_rFXzwJ": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/4.jpg",
               "url": ""
             }
           },
           "img_nTzKFg": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/5.jpg",
               "url": ""
             }
           },
           "img_PcQ4Kz": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/6.jpg",
               "url": ""
             }
           }
@@ -3019,24 +3025,28 @@
           "img_33T7tU": {
             "type": "img",
             "settings": {
+              "our_img": "shopify:\/\/shop_images\/quality-service.png",
               "our_content": "Superior Quality Moissanite"
             }
           },
           "img_bcxqPN": {
             "type": "img",
             "settings": {
+              "our_img": "shopify:\/\/shop_images\/leaves.png",
               "our_content": "Conflict Free Gems & Metals"
             }
           },
           "img_43W64r": {
             "type": "img",
             "settings": {
+              "our_img": "shopify:\/\/shop_images\/guarantee.png",
               "our_content": "Lifetime Gem Warranty"
             }
           },
           "img_KJiKeX": {
             "type": "img",
             "settings": {
+              "our_img": "shopify:\/\/shop_images\/rating.png",
               "our_content": "100,000 Happy Customers"
             }
           }
@@ -3061,6 +3071,7 @@
           "quote_aFQt3H": {
             "type": "quote",
             "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4.jpg",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3451,6 +3462,13 @@
       "category_section_D9kHnp": {
         "type": "category-section",
         "blocks": {
+          "text_ayDMhV": {
+            "type": "text",
+            "settings": {
+              "category_text": "",
+              "collection_url": ""
+            }
+          },
           "text_NJ9AKt": {
             "type": "text",
             "settings": {
@@ -3460,32 +3478,16 @@
           }
         },
         "block_order": [
+          "text_ayDMhV",
           "text_NJ9AKt"
         ],
         "settings": {
           "background": ""
         }
-      },
-      "commitment_TwhNzP": {
-        "type": "Commitment",
-        "settings": {
-          "Commitment_head": "Our Commitment  to Excellence",
-          "Commitment_img_1": "shopify:\/\/shop_images\/9585979.png",
-          "Commitment_para_1": "World Wide <br> Shipping",
-          "Commitment_img_2": "shopify:\/\/shop_images\/3917727.png",
-          "Commitment_para_2": "24\/7 Customer <br> Service",
-          "Commitment_img_3": "shopify:\/\/shop_images\/7653682.png",
-          "Commitment_para_3": "100% Money <br> Back Guarantee",
-          "Commitment_img_4": "shopify:\/\/shop_images\/7661461.png",
-          "Commitment_para_4": "Unbeatable <br> Market Price",
-          "Commitment_img_5": "shopify:\/\/shop_images\/14655978.png",
-          "Commitment_para_5": "Eco Friendly <br> Element"
-        }
       }
     },
     "content_for_index": [
       "banner_section_GgqCN4",
-      "commitment_TwhNzP",
       "dimond_section_yFdqY6",
       "our_mission_F7HaXC",
       "image_para_gdjHEA",

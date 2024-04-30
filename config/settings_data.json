@@ -3288,6 +3288,14 @@
               "open_link": "_blank"
             }
           },
+          "brand_RDwknK": {
+            "type": "brand",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Google-Review-Logo_1_69b76872-2e3d-410d-9d1a-75029818e9ec.png",
+              "url": "",
+              "open_link": "_blank"
+            }
+          },
           "brand_GMtzdq": {
             "type": "brand",
             "settings": {
@@ -3309,6 +3317,7 @@
           "brand_gkyREq",
           "brand_WdwQRc",
           "brand_9ig3qm",
+          "brand_RDwknK",
           "brand_GMtzdq",
           "brand_gk7JJc"
         ],

@@ -734,7 +734,7 @@
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit",
               "social_mode": "1",
               "order": "1",
-              "cl": "4",
+              "cl": "15",
               "cl_tb": "6",
               "cl_mb": "12"
             }
@@ -756,7 +756,7 @@
               "title": "Policies & Services",
               "menu": "policies-services",
               "order": "1",
-              "cl": "2",
+              "cl": "15",
               "cl_tb": "6",
               "cl_mb": "12"
             }
@@ -769,7 +769,7 @@
               "content": "<p><i class=\"pegk pe-7s-map-marker\"> <\/i><span>Houston, Texas 77039,<br> <span class=\"pl__30\">United States<\/span><\/span><\/p><p><i class=\"pegk pe-7s-mail\"><\/i><span> <a href=\"mailto:sales.gemroyals@gmail.com\">sales.gemroyals@gmail.com<\/a><\/span><\/p>",
               "social_mode": "3",
               "order": "1",
-              "cl": "4",
+              "cl": "3",
               "cl_tb": "6",
               "cl_mb": "12"
             }

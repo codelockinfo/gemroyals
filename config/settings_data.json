@@ -728,7 +728,6 @@
           "logo_JHqENb": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/f3695c9ae590ec1db22a56fe83769272-Photoroom.png-Photoroom.png",
               "logo_width": 100,
               "title": "",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit",
@@ -743,7 +742,7 @@
             "type": "menu",
             "settings": {
               "title": "Useful link",
-              "menu": "useful-link",
+              "menu": "",
               "order": "1",
               "cl": "2",
               "cl_tb": "6",
@@ -754,7 +753,7 @@
             "type": "menu",
             "settings": {
               "title": "Policies & Services",
-              "menu": "policies-services",
+              "menu": "",
               "order": "1",
               "cl": "15",
               "cl_tb": "6",
@@ -2916,6 +2915,9 @@
           "p {margin-bottom: 0;}"
         ],
         "settings": {
+          "bannarbackimg": "shopify:\/\/shop_images\/8b3ced88ac7ed54cc0ffa1abf7205673.jpg",
+          "banner_img": "shopify:\/\/shop_images\/7722a0c90981d3ca297254515ceff046.jpg",
+          "banner_png_img": "shopify:\/\/shop_images\/sparkle.png",
           "banner_heading": "<p>A legacy of luxury<br\/><\/p>",
           "Paragraph_text": "Conveys a sense of heritage and high-end luxury appealing to those who appreciate tradition  and quality",
           "button_text": "View Collection",

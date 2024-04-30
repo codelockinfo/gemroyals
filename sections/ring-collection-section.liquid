@@ -1,0 +1,70 @@
+<div class="ring-section">
+    <div class="width-container">
+        <div class="ring-grid-box">
+            <div class="ring-box-img">
+                <img src="https://s3-alpha-sig.figma.com/img/631f/d2f6/cb4989ad3e6be266ef89c1393182298c?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MnbbccU9~BoV1N~D22UtrmhKJcBQfYclv~Jgb1pAWx~pVkoJOZKG0aoQ4ZsjyzbrPS0EVGqGQQ~EfkmwCGtoZ6lyc8r8WFdUPVaACBmUA43TumjlERzp0kH800tsM75PNGzG5qX-N-gZp69ma~BGM-0F~zsGn5EQbs5eKU4dhWyuIMwra1eiAZvyorIrkqYiHXuizpYiTg7nw-87DQCZN09xsvC4A70Dic7fqkjysmx9kWmPJA95ATOJyr4xmqdZJqfb1EidaBYJIRWKhypaCLCwM6yaJzJAklOj1D2NpC71v~tBZ9QejrK0BeigUMloXaXwOLgAnym-v8bl01mjng__" class="ring-img" alt="">
+                <div class="ring-content-box">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+    {
+      "name": "Ring collection Section",
+      "settings": [
+            {
+              "type": "color",
+              "id": "background",
+              "label": "section background"
+            }
+      ],
+      "blocks" : [
+        {
+          "name" : "block",
+          "type" : "text",
+          "settings" : [
+                {
+                  "type": "image_picker",
+                  "id": "category_img",
+                  "label": "category collection img"
+                },
+                {
+                  "type": "richtext",
+                  "id": "category_text",
+                  "label": "category collection name"
+                },
+                {
+                  "type": "url",
+                  "id": "collection_url",
+                  "label": "select collection"
+                }
+          ]
+        }
+      ],
+      "presets" : [
+        {
+          "name" : "Ring collection section"
+        }
+      ]
+    }
+  {% endschema %} 
+
+  <style>
+    .ring-grid-box{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .ring-box-img{
+        width: 300px;
+        height: 600px;
+    }
+    .ring-img{
+        max-width: 100%;
+    }
+  </style>

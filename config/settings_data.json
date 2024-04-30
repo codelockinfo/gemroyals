@@ -728,6 +728,7 @@
           "logo_JHqENb": {
             "type": "logo",
             "settings": {
+              "image": "shopify:\/\/shop_images\/logo_img_prev_ui.png",
               "logo_width": 100,
               "title": "",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit",
@@ -742,7 +743,7 @@
             "type": "menu",
             "settings": {
               "title": "Useful link",
-              "menu": "",
+              "menu": "main-menu",
               "order": "1",
               "cl": "2",
               "cl_tb": "6",
@@ -753,7 +754,7 @@
             "type": "menu",
             "settings": {
               "title": "Policies & Services",
-              "menu": "",
+              "menu": "footer-menu",
               "order": "1",
               "cl": "2",
               "cl_tb": "6",
@@ -3526,7 +3527,7 @@
           "text_TTiRRP"
         ],
         "custom_css": [
-          "p {margin:0;}"
+          "p {margin: 0;}"
         ],
         "settings": {
           "background": "#f9f9f9"

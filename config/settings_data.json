@@ -3527,11 +3527,11 @@
         "type": "Commitment",
         "settings": {
           "Commitment_head": "Our Commitment to Excellence",
-          "Commitment_para_1": "",
-          "Commitment_para_2": "",
-          "Commitment_para_3": "",
-          "Commitment_para_4": "",
-          "Commitment_para_5": ""
+          "Commitment_para_1": "World Wide <br> Shipping",
+          "Commitment_para_2": "24\/7 Customer <br> Service",
+          "Commitment_para_3": "100% Money <br> Back Guarantee",
+          "Commitment_para_4": "Unbeatable <br> Market Price",
+          "Commitment_para_5": "Eco Friendly <br> Element"
         }
       }
     },

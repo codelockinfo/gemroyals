@@ -728,7 +728,7 @@
           "logo_JHqENb": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/logo_img_prev_ui.png",
+              "image": "shopify:\/\/shop_images\/f3695c9ae590ec1db22a56fe83769272-Photoroom.png-Photoroom.png",
               "logo_width": 100,
               "title": "",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit",
@@ -743,7 +743,7 @@
             "type": "menu",
             "settings": {
               "title": "Useful link",
-              "menu": "main-menu",
+              "menu": "useful-link",
               "order": "1",
               "cl": "2",
               "cl_tb": "6",
@@ -754,7 +754,7 @@
             "type": "menu",
             "settings": {
               "title": "Policies & Services",
-              "menu": "footer-menu",
+              "menu": "policies-services",
               "order": "1",
               "cl": "2",
               "cl_tb": "6",
@@ -2916,8 +2916,6 @@
           "p {margin-bottom: 0;}"
         ],
         "settings": {
-          "bannarbackimg": "shopify:\/\/shop_images\/8b3ced88ac7ed54cc0ffa1abf7205673.jpg",
-          "banner_img": "shopify:\/\/shop_images\/7722a0c90981d3ca297254515ceff046.jpg",
           "banner_heading": "<p>A legacy of luxury<br\/><\/p>",
           "Paragraph_text": "Conveys a sense of heritage and high-end luxury appealing to those who appreciate tradition  and quality",
           "button_text": "View Collection",
@@ -2942,42 +2940,36 @@
           "img_KpzXcT": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1_c2abb65d-bab8-4247-a77d-edc877309b91.jpg",
               "url": ""
             }
           },
           "img_rzXeJd": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/2.jpg",
               "url": ""
             }
           },
           "img_AYBR7r": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/3.jpg",
               "url": ""
             }
           },
           "img_rFXzwJ": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/4.jpg",
               "url": ""
             }
           },
           "img_nTzKFg": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/5.jpg",
               "url": ""
             }
           },
           "img_PcQ4Kz": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/6.jpg",
               "url": ""
             }
           }
@@ -3072,7 +3064,6 @@
           "quote_aFQt3H": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4.jpg",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3268,7 +3259,6 @@
           "brand_gkyREq": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Trusted_by_2e085fc3-4e49-40cd-a0b4-529dddb1241a.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3276,7 +3266,6 @@
           "brand_WdwQRc": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/GIA-Logo-PNG_zeevector_1_084f5f03-450a-4c75-af3f-32255dac564d.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3284,7 +3273,6 @@
           "brand_9ig3qm": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/C_SGL_LOGO_1-removebg-preview_8fffe543-16e2-451a-a33b-49ad856f1f7c.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3292,7 +3280,6 @@
           "brand_RDwknK": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Google-Review-Logo_1_69b76872-2e3d-410d-9d1a-75029818e9ec.png",
               "url": "",
               "open_link": "_blank"
             }

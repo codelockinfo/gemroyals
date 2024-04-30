@@ -148,10 +148,26 @@
       font-size: 14px;
     }
   }
+  @media (max-width: 768px) {
+    .ring-box-img .ring-content .ring-h2 {
+      line-height: 36.57px;
+    }
+  }
   @media (max-width: 576px) {
+    .ring-grid-box {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 320px) {
     .ring-grid-box {
       grid-template-columns: repeat(1, 1fr);
     }
+    .ring-img {
+    width: 100%;
+    height: 479px;
+    object-position: center;
+    object-fit: cover;
+  }
   }
 
 </style>

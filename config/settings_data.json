@@ -3258,7 +3258,7 @@
           "cl_bg": "",
           "mg": "50px,,50px,",
           "pd": "",
-          "mg_mb": "",
+          "mg_mb": "50px 50px",
           "pd_mb": ""
         }
       },
@@ -3589,7 +3589,7 @@
           "text_ARBaNC"
         ],
         "custom_css": [
-          "p{margin:0;}"
+          "p {margin: 0;}"
         ],
         "settings": {
           "background": "#ffffff"

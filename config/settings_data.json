@@ -3588,8 +3588,11 @@
           "text_ANNjJn",
           "text_ARBaNC"
         ],
+        "custom_css": [
+          "p{margin:0;}"
+        ],
         "settings": {
-          "background": ""
+          "background": "#ffffff"
         }
       }
     },

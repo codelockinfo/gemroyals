@@ -3538,6 +3538,12 @@
           "Commitment_img_5": "shopify:\/\/shop_images\/14655978.png",
           "Commitment_para_5": "Eco Friendly <br> Element"
         }
+      },
+      "ring_collection_section_K9qq3c": {
+        "type": "ring-collection-section",
+        "settings": {
+          "background": ""
+        }
       }
     },
     "content_for_index": [
@@ -3549,7 +3555,8 @@
       "image_para_gdjHEA",
       "testimonials_J6TrF9",
       "brand_list_Kbyikt",
-      "instagram_feed_EJfntL"
+      "instagram_feed_EJfntL",
+      "ring_collection_section_K9qq3c"
     ]
   }
 }

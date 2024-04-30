@@ -2915,9 +2915,8 @@
           "p {margin-bottom: 0;}"
         ],
         "settings": {
-          "bannarbackimg": "shopify:\/\/shop_images\/background_header.jpg",
-          "banner_img": "shopify:\/\/shop_images\/banner_img.jpg",
-          "banner_png_img": "shopify:\/\/shop_images\/sparkle.png",
+          "bannarbackimg": "shopify:\/\/shop_images\/8b3ced88ac7ed54cc0ffa1abf7205673.jpg",
+          "banner_img": "shopify:\/\/shop_images\/7722a0c90981d3ca297254515ceff046.jpg",
           "banner_heading": "<p>A legacy of luxury<br\/><\/p>",
           "Paragraph_text": "Conveys a sense of heritage and high-end luxury appealing to those who appreciate tradition  and quality",
           "button_text": "View Collection",
@@ -2942,36 +2941,42 @@
           "img_KpzXcT": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/1_c2abb65d-bab8-4247-a77d-edc877309b91.jpg",
               "url": ""
             }
           },
           "img_rzXeJd": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/2.jpg",
               "url": ""
             }
           },
           "img_AYBR7r": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/3.jpg",
               "url": ""
             }
           },
           "img_rFXzwJ": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/4.jpg",
               "url": ""
             }
           },
           "img_nTzKFg": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/5.jpg",
               "url": ""
             }
           },
           "img_PcQ4Kz": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/6.jpg",
               "url": ""
             }
           }
@@ -3066,6 +3071,7 @@
           "quote_aFQt3H": {
             "type": "quote",
             "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4.jpg",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3261,6 +3267,7 @@
           "brand_gkyREq": {
             "type": "brand",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Trusted_by_2e085fc3-4e49-40cd-a0b4-529dddb1241a.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3268,6 +3275,7 @@
           "brand_WdwQRc": {
             "type": "brand",
             "settings": {
+              "image": "shopify:\/\/shop_images\/GIA-Logo-PNG_zeevector_1_084f5f03-450a-4c75-af3f-32255dac564d.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3275,6 +3283,7 @@
           "brand_9ig3qm": {
             "type": "brand",
             "settings": {
+              "image": "shopify:\/\/shop_images\/C_SGL_LOGO_1-removebg-preview_8fffe543-16e2-451a-a33b-49ad856f1f7c.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3282,6 +3291,7 @@
           "brand_RDwknK": {
             "type": "brand",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Google-Review-Logo_1_69b76872-2e3d-410d-9d1a-75029818e9ec.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3461,21 +3471,59 @@
           "text_ayDMhV": {
             "type": "text",
             "settings": {
-              "category_text": "",
+              "category_img": "shopify:\/\/shop_images\/c-1.png",
+              "category_text": "<p>Engagement Rings<\/p>",
               "collection_url": ""
             }
           },
           "text_NJ9AKt": {
             "type": "text",
             "settings": {
-              "category_text": "",
+              "category_img": "shopify:\/\/shop_images\/c-2.png",
+              "category_text": "<p><br\/>Wedding Bands<\/p>",
+              "collection_url": ""
+            }
+          },
+          "text_KrxJKL": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-3.png",
+              "category_text": "<p>Men's Band<\/p>",
+              "collection_url": ""
+            }
+          },
+          "text_pne8hK": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-4.png",
+              "category_text": "<p>Earrings<\/p>",
+              "collection_url": ""
+            }
+          },
+          "text_DMigHW": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-5.png",
+              "category_text": "<p>Necklace<\/p>",
+              "collection_url": ""
+            }
+          },
+          "text_TTiRRP": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-6.png",
+              "category_text": "<p>Bracelets<\/p>",
               "collection_url": ""
             }
           }
         },
         "block_order": [
           "text_ayDMhV",
-          "text_NJ9AKt"
+          "text_NJ9AKt",
+          "text_KrxJKL",
+          "text_pne8hK",
+          "text_DMigHW",
+          "text_TTiRRP"
         ],
         "settings": {
           "background": ""

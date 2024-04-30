@@ -728,6 +728,7 @@
           "logo_JHqENb": {
             "type": "logo",
             "settings": {
+              "image": "shopify:\/\/shop_images\/logo_img_prev_ui.png",
               "logo_width": 100,
               "title": "",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit",
@@ -742,7 +743,7 @@
             "type": "menu",
             "settings": {
               "title": "Useful link",
-              "menu": "",
+              "menu": "main-menu",
               "order": "1",
               "cl": "2",
               "cl_tb": "6",
@@ -753,7 +754,7 @@
             "type": "menu",
             "settings": {
               "title": "Policies & Services",
-              "menu": "",
+              "menu": "footer-menu",
               "order": "1",
               "cl": "2",
               "cl_tb": "6",
@@ -3267,6 +3268,7 @@
           "brand_gkyREq": {
             "type": "brand",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Trusted_by_2e085fc3-4e49-40cd-a0b4-529dddb1241a.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3274,6 +3276,7 @@
           "brand_WdwQRc": {
             "type": "brand",
             "settings": {
+              "image": "shopify:\/\/shop_images\/GIA-Logo-PNG_zeevector_1_084f5f03-450a-4c75-af3f-32255dac564d.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3281,6 +3284,15 @@
           "brand_9ig3qm": {
             "type": "brand",
             "settings": {
+              "image": "shopify:\/\/shop_images\/C_SGL_LOGO_1-removebg-preview_8fffe543-16e2-451a-a33b-49ad856f1f7c.png",
+              "url": "",
+              "open_link": "_blank"
+            }
+          },
+          "brand_RDwknK": {
+            "type": "brand",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Google-Review-Logo_1_69b76872-2e3d-410d-9d1a-75029818e9ec.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3288,6 +3300,7 @@
           "brand_GMtzdq": {
             "type": "brand",
             "settings": {
+              "image": "shopify:\/\/shop_images\/image_6-removebg-preview.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3295,13 +3308,7 @@
           "brand_gk7JJc": {
             "type": "brand",
             "settings": {
-              "url": "",
-              "open_link": "_blank"
-            }
-          },
-          "brand_ngGqXF": {
-            "type": "brand",
-            "settings": {
+              "image": "shopify:\/\/shop_images\/image_7-removebg-preview.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3311,9 +3318,9 @@
           "brand_gkyREq",
           "brand_WdwQRc",
           "brand_9ig3qm",
+          "brand_RDwknK",
           "brand_GMtzdq",
-          "brand_gk7JJc",
-          "brand_ngGqXF"
+          "brand_gk7JJc"
         ],
         "settings": {
           "title": "",
@@ -3465,36 +3472,77 @@
           "text_ayDMhV": {
             "type": "text",
             "settings": {
-              "category_text": "",
+              "category_img": "shopify:\/\/shop_images\/c-1.png",
+              "category_text": "<p>Engagement Rings<\/p>",
               "collection_url": ""
             }
           },
           "text_NJ9AKt": {
             "type": "text",
             "settings": {
-              "category_text": "",
+              "category_img": "shopify:\/\/shop_images\/c-2.png",
+              "category_text": "<p>Wedding Bands<\/p>",
+              "collection_url": ""
+            }
+          },
+          "text_KrxJKL": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-3.png",
+              "category_text": "<p>Men's Band<\/p>",
+              "collection_url": ""
+            }
+          },
+          "text_pne8hK": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-4.png",
+              "category_text": "<p>Earrings<\/p>",
+              "collection_url": ""
+            }
+          },
+          "text_DMigHW": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-5.png",
+              "category_text": "<p>Necklace<\/p>",
+              "collection_url": ""
+            }
+          },
+          "text_TTiRRP": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-6.png",
+              "category_text": "<p>Bracelets<\/p>",
               "collection_url": ""
             }
           }
         },
         "block_order": [
           "text_ayDMhV",
-          "text_NJ9AKt"
+          "text_NJ9AKt",
+          "text_KrxJKL",
+          "text_pne8hK",
+          "text_DMigHW",
+          "text_TTiRRP"
+        ],
+        "custom_css": [
+          "p {margin: 0;}"
         ],
         "settings": {
-          "background": ""
+          "background": "#f9f9f9"
         }
       }
     },
     "content_for_index": [
       "banner_section_GgqCN4",
       "dimond_section_yFdqY6",
+      "category_section_D9kHnp",
       "our_mission_F7HaXC",
       "image_para_gdjHEA",
       "testimonials_J6TrF9",
       "brand_list_Kbyikt",
-      "instagram_feed_EJfntL",
-      "category_section_D9kHnp"
+      "instagram_feed_EJfntL"
     ]
   }
 }

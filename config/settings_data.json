@@ -3525,6 +3525,9 @@
           "text_DMigHW",
           "text_TTiRRP"
         ],
+        "custom_css": [
+          "p {margin:0;}"
+        ],
         "settings": {
           "background": "#f9f9f9"
         }

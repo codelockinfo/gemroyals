@@ -13,17 +13,18 @@
    assign html_layout = '__' | split:'__'
   endif -%}
 
-<div class="nt_se_{{sid}} {{layout}}{%- if image != blank %} hide_bgimg_{{se_stts.hide_bgimg}} lazyload se_t4_bg nt_parallax_{{se_stts.use_pr}}{%- endif -%}"{% if image != blank %} data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto" data-parent-fit="cover"{% endif %}>
+<div class="padding-section overlay  {{layout}}{%- if image != blank %} hide_bgimg_{{se_stts.hide_bgimg}} lazyload se_t4_bg nt_parallax_{{se_stts.use_pr}}{%- endif -%}"{% if image != blank %} data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto" data-parent-fit="cover"{% endif %}>
   {{-html_layout[0]-}}
   {%- render 'section_title',section_title:'mb__40' -%}
-  <div class="equal_nt position_8 row{% if ter_des == '4' %} no-gutters{% endif %} quotes_wrapper quotes_des_{{ter_des}}{% if layout_des == '2' %} js_carousel nt_slider prev_next_{{se_stts.btn_color}} btn_owl_{{se_stts.btn_owl}} dot_owl_{{se_stts.dot_owl}} dot_color_{{se_stts.dot_color}} btn_vi_{{se_stts.btn_vi}}{% endif %}"{% if layout_des == '2' %} data-flickity='{"imagesLoaded": 0,"adaptiveHeight": 1, "contain": 1, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": {{se_stts.loop}},"prevNextButtons": {{se_stts.button}},"percentPosition": 1,"pageDots": {{se_stts.dot}}, "autoPlay" : {{ se_stts.au_time | times: 1000 }}, "pauseAutoPlayOnHover" : {{se_stts.au_hover}}, "rightToLeft": {{settings.use_rtl}} }'{% endif %}>
+  <div class="equal_nt  position_8 row{% if ter_des == '4' %} no-gutters{% endif %} quotes_wrapper quotes_des_{{ter_des}}{% if layout_des == '2' %} js_carousel nt_slider prev_next_{{se_stts.btn_color}} btn_owl_{{se_stts.btn_owl}} dot_owl_{{se_stts.dot_owl}} dot_color_{{se_stts.dot_color}} btn_vi_{{se_stts.btn_vi}}{% endif %}"{% if layout_des == '2' %} data-flickity='{"imagesLoaded": 0,"adaptiveHeight": 1, "contain": 1, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": {{se_stts.loop}},"prevNextButtons": {{se_stts.button}},"percentPosition": 1,"pageDots": {{se_stts.dot}}, "autoPlay" : {{ se_stts.au_time | times: 1000 }}, "pauseAutoPlayOnHover" : {{se_stts.au_hover}}, "rightToLeft": {{settings.use_rtl}} }'{% endif %}>
+    
     {%- if section.blocks.size > 0 -%}
       {%- if ter_des == '3' or ter_des == '6' -%}
-        {%- for block in section.blocks -%}<div class="quote_col col-12 col-md-{{col_tb}} col-lg-{{col}} mb__35">{%- render 'quote_3',block:block,rating:block.settings.rating -%}</div>{%- endfor -%}
+        {%- for block in section.blocks -%}<div class="quote_col 1111 col-12 col-md-{{col_tb}} col-lg-{{col}} mb__35 ">{%- render 'quote_3',block:block,rating:block.settings.rating -%}</div>{%- endfor -%}
       {%- elsif ter_des == '4' -%}
-        {%- for block in section.blocks -%}<div class="quote_col col-12 col-md-{{col_tb}} col-lg-{{col}}">{%- render 'quote_4',block:block,rating:block.settings.rating -%}</div>{%- endfor -%}
+        {%- for block in section.blocks -%}<div class="quote_col 222222 col-12 col-md-{{col_tb}} col-lg-{{col}} "> {% if block.settings.testi_img != blank %}<img src="{{ block.settings.testi_img | img_url: 'medium' }}" alt="">{% endif %}{%- render 'quote_4',block:block,rating:block.settings.rating -%}</div>{%- endfor -%}
       {%- else -%}
-        {%- for block in section.blocks -%}<div class="quote_col col-12 col-md-{{col_tb}} col-lg-{{col}} mb__35">{%- render 'quote',block:block,rating:block.settings.rating -%}</div>{%- endfor -%}
+        {%- for block in section.blocks -%}<div class="quote_col 33333333 col-12 col-md-{{col_tb}} col-lg-{{col}} mb__35">{%- render 'quote',block:block,rating:block.settings.rating -%}</div>{%- endfor -%}
       {%- endif -%}
     {%- else -%}
       {%- include 'no-blocks' -%}
@@ -474,6 +475,11 @@
             "info": "200x200 recommend"
           },
           {
+            "type": "image_picker",
+            "id": "testi_img",
+            "label": "select img"
+          },
+          {
             "type": "richtext",
             "id": "content",
             "label": "Text",
@@ -512,3 +518,64 @@
     ]
   }
 {% endschema %}
+
+
+<style>
+  .width-container .quotes_des_4 .quote_col {
+      border: 3px solid #dadada;
+      background-color:#F0F0F0;
+      padding: 41px 20px 49px;
+      margin: 0 10px; 
+      border-radius: 23px;
+      font-family: 'Montserrat Alternates';
+  }
+  .width-container .quotes_des_4{
+    border: 0;
+  }
+  .width-container .quotes_des_4 .quote_author{
+    color:#282828;
+    font-size:24px;
+    font-weight: 700;
+    line-height: 29.26px;
+  }
+  .width-container .quote_texts{
+    font-size: 18px;
+    color: #282828;
+    font-weight: 400;
+    line-height: 21.94px;
+  }
+  .width-container .section-title{
+    font-size: 64px;
+    font-family: 'vindia';
+    font-weight: 400;
+    line-height: 83.43px;
+    color:#282828;
+  }
+  .width-container .flickity-page-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .width-container .dot_owl_2 .flickity-page-dots .dot.is-selected {
+    width: 20px;
+    height: 20px;
+  }
+   .padding-section{
+    padding: 80px 0;
+  }
+  .overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .overlay::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffbd;
+    top: 0;
+    z-index: -1;
+  }
+</style>

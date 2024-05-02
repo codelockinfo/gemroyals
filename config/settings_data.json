@@ -20,10 +20,10 @@
     "catalog_mode": false,
     "enable_toolbar": true,
     "enable_new_pp": false,
-    "enable_pro_pr_pp": true,
+    "enable_pro_pr_pp": false,
     "enable_ck_pp": false,
     "enable_age_pp": false,
-    "enable_salse_pp": true,
+    "enable_salse_pp": false,
     "enable_salse_pp_mb": false,
     "platform_email": "1",
     "klaviyo_list_id": "",
@@ -51,26 +51,26 @@
     "enable_meta": true,
     "enable_tag": true,
     "filter_price_list": "$7-$50, $50-$150, $150-$500",
-    "logo_svg": "logo.svg",
-    "logo": "",
+    "logo_svg": "",
+    "logo": "shopify:\/\/shop_images\/logo_img_prev_ui.png",
     "logo_retina": "",
-    "logo_width": 180,
+    "logo_width": 80,
     "logos": "",
     "logos_retina": "",
-    "logos_width": 180,
+    "logos_width": 80,
     "logo_mb": "",
     "logo_mb_retina": "",
-    "logo_mb_width": 110,
+    "logo_mb_width": 80,
     "logo_tr_svg": "",
     "logo_tr": "",
     "logo_tr_retina": "",
     "logo_tr_width": 100,
     "h_banner": false,
-    "h_topbar": true,
+    "h_topbar": false,
     "full_header": true,
     "sticky_header": true,
     "scroll_header": false,
-    "header_design": "3",
+    "header_design": "5",
     "h_transparent": false,
     "h_tr_top": false,
     "h_navmb": 62,
@@ -78,10 +78,10 @@
     "only_icon": false,
     "first_cat": false,
     "h__bgimg": "",
-    "bgnav": "#ffffff",
+    "bgnav": "#bfbbb0",
     "opnav": 100,
     "clnav": "#4d5959",
-    "bgnavst": "#ffffff",
+    "bgnavst": "#bfbbb0",
     "opnavst": 100,
     "clnavst": "#222222",
     "bgnavtr": "#000000",
@@ -728,7 +728,6 @@
           "logo_JHqENb": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/logo_img_prev_ui.png",
               "logo_width": 100,
               "title": "",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit",
@@ -754,7 +753,7 @@
             "type": "menu",
             "settings": {
               "title": "Policies & Services",
-              "menu": "footer-menu",
+              "menu": "",
               "order": "1",
               "cl": "15",
               "cl_tb": "6",
@@ -2557,9 +2556,9 @@
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
-              "cl": "#ec0101",
+              "cl": "#ffffff",
               "lb": "",
-              "lb_cl": "rgba(0,0,0,0)"
+              "lb_cl": "#ffffff"
             }
           },
           "header_5-1": {
@@ -2570,7 +2569,7 @@
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
-              "cl": "#ec0101",
+              "cl": "#ffffff",
               "lb": "",
               "lb_cl": "rgba(0,0,0,0)"
             }
@@ -2916,8 +2915,8 @@
           "p {margin-bottom: 0;}"
         ],
         "settings": {
-          "bannarbackimg": "shopify:\/\/shop_images\/8b3ced88ac7ed54cc0ffa1abf7205673.jpg",
-          "banner_img": "shopify:\/\/shop_images\/7722a0c90981d3ca297254515ceff046.jpg",
+          "bannarbackimg": "shopify:\/\/shop_images\/background_header.jpg",
+          "banner_img": "shopify:\/\/shop_images\/banner_img.jpg",
           "banner_png_img": "shopify:\/\/shop_images\/sparkle.png",
           "banner_heading": "<p>A legacy of luxury<br\/><\/p>",
           "Paragraph_text": "Conveys a sense of heritage and high-end luxury appealing to those who appreciate tradition  and quality",
@@ -2943,42 +2942,36 @@
           "img_KpzXcT": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1_c2abb65d-bab8-4247-a77d-edc877309b91.jpg",
               "url": ""
             }
           },
           "img_rzXeJd": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/2.jpg",
               "url": ""
             }
           },
           "img_AYBR7r": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/3.jpg",
               "url": ""
             }
           },
           "img_rFXzwJ": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/4.jpg",
               "url": ""
             }
           },
           "img_nTzKFg": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/5.jpg",
               "url": ""
             }
           },
           "img_PcQ4Kz": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/6.jpg",
               "url": ""
             }
           }
@@ -3073,7 +3066,6 @@
           "quote_aFQt3H": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3083,7 +3075,6 @@
           "quote_8rmGL6": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3093,7 +3084,6 @@
           "quote_DUy8kV": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3103,7 +3093,6 @@
           "quote_ArjiFb": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3113,7 +3102,6 @@
           "quote_QCjPtn": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3123,7 +3111,6 @@
           "quote_cX3eU4": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3174,7 +3161,6 @@
           "brand_gkyREq": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Trusted_by_2e085fc3-4e49-40cd-a0b4-529dddb1241a.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3182,7 +3168,6 @@
           "brand_WdwQRc": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/GIA-Logo-PNG_zeevector_1_084f5f03-450a-4c75-af3f-32255dac564d.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3190,7 +3175,6 @@
           "brand_9ig3qm": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/C_SGL_LOGO_1-removebg-preview_8fffe543-16e2-451a-a33b-49ad856f1f7c.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3198,7 +3182,6 @@
           "brand_RDwknK": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Google-Review-Logo_1_69b76872-2e3d-410d-9d1a-75029818e9ec.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3461,7 +3444,6 @@
           "text_8xB7Xa": {
             "type": "text",
             "settings": {
-              "ring_img": "shopify:\/\/shop_images\/1_0faa480d-1efe-420c-9bc9-a9461d5e62d7.jpg",
               "ring_h2": "<p>Moissanite<\/p>",
               "ring_p1": "Browse our bespoke collection of brilliant and durable moissanite jewelry.",
               "ring_p2": "DISCOVER",
@@ -3471,7 +3453,6 @@
           "text_ANNjJn": {
             "type": "text",
             "settings": {
-              "ring_img": "shopify:\/\/shop_images\/2_3bd1c867-a6d7-48e4-9328-18a40c1b53a4.jpg",
               "ring_h2": "<p>Lab Grown Diamond<\/p>",
               "ring_p1": "Discover luxury with our collection of conflict-free lab-diamond jewelry.",
               "ring_p2": "DISCOVER",
@@ -3481,7 +3462,6 @@
           "text_ARBaNC": {
             "type": "text",
             "settings": {
-              "ring_img": "shopify:\/\/shop_images\/3_41eaeec4-4164-49b0-b02c-93f3b1a139ec.jpg",
               "ring_h2": "<p>Bespoke Engagement Rings<br\/><\/p>",
               "ring_p1": "",
               "ring_p2": "DISCOVER",
@@ -3500,6 +3480,113 @@
         "settings": {
           "background": "#ffffff"
         }
+      },
+      "collection_list_bWEJ4G": {
+        "type": "collection-list",
+        "blocks": {
+          "collection_JYRcDG": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/c-3.png",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_kgEBV7": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/c-4.png",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_fXAgJQ": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_hQ9DPX": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_nhm847": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_irJxck": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "collection_JYRcDG",
+          "collection_kgEBV7",
+          "collection_fXAgJQ",
+          "collection_hQ9DPX",
+          "collection_nhm847",
+          "collection_irJxck"
+        ],
+        "disabled": true,
+        "settings": {
+          "title": "Collection list",
+          "sub_title": "Sub Text",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "cat_layout": "2",
+          "hoverz": true,
+          "cat_design": "8",
+          "cat_space": "30",
+          "image_ratio": "ratio_nt",
+          "col": "3",
+          "col_md": "3",
+          "col_mb": "6",
+          "spn_txt": "Shop now",
+          "pr_txt": "products",
+          "loop": true,
+          "autoplay": false,
+          "au_time": 6,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": true,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "hidden": false,
+          "cp_code": false,
+          "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
@@ -3507,6 +3594,7 @@
       "commitment_zrjTb9",
       "dimond_section_yFdqY6",
       "category_section_D9kHnp",
+      "collection_list_bWEJ4G",
       "our_mission_F7HaXC",
       "ring_collection_section_K9qq3c",
       "image_para_gdjHEA",

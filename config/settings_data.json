@@ -60,7 +60,7 @@
     "logos_width": 80,
     "logo_mb": "",
     "logo_mb_retina": "",
-    "logo_mb_width": 110,
+    "logo_mb_width": 80,
     "logo_tr_svg": "",
     "logo_tr": "",
     "logo_tr_retina": "",
@@ -3500,6 +3500,90 @@
         "settings": {
           "background": "#ffffff"
         }
+      },
+      "collection_list_bWEJ4G": {
+        "type": "collection-list",
+        "blocks": {
+          "collection_JYRcDG": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_fXAgJQ": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_hQ9DPX": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_nhm847": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "collection_JYRcDG",
+          "collection_fXAgJQ",
+          "collection_hQ9DPX",
+          "collection_nhm847"
+        ],
+        "settings": {
+          "title": "Collection list",
+          "sub_title": "Sub Text",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "cat_layout": "2",
+          "hoverz": true,
+          "cat_design": "8",
+          "cat_space": "30",
+          "image_ratio": "ratio_nt",
+          "col": "3",
+          "col_md": "3",
+          "col_mb": "6",
+          "spn_txt": "Shop now",
+          "pr_txt": "products",
+          "loop": true,
+          "autoplay": false,
+          "au_time": 6,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": true,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "hidden": false,
+          "cp_code": false,
+          "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
@@ -3512,7 +3596,8 @@
       "image_para_gdjHEA",
       "testimonials_J6TrF9",
       "brand_list_Kbyikt",
-      "instagram_feed_EJfntL"
+      "instagram_feed_EJfntL",
+      "collection_list_bWEJ4G"
     ]
   }
 }

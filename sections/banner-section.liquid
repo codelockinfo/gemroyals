@@ -6,7 +6,10 @@
       <div class="width-row">
         <div class="banner-content">
           <div class="banner-vector">
-            <img src="{{section.settings.banner_png_img |  img_url: 'master' }}"  class="banner-png" alt=""></div>
+            <img
+              src="{{section.settings.banner_png_img |  img_url: 'master' }}"
+              class="banner-png"
+              alt=""></div>
           <h1 class="heading-h1">{{ section.settings.banner_heading }}</h1>
           <p class="banner-p">{{ section.settings.Paragraph_text }}</p>
           <button class="banner-button">
@@ -21,7 +24,10 @@
       </div>
     </div>
   </div>
-  <img src="{{section.settings.banner_img |  img_url: 'master'}}" class="banner-img"  alt="">
+  <img
+    src="{{section.settings.banner_img |  img_url: 'master'}}"
+    class="banner-img"
+    alt="">
 </div>
 
 {% schema %}
@@ -116,6 +122,10 @@
   .banner .banner-box .banner-content {
     width: 66%;
     padding-top: 100px;
+<<<<<<< HEAD
+=======
+    margin-bottom: 110px;
+>>>>>>> f8a4ec7f2ea51c570eeb7cec748617da91409e25
     z-index: 9;
   }
   .banner .banner-box .banner-content .heading-h1 {
@@ -187,14 +197,23 @@
     .banner .banner-img {
       right: -25%;
     }
+
+    .banner .banner-box .banner-content {
+      margin-bottom: 110px;
+    }
   }
 
-/* 
+
   @media (max-width: 787px) {
-    .banner .width-container .margin {
-      margin-bottom: 150px;
+    .banner-content {
+      padding-bottom: 190px;
     }
-  } */
+
+    .banner .banner-box .banner-content {
+      margin-bottom: 0;
+    }
+  }
+
 
   @media (max-width: 768px) {
 
@@ -228,6 +247,12 @@
       padding: 10px 5px;
     }
   }
+
+  @media (max-width: 670px) {
+    .banner-content {
+      padding-bottom: 225px;
+    }
+  }
   @media (max-width: 576px) {
     .banner .banner-box .banner-content .heading-h1 {
       font-size: 50px;
@@ -246,10 +271,9 @@
     }
   }
 
-
   @media (max-width: 409px) {
-    .banner .width-container .margin {
-      margin-bottom: 260px;
+    .banner-content {
+      padding-bottom: 315px;
     }
   }
   @media (max-width: 400px) {
@@ -258,6 +282,13 @@
     }
     .banner .banner-box .banner-content .banner-p {
       font-size: 12px;
+    }
+  }
+
+
+  @media (max-width: 385px) {
+    .banner-content {
+      padding-bottom: 350px;
     }
   }
 

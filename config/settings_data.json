@@ -3569,6 +3569,7 @@
           "collection_nhm847",
           "collection_irJxck"
         ],
+        "disabled": true,
         "settings": {
           "title": "Collection list",
           "sub_title": "Sub Text",

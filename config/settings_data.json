@@ -728,6 +728,7 @@
           "logo_JHqENb": {
             "type": "logo",
             "settings": {
+              "image": "shopify:\/\/shop_images\/f3695c9ae590ec1db22a56fe83769272-Photoroom.png-Photoroom.png",
               "logo_width": 100,
               "title": "",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit",
@@ -753,7 +754,7 @@
             "type": "menu",
             "settings": {
               "title": "Policies & Services",
-              "menu": "",
+              "menu": "policies-services",
               "order": "1",
               "cl": "15",
               "cl_tb": "6",

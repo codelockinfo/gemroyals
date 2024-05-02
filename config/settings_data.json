@@ -743,7 +743,7 @@
             "type": "menu",
             "settings": {
               "title": "Useful link",
-              "menu": "main-menu",
+              "menu": "useful-links",
               "order": "1",
               "cl": "15",
               "cl_tb": "6",

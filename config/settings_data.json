@@ -78,10 +78,10 @@
     "only_icon": false,
     "first_cat": false,
     "h__bgimg": "",
-    "bgnav": "#ffffff",
+    "bgnav": "#bfbbb0",
     "opnav": 100,
     "clnav": "#4d5959",
-    "bgnavst": "#ffffff",
+    "bgnavst": "#bfbbb0",
     "opnavst": 100,
     "clnavst": "#222222",
     "bgnavtr": "#000000",
@@ -2557,9 +2557,9 @@
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
-              "cl": "#ec0101",
+              "cl": "#ffffff",
               "lb": "",
-              "lb_cl": "rgba(0,0,0,0)"
+              "lb_cl": "#ffffff"
             }
           },
           "header_5-1": {

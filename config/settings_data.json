@@ -3508,6 +3508,17 @@
             "type": "collection",
             "settings": {
               "collection": "",
+              "image": "shopify:\/\/shop_images\/c-3.png",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_kgEBV7": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/c-4.png",
               "img_align": "center",
               "title": "",
               "url": ""
@@ -3539,13 +3550,24 @@
               "title": "",
               "url": ""
             }
+          },
+          "collection_irJxck": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
           }
         },
         "block_order": [
           "collection_JYRcDG",
+          "collection_kgEBV7",
           "collection_fXAgJQ",
           "collection_hQ9DPX",
-          "collection_nhm847"
+          "collection_nhm847",
+          "collection_irJxck"
         ],
         "settings": {
           "title": "Collection list",

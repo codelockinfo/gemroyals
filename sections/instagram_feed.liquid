@@ -11,27 +11,27 @@
   assign block = section_blocks.first
   assign b_type = block.type -%}
 
-<div class=" pr ins_loaded">
+<div class=" pr ins_loaded  insta-padding-section">
   {%- if b_type == '1' -%}
     {%- render 'block_title',block:block,block_title:'mb__20' -%}
   {%- elsif b_type != blank -%}
-    <div class="ins_content {{block.settings.pos}} t__0 l__0 r__0 b__0 flex fl_center al_center pe_none op__0 b_type_{{b_type}}">
-      <div class="ins_content_wrap style_{{block.settings.des}} tc">
+    <div class="ins_content   {{block.settings.pos}} t__0 l__0 r__0 b__0 flex fl_center al_center pe_none op__0 b_type_{{b_type}}">
+      <div class="ins_content_wrap style_{{block.settings.des}} tc nivedita">
         {%- if b_type == '2' -%}
           <p></p>
-          <h4 class="mg__0 fwsb fs__18">{{block.settings.title}}</h4>
+          <h4 class="mg__0 fwsb fs__18 ">{{block.settings.title}}</h4>
           <h6 class="mb__10 cg fwm fs__12">{{block.settings.sub_title}}</h6>
           {{block.settings.content}}
           <p></p>
         {%- elsif b_type == '3' -%}
           <p></p>
-          <h4 class="mg__0 fwsb fs__18">{{block.settings.title}}</h4>
+          <h4 class="mg__0 fwsb fs__18 ">{{block.settings.title}}</h4>
           <hr class="hr_border mt__10 mb__10">
           {{block.settings.content}}
           <p></p>
         {%- else -%}
           <p class="sub-title mg__0 mb__5">{{block.settings.content}}</p>
-          <h4 class="mg__0 fwsb fs__18">{{block.settings.title}}</h4>
+          <h4 class="mg__0 fwsb fs__18 ">{{block.settings.title}}</h4>
         {%- endif -%}
       </div>
     </div>
@@ -912,6 +912,9 @@
    .insta-icon .insta{
     font-size: 16px;
 
+   }
+   .insta-padding-section{
+     padding-top: 50px;
    }
 </style>
 

@@ -4343,11 +4343,47 @@
               "url": "",
               "open_link": "_blank"
             }
+          },
+          "brand_WYaVHm": {
+            "type": "brand",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/C_SGL_LOGO_1-removebg-preview_8fffe543-16e2-451a-a33b-49ad856f1f7c.png",
+              "url": "",
+              "open_link": "_blank"
+            }
+          },
+          "brand_kTHXLL": {
+            "type": "brand",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Google-Review-Logo_1_69b76872-2e3d-410d-9d1a-75029818e9ec.png",
+              "url": "",
+              "open_link": "_blank"
+            }
+          },
+          "brand_hYYNee": {
+            "type": "brand",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_6-removebg-preview.png",
+              "url": "",
+              "open_link": "_blank"
+            }
+          },
+          "brand_33RFCU": {
+            "type": "brand",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_7-removebg-preview.png",
+              "url": "",
+              "open_link": "_blank"
+            }
           }
         },
         "block_order": [
           "brand_Tyqp4D",
-          "brand_xQDVcL"
+          "brand_xQDVcL",
+          "brand_WYaVHm",
+          "brand_kTHXLL",
+          "brand_hYYNee",
+          "brand_33RFCU"
         ],
         "settings": {
           "title": "",

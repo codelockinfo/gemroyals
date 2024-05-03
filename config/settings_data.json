@@ -148,17 +148,19 @@
     "fw_bd": 400,
     "bd_line_height": 1.7,
     "hd_letter_spacing": 1,
+    "fw_hd1": 37,
+    "fw_hd3": 23,
     "fw_hd": 400,
     "hd_line_height": 1.4,
     "ls_hd": 2,
     "fs_nav": 14,
     "fw_nav": 400,
     "ls_nav": 3,
-    "size_se_tt": 20,
+    "size_se_tt": 40,
     "fw_se_tt": 400,
     "lh_se_tt": 0,
     "ls_se_tt": 0,
-    "size_se_tt_mb": 20,
+    "size_se_tt_mb": 30.5,
     "fw_se_tt_mb": 400,
     "lh_se_tt_mb": 0,
     "ls_se_tt_mb": 0,
@@ -196,7 +198,7 @@
     "auto_hide_ofsock": false,
     "show_hide_ofsock": false,
     "pr_layout": "default",
-    "design_products": "4",
+    "design_products": "1",
     "size_img_pr": "2",
     "nav_img_pr": "medium",
     "use_sticky_des": false,
@@ -1603,12 +1605,13 @@
             "type": "pricereview",
             "settings": {
               "price": "0",
-              "show_available": true,
+              "show_available": false,
               "rating": true
             }
           },
           "pr_summary-2": {
             "type": "des",
+            "disabled": true,
             "settings": {
               "des": "2",
               "page": "",
@@ -1620,21 +1623,22 @@
           "pr_summary-3": {
             "type": "frm",
             "settings": {
-              "ani": "shake",
+              "ani": "none",
               "time": 6,
-              "btn_des": "1",
-              "btn_txt": "3",
+              "btn_des": "3",
+              "btn_txt": "2",
               "swatch_design": "2",
               "style_color": "1",
               "swatch_style": "1",
               "swatch_size": "medium",
-              "show_qty": true,
+              "show_qty": false,
               "btn_atc_full": false,
-              "enable_payment_btn": true
+              "enable_payment_btn": false
             }
           },
           "1585709158220": {
             "type": "img",
+            "disabled": true,
             "settings": {
               "mess": "",
               "size": 16,
@@ -1647,8 +1651,9 @@
           },
           "pr_summary-4": {
             "type": "size",
+            "disabled": true,
             "settings": {
-              "size_chart": "2",
+              "size_chart": "1",
               "sc_type": "1",
               "page": "",
               "size_ck": "",
@@ -1659,15 +1664,17 @@
           },
           "pr_summary-5": {
             "type": "meta",
+            "disabled": true,
             "settings": {
               "show_pr_vendor": false,
-              "show_sku": true,
-              "show_category_product": true,
-              "show_tag_product": true
+              "show_sku": false,
+              "show_category_product": false,
+              "show_tag_product": false
             }
           },
           "pr_summary-6": {
             "type": "social",
+            "disabled": true,
             "settings": {
               "class": "tc"
             }
@@ -1736,7 +1743,7 @@
         "type": "product-recommendations",
         "settings": {
           "show": true,
-          "title": "You may also like",
+          "title": "Related Products",
           "sub_title": "",
           "sub_font": "2",
           "style_title": "title_1",
@@ -3651,7 +3658,7 @@
               "url": "",
               "open_link": "_self",
               "menu": "engagement-rings",
-              "col": "4"
+              "col": "3"
             }
           },
           "link_giCzBw": {
@@ -3661,7 +3668,7 @@
               "url": "",
               "open_link": "_self",
               "menu": "lab-grown-diamond-rings",
-              "col": "4"
+              "col": "3"
             }
           },
           "link_AFnyUx": {
@@ -3671,7 +3678,18 @@
               "url": "",
               "open_link": "_self",
               "menu": "gemstone-rings",
-              "col": "4"
+              "col": "3"
+            }
+          },
+          "cat_d6fUM7": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c-3.png",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "moissanite-mens-band",
+              "title": "Engagement Ring",
+              "col": "3"
             }
           },
           "mega_tHqkEW": {
@@ -3711,6 +3729,17 @@
               "col": "4"
             }
           },
+          "cat_n3Gnmg": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC06449.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "moissanite-mens-band",
+              "title": "Wedding Band",
+              "col": "4"
+            }
+          },
           "mega_QP9bDE": {
             "type": "mega",
             "settings": {
@@ -3735,6 +3764,28 @@
               "url": "",
               "open_link": "_self",
               "menu": "fine-jewelry",
+              "col": "4"
+            }
+          },
+          "cat_nKCjmy": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC01817.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "moissanite-mens-band",
+              "title": "Bracelet",
+              "col": "4"
+            }
+          },
+          "cat_MiyAxH": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC01637.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "moissanite-mens-band",
+              "title": "Earrings",
               "col": "4"
             }
           },
@@ -3815,11 +3866,15 @@
           "link_BNkaq6",
           "link_giCzBw",
           "link_AFnyUx",
+          "cat_d6fUM7",
           "mega_tHqkEW",
           "link_kwEJLX",
           "link_xC4Ph8",
+          "cat_n3Gnmg",
           "mega_QP9bDE",
           "link_4aKQXz",
+          "cat_nKCjmy",
+          "cat_MiyAxH",
           "simple_kwz7zm",
           "header_2-1",
           "simple_P6G6HD",
@@ -3835,6 +3890,224 @@
           "social": "2",
           "align": "tc",
           "hover": "hover_side_up"
+        }
+      },
+      "Commitment": {
+        "type": "Commitment",
+        "settings": {
+          "Commitment_head": "Our Commitment to Excellence",
+          "Commitment_img_1": "shopify:\/\/shop_images\/9585979.png",
+          "Commitment_para_1": "World Wide <br> Shipping",
+          "Commitment_img_2": "shopify:\/\/shop_images\/3917727.png",
+          "Commitment_para_2": "24\/7 Customer <br> Service",
+          "Commitment_img_3": "shopify:\/\/shop_images\/7653682.png",
+          "Commitment_para_3": "100% Money <br> Back Guarantee",
+          "Commitment_img_4": "shopify:\/\/shop_images\/7661461.png",
+          "Commitment_para_4": "Unbeatable <br> Market Price",
+          "Commitment_img_5": "shopify:\/\/shop_images\/14655978.png",
+          "Commitment_para_5": "Eco Friendly <br> Element"
+        }
+      },
+      "testimonials": {
+        "type": "testimonials",
+        "blocks": {
+          "quote_E6wTVP": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "title": "Leo",
+              "pos": "Lead Designer",
+              "rating": 4
+            }
+          },
+          "quote_3w4VEy": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "title": "Leo",
+              "pos": "Lead Designer",
+              "rating": 4
+            }
+          },
+          "quote_xkTL9N": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "title": "Leo",
+              "pos": "Lead Designer",
+              "rating": 4
+            }
+          },
+          "quote_BJjnCR": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "title": "Leo",
+              "pos": "Lead Designer",
+              "rating": 4
+            }
+          },
+          "quote_tRB8NJ": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "title": "Leo",
+              "pos": "Lead Designer",
+              "rating": 4
+            }
+          },
+          "quote_cG86PY": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "title": "Leo",
+              "pos": "Lead Designer",
+              "rating": 4
+            }
+          }
+        },
+        "block_order": [
+          "quote_E6wTVP",
+          "quote_3w4VEy",
+          "quote_xkTL9N",
+          "quote_BJjnCR",
+          "quote_tRB8NJ",
+          "quote_cG86PY"
+        ],
+        "settings": {
+          "title": "Reviews",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "layout_des": "2",
+          "ter_des": "4",
+          "col_pr": "3",
+          "col_pr_tb": "6",
+          "loop": true,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": true,
+          "dot_owl": "2",
+          "dot_color": "1",
+          "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "instagram_feed": {
+        "type": "instagram_feed",
+        "blocks": {
+          "1_UGMrNF": {
+            "type": "1",
+            "settings": {
+              "title": "See Our Instagram Feed",
+              "sub_title": "",
+              "sub_font": "2",
+              "style_title": "title_1",
+              "ic_tt": "gem",
+              "show_clpr": false
+            }
+          },
+          "img_rYE3AX": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_c2abb65d-bab8-4247-a77d-edc877309b91.jpg",
+              "url": ""
+            }
+          },
+          "img_TkV4hL": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2.jpg",
+              "url": ""
+            }
+          },
+          "img_fW48kU": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3.jpg",
+              "url": ""
+            }
+          },
+          "img_BtQVRL": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/4.jpg",
+              "url": ""
+            }
+          },
+          "img_7YWm6w": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/5.jpg",
+              "url": ""
+            }
+          },
+          "img_m9Cfjb": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/6.jpg",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "1_UGMrNF",
+          "img_rYE3AX",
+          "img_TkV4hL",
+          "img_fW48kU",
+          "img_BtQVRL",
+          "img_7YWm6w",
+          "img_m9Cfjb"
+        ],
+        "settings": {
+          "open_link": "_self",
+          "layout_des": "2",
+          "space": "0",
+          "rounded_ins": "0",
+          "col_pr": "2",
+          "col_pr_tb": "3",
+          "col_pr_mb": "6",
+          "loop": false,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot_owl": "1",
+          "dot_color": "1",
+          "use_eq_height": true,
+          "image_ratio": "ratio1_1",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "layout": "nt_full",
+          "cl_bg": "#ffffff",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
         }
       }
     },

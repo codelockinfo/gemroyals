@@ -3607,8 +3607,8 @@
           },
           "text_htJNAT": {
             "type": "text",
-            "disabled": true,
             "settings": {
+              "category_img": "shopify:\/\/shop_images\/LR2201-3_600x_crop_center_175fa2b9-e28b-487e-878c-519cca65588f.png",
               "category_text": "<p>Ring Set<\/p>",
               "collection_url": ""
             }

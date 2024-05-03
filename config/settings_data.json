@@ -3800,6 +3800,17 @@
               "col": "4"
             }
           },
+          "cat_rrBiLQ": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/FRONTDOM_5fe42a5a-47a9-455a-9b03-49a5007fc2ae.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "wedding-bands",
+              "title": "Wedding Bands",
+              "col": "4"
+            }
+          },
           "simple_kwz7zm": {
             "type": "simple",
             "settings": {
@@ -3887,6 +3898,7 @@
           "link_4aKQXz",
           "cat_nKCjmy",
           "cat_MiyAxH",
+          "cat_rrBiLQ",
           "simple_kwz7zm",
           "header_2-1",
           "simple_P6G6HD",

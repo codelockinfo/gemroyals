@@ -197,7 +197,7 @@
     "logic_filter": "2",
     "auto_hide_ofsock": false,
     "show_hide_ofsock": false,
-    "pr_layout": "default",
+    "pr_layout": "full",
     "design_products": "1",
     "size_img_pr": "2",
     "nav_img_pr": "medium",

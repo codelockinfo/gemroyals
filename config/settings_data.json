@@ -3716,7 +3716,7 @@
               "url": "",
               "open_link": "_self",
               "menu": "moissanite-bands",
-              "col": "4"
+              "col": "3"
             }
           },
           "link_xC4Ph8": {
@@ -3726,7 +3726,7 @@
               "url": "",
               "open_link": "_self",
               "menu": "lab-grown-diamond-bands",
-              "col": "4"
+              "col": "3"
             }
           },
           "cat_n3Gnmg": {
@@ -3737,7 +3737,18 @@
               "hoverz": true,
               "collection": "moissanite-mens-band",
               "title": "Wedding Band",
-              "col": "4"
+              "col": "3"
+            }
+          },
+          "cat_BjHtXB": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c-2.png",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "moissanite-mens-band",
+              "title": "Engagement band",
+              "col": "3"
             }
           },
           "mega_QP9bDE": {
@@ -3764,7 +3775,7 @@
               "url": "",
               "open_link": "_self",
               "menu": "fine-jewelry",
-              "col": "4"
+              "col": "3"
             }
           },
           "cat_nKCjmy": {
@@ -3775,7 +3786,7 @@
               "hoverz": true,
               "collection": "moissanite-mens-band",
               "title": "Bracelet",
-              "col": "4"
+              "col": "3"
             }
           },
           "cat_MiyAxH": {
@@ -3786,7 +3797,18 @@
               "hoverz": true,
               "collection": "moissanite-mens-band",
               "title": "Earrings",
-              "col": "4"
+              "col": "3"
+            }
+          },
+          "cat_rrBiLQ": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/FRONTDOM_5fe42a5a-47a9-455a-9b03-49a5007fc2ae.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "wedding-bands",
+              "title": "Wedding Bands",
+              "col": "3"
             }
           },
           "simple_kwz7zm": {
@@ -3871,10 +3893,12 @@
           "link_kwEJLX",
           "link_xC4Ph8",
           "cat_n3Gnmg",
+          "cat_BjHtXB",
           "mega_QP9bDE",
           "link_4aKQXz",
           "cat_nKCjmy",
           "cat_MiyAxH",
+          "cat_rrBiLQ",
           "simple_kwz7zm",
           "header_2-1",
           "simple_P6G6HD",

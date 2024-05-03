@@ -3756,6 +3756,17 @@
               "col": "4"
             }
           },
+          "cat_nKCjmy": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC01817.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "moissanite-mens-band",
+              "title": "Bracelet",
+              "col": "4"
+            }
+          },
           "simple_kwz7zm": {
             "type": "simple",
             "settings": {
@@ -3839,6 +3850,7 @@
           "cat_n3Gnmg",
           "mega_QP9bDE",
           "link_4aKQXz",
+          "cat_nKCjmy",
           "simple_kwz7zm",
           "header_2-1",
           "simple_P6G6HD",

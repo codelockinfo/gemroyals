@@ -3836,6 +3836,137 @@
           "align": "tc",
           "hover": "hover_side_up"
         }
+      },
+      "Commitment": {
+        "type": "Commitment",
+        "settings": {
+          "Commitment_head": "",
+          "Commitment_para_1": "",
+          "Commitment_para_2": "",
+          "Commitment_para_3": "",
+          "Commitment_para_4": "",
+          "Commitment_para_5": ""
+        }
+      },
+      "testimonials": {
+        "type": "testimonials",
+        "settings": {
+          "title": "Testimonials",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "layout_des": "1",
+          "ter_des": "1",
+          "col_pr": "4",
+          "col_pr_tb": "6",
+          "loop": true,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": true,
+          "dot_owl": "2",
+          "dot_color": "1",
+          "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "instagram_feed": {
+        "type": "instagram_feed",
+        "blocks": {
+          "1_UGMrNF": {
+            "type": "1",
+            "settings": {
+              "title": "See Our Instagram Feed",
+              "sub_title": "",
+              "sub_font": "2",
+              "style_title": "title_1",
+              "ic_tt": "gem",
+              "show_clpr": false
+            }
+          },
+          "img_rYE3AX": {
+            "type": "img",
+            "settings": {
+              "url": ""
+            }
+          },
+          "img_TkV4hL": {
+            "type": "img",
+            "settings": {
+              "url": ""
+            }
+          },
+          "img_fW48kU": {
+            "type": "img",
+            "settings": {
+              "url": ""
+            }
+          },
+          "img_BtQVRL": {
+            "type": "img",
+            "settings": {
+              "url": ""
+            }
+          },
+          "img_7YWm6w": {
+            "type": "img",
+            "settings": {
+              "url": ""
+            }
+          },
+          "img_m9Cfjb": {
+            "type": "img",
+            "settings": {
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "1_UGMrNF",
+          "img_rYE3AX",
+          "img_TkV4hL",
+          "img_fW48kU",
+          "img_BtQVRL",
+          "img_7YWm6w",
+          "img_m9Cfjb"
+        ],
+        "settings": {
+          "open_link": "_self",
+          "layout_des": "2",
+          "space": "0",
+          "rounded_ins": "0",
+          "col_pr": "2",
+          "col_pr_tb": "3",
+          "col_pr_mb": "6",
+          "loop": false,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot_owl": "1",
+          "dot_color": "1",
+          "use_eq_height": true,
+          "image_ratio": "ratio1_1",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "layout": "nt_full",
+          "cl_bg": "#fff",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [

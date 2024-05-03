@@ -3728,6 +3728,16 @@
               "cus_wid": 1200
             }
           },
+          "link_4aKQXz": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "",
+              "url": "",
+              "open_link": "_self",
+              "menu": "fine-jewelry",
+              "col": "4"
+            }
+          },
           "simple_kwz7zm": {
             "type": "simple",
             "settings": {
@@ -3809,6 +3819,7 @@
           "link_kwEJLX",
           "link_xC4Ph8",
           "mega_QP9bDE",
+          "link_4aKQXz",
           "simple_kwz7zm",
           "header_2-1",
           "simple_P6G6HD",

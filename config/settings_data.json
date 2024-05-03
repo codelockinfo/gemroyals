@@ -4411,7 +4411,7 @@
           "dot_color": "1",
           "layout": "wrap",
           "cl_bg": "#f2e7d8",
-          "mg": "50px,,50px,",
+          "mg": "50px,,,",
           "pd": "",
           "mg_mb": "",
           "pd_mb": ""

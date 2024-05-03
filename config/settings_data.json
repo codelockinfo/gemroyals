@@ -3152,6 +3152,7 @@
           "quote_QCjPtn",
           "quote_cX3eU4"
         ],
+        "disabled": true,
         "settings": {
           "title": "Let customers speak for us",
           "sub_title": "",
@@ -4203,6 +4204,113 @@
           "main_head": "Custom Process",
           "main_paragraph": "Learn more about how to customize a moissanite ring that you will love for a lifetime."
         }
+      },
+      "testimonials_YytaNL": {
+        "type": "testimonials",
+        "blocks": {
+          "quote_iYyygi": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>I absolutely love my moissanite jewelry! The brilliance and sparkle are incredible, and I appreciate knowing that it's an ethical and sustainable choice.<\/p>",
+              "title": "Jessica Miller",
+              "pos": "",
+              "rating": 4
+            }
+          },
+          "quote_rQmaUP": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>I was amazed by the quality of my moissanite ring. It looks just like a diamond but without the hefty price tag. I get compliments on it all the time!<\/p>",
+              "title": "Melanie V",
+              "pos": "",
+              "rating": 4
+            }
+          },
+          "quote_RWeqri": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>I bought a moissanite bracelet for my wife. It's beautiful, durable, and the perfect addition to her jewelry collection.<\/p>",
+              "title": "James",
+              "pos": "",
+              "rating": 4
+            }
+          },
+          "quote_nRt8bz": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>I'm so glad I chose moissanite for my engagement ring. It's stunningly beautiful, and I love that it's an eco-friendly alternative to traditional diamonds.<\/p>",
+              "title": "Angelica",
+              "pos": "",
+              "rating": 5
+            }
+          },
+          "quote_qLUN7X": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "title": "Leo",
+              "pos": "Lead Designer",
+              "rating": 5
+            }
+          },
+          "quote_FGBHMf": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "title": "Leo",
+              "pos": "Lead Designer",
+              "rating": 5
+            }
+          }
+        },
+        "block_order": [
+          "quote_iYyygi",
+          "quote_rQmaUP",
+          "quote_RWeqri",
+          "quote_nRt8bz",
+          "quote_qLUN7X",
+          "quote_FGBHMf"
+        ],
+        "settings": {
+          "title": "Let customers speak for us",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "layout_des": "2",
+          "ter_des": "4",
+          "col_pr": "3",
+          "col_pr_tb": "6",
+          "loop": true,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "1",
+          "dot": true,
+          "dot_owl": "2",
+          "dot_color": "1",
+          "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "50px 50px",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
@@ -4216,6 +4324,7 @@
       "slider_image_zEAAR8",
       "image_para_gdjHEA",
       "testimonials_J6TrF9",
+      "testimonials_YytaNL",
       "brand_list_Kbyikt",
       "instagram_feed_EJfntL"
     ]

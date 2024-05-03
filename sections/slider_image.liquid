@@ -1,28 +1,28 @@
-<div class="custom_main">
-  <div class="custom_main_1">
+<div class="main_section_1">
+  <div class="main_section_2">
     <div class="sec_para">
-      <h1>Custom Process</h1>
-      <p>Learn more about how to customize a moissanite ring that you will love for a lifetime.</p>
+      <h1>{{ section.settings.main_head }}</h1>
+      <p>{{ section.settings.main_paragraph }}</p>
     </div>
     <div class="image_slider">
-      <div class="slider_1">
-        <div class="img_section_slider">
-          <img src="https://s3-alpha-sig.figma.com/img/33d5/02f9/0b7f1dffb18224d0b1135dc538599489?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nyiJWymTamSPJ1DaUHPW0B7-2RnUSTZX8zJ0~AYzxvjSQ~0XlZjuhtadXIOHEfOhN6FnLgJKrYS1sqgwGkYUERF1JQBW5Dccep2CXjb5sRR440NyuK7zzA4ikx-Tt3MI0Orhs6YTICvo2-f9GEs1KrzpXHwpARuSiiEUsWib55Nb9biNjat7~MttQAXKCZVjbqRsrXLCn0OqyMmo3f--wJ3d5RQ1RtpVoTyP~K7ORY1GFwd5GFY7PIHk-yTDXGuWIqF56JlwJmM2d3OC58f4MVhlAPxsYTRYAfQ6ztfFzCbgaMtaOIVaeaG2PPFDOaq1y8whe7QAd8PbLCHNn--9dA__" alt="">
-        </div>
-        <div class="para_section_slider">
-          <h1>Contact Us</h1>
-          <p>Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.</p>
-          <h2>INQUIRY</h2>
-        </div>
-      </div>
-      <div class="slider_2">
-        <div class="img_section_slider">
-          <img src="https://s3-alpha-sig.figma.com/img/bd8c/894b/c9339e127bf168a697248a20153f3c27?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CQf7Os3q0FfVrj1llDqjj30eu9sncWeEnYDZB0W9isRztnXGCu4cf3ARNISauBSTd98GIK6CQda-B0prP9G1t9UppqnAf-kdTkLqXPZqRhwahud0GMsMQsr-BucefuRLjKMZh9U6dxUEr15WRMthp933Jr90Txk89pNSIioM65oy8zmlMlgaEQPHGL7Q3RQOOoLInsU-WJkUn3TVX4sixcJAe~-K7A2b8xrNAqZeem2L53yQ1nnD-o4xXQc3uG~wW4uYgupC0C6cAQaByEdBKq~yQ7QQeGOfrtjlE3iAGirYiBKgZCbA5Q-fDBmcOTHKZujJCOXofJNE6HYlMkDSNg__" alt="">
-        </div>
-        <div class="para_section_slider">
-          <h1>Customize Design</h1>
-          <p>Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.</p>
-          <h2>INQUIRY</h2>
+      <div class="swiper myprocessSwiper">
+        <div class="swiper-wrapper">
+          {%- for block in section.blocks -%}
+            <div class="swiper-slide">
+              <div class="slider_1">
+                <div class="img_section_slider">
+                  {% if block.settings.Custom_image != blank %}
+                    <img src="{{ block.settings.Custom_image |  img_url: 'master' }}" alt="">
+                  {% endif %}
+                </div>
+                <div class="para_section_slider">
+                  <h1>{{ block.settings.Custom_h1 }}</h1>
+                  <p>{{ block.settings.Custom_p }}</p>
+                  <h2>{{ block.settings.Custom_text }}</h2>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
         </div>
       </div>
     </div>
@@ -57,10 +57,45 @@
 </div>
 
 
-{%- schema -%}
+{% schema %}
   {
     "name": "Custom_Process",
-    "settings": [],
+    "settings": [
+      {
+        "type": "text",
+        "id": "main_head",
+        "label": "heading"
+      }, {
+        "type": "text",
+        "id": "main_paragraph",
+        "label": "paragraph"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "block",
+        "type": "text",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "Custom_image",
+            "label": "Custom_image"
+          }, {
+            "type": "text",
+            "id": "Custom_h1",
+            "label": "Custom_h1"
+          }, {
+            "type": "text",
+            "id": "Custom_p",
+            "label": "Custom_p"
+          }, {
+            "type": "text",
+            "id": "Custom_text",
+            "label": "Custom_text"
+          }
+        ]
+      }
+    ],
     "presets": [
       {
         "name": "Custom_Process"
@@ -69,14 +104,14 @@
   }
 {% endschema %}
 
-
 <style>
-  * {
-    margin: 0;
-    padding: 0;
+  .image_slider {
+    margin-top: 30px;
+    width: 100%;
+    height: 370px;
   }
 
-  .custom_main {
+  .main_section_1 {
     width: 100%;
     height: auto;
     display: flex;
@@ -86,9 +121,10 @@
     background-color: #F0F0F0;
   }
 
-  .content_main2 {
-    width: 1440px;
+  .main_section_2 {
+    width: 95%;
     height: auto;
+    flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,25 +159,16 @@
     color: #777777;
   }
 
-  .image_slider {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    gap: 25px;
-  }
-
   .slider_1 {
-    width: 50%;
-    height: 370px;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     gap: 15px;
   }
 
   .slider_2 {
-    width: 50%;
-    height: 370px;
+    width: 100%;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -171,7 +198,6 @@
     font-size: 40px;
     font-weight: 400;
     color: #282828;
-    line-height: 54px;
     text-align: left;
   }
 
@@ -179,7 +205,6 @@
     font-family: 'Montserrat Alternates';
     font-size: 18px;
     font-weight: 500;
-    line-height: 30px;
     text-align: left;
     color: #777777;
   }
@@ -188,9 +213,8 @@
     font-family: 'Montserrat Alternates';
     font-size: 20px;
     font-weight: 500;
-    line-height: 36px;
     text-align: left;
-    color: #B69D62;
+    color: #B69D62 !important;
     text-decoration: underline;
   }
 
@@ -201,10 +225,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-
   }
 
-  .dot_main {  
+  .dot_main {
     height: 10px;
     width: 10px;
     background-color: black;
@@ -220,6 +243,7 @@
     text-align: left;
     margin: 4px 0 7px;
   }
+
   .dot1 h6 {
     font-family: 'Montserrat Alternates';
     font-size: 15px;
@@ -229,7 +253,6 @@
     text-align: left;
   }
 
-
   .dot2 p {
     font-family: 'Montserrat Alternates';
     font-size: 14px;
@@ -238,6 +261,7 @@
     text-align: left;
     margin: 4px 0 7px;
   }
+
   .dot2 h6 {
     font-family: 'Montserrat Alternates';
     font-size: 15px;
@@ -273,6 +297,7 @@
     text-align: left;
     margin: 4px 0 7px;
   }
+
   .dot4 h6 {
     font-family: 'Montserrat Alternates';
     font-size: 15px;
@@ -290,6 +315,7 @@
     text-align: left;
     margin: 4px 0 7px;
   }
+
   .dot5 h6 {
     font-family: 'Montserrat Alternates';
     font-size: 15px;
@@ -297,7 +323,6 @@
     margin: 0;
     line-height: 30px;
     text-align: left;
-
   }
 
   @media (max-width: 1203px) {
@@ -313,4 +338,59 @@
       font-size: 15px;
     }
   }
+
+  @media (max-width: 990px) {
+    .slider_dot {
+      display: none;
+    }
+  }
+  @media (max-width: 525px) {
+    .slider_1 {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      gap: 7px;
+    }
+
+    .img_section_slider {
+      width: 100%;
+      height: 40%;
+    }
+    .para_section_slider {
+      width: 100%;
+      height: 60%;
+    }
+
+    .para_section_slider h1 {
+      font-size: 22px;
+    }
+
+    .para_section_slider p {
+      font-size: 11px;
+      margin-bottom: 9px;
+    }
+
+    .para_section_slider h2 {
+      font-size: 13px;
+      margin: 0;
+    }
+  }
 </style>
+<script>
+  var swiper = new Swiper(".myprocessSwiper", {
+    slidesPerView: 1,
+    loop:true,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints :{
+      990:{
+        slidesPerView: 2,
+        spaceBetween: 30,
+      }   
+    }
+  });
+</script>

@@ -142,7 +142,7 @@
     "fnt_heading": "poppins_n4",
     "fnt_sub_tt": "poppins_n4",
     "fnt_bd2": "Lato",
-    "fnt_heading2": "Montserrat",
+    "fnt_heading2": "Montserrat Alternates",
     "fnt_sub_tt2": "Libre Baskerville",
     "size_bd_text": 14,
     "fw_bd": 400,
@@ -3152,6 +3152,7 @@
           "quote_QCjPtn",
           "quote_cX3eU4"
         ],
+        "disabled": true,
         "settings": {
           "title": "Let customers speak for us",
           "sub_title": "",
@@ -3604,6 +3605,14 @@
               "category_text": "<p>Bracelets<\/p>",
               "collection_url": ""
             }
+          },
+          "text_htJNAT": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/LR2201-3_600x_crop_center_175fa2b9-e28b-487e-878c-519cca65588f.png",
+              "category_text": "<p>Ring Set<\/p>",
+              "collection_url": ""
+            }
           }
         },
         "block_order": [
@@ -3612,7 +3621,8 @@
           "text_g9UbG7",
           "text_XfmJf4",
           "text_UeDQQj",
-          "text_HUprR4"
+          "text_HUprR4",
+          "text_htJNAT"
         ],
         "settings": {
           "background": "#f9f9f9"
@@ -4133,6 +4143,175 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "slider_image_zEAAR8": {
+        "type": "slider_image",
+        "blocks": {
+          "text_Jp7Hey": {
+            "type": "text",
+            "settings": {
+              "Custom_image": "shopify:\/\/shop_images\/0b7f1dffb18224d0b1135dc538599489.jpg",
+              "Custom_h1": "Contact Us",
+              "Custom_p": "Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.",
+              "Custom_text": "INQUIRY"
+            }
+          },
+          "text_3JFkGM": {
+            "type": "text",
+            "settings": {
+              "Custom_image": "shopify:\/\/shop_images\/c9339e127bf168a697248a20153f3c27.png",
+              "Custom_h1": "Customize Design",
+              "Custom_p": "Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.",
+              "Custom_text": "INQUIRY"
+            }
+          },
+          "text_GfENG3": {
+            "type": "text",
+            "settings": {
+              "Custom_image": "shopify:\/\/shop_images\/4bfdd68606f69e195984098672efdc78.jpg",
+              "Custom_h1": "Production",
+              "Custom_p": "Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.",
+              "Custom_text": "INQUIRY"
+            }
+          },
+          "text_nD8JDG": {
+            "type": "text",
+            "settings": {
+              "Custom_image": "shopify:\/\/shop_images\/cf66ed4104a812cdee3abdc42d96e79c.jpg",
+              "Custom_h1": "Confirmation",
+              "Custom_p": "Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.",
+              "Custom_text": "INQUIRY"
+            }
+          },
+          "text_fahWLm": {
+            "type": "text",
+            "settings": {
+              "Custom_image": "shopify:\/\/shop_images\/22a3b78eccb067259a92bd1dbaf3fa59.jpg",
+              "Custom_h1": "Dispatch",
+              "Custom_p": "Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.",
+              "Custom_text": "INQUIRY"
+            }
+          }
+        },
+        "block_order": [
+          "text_Jp7Hey",
+          "text_3JFkGM",
+          "text_GfENG3",
+          "text_nD8JDG",
+          "text_fahWLm"
+        ],
+        "settings": {
+          "main_head": "Custom Process",
+          "main_paragraph": "Learn more about how to customize a moissanite ring that you will love for a lifetime."
+        }
+      },
+      "testimonials_YytaNL": {
+        "type": "testimonials",
+        "blocks": {
+          "quote_iYyygi": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>I absolutely love my moissanite jewelry! The brilliance and sparkle are incredible, and I appreciate knowing that it's an ethical and sustainable choice.<\/p>",
+              "title": "Jessica Miller",
+              "pos": "",
+              "rating": 4
+            }
+          },
+          "quote_rQmaUP": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>I was amazed by the quality of my moissanite ring. It looks just like a diamond but without the hefty price tag. I get compliments on it all the time!<\/p>",
+              "title": "Melanie V",
+              "pos": "",
+              "rating": 4
+            }
+          },
+          "quote_RWeqri": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>I bought a moissanite bracelet for my wife. It's beautiful, durable, and the perfect addition to her jewelry collection.<\/p>",
+              "title": "James",
+              "pos": "",
+              "rating": 4
+            }
+          },
+          "quote_nRt8bz": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>I'm so glad I chose moissanite for my engagement ring. It's stunningly beautiful, and I love that it's an eco-friendly alternative to traditional diamonds.<\/p>",
+              "title": "Angelica",
+              "pos": "",
+              "rating": 5
+            }
+          },
+          "quote_qLUN7X": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>I bought moissanite ring and the reflective qualities of the stone rival \"real\" diamonds. I am in awe! 10 out 10! <\/p>",
+              "title": "Deborah Milheim",
+              "pos": "",
+              "rating": 5
+            }
+          },
+          "quote_FGBHMf": {
+            "type": "quote",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "title": "Leo",
+              "pos": "Lead Designer",
+              "rating": 5
+            }
+          }
+        },
+        "block_order": [
+          "quote_iYyygi",
+          "quote_rQmaUP",
+          "quote_RWeqri",
+          "quote_nRt8bz",
+          "quote_qLUN7X",
+          "quote_FGBHMf"
+        ],
+        "settings": {
+          "title": "Let customers speak for us",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "layout_des": "2",
+          "ter_des": "4",
+          "col_pr": "3",
+          "col_pr_tb": "6",
+          "loop": true,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "1",
+          "dot": true,
+          "dot_owl": "2",
+          "dot_color": "1",
+          "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "50px 50px",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
@@ -4143,8 +4322,10 @@
       "collection_list_bWEJ4G",
       "our_mission_F7HaXC",
       "ring_collection_section_K9qq3c",
+      "slider_image_zEAAR8",
       "image_para_gdjHEA",
       "testimonials_J6TrF9",
+      "testimonials_YytaNL",
       "brand_list_Kbyikt",
       "instagram_feed_EJfntL"
     ]

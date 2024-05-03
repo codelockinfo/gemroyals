@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 <div class="slider-category">
    <div class="width-container">
     <div class="common-heading">
@@ -27,16 +27,7 @@
     {% endfor %}
       </div>
     </div>
-    {% comment %} {%- for block in section.blocks -%}
-    <div class="category-collection-box">
-        <div class="category-img-box">
-            {% if block.settings.category_img != blank %}
-             <img src="{{ block.settings.category_img | img_url:'master' }}" class="collection-img" alt="">
-            {% endif %}
-        </div>
-        <a href="{{block.settings.collection_url}}"><div class="category-heading-box collection-heading">{{block.settings.category_text}}</div></a>
-    </div>
-{% endfor %} {% endcomment %}
+   
     
 
 
@@ -189,8 +180,7 @@
 
 </style>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
 
 <script>
   var swiper = new Swiper(".mySwiper", {

@@ -1272,10 +1272,10 @@
 
 <style>
   .width-container  .nt_menu>li>a {
-    font-size: 14px !important;
+    font-size: 16px !important;
     font-family: 'Montserrat Alternates';
     padding: 0 10px;
-    color: #ffffff;
+    color: #ffffff !important;
     letter-spacing: -2px;
     font-weight: 700;
     position: relative;
@@ -1291,13 +1291,28 @@
   .width-container  .nt_menu>li>a:hover {
     color: #282828 !important;
   }
-  .width-container  .ntheader.live_stuck {
-    color: #282828 !important;
+  .width-container  .ntheader.live_stuck .nt_menu>li>a {
+    color: #ffffff !important;
   }
-  .width-container  .flex {
-    justify-content: space-between!important;
+  .width-container .css_h_se  .flex {
+    justify-content: space-between !important;
   }
-  .width-container .row{
+  .width-container .ntheader.live_stuck .nt_menu>li>a:focus{
+     color: #ffffff !important;
+  }
+  .header__mid .width-container .row{
     justify-content: space-between;
+  }
+
+  
+  @media(max-width:1340px) {
+    .width-container  .nt_menu>li>a {
+    font-size: 14px !important;
+}
+  }
+  @media(max-width:1024px) {
+    .width-container  .nt_menu>li>a {
+    font-size: 12px !important;
+}
   }
 </style>

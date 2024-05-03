@@ -46,6 +46,7 @@ var T4stt_str = {
 {%- if settings.custom_css %}<link rel="preload" as="style" href="{%- render 'enable_minify' with 'css',nameFile:'custom.css' -%}">{%- render 'enable_minify' with 'tagcss',nameFile:'custom.css' -%}{% endif -%}
 {%- if settings.colors_css %}<link rel="preload" as="style" href="{%- render 'enable_minify' with 'css',nameFile:'colors.css' -%}">{%- render 'enable_minify' with 'tagcss',nameFile:'colors.css' -%}{% endif -%} 
 <link rel="preload" href="{{ 'line-awesome.min.css' | asset_url }}" as="style" onload="onloadt4relcss(this)">
+<link rel="preload" href="{{ 'gemroyalcustom.css' | asset_url }}" as="style" onload="onloadt4relcss(this)">
 <script id="js_lzt4" src="{{ 'lazysizes.min.js' | asset_url }}" defer="defer"></script>
 <script src="{{ vendor_js | asset_url }}" defer="defer" id="js_ntt4"
   data-theme='{{ "nt_theme.min.js" | asset_url }}'

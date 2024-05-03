@@ -3562,7 +3562,7 @@
             "type": "text",
             "settings": {
               "category_img": "shopify:\/\/shop_images\/c-2.png",
-              "category_text": "",
+              "category_text": "<p><br\/>Wedding Bands<\/p>",
               "collection_url": ""
             }
           },
@@ -3570,7 +3570,7 @@
             "type": "text",
             "settings": {
               "category_img": "shopify:\/\/shop_images\/c-3.png",
-              "category_text": "",
+              "category_text": "<p>Men's Band<\/p>",
               "collection_url": ""
             }
           },
@@ -3578,7 +3578,7 @@
             "type": "text",
             "settings": {
               "category_img": "shopify:\/\/shop_images\/c-4.png",
-              "category_text": "",
+              "category_text": "<p>Earrings<\/p>",
               "collection_url": ""
             }
           },
@@ -3586,7 +3586,7 @@
             "type": "text",
             "settings": {
               "category_img": "shopify:\/\/shop_images\/c-5.png",
-              "category_text": "",
+              "category_text": "<p>Necklace<\/p>",
               "collection_url": ""
             }
           },
@@ -3594,7 +3594,7 @@
             "type": "text",
             "settings": {
               "category_img": "shopify:\/\/shop_images\/c-6.png",
-              "category_text": "",
+              "category_text": "<p>Bracelets<\/p>",
               "collection_url": ""
             }
           }

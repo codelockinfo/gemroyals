@@ -29,3 +29,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     font-family: 'Montserrat Alternates';
 } 
 /* end by cls017 for footer css  */
+
+@font-face {
+    font-family: 'vindea';
+    src: url(https://cdn.shopify.com/s/files/1/0863/4718/6487/files/Vindea.woff?v=1714547590) }

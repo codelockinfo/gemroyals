@@ -3903,30 +3903,35 @@
           "img_TkV4hL": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/2.jpg",
               "url": ""
             }
           },
           "img_fW48kU": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/3.jpg",
               "url": ""
             }
           },
           "img_BtQVRL": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/4.jpg",
               "url": ""
             }
           },
           "img_7YWm6w": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/5.jpg",
               "url": ""
             }
           },
           "img_m9Cfjb": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/6.jpg",
               "url": ""
             }
           }

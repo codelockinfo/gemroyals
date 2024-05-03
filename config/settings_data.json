@@ -4142,6 +4142,27 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "slider_image_zEAAR8": {
+        "type": "slider_image",
+        "blocks": {
+          "text_Jp7Hey": {
+            "type": "text",
+            "settings": {
+              "Custom_image": "shopify:\/\/shop_images\/0b7f1dffb18224d0b1135dc538599489.jpg",
+              "Custom_h1": "Contact Us",
+              "Custom_p": "Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.",
+              "Custom_text": "INQUIRY"
+            }
+          }
+        },
+        "block_order": [
+          "text_Jp7Hey"
+        ],
+        "settings": {
+          "main_head": "Custom Process",
+          "main_paragraph": "Learn more about how to customize a moissanite ring that you will love for a lifetime."
+        }
       }
     },
     "content_for_index": [
@@ -4152,6 +4173,7 @@
       "collection_list_bWEJ4G",
       "our_mission_F7HaXC",
       "ring_collection_section_K9qq3c",
+      "slider_image_zEAAR8",
       "image_para_gdjHEA",
       "testimonials_J6TrF9",
       "brand_list_Kbyikt",

@@ -1,0 +1,39 @@
+<section class="tab_section" style="background-color: {{ section.settings.bg }};">
+  <div class="tabs">
+    <ul id="tabs-nav">
+      <li><a href="#tab1">General</a></li>
+      <li><a href="#tab2">Shipping</a></li>
+      <li><a href="#tab3">Payments</a></li>
+      <li><a href="#tab4">Returns And Exchanges</a></li>
+    </ul> 
+    <div id="tabs-content">
+      <div id="tab1" class="tab-content">111111111
+      </div>
+      <div id="tab2" class="tab-content">222222
+      </div>
+      <div id="tab3" class="tab-content">3333333
+      </div>
+      <div id="tab4" class="tab-content">44444
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+    $(document).ready(function(){
+     // Show the first tab and hide the rest
+      $('#tabs-nav li:first-child').addClass('active');
+      $('.tab-content').hide();
+      $('.tab-content:first').show();
+
+      // Click function
+      $('#tabs-nav li').click(function(){
+        $('#tabs-nav li').removeClass('active');
+        $(this).addClass('active');
+        $('.tab-content').hide();
+        
+        var activeTab = $(this).find('a').attr('href');
+        $(activeTab).fadeIn();
+        return false;
+      });
+  });
+</script>

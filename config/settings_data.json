@@ -3604,6 +3604,14 @@
               "category_text": "<p>Bracelets<\/p>",
               "collection_url": ""
             }
+          },
+          "text_htJNAT": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "category_text": "<p>Ring Set<\/p>",
+              "collection_url": ""
+            }
           }
         },
         "block_order": [
@@ -3612,7 +3620,8 @@
           "text_g9UbG7",
           "text_XfmJf4",
           "text_UeDQQj",
-          "text_HUprR4"
+          "text_HUprR4",
+          "text_htJNAT"
         ],
         "settings": {
           "background": "#f9f9f9"

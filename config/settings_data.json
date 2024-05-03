@@ -3562,7 +3562,7 @@
             "type": "text",
             "settings": {
               "category_img": "shopify:\/\/shop_images\/c-2.png",
-              "category_text": "<p><br\/>Wedding Bands<\/p>",
+              "category_text": "<p>Wedding Bands<\/p>",
               "collection_url": ""
             }
           },

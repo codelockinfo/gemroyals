@@ -1651,8 +1651,9 @@
           },
           "pr_summary-4": {
             "type": "size",
+            "disabled": true,
             "settings": {
-              "size_chart": "2",
+              "size_chart": "1",
               "sc_type": "1",
               "page": "",
               "size_ck": "",
@@ -1663,15 +1664,17 @@
           },
           "pr_summary-5": {
             "type": "meta",
+            "disabled": true,
             "settings": {
               "show_pr_vendor": false,
-              "show_sku": true,
-              "show_category_product": true,
-              "show_tag_product": true
+              "show_sku": false,
+              "show_category_product": false,
+              "show_tag_product": false
             }
           },
           "pr_summary-6": {
             "type": "social",
+            "disabled": true,
             "settings": {
               "class": "tc"
             }

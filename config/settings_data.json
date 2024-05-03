@@ -4257,14 +4257,15 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
               "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
-              "title": "Leo",
-              "pos": "Lead Designer",
+              "content": "<p>I bought moissanite ring and the reflective qualities of the stone rival \"real\" diamonds. I am in awe! 10 out 10! <\/p>",
+              "title": "Deborah Milheim",
+              "pos": "",
               "rating": 5
             }
           },
           "quote_FGBHMf": {
             "type": "quote",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
               "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",

@@ -3546,6 +3546,24 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "category_slider_section_PtrGrh": {
+        "type": "category-slider-section",
+        "blocks": {
+          "text_K9CUgr": {
+            "type": "text",
+            "settings": {
+              "category_text": "",
+              "collection_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_K9CUgr"
+        ],
+        "settings": {
+          "background": ""
+        }
       }
     },
     "content_for_index": [
@@ -3558,7 +3576,8 @@
       "image_para_gdjHEA",
       "testimonials_J6TrF9",
       "brand_list_Kbyikt",
-      "instagram_feed_EJfntL"
+      "instagram_feed_EJfntL",
+      "category_slider_section_PtrGrh"
     ]
   }
 }

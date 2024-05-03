@@ -4056,6 +4056,11 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "slider_image_JRkqC4": {
+        "type": "slider_image",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
@@ -4066,6 +4071,7 @@
       "collection_list_bWEJ4G",
       "our_mission_F7HaXC",
       "ring_collection_section_K9qq3c",
+      "slider_image_JRkqC4",
       "image_para_gdjHEA",
       "testimonials_J6TrF9",
       "brand_list_Kbyikt",

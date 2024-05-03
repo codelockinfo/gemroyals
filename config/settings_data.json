@@ -70,7 +70,7 @@
     "full_header": true,
     "sticky_header": true,
     "scroll_header": false,
-    "header_design": "5",
+    "header_design": "2",
     "h_transparent": false,
     "h_tr_top": false,
     "h_navmb": 62,
@@ -3546,12 +3546,303 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "category_slider_section_PtrGrh": {
+        "type": "category-slider-section",
+        "blocks": {
+          "text_RijtBL": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-1.png",
+              "category_text": "<p>Engagement Rings<\/p>",
+              "collection_url": ""
+            }
+          },
+          "text_K9CUgr": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-2.png",
+              "category_text": "<p>Wedding Bands<\/p>",
+              "collection_url": ""
+            }
+          },
+          "text_g9UbG7": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-3.png",
+              "category_text": "<p>Men's Band<\/p>",
+              "collection_url": ""
+            }
+          },
+          "text_XfmJf4": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-4.png",
+              "category_text": "<p>Earrings<\/p>",
+              "collection_url": ""
+            }
+          },
+          "text_UeDQQj": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-5.png",
+              "category_text": "<p>Necklace<\/p>",
+              "collection_url": ""
+            }
+          },
+          "text_HUprR4": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-6.png",
+              "category_text": "<p>Bracelets<\/p>",
+              "collection_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_RijtBL",
+          "text_K9CUgr",
+          "text_g9UbG7",
+          "text_XfmJf4",
+          "text_UeDQQj",
+          "text_HUprR4"
+        ],
+        "settings": {
+          "background": "#f9f9f9"
+        }
+      },
+      "header_2": {
+        "type": "header_2",
+        "blocks": {
+          "header_2-0": {
+            "type": "simple",
+            "settings": {
+              "title": "Home",
+              "url": "\/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "mega_hVPzNr": {
+            "type": "mega",
+            "settings": {
+              "title": "Engagement Rings",
+              "url": "",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "center",
+              "wid": "cus",
+              "cus_wid": 1200
+            }
+          },
+          "link_BNkaq6": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Moissanite Rings",
+              "url": "",
+              "open_link": "_self",
+              "menu": "engagement-rings",
+              "col": "4"
+            }
+          },
+          "link_giCzBw": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Lab Grown Diamond Rings",
+              "url": "",
+              "open_link": "_self",
+              "menu": "lab-grown-diamond-rings",
+              "col": "4"
+            }
+          },
+          "link_AFnyUx": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Gemstone Rings",
+              "url": "",
+              "open_link": "_self",
+              "menu": "gemstone-rings",
+              "col": "4"
+            }
+          },
+          "mega_tHqkEW": {
+            "type": "mega",
+            "settings": {
+              "title": "Wedding Bands",
+              "url": "",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "center",
+              "wid": "cus",
+              "cus_wid": 1200
+            }
+          },
+          "link_kwEJLX": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Moissanite Bands",
+              "url": "",
+              "open_link": "_self",
+              "menu": "moissanite-bands",
+              "col": "4"
+            }
+          },
+          "link_xC4Ph8": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Lab Grown Diamond Bands",
+              "url": "",
+              "open_link": "_self",
+              "menu": "lab-grown-diamond-bands",
+              "col": "4"
+            }
+          },
+          "mega_QP9bDE": {
+            "type": "mega",
+            "settings": {
+              "title": "Fine Jewelrys",
+              "url": "",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "center",
+              "wid": "cus",
+              "cus_wid": 1200
+            }
+          },
+          "link_4aKQXz": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "",
+              "url": "",
+              "open_link": "_self",
+              "menu": "fine-jewelry",
+              "col": "4"
+            }
+          },
+          "simple_kwz7zm": {
+            "type": "simple",
+            "settings": {
+              "title": "Customization",
+              "url": "shopify:\/\/pages\/contact",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "header_2-1": {
+            "type": "logo",
+            "settings": {
+            }
+          },
+          "simple_P6G6HD": {
+            "type": "simple",
+            "settings": {
+              "title": "Review",
+              "url": "\/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "simple_m64fjK": {
+            "type": "simple",
+            "settings": {
+              "title": "Blogs",
+              "url": "shopify:\/\/blogs\/news",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "simple_HQhATF": {
+            "type": "simple",
+            "settings": {
+              "title": "About Us",
+              "url": "shopify:\/\/pages\/about-us",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "simple_YWQtjT": {
+            "type": "simple",
+            "settings": {
+              "title": "Login",
+              "url": "\/account",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          }
+        },
+        "block_order": [
+          "header_2-0",
+          "mega_hVPzNr",
+          "link_BNkaq6",
+          "link_giCzBw",
+          "link_AFnyUx",
+          "mega_tHqkEW",
+          "link_kwEJLX",
+          "link_xC4Ph8",
+          "mega_QP9bDE",
+          "link_4aKQXz",
+          "simple_kwz7zm",
+          "header_2-1",
+          "simple_P6G6HD",
+          "simple_m64fjK",
+          "simple_HQhATF",
+          "simple_YWQtjT"
+        ],
+        "settings": {
+          "height": 62,
+          "arrow": false,
+          "source": "1",
+          "txt": "",
+          "social": "2",
+          "align": "tc",
+          "hover": "hover_side_up"
+        }
       }
     },
     "content_for_index": [
       "banner_section_GgqCN4",
       "commitment_zrjTb9",
       "dimond_section_yFdqY6",
+      "category_slider_section_PtrGrh",
       "collection_list_bWEJ4G",
       "our_mission_F7HaXC",
       "ring_collection_section_K9qq3c",

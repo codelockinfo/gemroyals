@@ -41,7 +41,10 @@ endcase -%}
      </div>
     <a class="icon_search push_side cb chp dn_lg" data-id="#nt_search_canvas" href="{{ routes_search_url }}"><i class="{{arric[0]}}"></i></a>
     {%- else -%}
-    <a class="icon_search push_side cb chp" data-id="#nt_search_canvas" href="{{ routes_search_url }}"><i class="{{arric[0]}}"></i></a>
+    {% comment %} <a class="icon_search push_side cb chp" data-id="#nt_search_canvas" href="{{ routes_search_url }}"><i class="{{arric[0]}}"></i></a> {% endcomment %}
+    <a class="icon_search push_side cb chp" data-id="#nt_search_canvas" href="{{ routes_search_url }}"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+    <path d="M23.6819 21.5502L17.9699 15.8569C19.4386 14.1838 20.2433 12.0786 20.2433 9.88707C20.2433 4.76672 15.8962 0.60083 10.5533 0.60083C5.2103 0.60083 0.863281 4.76672 0.863281 9.88707C0.863281 15.0074 5.2103 19.1733 10.5533 19.1733C12.5591 19.1733 14.4706 18.5935 16.1048 17.4929L21.8602 23.2294C22.1008 23.4688 22.4244 23.6008 22.7711 23.6008C23.0993 23.6008 23.4106 23.4809 23.647 23.2629C24.1492 22.7998 24.1652 22.0319 23.6819 21.5502ZM10.5533 3.02333C14.5026 3.02333 17.7154 6.10232 17.7154 9.88707C17.7154 13.6718 14.5026 16.7508 10.5533 16.7508C6.60397 16.7508 3.3911 13.6718 3.3911 9.88707C3.3911 6.10232 6.60397 3.02333 10.5533 3.02333Z" fill="white"/>
+    </svg></a>
     {%- endif -%}
    {%- endif -%}
    {%- if shop.customer_accounts_enabled and settings.show_acc -%}
@@ -84,7 +87,11 @@ endcase -%}
    {%- endif -%}
    {%- if settings.show_wis -%}
     {%- if settings.wishlist_type != '3' -%}
-     <a class="icon_like cb chp pr dn db_md js_link_wis" href="{{ routes_search_url }}/?view=wish"><i class="{{arric[2]}} pr"><span class="op__0 ts_op pa tcount jswcount bgb br__50 cw tc">0</span></i></a>
+     <a class="icon_like cb chp pr dn db_md js_link_wis" href="{{ routes_search_url }}/?view=wish">
+     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+     <path d="M18.502 0.341064C17.1996 0.341064 16.0056 0.753752 14.9532 1.56769C13.8346 2.43282 11.9194 2.43282 10.8007 1.56769C9.74828 0.753752 8.55428 0.341064 7.25195 0.341064C3.61764 0.341064 0.876953 3.31374 0.876953 7.25578C0.876953 11.5146 4.29616 14.4284 9.47237 18.8394C10.3514 19.5885 11.3477 20.4376 12.3833 21.3432C12.5198 21.4628 12.6951 21.5286 12.877 21.5286C13.0588 21.5286 13.2341 21.4628 13.3706 21.3433C14.4063 20.4375 15.4026 19.5885 16.2821 18.839C21.4578 14.4284 24.877 11.5146 24.877 7.25578C24.877 3.31374 22.1363 0.341064 18.502 0.341064Z" fill="white"/>
+     </svg>
+     <span class="op__0 ts_op pa tcount jswcount bgb br__50 cw tc">0</span></i></a>
     {%- else -%}
       {% capture the_snippet_fave_icon_menu %}{% render 'ssw-widget-faveicon-menu' with product.id %}{% endcapture %}
       {% unless the_snippet_fave_icon_menu contains 'Liquid error' %}
@@ -104,7 +111,9 @@ endcase -%}
            <div class="icon_cart pr in_flex al_center"><a class="pr cb chp dib push_side" data-id="#nt_cart_canvas" href="{{routes.cart_url}}"><i class="{{arric[3]}}"></i><span class="js_cat_ttprice ch_tt_price dn dib_lg fwm cd ml__5">{{cart.total_price | money}}</span></a></div>
            {%- comment -%}<div class="icon_cart pr push_side in_flex al_center" data-id="#nt_cart_canvas"><a class="pr cb chp dib" href="{{routes.cart_url}}"><i class="{{ic_stt}} {{arric[3]}}"></i><span class="op__0 ts_op pa tcount jsccount bgb br__50 cw tc">{{ cart.item_count }}</span></a><span class="ch_tt_divider dn dib_lg">/</span><span class="js_cat_ttprice ch_tt_price dn dib_lg fwm cd">{{cart.total_price | money}}</span></div>{%- endcomment -%}
          {%- else -%}
-          <div class="icon_cart pr"><a class="push_side pr cb chp db" href="{{routes.cart_url}}" data-id="#nt_cart_canvas"><i class="{{arric[3]}} pr"><span class="op__0 ts_op pa tcount jsccount bgb br__50 cw tc">{{ cart.item_count }}</span></i></a></div>
+          <div class="icon_cart pr"><a class="push_side pr cb chp db" href="{{routes.cart_url}}" data-id="#nt_cart_canvas"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="25" viewBox="0 0 27 25" fill="none">
+          <path d="M1.51693 0.121582C0.918619 0.121582 0.433594 0.587952 0.433594 1.16325C0.433594 1.73855 0.918619 2.20492 1.51693 2.20492H3.4445C3.60223 2.20492 3.75596 2.25264 3.88391 2.34132C4.01187 2.43 4.10756 2.55515 4.15743 2.69903L7.72917 13.0041C7.88778 13.4616 7.90795 13.9542 7.7863 14.4221L7.49219 15.5553C7.06065 17.2151 8.40431 18.8716 10.1836 18.8716H23.1836C23.7819 18.8716 24.2669 18.4052 24.2669 17.8299C24.2669 17.2546 23.7819 16.7882 23.1836 16.7882H10.1836C9.76176 16.7882 9.49095 16.4554 9.59326 16.0619L9.81506 15.2102C9.85264 15.0658 9.9393 14.9377 10.0613 14.8462C10.1833 14.7546 10.3335 14.7049 10.4883 14.7049H22.1003C22.5667 14.7052 22.981 14.4183 23.1286 13.9928L26.0168 5.65951C26.2507 4.98473 25.7282 4.28792 24.9884 4.28825H7.53451C7.37677 4.28825 7.22304 4.24053 7.09508 4.15185C6.96712 4.06317 6.87143 3.93803 6.82155 3.79414L5.79525 0.833659C5.64763 0.408201 5.23338 0.121348 4.76693 0.121582H1.51693ZM9.10026 19.9132C7.90364 19.9132 6.93359 20.846 6.93359 21.9966C6.93359 23.1472 7.90364 24.0799 9.10026 24.0799C10.2969 24.0799 11.2669 23.1472 11.2669 21.9966C11.2669 20.846 10.2969 19.9132 9.10026 19.9132ZM22.1003 19.9132C20.9036 19.9132 19.9336 20.846 19.9336 21.9966C19.9336 23.1472 20.9036 24.0799 22.1003 24.0799C23.2969 24.0799 24.2669 23.1472 24.2669 21.9966C24.2669 20.846 23.2969 19.9132 22.1003 19.9132Z" fill="white"/>
+          </svg><span class="op__0 ts_op pa tcount jsccount bgb br__50 cw tc">{{ cart.item_count }}</span></i></a></div>
       {%- endcase -%}
    {%- endif -%}
    {%- if nt_group_btns -%}{%- render 'push_menu' with 'ml__5 dn db_lg' -%}{%- endif -%}

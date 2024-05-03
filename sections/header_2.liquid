@@ -19,8 +19,10 @@
             {%- elsif section.settings.social == '2' -%}{%- render 'social-sharing',follow_social:true,class_tooltip:'ttip_nt tooltip_top_right' -%}{%- endif -%}
            </div> 
         </div>
-        <div class="col-lg-8 col-md-4 col-6">{%- render 'menu_inc',admin_sp:admin_sp,se_blocks:se_blocks,tp_blocks:tp_blocks -%}</div>
-        <div class="col-lg-2 col-md-4 col-3 tr">{%- render 'nt_group_btns' -%}</div>
+        <div class="col-lg-8 col-md-4 col-6 flex">{%- render 'menu_inc',admin_sp:admin_sp,se_blocks:se_blocks,tp_blocks:tp_blocks -%}
+          {%- render 'nt_group_btns' -%}
+        </div>
+        {% comment %} <div class="col-lg-2 col-md-4 col-3 tr">{%- render 'nt_group_btns' -%}</div> {% endcomment %}
      </div>
   </div></div>
 

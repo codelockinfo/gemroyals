@@ -1,0 +1,9 @@
+
+.width-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+#shopify-section-header_2 .nt_menu>li>a{
+    letter-spacing: 1px;
+}

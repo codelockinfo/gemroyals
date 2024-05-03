@@ -3639,7 +3639,7 @@
               "lb": "",
               "lb_cl": "",
               "lazy_mn": true,
-              "pos": "default",
+              "pos": "center",
               "wid": "cus",
               "cus_wid": 1200
             }
@@ -3686,7 +3686,7 @@
               "lb": "",
               "lb_cl": "",
               "lazy_mn": true,
-              "pos": "default",
+              "pos": "center",
               "wid": "cus",
               "cus_wid": 1200
             }
@@ -3723,7 +3723,7 @@
               "lb": "",
               "lb_cl": "",
               "lazy_mn": true,
-              "pos": "default",
+              "pos": "center",
               "wid": "cus",
               "cus_wid": 1200
             }
@@ -3744,19 +3744,6 @@
           "header_2-1": {
             "type": "logo",
             "settings": {
-            }
-          },
-          "header_2-2": {
-            "type": "simple",
-            "settings": {
-              "title": "Heading 2",
-              "url": "#",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
             }
           },
           "simple_P6G6HD": {
@@ -3824,7 +3811,6 @@
           "mega_QP9bDE",
           "simple_kwz7zm",
           "header_2-1",
-          "header_2-2",
           "simple_P6G6HD",
           "simple_m64fjK",
           "simple_HQhATF",

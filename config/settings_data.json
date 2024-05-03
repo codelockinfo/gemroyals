@@ -728,6 +728,7 @@
           "logo_JHqENb": {
             "type": "logo",
             "settings": {
+              "image": "shopify:\/\/shop_images\/logo_img_prev_ui.png",
               "logo_width": 100,
               "title": "",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit",
@@ -742,7 +743,7 @@
             "type": "menu",
             "settings": {
               "title": "Useful link",
-              "menu": "",
+              "menu": "main-menu",
               "order": "1",
               "cl": "15",
               "cl_tb": "6",
@@ -753,7 +754,7 @@
             "type": "menu",
             "settings": {
               "title": "Policies & Services",
-              "menu": "",
+              "menu": "footer-menu",
               "order": "1",
               "cl": "15",
               "cl_tb": "6",
@@ -2916,7 +2917,7 @@
         ],
         "settings": {
           "bannarbackimg": "shopify:\/\/shop_images\/8b3ced88ac7ed54cc0ffa1abf7205673.jpg",
-          "banner_img": "shopify:\/\/shop_images\/7722a0c90981d3ca297254515ceff046.jpg",
+          "banner_img": "shopify:\/\/shop_images\/002_OK.jpg",
           "banner_png_img": "shopify:\/\/shop_images\/sparkle.png",
           "banner_heading": "<p>A legacy of luxury<br\/><\/p>",
           "Paragraph_text": "Conveys a sense of heritage and high-end luxury appealing to those who appreciate tradition  and quality",
@@ -3072,6 +3073,8 @@
           "quote_aFQt3H": {
             "type": "quote",
             "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3081,6 +3084,8 @@
           "quote_8rmGL6": {
             "type": "quote",
             "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3090,6 +3095,8 @@
           "quote_DUy8kV": {
             "type": "quote",
             "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3099,6 +3106,8 @@
           "quote_ArjiFb": {
             "type": "quote",
             "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3108,6 +3117,8 @@
           "quote_QCjPtn": {
             "type": "quote",
             "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",
@@ -3117,6 +3128,8 @@
           "quote_cX3eU4": {
             "type": "quote",
             "settings": {
+              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
               "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
               "title": "Leo",
               "pos": "Lead Designer",

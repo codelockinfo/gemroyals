@@ -3711,6 +3711,23 @@
               "col": "4"
             }
           },
+          "mega_QP9bDE": {
+            "type": "mega",
+            "settings": {
+              "title": "Fine Jewelrys",
+              "url": "",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "default",
+              "wid": "cus",
+              "cus_wid": 1200
+            }
+          },
           "header_2-1": {
             "type": "logo",
             "settings": {
@@ -3739,6 +3756,7 @@
           "mega_tHqkEW",
           "link_kwEJLX",
           "link_xC4Ph8",
+          "mega_QP9bDE",
           "header_2-1",
           "header_2-2"
         ],

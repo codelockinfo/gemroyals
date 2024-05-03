@@ -3716,7 +3716,7 @@
               "url": "",
               "open_link": "_self",
               "menu": "moissanite-bands",
-              "col": "4"
+              "col": "3"
             }
           },
           "link_xC4Ph8": {
@@ -3726,7 +3726,7 @@
               "url": "",
               "open_link": "_self",
               "menu": "lab-grown-diamond-bands",
-              "col": "4"
+              "col": "3"
             }
           },
           "cat_n3Gnmg": {
@@ -3737,7 +3737,18 @@
               "hoverz": true,
               "collection": "moissanite-mens-band",
               "title": "Wedding Band",
-              "col": "4"
+              "col": "3"
+            }
+          },
+          "cat_BjHtXB": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/c-2.png",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "moissanite-mens-band",
+              "title": "Engagement band",
+              "col": "3"
             }
           },
           "mega_QP9bDE": {
@@ -3871,6 +3882,7 @@
           "link_kwEJLX",
           "link_xC4Ph8",
           "cat_n3Gnmg",
+          "cat_BjHtXB",
           "mega_QP9bDE",
           "link_4aKQXz",
           "cat_nKCjmy",

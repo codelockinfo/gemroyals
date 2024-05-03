@@ -3550,6 +3550,14 @@
       "category_slider_section_PtrGrh": {
         "type": "category-slider-section",
         "blocks": {
+          "text_RijtBL": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-6.png",
+              "category_text": "",
+              "collection_url": ""
+            }
+          },
           "text_K9CUgr": {
             "type": "text",
             "settings": {
@@ -3589,23 +3597,15 @@
               "category_text": "",
               "collection_url": ""
             }
-          },
-          "text_RijtBL": {
-            "type": "text",
-            "settings": {
-              "category_img": "shopify:\/\/shop_images\/c-6.png",
-              "category_text": "",
-              "collection_url": ""
-            }
           }
         },
         "block_order": [
+          "text_RijtBL",
           "text_K9CUgr",
           "text_g9UbG7",
           "text_XfmJf4",
           "text_UeDQQj",
-          "text_HUprR4",
-          "text_RijtBL"
+          "text_HUprR4"
         ],
         "settings": {
           "background": ""
@@ -3616,14 +3616,14 @@
       "banner_section_GgqCN4",
       "commitment_zrjTb9",
       "dimond_section_yFdqY6",
+      "category_slider_section_PtrGrh",
       "collection_list_bWEJ4G",
       "our_mission_F7HaXC",
       "ring_collection_section_K9qq3c",
       "image_para_gdjHEA",
       "testimonials_J6TrF9",
       "brand_list_Kbyikt",
-      "instagram_feed_EJfntL",
-      "category_slider_section_PtrGrh"
+      "instagram_feed_EJfntL"
     ]
   }
 }

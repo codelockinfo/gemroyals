@@ -1736,7 +1736,7 @@
         "type": "product-recommendations",
         "settings": {
           "show": true,
-          "title": "You may also like",
+          "title": "Related Products",
           "sub_title": "",
           "sub_font": "2",
           "style_title": "title_1",

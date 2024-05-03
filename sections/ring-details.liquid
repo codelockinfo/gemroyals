@@ -1,0 +1,233 @@
+<div class="product-width-container">
+    {%- render 'section_title',section_title:'mb__40' -%}
+    <div class="flex displayflex-gap flex-wrap">
+       <div class="w-60 flex displayflex-gap flex-column w-100">
+         <div class="flex box3-container">
+          {% if product.metafields.custom.height != blank %}
+           <div class="ring-detail">
+              {% if product.metafields.custom.typesvg  != blank %}
+                <div class="productimg-typesvg">
+                  <img src="{{ product.metafields.custom.typesvg |  img_url: 'master' }}" />
+                </div>
+              {% endif %}
+              <div class="">
+                <div>Height</div>
+                <div>{{ product.metafields.custom.height }}</div>
+              </div>
+           </div>
+          {% endif %}
+          {% if product.metafields.custom.width != blank %}
+           <div class="ring-detail">
+              {% if product.metafields.custom.typesvg  != blank %}
+                <div class="productimg-typesvg">
+                  <img src="{{ product.metafields.custom.typesvg |  img_url: 'master' }}" />
+                </div>
+              {% endif %}
+              <div class="">
+                <div>Width</div>
+                <div>{{ product.metafields.custom.width }}</div>
+              </div>
+           </div>
+          {% endif %}
+          {% if product.metafields.custom.features != blank %}
+           <div class="ring-detail">
+              {% if product.metafields.custom.typesvg  != blank %}
+                <div class="productimg-typesvg">
+                  <img src="{{ product.metafields.custom.typesvg |  img_url: 'master' }}" />
+                </div>
+              {% endif %}
+              <div class="">
+                <div>Features</div>
+                {% assign features = product.metafields.custom.features | remove: '["' | remove: '"]' %}
+                {%  if features != blank %}
+                  <div>
+                      {% assign feature = features | split:  '","' %}
+                          {% for featurevalue in feature %}
+                            <div> {{ featurevalue }}</div>
+                          {% endfor %}
+                  </div>
+                {%  endif %}
+              </div>
+           </div>
+          {% endif %}
+         </div>
+         <div class="stone-detail-container">
+          <h3 class="section-title tc pr flex fl_center al_center fs__24 {{style_title}}"><span class="mr__10 ml__10">Stone Details</span></h3>
+           <div>
+            {% assign stonedetails = product.metafields.custom.stone_details | remove: '["' | remove: '"]' %}
+            {%  if stonedetails != blank %}
+                  {% assign stonedetail = stonedetails | split:  '","' %}
+                      {% for stone-detail in stonedetail %}
+                        <div> {{ stone-detail }}</div>
+                      {% endfor %}
+           {%  endif %}
+           </div>
+         </div>
+       </div>
+       <div class="w-40 w-100">
+        {% assign file_url = product.metafields.custom.video | file_url %}
+          <video autoplay="" loop="" controls="" width="100%">
+            <source src="{{ file_url  }}" type="video/mp4" id="{{ section.id }}">
+          </video>
+       </div>
+    </div>
+</div>
+{% schema %}
+    {
+      "name": "Stone Details",
+      "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Testimonials"
+      },
+      {
+        "type": "textarea",
+        "id": "sub_title",
+        "label": "Sub Text"
+      },
+      {
+        "type": "select",
+        "id": "sub_font",
+        "default": "2",
+        "options": [
+         {
+            "value": "1",
+            "label": "Body font"
+         },
+         {
+            "value": "2",
+            "label": "Sub title font"
+          }
+        ],
+        "label": "Sub Text use font:"
+      },
+      {
+        "type": "select",
+        "id": "style_title",
+        "options": [
+         {
+            "value": "title_1",
+            "label": "Design 1"
+         },
+         {
+            "value": "title_2",
+            "label": "Design 2"
+          },
+         {
+            "value": "title_3",
+            "label": "Design 3"
+          },
+         {
+            "value": "title_4",
+            "label": "Design 4"
+          },
+         {
+            "value": "title_5 lazyload",
+            "label": "Design 5"
+          },
+         {
+            "value": "title_6",
+            "label": "Design 6"
+          },
+         {
+            "value": "title_7 +la",
+            "label": "Design 7 (with line-awesome)"
+          },
+         {
+            "value": "title_8",
+            "label": "Design 8"
+          },
+         {
+            "value": "title_9",
+            "label": "Design 9"
+          },
+         {
+            "value": "title_10",
+            "label": "Design 10"
+          },
+         {
+            "value": "title_11",
+            "label": "Design 11"
+          },
+         {
+            "value": "title_12",
+            "label": "Design 12"
+          },
+         {
+            "value": "title_13",
+            "label": "Design 13"
+          }
+        ],
+        "label": "Design Title:"
+      },
+      {
+        "type": "text",
+        "id": "ic_tt",
+        "label": "Style 7 icon line-awesome",
+        "default": "gem"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_clpr",
+        "label": "Use icon color primary?",
+        "default": false
+      },
+      {
+        "type": "paragraph",
+        "content": "[Get icons Line awesome](https://icons8.com/line-awesome)"
+      }
+      ],
+      "presets" : [
+        {
+          "name" : "Stone Details"
+        }
+      ]
+    }
+{% endschema %} 
+<style>
+  .w-60{
+    width:60%;
+  }
+  .w-40{
+    width: 40%;
+  }
+  .stone-detail-container{
+    background:#F9F9F9;
+    padding: 20px 30px;
+  }
+  .displayflex-gap{
+    gap: 30px;
+  }
+  .flex-column{
+    flex-direction: column;
+  }
+  .ring-detail{
+    background: #F9F9F9;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .productimg-typesvg{
+    padding-right: 15px;
+  }
+  @media (max-width:1024px) {
+    .flex-wrap{
+      flex-wrap: wrap;
+    }
+    .w-100{
+      width: 100%;
+    }
+  }
+  @media (max-width:500px) {
+   .box3-container{
+    flex-wrap: wrap;
+    gap: 30px;
+   }
+   .ring-detail{
+    width: 100%;
+   }
+  }
+</style>

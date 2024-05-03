@@ -76,7 +76,7 @@
    {%- elsif search.performed and search.results_count == 0 -%}
         <!-- no product -->
    {%- elsif display_type == "3" and recommendations.performed == false -%}
-   <div class="related product-extra mt__60 lazyload lazypreload" data-baseurl="{{ routes.product_recommendations_url }}" id="pr_recommendations" data-id="{{pid}}" data-limit="{{limit}}" data-type='{{display_type}}' data-expands="-1"><div class="lds_bginfinity pr"></div></div>
+   <div class="padding-left-20 padding-right-20 related product-extra mt__60 lazyload lazypreload" data-baseurl="{{ routes.product_recommendations_url }}" id="pr_recommendations" data-id="{{pid}}" data-limit="{{limit}}" data-type='{{display_type}}' data-expands="-1"><div class="lds_bginfinity pr"></div></div>
    {%- elsif display_type == "2" and pr_link.size > 0 -%}
    <div class="related product-extra mt__60 lazyload lazypreload" data-baseurl="/products/{{product.handle}}/?view=cl_qv" id="pr_recommendations" data-id="{{pid}}" data-limit="{{limit}}" data-type='{{display_type}}' data-expands="-1"><div class="lds_bginfinity pr"></div></div>
    {%- elsif display_type == "1" and collection -%}

@@ -52,7 +52,7 @@
                        {%- render 'pr_loop_grid_2',product:product,use_cdt:use_cdt,txt_cd:txt_cd, col:col, col_tb:col_tb, col_mb:col_mb,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}
                     {%- else -%}
                        <div class="pr_animated mt__30 pr_grid_item product nt_pr desgin__1 col-12 pr_animated done">
-                         <div class="product-inner pr">
+                         <div class="product-inner pr 77777777">
                            <div class="product-image pr oh"><a class="db" href="/admin/products">{% capture current %}{% cycle 'group2':'1','2','3','4','5','6','7','8' -%}{% endcapture %}<div class="pr_lazy_img main-img nt_img_ratio nt_bg_lz lazyload" style="padding-top:127.586%" data-bg="{{ 'product-' | append:current | append:'.jpg' | asset_url }}"></div></a></div>
                            <div class="product-info mt__15"><h3 class="product-title pr fs__14 mg__0 fwm"><a class="cd chp" href="/admin/products">{{ 'homepage.onboarding.product_title' | t }}</a></h3><span class="price dib mb__5"><del>$59.00</del><ins>$39.00</ins></span></div>
                         </div>

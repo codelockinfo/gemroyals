@@ -27,7 +27,7 @@
   {%- capture pr_url %}{{get_locale}}{{url_cat}}/products/{{pr_hdl}}{% endcapture -%}
 
 <div class="col-lg-{{col}} col-md-{{col_tb}} col-{{col_mb}} mt__10 pr_grid_item product nt_pr desgin__1">
-   <div class="product-inner pr">
+   <div class="product-inner pr bbbbbb">
       <div class="product-image pr oh lazyload" data-include="{{pr_url}}/?view=img{{sett_equal}}"><div class="nt_bg_lz nt_fk_lz"{% unless sett_equal %} style="padding-top:{{ 1 | divided_by: images_0.aspect_ratio | times: 100}}%;"{% endunless %}></div></div>
       {%- if show_stock_bar -%}
          {%- assign sold = total | minus: available | times: 100 | divided_by: total | ceil -%}

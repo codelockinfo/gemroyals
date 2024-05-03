@@ -27,7 +27,7 @@
   {%- capture pr_url %}{{get_locale}}{{url_cat}}/products/{{pr_hdl}}{% endcapture -%}
 
 <div class="col-lg-{{col}} col-md-{{col_tb}} col-{{col_mb}} mt__10 pr_grid_item product nt_pr desgin__1">
-   <div class="product-inner pr">
+   <div class="product-inner pr aaaaaaaaa">
       <div class="product-info mb__15">
          {%- if product.vendor.size > 0 and show_vendor -%}<div class="product-brand"><a class="cg chp" href="{{ product.vendor | url_for_vendor }}">{{ product.vendor }}</a></div>{%- endif -%}
          <h3 class="product-title pr fs__14 mg__0 fwm"><a class="cd chp" href="{{product.url | within: collection}}">{{product.title}}</a></h3>

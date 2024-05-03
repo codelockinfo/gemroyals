@@ -93,7 +93,7 @@
   assign ck_next_pr = true
   endif -%}
 
-<div class="sp-single {{singles_sp}} des_pr_layout_{{des_pr_layout}} mb__60">
+<div class="sp-single {{singles_sp}} des_pr_layout_{{des_pr_layout}}">
   {%- if ck_next_pr or settings.breadcrumb_pr -%}
   <div class="bgbl pt__20 pb__20 lh__1">
    <div class="container">
@@ -179,6 +179,9 @@
                      {%- endif -%}
                      {%- if zoom_tp == '2' %}<div class="dt_img_zoom pa t__0 r__0 dib"></div>{% endif -%}
                   </div>
+                  <div class="product-description">
+                       <div>{{ product.description }}</div>
+                  </div>
                </div>
                <div class="{{class_summary}} col-12 product-infors pr_sticky_su"><div class="theiaStickySidebar">{%- section 'pr_summary' -%}{% if des_pr_layout == '2' %}{%- section 'pr_description' -%}{% if settings.social_pr %}<div class="social-share tc mt__ 40">{% if settings.share_source == '1' %}{%- render 'social-sharing' -%}{% else %}<div class="nt-social nt__addthis addthis_inline_share_toolbox_icxz"></div>{% endif %}</div>{% endif %}{% endif %}</div></div>
             </div>
@@ -186,8 +189,9 @@
       </div>
   </div>
   {%- if nav_up_size > 0 %}<div id="wrap_fbt" class="container">{%- render 'fbt_snipet',nav_up:nav_up,currently_var:currently_var,cur_var_id:cur_var_id,pid:pid -%}</div>{% endif -%}
-  {%- if des_pr_layout == '1' %}<div id="wrap_des_pr"><div class="container container_des">{%- section 'pr_description' -%}</div></div>{% endif -%}
+  {% comment %} {%- if des_pr_layout == '1' %}<div id="wrap_des_pr"><div class="container container_des">{%- section 'pr_description' -%}</div></div>{% endif -%} {% endcomment %}
     {% comment %} {%- section 'recently_viewed' -%} {% endcomment %}
+    {%-  section 'ring-details' %} 
   {%- section 'Commitment' -%}
   {%- section 'testimonials' -%}
   {%- section 'product-recommendations' -%}

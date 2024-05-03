@@ -54,7 +54,7 @@
           {%- else -%}
              {%- for i in (1..8) -%}
                 <div class="pr_animated mt__30 pr_grid_item product nt_pr desgin__1 col-6 col-lg-3 col-md-3 done">
-                  <div class="product-inner pr"><div class="product-image pr oh"><a class="db" href="/admin/products">{%- capture current -%}{%- cycle 1, 2, 3, 4, 5, 6,7,8 -%}{%- endcapture -%}<div class="pr_lazy_img main-img nt_img_ratio nt_bg_lz lazyload" style="padding-top:100%" data-bg="{{ 'product-' | append:current | append:'.jpg' | asset_url }}"></div></a></div></div>
+                  <div class="product-inner pr 55555555"><div class="product-image pr oh"><a class="db" href="/admin/products">{%- capture current -%}{%- cycle 1, 2, 3, 4, 5, 6,7,8 -%}{%- endcapture -%}<div class="pr_lazy_img main-img nt_img_ratio nt_bg_lz lazyload" style="padding-top:100%" data-bg="{{ 'product-' | append:current | append:'.jpg' | asset_url }}"></div></a></div></div>
                   <div class="product-info mt__15"><h3 class="product-title pr fs__14 mg__0 fwm"><a class="cd chp" href="/admin/products">{{ 'homepage.onboarding.product_title' | t }}</a></h3><span class="price dib mb__5"><del>$59.00</del><ins>$39.00</ins></span></div>
                 </div>
              {%- endfor -%}

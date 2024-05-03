@@ -119,7 +119,9 @@ assign locale_url = product.url | split:'/products/' | first -%}
               {%- endif -%}
             {%- endif -%}
            </p>
-
+          {%- if block.settings.show_sku -%} {%- assign ck_meta = true -%}{%- if current_variant.sku != blank -%}{%-endif-%}
+          <span class="sku_wrapper">{{ 'products.product.product_sku' | t }} <span class="sku value cb{% if current_variant.sku == blank %} dn{% endif %}" id="pr_sku{{call_cl}}">{{current_variant.sku}}</span><span class="sku value{% if current_variant.sku != blank %} dn{% endif %}" id="pr_sku_na{{call_cl}}">{{ 'products.product.na' | t }}</span></span>
+          {%- endif -%}
            {%- if block.settings.show_available -%}
            <span class="available_wrapper"><span class="available value"><span id="txt_vl_in{{call_cl}}" class="value_in cb{% if no_sold_out == false %} dn{% endif %}"><span class="js_in_stock {{classdn1}}">{{ 'products.product.in_stock' | t }}</span><span class="js_in_stock_pre_oder {{classdn2}}">{{ 'products.product.in_stock_pre_oder' | t }}</span></span><span id="txt_vl_out{{call_cl}}" class="value_out{% if no_sold_out %} dn{% endif %}">{{ 'products.product.outofstock' | t }}</span></span></span>
            {%- endif -%}
@@ -148,14 +150,14 @@ assign locale_url = product.url | split:'/products/' | first -%}
          </a>
          {%- endif -%}
         {%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
-          <div class="product__policies rte cb" data-product-policies>
+          {% comment %} <div class="product__policies rte cb" data-product-policies>
             {%- if cart.taxes_included -%}
               {{ 'products.product.include_taxes' | t }}
             {%- endif -%}
             {%- if shop.shipping_policy.body != blank -%}
               {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
             {%- endif -%}
-          </div>
+          </div> {% endcomment %}
         {%- endif -%}
 
       {%- when 'des' -%}
@@ -522,6 +524,16 @@ assign locale_url = product.url | split:'/products/' | first -%}
         {%- if block.settings.text == blank -%}{%- continue -%}{%- endif -%}
         <div class="richtext_{{block.id}}">{{block.settings.text}}</div>
 
+      {%- when 'complementary_product' -%}
+        <div class="complementary_product">
+          
+        {% if block.settings.complementaryproductheading  %}
+          <h4>{{ block.settings.complementaryproductheading }}</h4>
+        {% endif %}
+          {%- for product in collections[block.settings.complementaryproduct].products -%}
+            {% comment %} {%- render 'pr_loop_list',product:product -%} {% endcomment %}
+          {%- endfor -%}
+        </div>
       {%- comment -%}
       {%- when 'metafield' -%}
         {%- if pr_metafields_meta.option -%}{%- continue -%}{%- endif -%}
@@ -556,6 +568,23 @@ assign locale_url = product.url | split:'/products/' | first -%}
         ]
       },
       {
+        "type": "complementary_product",
+        "name": "complementary_product",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "text",
+              "id": "complementaryproductheading",
+              "label": "Heading"
+          },
+            {
+              "type": "collection",
+              "id": "complementaryproduct",
+              "label": "Select collection"
+            }
+        ]
+      },
+      {
         "type": "pricereview",
         "name": "Product Price, reivew",
         "limit": 1,
@@ -580,6 +609,12 @@ assign locale_url = product.url | split:'/products/' | first -%}
             "label": "Price varies settings",
             "default": "0"
           },
+          {
+           "type": "checkbox",
+           "id": "show_sku",
+           "label": "Show Sku?",
+           "default": true
+         },
          {
            "type": "checkbox",
            "id": "show_available",

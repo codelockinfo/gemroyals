@@ -32,7 +32,7 @@
   {%- capture pr_url %}{{get_locale}}{{url_cat}}/products/{{pr_hdl}}{% endcapture -%}
 
 <div data-page="{{page_t4}}" class="col-lg-{{col}} col-md-{{col_tb}} col-{{col_mb}} mt__30 pr_grid_item product nt_pr desgin__1{% if pr_cdt %} pr_has_cdt4{% endif %}">
-   <div class="product-inner pr">
+   <div class="product-inner pr ddddddd">
       {%- if pr_cdt -%}
         <div class="pr_wr_dcimg pr oh">
           <div class="product-image pr oh lazyload" data-include="{{pr_url}}/?view=img{{sett_equal}}"><div class="nt_bg_lz nt_fk_lz"{% unless sett_equal %} style="padding-top:{{ 1 | divided_by: images_0.aspect_ratio | times: 100}}%;"{% endunless %}></div>{%- unless settings.hide_btns %}<div class="space_pr_mb"></div>{% endunless -%}</div>

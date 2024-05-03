@@ -18,6 +18,9 @@
         max-width: 100%;
         padding: 0 20px;
       }
+      .width-container .section-title{
+        justify-content: start;
+      }
     </style>
   {% endif %}
 <div class="padding-section overlay  {{layout}}{%- if image != blank %} hide_bgimg_{{se_stts.hide_bgimg}} lazyload se_t4_bg nt_parallax_{{se_stts.use_pr}}{%- endif -%}"{% if image != blank %} data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto" data-parent-fit="cover"{% endif %}>

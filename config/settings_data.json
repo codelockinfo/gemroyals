@@ -3546,12 +3546,77 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "category_slider_section_PtrGrh": {
+        "type": "category-slider-section",
+        "blocks": {
+          "text_RijtBL": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-1.png",
+              "category_text": "<p>Engagement Rings<\/p>",
+              "collection_url": ""
+            }
+          },
+          "text_K9CUgr": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-2.png",
+              "category_text": "<p>Wedding Bands<\/p>",
+              "collection_url": ""
+            }
+          },
+          "text_g9UbG7": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-3.png",
+              "category_text": "<p>Men's Band<\/p>",
+              "collection_url": ""
+            }
+          },
+          "text_XfmJf4": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-4.png",
+              "category_text": "<p>Earrings<\/p>",
+              "collection_url": ""
+            }
+          },
+          "text_UeDQQj": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-5.png",
+              "category_text": "<p>Necklace<\/p>",
+              "collection_url": ""
+            }
+          },
+          "text_HUprR4": {
+            "type": "text",
+            "settings": {
+              "category_img": "shopify:\/\/shop_images\/c-6.png",
+              "category_text": "<p>Bracelets<\/p>",
+              "collection_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_RijtBL",
+          "text_K9CUgr",
+          "text_g9UbG7",
+          "text_XfmJf4",
+          "text_UeDQQj",
+          "text_HUprR4"
+        ],
+        "settings": {
+          "background": "#f9f9f9"
+        }
       }
     },
     "content_for_index": [
       "banner_section_GgqCN4",
       "commitment_zrjTb9",
       "dimond_section_yFdqY6",
+      "category_slider_section_PtrGrh",
       "collection_list_bWEJ4G",
       "our_mission_F7HaXC",
       "ring_collection_section_K9qq3c",

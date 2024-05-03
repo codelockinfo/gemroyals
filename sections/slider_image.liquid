@@ -1,72 +1,28 @@
 <div class="main_section_1">
   <div class="main_section_2">
     <div class="sec_para">
-      <h1>Custom Process</h1>
-      <p>Learn more about how to customize a moissanite ring that you will love for a lifetime.</p>
+      <h1>{{ section.settings.main_head }}</h1>
+      <p>{{ section.settings.main_paragraph }}</p>
     </div>
     <div class="image_slider">
       <div class="swiper myprocessSwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="slider_1">
-              <div class="img_section_slider">
-                <img src="https://s3-alpha-sig.figma.com/img/33d5/02f9/0b7f1dffb18224d0b1135dc538599489?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nyiJWymTamSPJ1DaUHPW0B7-2RnUSTZX8zJ0~AYzxvjSQ~0XlZjuhtadXIOHEfOhN6FnLgJKrYS1sqgwGkYUERF1JQBW5Dccep2CXjb5sRR440NyuK7zzA4ikx-Tt3MI0Orhs6YTICvo2-f9GEs1KrzpXHwpARuSiiEUsWib55Nb9biNjat7~MttQAXKCZVjbqRsrXLCn0OqyMmo3f--wJ3d5RQ1RtpVoTyP~K7ORY1GFwd5GFY7PIHk-yTDXGuWIqF56JlwJmM2d3OC58f4MVhlAPxsYTRYAfQ6ztfFzCbgaMtaOIVaeaG2PPFDOaq1y8whe7QAd8PbLCHNn--9dA__" alt="">
-              </div>
-              <div class="para_section_slider">
-                <h1>Contact Us</h1>
-                <p>Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.</p>
-                <h2>INQUIRY</h2>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider_1">
-              <div class="img_section_slider">
-                <img src="https://s3-alpha-sig.figma.com/img/bd8c/894b/c9339e127bf168a697248a20153f3c27?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CQf7Os3q0FfVrj1llDqjj30eu9sncWeEnYDZB0W9isRztnXGCu4cf3ARNISauBSTd98GIK6CQda-B0prP9G1t9UppqnAf-kdTkLqXPZqRhwahud0GMsMQsr-BucefuRLjKMZh9U6dxUEr15WRMthp933Jr90Txk89pNSIioM65oy8zmlMlgaEQPHGL7Q3RQOOoLInsU-WJkUn3TVX4sixcJAe~-K7A2b8xrNAqZeem2L53yQ1nnD-o4xXQc3uG~wW4uYgupC0C6cAQaByEdBKq~yQ7QQeGOfrtjlE3iAGirYiBKgZCbA5Q-fDBmcOTHKZujJCOXofJNE6HYlMkDSNg__" alt="">
-              </div>
-              <div class="para_section_slider">
-                <h1>Customize Design</h1>
-                <p>Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.</p>
-                <h2>INQUIRY</h2>
+          {%- for block in section.blocks -%}
+            <div class="swiper-slide">
+              <div class="slider_1">
+                <div class="img_section_slider">
+                  {% if block.settings.Custom_image != blank %}
+                    <img src="{{ block.settings.Custom_image |  img_url: 'master' }}" alt="">
+                  {% endif %}
+                </div>
+                <div class="para_section_slider">
+                  <h1>{{ block.settings.Custom_h1 }}</h1>
+                  <p>{{ block.settings.Custom_p }}</p>
+                  <h2>{{ block.settings.Custom_text }}</h2>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider_1">
-              <div class="img_section_slider">
-                <img src="https://s3-alpha-sig.figma.com/img/18d8/0bce/4bfdd68606f69e195984098672efdc78?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ib9vEryilmgbxJJT5DxLAbJtKeISzDS3fBOVkaBFCO3kMCUcICFTrELIRtwtUHoNgihelOKjs5otBSN-njsRcb5BUycfq3kDWscul90PgFG1MR~IsQa90GATX~iYl3hBiPUkUDAGsYGaFBsHLz4MQXsFGD6DfwaubBFd-mrGcEtsHyn0EhK5tlI54s-p8FexBNBo8~NJAWzvg4UfkIrzB8uNCpUWqFeqUzb9QxazbVr6AtcTAGEGCBZPTVQKu7HzJZkpO6pCOeTOKhjKp3WbDEanj0mivFkTvHhlneTET0CP1F~q-GVGH0JHbut4Kbdlfn4xdtfvCxKp3b42dgQWeA__" alt="">
-              </div>
-              <div class="para_section_slider">
-                <h1>Production</h1>
-                <p>Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.</p>
-                <h2>INQUIRY</h2>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider_1">
-              <div class="img_section_slider">
-                <img src="https://s3-alpha-sig.figma.com/img/5b04/ecde/cf66ed4104a812cdee3abdc42d96e79c?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Q-4jpWDYuxPhyyAW2lepqAICHdlRamgbvz~ej4Tn4LbiwGJqCybM~6wY~nNyVmFyUSmzrNW58Lpq2o3~s-0ZjNCKOFlaPFRsmrnfQkgKJkX9bnI8~HSbNA8~D~mX8a1zZ9pgqhfhW3s88xknIdyrTisBsp1E4Jwa-927Pe5Nv-3T83hcKg19r1xVxZNvLVJpM-m0bhrnkX-QmToEJhjW~ZI-3nnwSjs42C-M57m8fIpprqM2w82TCVsNda5AihtfJktzIs9gFsjr5bPaoQqUeTXQVpudIiOtXSavvPXfFZX9o6-0LfXViKDXestryENufDad5ryvHpZvlAVuqUfGnQ__" alt="">
-              </div>
-              <div class="para_section_slider">
-                <h1>Confirmation</h1>
-                <p>Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.</p>
-                <h2>INQUIRY</h2>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider_1">
-              <div class="img_section_slider">
-                <img src="https://s3-alpha-sig.figma.com/img/1705/32f7/22a3b78eccb067259a92bd1dbaf3fa59?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LXjjJHY86pUexK-~k1Aeu-92pDWoD-kYDocdBWErSxbK1DgcIsokIFTed-l~ztmf0NAmvnkObFy-daZn4UkkV-fcxQ-FC3pnocmA4m9tIU0SMtAbAUZzcOw2lFXcupI6RiUcT3zRhAe-VzBKevHZ1WCPFgzPX6S8XXAdebYXwC6ojvLkk3BvG28vQU~GNUn1U9EqXYMg4qpHiKiUm1LpXhv4OqiedxOqTgXnFTOY~D4bZ036KWkj1m-~KiPaxuYWftspYKDAL31GxGOqcrhoU0XJ-MSXkhl1ZafXQI~iS-qB4RfbZQlMQMUqhOm6kI1lm8xB-0ApdnUIIohGM4bTUA__" alt="">
-              </div>
-              <div class="para_section_slider">
-                <h1>Dispatch</h1>
-                <p>Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.</p>
-                <h2>INQUIRY</h2>
-              </div>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </div>
@@ -101,10 +57,45 @@
 </div>
 
 
-{%- schema -%}
+{% schema %}
   {
     "name": "Custom_Process",
-    "settings": [],
+    "settings": [
+      {
+        "type": "text",
+        "id": "main_head",
+        "label": "heading"
+      }, {
+        "type": "text",
+        "id": "main_paragraph",
+        "label": "paragraph"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "block",
+        "type": "text",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "Custom_image",
+            "label": "Custom_image"
+          }, {
+            "type": "text",
+            "id": "Custom_h1",
+            "label": "Custom_h1"
+          }, {
+            "type": "text",
+            "id": "Custom_p",
+            "label": "Custom_p"
+          }, {
+            "type": "text",
+            "id": "Custom_text",
+            "label": "Custom_text"
+          }
+        ]
+      }
+    ],
     "presets": [
       {
         "name": "Custom_Process"
@@ -112,7 +103,6 @@
     ]
   }
 {% endschema %}
-
 
 <style>
   .image_slider {
@@ -224,7 +214,7 @@
     font-size: 20px;
     font-weight: 500;
     text-align: left;
-    color: #B69D62;
+    color: #B69D62 !important;
     text-decoration: underline;
   }
 

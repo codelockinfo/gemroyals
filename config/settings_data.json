@@ -1605,6 +1605,7 @@
             "type": "pricereview",
             "settings": {
               "price": "0",
+              "show_sku": true,
               "show_available": false,
               "rating": true
             }
@@ -4311,6 +4312,17 @@
           "pd": "",
           "mg_mb": "50px 50px",
           "pd_mb": ""
+        }
+      },
+      "ring-details": {
+        "type": "ring-details",
+        "settings": {
+          "title": "Testimonials",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false
         }
       }
     },

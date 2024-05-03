@@ -1631,7 +1631,7 @@
               "style_color": "1",
               "swatch_style": "1",
               "swatch_size": "medium",
-              "show_qty": true,
+              "show_qty": false,
               "btn_atc_full": false,
               "enable_payment_btn": false
             }

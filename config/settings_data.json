@@ -3784,6 +3784,19 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "simple_HQhATF": {
+            "type": "simple",
+            "settings": {
+              "title": "About Us",
+              "url": "shopify:\/\/pages\/about-us",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
           }
         },
         "block_order": [
@@ -3800,7 +3813,8 @@
           "header_2-1",
           "header_2-2",
           "simple_P6G6HD",
-          "simple_m64fjK"
+          "simple_m64fjK",
+          "simple_HQhATF"
         ],
         "settings": {
           "height": 62,

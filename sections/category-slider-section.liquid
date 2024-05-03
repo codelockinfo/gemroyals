@@ -1,170 +1,170 @@
-
 <div class="slider-category">
-   <div class="width-container">
+  <div class="width-container">
     <div class="common-heading">
       <h1 class="slider-category-h1">Shop By Category</h1>
       <p class="slider-category-p">Conveys a sense of heritage and high-end luxury appealing to those who appreciate tradition 
-          and quality </p>
+          and quality
+      </p>
+    </div>
   </div>
-   </div>
-   <div class="slider-container">
-    
+  <div class="slider-container">
 
 
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         {%- for block in section.blocks -%}
-        <div class="swiper-slide">
-           <div class="slider-category-collection-box">
-          <div class="slider-category-img-box">
-              {% if block.settings.category_img != blank %}
-               <img src="{{ block.settings.category_img | img_url:'master' }}" class="collection-img" alt="">
-              {% endif %}
+          <div class="swiper-slide">
+            <div class="slider-category-collection-box">
+              <div class="slider-category-img-box">
+                {% if block.settings.category_img != blank %}
+                  <img
+                    src="{{ block.settings.category_img | img_url:'master' }}"
+                    class="collection-img"
+                    alt="">
+                {% endif %}
+              </div>
+              <a href="{{block.settings.collection_url}}">
+                <div class="slider-category-heading-box slider-collection-heading">{{ block.settings.category_text }}</div>
+              </a>
+            </div>
           </div>
-          <a href="{{block.settings.collection_url}}"><div class="slider-category-heading-box slider-collection-heading">{{block.settings.category_text}}</div></a>
-      </div>
-      </div>
-    {% endfor %}
+        {% endfor %}
       </div>
     </div>
-   
-    
 
 
-   </div>
+  </div>
 </div>
 
 {% schema %}
-    {
-      "name": "category slider Section",
-      "settings": [
-            {
-              "type": "color",
-              "id": "background",
-              "label": "section background"
-            }
-      ],
-      "blocks" : [
-        {
-          "name" : "block",
-          "type" : "text",
-          "settings" : [
-                {
-                  "type": "image_picker",
-                  "id": "category_img",
-                  "label": "category collection img"
-                },
-                {
-                  "type": "richtext",
-                  "id": "category_text",
-                  "label": "category collection name"
-                },
-                {
-                  "type": "url",
-                  "id": "collection_url",
-                  "label": "select collection"
-                }
-          ]
-        }
-      ],
-      "presets" : [
-        {
-          "name" : "Category slider section"
-        }
-      ]
-    }
-  {% endschema %} 
+  {
+    "name": "category slider Section",
+    "settings": [
+      {
+        "type": "color",
+        "id": "background",
+        "label": "section background"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "block",
+        "type": "text",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "category_img",
+            "label": "category collection img"
+          }, {
+            "type": "richtext",
+            "id": "category_text",
+            "label": "category collection name"
+          }, {
+            "type": "url",
+            "id": "collection_url",
+            "label": "select collection"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Category slider section"
+      }
+    ]
+  }
+{% endschema %}
 
 <style>
-.slider-category{
-   padding-bottom: 60px;
-   background-color: {{section.settings.background}};
-}
+  .slider-category {
+    padding-bottom: 60px;
+    background-color: {{ section.settings.background }};
+  }
 
-.common-heading{
-  text-align: center;
-}
-.slider-category-h1{
+  .common-heading {
+    text-align: center;
+  }
+  .slider-category-h1 {
     font-size: 64px;
     font-weight: 400;
     line-height: 83.43px;
     font-family: 'Vindea' !important;
-    color:#282828;
-}
-.slider-category-p{
+    color: #282828;
+  }
+  .slider-category-p {
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
     font-family: 'Montserrat Alternates';
-    color:#777777;
+    color: #777777;
     width: 60%;
     text-align: center;
     margin: 30px auto;
-}
-.slider-collection-img{
-  max-width: 100%;
-}
-.slider-collection-heading{
+  }
+  .slider-collection-img {
+    max-width: 100%;
+  }
+  .slider-collection-heading {
     font-size: 24px;
-    color:#282828;
+    color: #282828;
     font-weight: 600;
     line-height: 36px;
     font-family: 'Montserrat Alternates' !important;
     text-decoration: underline;
-    transition: all 0.5s  ;
-}
-.slider-collection-heading:hover{
-  color: #B69D62;
-}
-.slider-category-heading-box{
+    transition: all 0.5s;
+  }
+  .slider-collection-heading:hover {
+    color: #B69D62;
+  }
+  .slider-category-heading-box {
     width: 100%;
     padding: 5px 0;
     margin-top: 5px;
-}
-.swiper {
-      width: 100%;
-      height: 100%;
-    }
-
-    .swiper-slide {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-@media (max-width:1024px) {
-  .slider-collection-heading{
-    font-size: 18px;
-}
-.slider-category-h1{
-    font-size: 50px;
-}
-.slider-category-p{
-    font-size: 18px;
-}
-}
-@media (max-width:900px) {
-.slider-collection-heading{
-    font-size: 14px;
-}
-.slider-category-p{
-    font-size: 18px;
-    width: 80%;
-}
-}
-@media (max-width:768px) {
-.slider-category-h1{
-    line-height:50px;
-    font-size: 50px;
-}
-.slider-category-p{
-    width: 100%;
-}
-.slider-category-collection-box{
-    padding: 0 15px;
   }
-}
-@media (max-width: 576px) {
-  .slider-category-h1 {
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (max-width: 1024px) {
+    .slider-collection-heading {
+      font-size: 18px;
+    }
+    .slider-category-h1 {
+      font-size: 50px;
+    }
+    .slider-category-p {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 900px) {
+    .slider-collection-heading {
+      font-size: 14px;
+    }
+    .slider-category-p {
+      font-size: 18px;
+      width: 80%;
+    }
+  }
+  @media (max-width: 768px) {
+    .slider-category-h1 {
+      line-height: 50px;
+      font-size: 50px;
+    }
+    .slider-category-p {
+      width: 100%;
+    }
+    .slider-category-collection-box {
+      padding: 0 15px;
+    }
+  }
+  @media (max-width: 576px) {
+    .slider-category-h1 {
       font-size: 40px;
       line-height: 60px;
     }
@@ -173,13 +173,12 @@
     .slider-category-h1 {
       font-size: 30px;
     }
-    .slider-category-p{
-    font-size: 14px;
-  }
+    .slider-category-p {
+      font-size: 14px;
+    }
   }
 
 </style>
-
 
 
 <script>
@@ -204,7 +203,7 @@
         slidesPerView: 1,
         spaceBetween: 30,
       },
-
+  
       400:{
         slidesPerView: 2,
         spaceBetween: 30,

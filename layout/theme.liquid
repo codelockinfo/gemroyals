@@ -13,6 +13,7 @@
   {% comment %} <link rel="preconnect" href="https://fonts.shopify.com" crossorigin> {% endcomment %}
   {% comment %} <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin> {% endcomment %}
   <link rel="preconnect" href="https://monorail-edge.shopifysvc.com">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="preload" as="style" href="{{ 'pre_theme.min.css' | asset_url }}">
   <link rel="stylesheet" href="https://cdn.shopify.com/s/files/1/0604/2458/5422/files/Vindea.woff?v=1714197023">
   <link rel="preload" as="style" href="{%- render 'enable_minify' with 'css' ,nameFile:'theme.css' -%}">
@@ -54,5 +55,8 @@
   {%- render 'div_html',t_name:t_name -%}
 
   {% comment %} <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> {% endcomment %}
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 </body>
 </html>

@@ -1605,12 +1605,13 @@
             "type": "pricereview",
             "settings": {
               "price": "0",
-              "show_available": true,
+              "show_available": false,
               "rating": true
             }
           },
           "pr_summary-2": {
             "type": "des",
+            "disabled": true,
             "settings": {
               "des": "2",
               "page": "",
@@ -1622,9 +1623,9 @@
           "pr_summary-3": {
             "type": "frm",
             "settings": {
-              "ani": "shake",
+              "ani": "none",
               "time": 6,
-              "btn_des": "1",
+              "btn_des": "3",
               "btn_txt": "3",
               "swatch_design": "2",
               "style_color": "1",
@@ -1632,11 +1633,12 @@
               "swatch_size": "medium",
               "show_qty": true,
               "btn_atc_full": false,
-              "enable_payment_btn": true
+              "enable_payment_btn": false
             }
           },
           "1585709158220": {
             "type": "img",
+            "disabled": true,
             "settings": {
               "mess": "",
               "size": 16,
@@ -4056,11 +4058,6 @@
           "mg_mb": "",
           "pd_mb": ""
         }
-      },
-      "slider_image_JRkqC4": {
-        "type": "slider_image",
-        "settings": {
-        }
       }
     },
     "content_for_index": [
@@ -4071,7 +4068,6 @@
       "collection_list_bWEJ4G",
       "our_mission_F7HaXC",
       "ring_collection_section_K9qq3c",
-      "slider_image_JRkqC4",
       "image_para_gdjHEA",
       "testimonials_J6TrF9",
       "brand_list_Kbyikt",

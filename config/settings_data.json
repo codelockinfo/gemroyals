@@ -4324,6 +4324,61 @@
           "ic_tt": "gem",
           "show_clpr": false
         }
+      },
+      "brand_list": {
+        "type": "brand_list",
+        "blocks": {
+          "brand_Tyqp4D": {
+            "type": "brand",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Trusted_by_2e085fc3-4e49-40cd-a0b4-529dddb1241a.png",
+              "url": "",
+              "open_link": "_blank"
+            }
+          },
+          "brand_xQDVcL": {
+            "type": "brand",
+            "settings": {
+              "url": "",
+              "open_link": "_blank"
+            }
+          }
+        },
+        "block_order": [
+          "brand_Tyqp4D",
+          "brand_xQDVcL"
+        ],
+        "settings": {
+          "title": "",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "brand_layout": "1",
+          "cat_space": "30",
+          "col": "2",
+          "col_md": "6",
+          "col_mb": "6",
+          "brand_hover": "0",
+          "loop": true,
+          "autoplay": false,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "2",
+          "btn_color": "0",
+          "dot": true,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [

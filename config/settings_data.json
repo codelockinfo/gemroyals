@@ -3767,6 +3767,17 @@
               "col": "4"
             }
           },
+          "cat_MiyAxH": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC01637.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "moissanite-mens-band",
+              "title": "Earrings",
+              "col": "4"
+            }
+          },
           "simple_kwz7zm": {
             "type": "simple",
             "settings": {
@@ -3851,6 +3862,7 @@
           "mega_QP9bDE",
           "link_4aKQXz",
           "cat_nKCjmy",
+          "cat_MiyAxH",
           "simple_kwz7zm",
           "header_2-1",
           "simple_P6G6HD",

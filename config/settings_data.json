@@ -4154,10 +4154,55 @@
               "Custom_p": "Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.",
               "Custom_text": "INQUIRY"
             }
+          },
+          "text_3JFkGM": {
+            "type": "text",
+            "settings": {
+              "Custom_h1": "",
+              "Custom_p": "Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.",
+              "Custom_text": ""
+            }
+          },
+          "text_GfENG3": {
+            "type": "text",
+            "settings": {
+              "Custom_h1": "",
+              "Custom_p": "",
+              "Custom_text": ""
+            }
+          },
+          "text_nD8JDG": {
+            "type": "text",
+            "settings": {
+              "Custom_h1": "",
+              "Custom_p": "",
+              "Custom_text": ""
+            }
+          },
+          "text_fahWLm": {
+            "type": "text",
+            "settings": {
+              "Custom_h1": "",
+              "Custom_p": "",
+              "Custom_text": ""
+            }
+          },
+          "text_D8DXNX": {
+            "type": "text",
+            "settings": {
+              "Custom_h1": "",
+              "Custom_p": "",
+              "Custom_text": ""
+            }
           }
         },
         "block_order": [
-          "text_Jp7Hey"
+          "text_Jp7Hey",
+          "text_3JFkGM",
+          "text_GfENG3",
+          "text_nD8JDG",
+          "text_fahWLm",
+          "text_D8DXNX"
         ],
         "settings": {
           "main_head": "Custom Process",

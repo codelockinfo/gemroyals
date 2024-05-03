@@ -3797,6 +3797,19 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "simple_YWQtjT": {
+            "type": "simple",
+            "settings": {
+              "title": "Login",
+              "url": "\/account",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
           }
         },
         "block_order": [
@@ -3814,13 +3827,14 @@
           "header_2-2",
           "simple_P6G6HD",
           "simple_m64fjK",
-          "simple_HQhATF"
+          "simple_HQhATF",
+          "simple_YWQtjT"
         ],
         "settings": {
           "height": 62,
           "arrow": false,
           "source": "1",
-          "txt": "Welcome to our store!",
+          "txt": "",
           "social": "2",
           "align": "tc",
           "hover": "hover_side_up"

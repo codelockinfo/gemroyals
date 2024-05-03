@@ -3718,6 +3718,17 @@
               "col": "4"
             }
           },
+          "cat_n3Gnmg": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC06449.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "moissanite-mens-band",
+              "title": "Wedding Band",
+              "col": "4"
+            }
+          },
           "mega_QP9bDE": {
             "type": "mega",
             "settings": {
@@ -3825,6 +3836,7 @@
           "mega_tHqkEW",
           "link_kwEJLX",
           "link_xC4Ph8",
+          "cat_n3Gnmg",
           "mega_QP9bDE",
           "link_4aKQXz",
           "simple_kwz7zm",

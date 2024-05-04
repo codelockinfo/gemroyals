@@ -3,151 +3,66 @@
   <div class="tabs">
     <ul id="tabs-nav">
       {%- for block in section.blocks -%}
-      <li><a href="#tab1">{{block.settings.tabheading}}</a></li>
+      <li><a href="#tab{{ forloop.index   }}">{{block.settings.tabheading}}</a></li>
     {% endfor %}
     </ul> 
     <div id="tabs-content">
-      <div id="tab1" class="tab-content">
-          <ul class="accordion-list">
-            <li>
-                <div class="accordian-heading">
-                  <span class="accordian-number">01</span>
-                <h3>What separates Right Creative from other top design agencies in the area?</h3>
-                <i class="fa-solid fa-plus"></i>
-               </div>
-              <div class="answer">
-                <p>Experience, quality, and results.</p>
-                <p><strong>Experience.</strong> We have been designing websites professional since the early days of the web - before CSS was mainstream, and people still used tables for their website layouts. In the 20+ years that we have been doing this, we have work with and learned from many of the top voices in several industries. To put it simply - there are very few people in the world, let alone the area that can top our years of experience.</p>
-                
-                <p><strong>Quality</strong> At Right Creative, we hold an almost unrealistic standard for quality. We demand excellence in every project we take on, and firmly believe that the quality of our work demonstrates our commitment to these standards.</p>
-                
-                <p><strong>Results</strong> More than anything else, our focus is, and will always be getting results for clients. We don't care how pretty something is - if it is not resulting in the growth or obtaining of goals for our clients, then it is not time or money well spent. Our mission is to turn visitors into paying customers - and every decision that we make is rooted in that mission.</p>
-                
-                <p><strong>Other distinguishing features</strong> Some of the other things that separate Right Creative from other top-rated agencies are: we hand-code all of our websites for maximum results. We don't rely on Wordpress, plugins, templates or themes to accomplish things, and are therefore not locked in to the limits they pose.</p>
-              </div>
-        
-            </li>
-            <li>
-              <h3>We're just starting out. How can we afford your services?</h3>
-              <div class="answer">
-                <p>We started this business from scratch, and know full-well how tight money can be when you are first starting out. We empathize with the struggles of new business owners, and therefore work diligently so that the new businesses that we work with succeed.</p>
-                
-                <p>The primary criteria we look for when working with new businesses is the seriousness of the business owner. While it is natural for a new business owner to be cautious with the money they spend - we do look for a commitment to growth. If you do not have a specific plan for how you intend to grow your business, then the reality is - you will probably never be in a good position to afford our services.</p>
-                
-                <p>With that said - if you are growth-minded, then we are happy to help you achieve that growth, and are willing to work with you to come up with a plan that fits within your budget and comfort level. Whether this is a smaller site, financing options, or a payment plan - we are confident that we can figure out something that will be mutually beneficial.</p>
-                
-              </div>
-            </li>
-            <li>
-              <h3>What is the difference between a pre-designed site and a custom site?</h3>
-              <div class="answer">
-                <p>The difference between pre-designed and custom sites is a lot like the difference between buying a home versus building a home.</p>
-                
-                <p>Pre-designed sites start with a website that has already been designed and coded. These sites will allow you to customize colors, fonts, photos, content, and your logo - but does not allow you to rearrange, reposition, or change the layout of the site. This option is great for newer businesses or businesses with a smaller budget. You not only get the benefit of a hand-coded, customized site, but you also benefit from a smaller price tag and faster turnaround time.</p>
-                
-                <p>Custom sites are built from scratch, exactly to your businesses needs. While custom sites often have a bigger price tag attached to them, they are also going to be more effective at converting your visitors into paying customers.</p>
-                  
-              </div>
-            </li>
-            <li>
-              <h3>Can I make edits to my own website once it launches?</h3>
-              <div class="answer">
-                <p>Yes and no. With each client that we work with, we designate time to figure out what content clients will need to edit on a regular basis, and create tools to allow them to do that easily. For things such as news, articles, blogs, and portfolios, clients will have access to the Content Management System, and add/edit/delete those things as needed.</p>
-                
-                <p>For other areas of the site, we request that our clients trust us to make those edits, so to maintain the integrity of their website.</p>
-                
-                <p>It is very common for clients who have full control over their site to see it deteriorate after a while due to non-designers & non-developers adding content to the site using markup & styling that is not cohesive with the rest of the site. What results is a website filled with pages containing broken-looking content, and improperly formatted text.</p>
-                
-                <p>Because we care about the quality of our sites, the reputations of our clients, and the results that they see - we prefer to let our clients be the experts at what they do - and us to be the experts at what we do.</p>
-                  
-              </div>
-            </li>
-        </ul>
-      </div>
-      <div id="tab2" class="tab-content">
-        <ul class="accordion-list">
-          <li>
-            <h3>We're just starting out. How can we afford your services?</h3>
-            <div class="answer">
-              <p>We started this business from scratch, and know full-well how tight money can be when you are first starting out. We empathize with the struggles of new business owners, and therefore work diligently so that the new businesses that we work with succeed.</p>
-              
-              <p>The primary criteria we look for when working with new businesses is the seriousness of the business owner. While it is natural for a new business owner to be cautious with the money they spend - we do look for a commitment to growth. If you do not have a specific plan for how you intend to grow your business, then the reality is - you will probably never be in a good position to afford our services.</p>
-              
-              <p>With that said - if you are growth-minded, then we are happy to help you achieve that growth, and are willing to work with you to come up with a plan that fits within your budget and comfort level. Whether this is a smaller site, financing options, or a payment plan - we are confident that we can figure out something that will be mutually beneficial.</p>
-              
-            </div>
-          </li>
-          <li>
-            <h3>What is the difference between a pre-designed site and a custom site?</h3>
-            <div class="answer">
-              <p>The difference between pre-designed and custom sites is a lot like the difference between buying a home versus building a home.</p>
-              
-              <p>Pre-designed sites start with a website that has already been designed and coded. These sites will allow you to customize colors, fonts, photos, content, and your logo - but does not allow you to rearrange, reposition, or change the layout of the site. This option is great for newer businesses or businesses with a smaller budget. You not only get the benefit of a hand-coded, customized site, but you also benefit from a smaller price tag and faster turnaround time.</p>
-              
-              <p>Custom sites are built from scratch, exactly to your businesses needs. While custom sites often have a bigger price tag attached to them, they are also going to be more effective at converting your visitors into paying customers.</p>
-                
-            </div>
-          </li>
-          <li>
-            <h3>Can I make edits to my own website once it launches?</h3>
-            <div class="answer">
-              <p>Yes and no. With each client that we work with, we designate time to figure out what content clients will need to edit on a regular basis, and create tools to allow them to do that easily. For things such as news, articles, blogs, and portfolios, clients will have access to the Content Management System, and add/edit/delete those things as needed.</p>
-              
-              <p>For other areas of the site, we request that our clients trust us to make those edits, so to maintain the integrity of their website.</p>
-              
-              <p>It is very common for clients who have full control over their site to see it deteriorate after a while due to non-designers & non-developers adding content to the site using markup & styling that is not cohesive with the rest of the site. What results is a website filled with pages containing broken-looking content, and improperly formatted text.</p>
-              
-              <p>Because we care about the quality of our sites, the reputations of our clients, and the results that they see - we prefer to let our clients be the experts at what they do - and us to be the experts at what we do.</p>
-                
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div id="tab3" class="tab-content">
-        <ul class="accordion-list">
-          <li>
-            <h3>What is the difference between a pre-designed site and a custom site?</h3>
-            <div class="answer">
-              <p>The difference between pre-designed and custom sites is a lot like the difference between buying a home versus building a home.</p>
-              
-              <p>Pre-designed sites start with a website that has already been designed and coded. These sites will allow you to customize colors, fonts, photos, content, and your logo - but does not allow you to rearrange, reposition, or change the layout of the site. This option is great for newer businesses or businesses with a smaller budget. You not only get the benefit of a hand-coded, customized site, but you also benefit from a smaller price tag and faster turnaround time.</p>
-              
-              <p>Custom sites are built from scratch, exactly to your businesses needs. While custom sites often have a bigger price tag attached to them, they are also going to be more effective at converting your visitors into paying customers.</p>
-                
-            </div>
-          </li>
-          <li>
-            <h3>Can I make edits to my own website once it launches?</h3>
-            <div class="answer">
-              <p>Yes and no. With each client that we work with, we designate time to figure out what content clients will need to edit on a regular basis, and create tools to allow them to do that easily. For things such as news, articles, blogs, and portfolios, clients will have access to the Content Management System, and add/edit/delete those things as needed.</p>
-              
-              <p>For other areas of the site, we request that our clients trust us to make those edits, so to maintain the integrity of their website.</p>
-              
-              <p>It is very common for clients who have full control over their site to see it deteriorate after a while due to non-designers & non-developers adding content to the site using markup & styling that is not cohesive with the rest of the site. What results is a website filled with pages containing broken-looking content, and improperly formatted text.</p>
-              
-              <p>Because we care about the quality of our sites, the reputations of our clients, and the results that they see - we prefer to let our clients be the experts at what they do - and us to be the experts at what we do.</p>
-                
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div id="tab4" class="tab-content">
-        <ul class="accordion-list">
-          <li>
-            <h3>Can I make edits to my own website once it launches?</h3>
-            <div class="answer">
-              <p>Yes and no. With each client that we work with, we designate time to figure out what content clients will need to edit on a regular basis, and create tools to allow them to do that easily. For things such as news, articles, blogs, and portfolios, clients will have access to the Content Management System, and add/edit/delete those things as needed.</p>
-              
-              <p>For other areas of the site, we request that our clients trust us to make those edits, so to maintain the integrity of their website.</p>
-              
-              <p>It is very common for clients who have full control over their site to see it deteriorate after a while due to non-designers & non-developers adding content to the site using markup & styling that is not cohesive with the rest of the site. What results is a website filled with pages containing broken-looking content, and improperly formatted text.</p>
-              
-              <p>Because we care about the quality of our sites, the reputations of our clients, and the results that they see - we prefer to let our clients be the experts at what they do - and us to be the experts at what we do.</p>
-                
-            </div>
-          </li>
-        </ul>
-      </div>
+      {%- for block in section.blocks -%}
+        <div id="tab{{ forloop.index }}" class="tab-content">
+            <ul class="accordion-list">
+              {% if  block.settings.question1 != blank %}
+                <li>
+                    <div class="accordian-heading">
+                      <span class="accordian-number">01</span>
+                      <h3>{{ block.settings.question1 }}</h3>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <div class="answer">{{ block.settings.answer1 }}</div>
+                </li>
+              {% endif %}
+              {% if  block.settings.question2 != blank %}
+                <li>
+                    <div class="accordian-heading">
+                      <span class="accordian-number">02</span>
+                      <h3>{{ block.settings.question2 }}</h3>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <div class="answer">{{ block.settings.answer2 }}</div>
+                </li>
+              {% endif %}
+              {% if  block.settings.question3 != blank %}
+                <li>
+                    <div class="accordian-heading">
+                      <span class="accordian-number">03</span>
+                      <h3>{{ block.settings.question3 }}</h3>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <div class="answer">{{ block.settings.answer3 }}</div>
+                </li>
+              {% endif %}
+              {% if  block.settings.question4 != blank %}
+                <li>
+                    <div class="accordian-heading">
+                      <span class="accordian-number">04</span>
+                      <h3>{{ block.settings.question4 }}</h3>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <div class="answer">{{ block.settings.answer4 }}</div>
+                </li>
+              {% endif %}
+              {% if  block.settings.question5 != blank %}
+                <li>
+                    <div class="accordian-heading">
+                      <span class="accordian-number">05</span>
+                      <h3>{{ block.settings.question5 }}</h3>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <div class="answer">{{ block.settings.answer5 }}</div>
+                </li>
+              {% endif %}
+          </ul>
+        </div>
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -155,108 +70,108 @@
   {
     "name": "Accordian",
     "settings": [
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Heading",
-      "default": "Have Any Questions?"
-    },
-    {
-      "type": "textarea",
-      "id": "sub_title",
-      "label": "Sub Text"
-    },
-    {
-      "type": "select",
-      "id": "sub_font",
-      "default": "2",
-      "options": [
-       {
-          "value": "1",
-          "label": "Body font"
-       },
-       {
-          "value": "2",
-          "label": "Sub title font"
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Have Any Questions?"
+        },
+        {
+          "type": "textarea",
+          "id": "sub_title",
+          "label": "Sub Text"
+        },
+        {
+          "type": "select",
+          "id": "sub_font",
+          "default": "2",
+          "options": [
+          {
+              "value": "1",
+              "label": "Body font"
+          },
+          {
+              "value": "2",
+              "label": "Sub title font"
+            }
+          ],
+          "label": "Sub Text use font:"
+        },
+        {
+          "type": "select",
+          "id": "style_title",
+          "options": [
+          {
+              "value": "title_1",
+              "label": "Design 1"
+          },
+          {
+              "value": "title_2",
+              "label": "Design 2"
+            },
+          {
+              "value": "title_3",
+              "label": "Design 3"
+            },
+          {
+              "value": "title_4",
+              "label": "Design 4"
+            },
+          {
+              "value": "title_5 lazyload",
+              "label": "Design 5"
+            },
+          {
+              "value": "title_6",
+              "label": "Design 6"
+            },
+          {
+              "value": "title_7 +la",
+              "label": "Design 7 (with line-awesome)"
+            },
+          {
+              "value": "title_8",
+              "label": "Design 8"
+            },
+          {
+              "value": "title_9",
+              "label": "Design 9"
+            },
+          {
+              "value": "title_10",
+              "label": "Design 10"
+            },
+          {
+              "value": "title_11",
+              "label": "Design 11"
+            },
+          {
+              "value": "title_12",
+              "label": "Design 12"
+            },
+          {
+              "value": "title_13",
+              "label": "Design 13"
+            }
+          ],
+          "label": "Design Title:"
+        },
+        {
+          "type": "text",
+          "id": "ic_tt",
+          "label": "Style 7 icon line-awesome",
+          "default": "gem"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_clpr",
+          "label": "Use icon color primary?",
+          "default": false
+        },
+        {
+          "type": "paragraph",
+          "content": "[Get icons Line awesome](https://icons8.com/line-awesome)"
         }
-      ],
-      "label": "Sub Text use font:"
-    },
-    {
-      "type": "select",
-      "id": "style_title",
-      "options": [
-       {
-          "value": "title_1",
-          "label": "Design 1"
-       },
-       {
-          "value": "title_2",
-          "label": "Design 2"
-        },
-       {
-          "value": "title_3",
-          "label": "Design 3"
-        },
-       {
-          "value": "title_4",
-          "label": "Design 4"
-        },
-       {
-          "value": "title_5 lazyload",
-          "label": "Design 5"
-        },
-       {
-          "value": "title_6",
-          "label": "Design 6"
-        },
-       {
-          "value": "title_7 +la",
-          "label": "Design 7 (with line-awesome)"
-        },
-       {
-          "value": "title_8",
-          "label": "Design 8"
-        },
-       {
-          "value": "title_9",
-          "label": "Design 9"
-        },
-       {
-          "value": "title_10",
-          "label": "Design 10"
-        },
-       {
-          "value": "title_11",
-          "label": "Design 11"
-        },
-       {
-          "value": "title_12",
-          "label": "Design 12"
-        },
-       {
-          "value": "title_13",
-          "label": "Design 13"
-        }
-      ],
-      "label": "Design Title:"
-    },
-    {
-      "type": "text",
-      "id": "ic_tt",
-      "label": "Style 7 icon line-awesome",
-      "default": "gem"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_clpr",
-      "label": "Use icon color primary?",
-      "default": false
-    },
-    {
-      "type": "paragraph",
-      "content": "[Get icons Line awesome](https://icons8.com/line-awesome)"
-    }
     ],
     "blocks": [
       {
@@ -267,6 +182,56 @@
             "type": "richtext",
             "id": "tabheading",
             "label": "tabheading"
+          },
+          {
+            "type": "text",
+            "id": "question1",
+            "label": "Question 1"
+          },
+          {
+            "type": "richtext",
+            "id": "answer1",
+            "label": "Answer 1"
+          },
+          {
+            "type": "text",
+            "id": "question2",
+            "label": "Question 2"
+          },
+          {
+            "type": "richtext",
+            "id": "answer2",
+            "label": "Answer 2"
+          },
+          {
+            "type": "text",
+            "id": "question3",
+            "label": "Question 3"
+          },
+          {
+            "type": "richtext",
+            "id": "answer3",
+            "label": "Answer 3"
+          },
+          {
+            "type": "text",
+            "id": "question4",
+            "label": "Question 4"
+          },
+          {
+            "type": "richtext",
+            "id": "answer4",
+            "label": "Answer 4"
+          },
+          {
+            "type": "text",
+            "id": "question5",
+            "label": "Question 5"
+          },
+          {
+            "type": "richtext",
+            "id": "answer5",
+            "label": "Answer 5"
           }
         ] 
       }

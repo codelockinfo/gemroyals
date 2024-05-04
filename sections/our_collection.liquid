@@ -25,9 +25,16 @@
                   <h6>
                     <span>{{ block.settings.span_price }}</span>
                     {{ block.settings.price }}</h6>
-                  <a href="{{ block.settings.collection_url_1 }}">
-                    <button>{{ block.settings.btn_name }}</button>
-                  </a>
+                  <form
+                    action="/cart/add"
+                    method="post"
+                    enctype="multipart/form-data">
+                    <input
+                      type="hidden"
+                      name="id"
+                      value="{{ product.collection_url_1 }}">
+                    <button type="submit">{{ block.settings.btn_name }}</button>
+                  </form>
                 </div>
               </div>
             </div>
@@ -172,6 +179,7 @@
     position: relative;
 
   }
+
 
   .box_image {
     width: 335px;

@@ -3192,7 +3192,7 @@
           "brand_gkyREq": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Trusted_by_2e085fc3-4e49-40cd-a0b4-529dddb1241a.png",
+              "image": "shopify:\/\/shop_images\/001_copy_OK.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -4422,11 +4422,83 @@
       },
       "tab-accordian": {
         "type": "tab-accordian",
+        "blocks": {
+          "text_7w4hhP": {
+            "type": "text",
+            "settings": {
+              "tabheading": "<p>General<\/p>",
+              "question1": "What are lab grown diamonds or lab created diamonds?",
+              "answer1": "Lab-grown or lab-created diamonds are artificially produced in a laboratory, using advanced techniques that replicate the natural diamond formation process. They possess the same chemical, physical, and optical characteristics as mined diamonds. The two main methods are High Pressure, High Temperature (HPHT) and Chemical Vapor Deposition (CVD). These diamonds offer an ethical and environmentally friendly alternative to traditional mining, avoiding the associated conflicts and ecological impacts.",
+              "question2": "Is the metal in this product solid or plated?",
+              "answer2": "Lab-grown or lab-created diamonds are artificially produced in a laboratory, using advanced techniques that replicate the natural diamond formation process. They possess the same chemical, physical, and optical characteristics as mined diamonds. The two main methods are High Pressure, High Temperature (HPHT) and Chemical Vapor Deposition (CVD). These diamonds offer an ethical and environmentally friendly alternative to traditional mining, avoiding the associated conflicts and ecological impacts.",
+              "question3": "",
+              "answer3": "",
+              "question4": "",
+              "answer4": "",
+              "question5": "",
+              "answer5": ""
+            }
+          },
+          "text_B8C6Yn": {
+            "type": "text",
+            "settings": {
+              "tabheading": "<p>Shipping<\/p>",
+              "question1": "",
+              "answer1": "",
+              "question2": "",
+              "answer2": "",
+              "question3": "",
+              "answer3": "",
+              "question4": "",
+              "answer4": "",
+              "question5": "",
+              "answer5": ""
+            }
+          },
+          "text_JcBkTN": {
+            "type": "text",
+            "settings": {
+              "tabheading": "<p>Payments<\/p>",
+              "question1": "",
+              "answer1": "",
+              "question2": "",
+              "answer2": "",
+              "question3": "",
+              "answer3": "",
+              "question4": "",
+              "answer4": "",
+              "question5": "",
+              "answer5": ""
+            }
+          },
+          "text_FAbzMb": {
+            "type": "text",
+            "settings": {
+              "tabheading": "<p>Returns And Exchanges<\/p>",
+              "question1": "",
+              "answer1": "",
+              "question2": "",
+              "answer2": "",
+              "question3": "",
+              "answer3": "",
+              "question4": "",
+              "answer4": "",
+              "question5": "",
+              "answer5": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_7w4hhP",
+          "text_B8C6Yn",
+          "text_JcBkTN",
+          "text_FAbzMb"
+        ],
         "settings": {
           "title": "Testimonials",
           "sub_title": "",
           "sub_font": "2",
-          "style_title": "title_1",
+          "style_title": "title_5 lazyload",
           "ic_tt": "gem",
           "show_clpr": false
         }

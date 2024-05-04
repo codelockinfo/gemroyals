@@ -2,10 +2,9 @@
   {%- render 'section_title',section_title:'mb__40' -%}
   <div class="tabs">
     <ul id="tabs-nav">
-      <li><a href="#tab1">General</a></li>
-      <li><a href="#tab2">Shipping</a></li>
-      <li><a href="#tab3">Payments</a></li>
-      <li><a href="#tab4">Returns And Exchanges</a></li>
+      {%- for block in section.blocks -%}
+      <li><a href="#tab1">{{block.settings.tabheading}}</a></li>
+    {% endfor %}
     </ul> 
     <div id="tabs-content">
       <div id="tab1" class="tab-content">
@@ -258,6 +257,19 @@
       "type": "paragraph",
       "content": "[Get icons Line awesome](https://icons8.com/line-awesome)"
     }
+    ],
+    "blocks": [
+      {
+        "name": "tab",
+        "type": "text",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "tabheading",
+            "label": "tabheading"
+          }
+        ] 
+      }
     ],
     "presets" : [
       {

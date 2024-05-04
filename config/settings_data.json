@@ -4435,7 +4435,7 @@
             "type": "category",
             "settings": {
               "title": "Design Style",
-              "cat_source": "1",
+              "cat_source": "2",
               "cat_link_list": "",
               "count": true
             }
@@ -4454,7 +4454,7 @@
           "other_aq7Ljz": {
             "type": "other",
             "settings": {
-              "hidden_block": false,
+              "hidden_block": true,
               "title": "Diamond Type",
               "arra_enter": "Moissanite,Lab Grown Diamond,Gemstone",
               "use_auto_filter_tag": false,

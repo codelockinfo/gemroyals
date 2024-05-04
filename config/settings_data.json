@@ -178,10 +178,10 @@
     "fw_pr": 700,
     "ls_pr": 0,
     "space_pr": 15,
-    "shop_layout": "default",
+    "shop_layout": "full",
     "shop_des": "default",
     "cat_des": "1",
-    "shop_sidebar": "none",
+    "shop_sidebar": "left",
     "shop_size_sidebar": "2",
     "use_hidden_cat": false,
     "space_sidebar": 30,
@@ -191,7 +191,7 @@
     "show_list_switch": true,
     "sort_enable": true,
     "cat_sticky": false,
-    "shop_filters": true,
+    "shop_filters": false,
     "pop_style": "pop_default",
     "type_filters": "1",
     "logic_filter": "2",
@@ -235,27 +235,27 @@
     "img_size_thumb": "nt_cover",
     "img_pos_thumb": "8",
     "share_source": "2",
-    "use_quickview": true,
+    "use_quickview": false,
     "use_pr_rating": false,
-    "hide_btns": false,
+    "hide_btns": true,
     "use_qty": true,
     "sw_limit": true,
     "price_format": "1",
     "show_pr_img": "2",
     "hover_img": "2",
     "pr_overlay": 10,
-    "use_quickshop": true,
+    "use_quickshop": false,
     "use_buy_qs": true,
     "swatch_design": "2",
     "style_color": "1",
     "swatch_style": "1",
     "swatch_size": "medium",
-    "show_pr_color": true,
+    "show_pr_color": false,
     "show_color_type": "1",
     "pr_swatch_setting": "1",
     "swatch_home_size": "small",
     "swatch_style_settings": "rounded",
-    "show_pr_size": true,
+    "show_pr_size": false,
     "show_size_type": "1",
     "size_ck": "",
     "min_qty": "0",
@@ -1372,7 +1372,7 @@
           "1585708676694"
         ],
         "settings": {
-          "shown": true,
+          "shown": false,
           "source": "2",
           "sort": "alphabetical"
         }
@@ -1413,6 +1413,7 @@
         "blocks": {
           "1581909372373": {
             "type": "color",
+            "disabled": true,
             "settings": {
               "hidden_block": false,
               "title": "By Color",
@@ -1434,6 +1435,7 @@
           },
           "1581913909406": {
             "type": "other",
+            "disabled": true,
             "settings": {
               "hidden_block": false,
               "title": "By Size",
@@ -1445,6 +1447,7 @@
           },
           "1581913174211": {
             "type": "brand",
+            "disabled": true,
             "settings": {
               "hidden_block": false,
               "title": "By Brand",
@@ -1471,8 +1474,8 @@
           "space": 30,
           "use_pagination": "default",
           "use_bar_lm": true,
-          "col_pr": "3",
-          "col_pr_tb": "3",
+          "col_pr": "4",
+          "col_pr_tb": "4",
           "col_pr_mb": "6",
           "pr_des": "1",
           "show_vendor": false,
@@ -4416,6 +4419,132 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "tab-accordian": {
+        "type": "tab-accordian",
+        "settings": {
+          "title": "Testimonials",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false
+        }
+      },
+      "sidebar_shop": {
+        "type": "sidebar_shop",
+        "blocks": {
+          "brand_KhkDKH": {
+            "type": "brand",
+            "settings": {
+              "hidden_block": false,
+              "title": "Diamond Shape",
+              "arra_enter": "Round,Oval,Emerald,Pear,Cushion,Princess,Radiant,Asscher,Marquise",
+              "use_auto_filter_tag": false,
+              "key": "Diamond Shape",
+              "style": "df"
+            }
+          },
+          "category_794q9y": {
+            "type": "category",
+            "settings": {
+              "title": "Design Style",
+              "cat_source": "1",
+              "cat_link_list": "",
+              "count": true
+            }
+          },
+          "other_aq7Ljz": {
+            "type": "other",
+            "settings": {
+              "hidden_block": false,
+              "title": "Diamond Type",
+              "arra_enter": "Moissanite,Lab Grown Diamond,Gemstone",
+              "use_auto_filter_tag": false,
+              "key": "Diamond Type",
+              "style": "ck"
+            }
+          }
+        },
+        "block_order": [
+          "brand_KhkDKH",
+          "category_794q9y",
+          "other_aq7Ljz"
+        ],
+        "settings": {
+        }
+      },
+      "our_collection_KhNBUN": {
+        "type": "our_collection",
+        "blocks": {
+          "text_DDaaXP": {
+            "type": "text",
+            "settings": {
+              "collection_image": "shopify:\/\/shop_images\/c4386e9f1dcf0c7841f89d03b02894d8.jpg",
+              "product_name": "Cluster Emerald Cut Red Garnet Engagement Ring",
+              "span_price": "₹ 21,263.32",
+              "price": "₹ 19,155.84",
+              "btn_name": "Add to cart",
+              "collection_url_1": ""
+            }
+          },
+          "text_p9TWNi": {
+            "type": "text",
+            "settings": {
+              "collection_image": "shopify:\/\/shop_images\/6df9c9e65f4cebb5f201e11b791d6c76.jpg",
+              "product_name": "Cluster Emerald Cut Red Garnet Engagement Ring",
+              "span_price": "₹ 21,263.32",
+              "price": "₹ 19,155.84",
+              "btn_name": "Add to cart",
+              "collection_url_1": ""
+            }
+          },
+          "text_i7p4kz": {
+            "type": "text",
+            "settings": {
+              "collection_image": "shopify:\/\/shop_images\/af1bf5a3a4f14f865f6368233fbaa144.jpg",
+              "product_name": "Cluster Emerald Cut Red Garnet Engagement Ring",
+              "span_price": "₹ 21,263.32",
+              "price": "₹ 19,155.84",
+              "btn_name": "Add to cart",
+              "collection_url_1": ""
+            }
+          },
+          "text_Qeq7Cm": {
+            "type": "text",
+            "settings": {
+              "collection_image": "shopify:\/\/shop_images\/6df9c9e65f4cebb5f201e11b791d6c76.jpg",
+              "product_name": "Cluster Emerald Cut Red Garnet Engagement Ring",
+              "span_price": "₹ 21,263.32",
+              "price": "₹ 19,155.84",
+              "btn_name": "Add to cart",
+              "collection_url_1": ""
+            }
+          },
+          "text_N6ejMr": {
+            "type": "text",
+            "settings": {
+              "collection_image": "shopify:\/\/shop_images\/6df9c9e65f4cebb5f201e11b791d6c76.jpg",
+              "product_name": "Cluster Emerald Cut Red Garnet Engagement Ring",
+              "span_price": "₹ 21,263.32",
+              "price": "₹ 19,155.84",
+              "btn_name": "Add to cart",
+              "collection_url_1": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_DDaaXP",
+          "text_p9TWNi",
+          "text_i7p4kz",
+          "text_Qeq7Cm",
+          "text_N6ejMr"
+        ],
+        "settings": {
+          "collection_head": "our collection",
+          "collection_paragraph": "Choosing a gemstone ring can be a meaningful and stylish choice for several reasons. Gemstones come in a wide range of <br> colors, from deep blues to vibrant reds and sparkling greens. Each gemstone has its unique beauty and allure, allowing <br> you to express your individual style and preferences.",
+          "collection_btn": "View Collection"
+        }
       }
     },
     "content_for_index": [
@@ -4426,6 +4555,7 @@
       "collection_list_bWEJ4G",
       "our_mission_F7HaXC",
       "ring_collection_section_K9qq3c",
+      "our_collection_KhNBUN",
       "slider_image_zEAAR8",
       "image_para_gdjHEA",
       "testimonials_J6TrF9",

@@ -4426,7 +4426,7 @@
           "title": "Testimonials",
           "sub_title": "",
           "sub_font": "2",
-          "style_title": "title_1",
+          "style_title": "title_5 lazyload",
           "ic_tt": "gem",
           "show_clpr": false
         }

@@ -178,10 +178,10 @@
     "fw_pr": 700,
     "ls_pr": 0,
     "space_pr": 15,
-    "shop_layout": "default",
+    "shop_layout": "full",
     "shop_des": "default",
     "cat_des": "1",
-    "shop_sidebar": "none",
+    "shop_sidebar": "left",
     "shop_size_sidebar": "2",
     "use_hidden_cat": false,
     "space_sidebar": 30,
@@ -4415,6 +4415,17 @@
           "pd": "",
           "mg_mb": "",
           "pd_mb": ""
+        }
+      },
+      "tab-accordian": {
+        "type": "tab-accordian",
+        "settings": {
+          "title": "Testimonials",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false
         }
       }
     },

@@ -191,7 +191,7 @@
     "show_list_switch": true,
     "sort_enable": true,
     "cat_sticky": false,
-    "shop_filters": true,
+    "shop_filters": false,
     "pop_style": "pop_default",
     "type_filters": "1",
     "logic_filter": "2",
@@ -1413,6 +1413,7 @@
         "blocks": {
           "1581909372373": {
             "type": "color",
+            "disabled": true,
             "settings": {
               "hidden_block": false,
               "title": "By Color",
@@ -1434,6 +1435,7 @@
           },
           "1581913909406": {
             "type": "other",
+            "disabled": true,
             "settings": {
               "hidden_block": false,
               "title": "By Size",
@@ -1445,6 +1447,7 @@
           },
           "1581913174211": {
             "type": "brand",
+            "disabled": true,
             "settings": {
               "hidden_block": false,
               "title": "By Brand",

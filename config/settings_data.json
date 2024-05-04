@@ -4449,11 +4449,23 @@
               "use_auto_filter_tag": false,
               "key": "Diamond Type"
             }
+          },
+          "brand_KhkDKH": {
+            "type": "brand",
+            "settings": {
+              "hidden_block": false,
+              "title": "Diamond Shape",
+              "arra_enter": "Round,Oval,Emerald,Pear,Cushion,Princess,Radiant,Asscher,Marquise",
+              "use_auto_filter_tag": false,
+              "key": "Diamond Shape",
+              "style": "df"
+            }
           }
         },
         "block_order": [
           "category_794q9y",
-          "color_CbdrV9"
+          "color_CbdrV9",
+          "brand_KhkDKH"
         ],
         "settings": {
         }

@@ -48,3 +48,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
         color: #282828 !important;
         font-weight: 700 !important;
       }
+      .products .product-inner .hover_button .nt_add_w, .hover_button .nt_add_w>a{
+        color: #282828 !important;
+        border-radius: 50% !important;
+      }

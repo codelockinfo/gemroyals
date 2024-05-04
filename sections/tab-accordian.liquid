@@ -1,4 +1,5 @@
 <section class="tab_section" style="background-color: {{ section.settings.bg }};">
+  {%- render 'section_title',section_title:'mb__40' -%}
   <div class="tabs">
     <ul id="tabs-nav">
       <li><a href="#tab1">General</a></li>
@@ -7,17 +8,259 @@
       <li><a href="#tab4">Returns And Exchanges</a></li>
     </ul> 
     <div id="tabs-content">
-      <div id="tab1" class="tab-content">111111111
+      <div id="tab1" class="tab-content">
+          <ul class="accordion-list">
+            <li>
+              <h3>What separates Right Creative from other top design agencies in the area?</h3>
+              <div class="answer">
+                <p>Experience, quality, and results.</p>
+                <p><strong>Experience.</strong> We have been designing websites professional since the early days of the web - before CSS was mainstream, and people still used tables for their website layouts. In the 20+ years that we have been doing this, we have work with and learned from many of the top voices in several industries. To put it simply - there are very few people in the world, let alone the area that can top our years of experience.</p>
+                
+                <p><strong>Quality</strong> At Right Creative, we hold an almost unrealistic standard for quality. We demand excellence in every project we take on, and firmly believe that the quality of our work demonstrates our commitment to these standards.</p>
+                
+                <p><strong>Results</strong> More than anything else, our focus is, and will always be getting results for clients. We don't care how pretty something is - if it is not resulting in the growth or obtaining of goals for our clients, then it is not time or money well spent. Our mission is to turn visitors into paying customers - and every decision that we make is rooted in that mission.</p>
+                
+                <p><strong>Other distinguishing features</strong> Some of the other things that separate Right Creative from other top-rated agencies are: we hand-code all of our websites for maximum results. We don't rely on Wordpress, plugins, templates or themes to accomplish things, and are therefore not locked in to the limits they pose.</p>
+              </div>
+            </li>
+            <li>
+              <h3>We're just starting out. How can we afford your services?</h3>
+              <div class="answer">
+                <p>We started this business from scratch, and know full-well how tight money can be when you are first starting out. We empathize with the struggles of new business owners, and therefore work diligently so that the new businesses that we work with succeed.</p>
+                
+                <p>The primary criteria we look for when working with new businesses is the seriousness of the business owner. While it is natural for a new business owner to be cautious with the money they spend - we do look for a commitment to growth. If you do not have a specific plan for how you intend to grow your business, then the reality is - you will probably never be in a good position to afford our services.</p>
+                
+                <p>With that said - if you are growth-minded, then we are happy to help you achieve that growth, and are willing to work with you to come up with a plan that fits within your budget and comfort level. Whether this is a smaller site, financing options, or a payment plan - we are confident that we can figure out something that will be mutually beneficial.</p>
+                
+              </div>
+            </li>
+            <li>
+              <h3>What is the difference between a pre-designed site and a custom site?</h3>
+              <div class="answer">
+                <p>The difference between pre-designed and custom sites is a lot like the difference between buying a home versus building a home.</p>
+                
+                <p>Pre-designed sites start with a website that has already been designed and coded. These sites will allow you to customize colors, fonts, photos, content, and your logo - but does not allow you to rearrange, reposition, or change the layout of the site. This option is great for newer businesses or businesses with a smaller budget. You not only get the benefit of a hand-coded, customized site, but you also benefit from a smaller price tag and faster turnaround time.</p>
+                
+                <p>Custom sites are built from scratch, exactly to your businesses needs. While custom sites often have a bigger price tag attached to them, they are also going to be more effective at converting your visitors into paying customers.</p>
+                  
+              </div>
+            </li>
+            <li>
+              <h3>Can I make edits to my own website once it launches?</h3>
+              <div class="answer">
+                <p>Yes and no. With each client that we work with, we designate time to figure out what content clients will need to edit on a regular basis, and create tools to allow them to do that easily. For things such as news, articles, blogs, and portfolios, clients will have access to the Content Management System, and add/edit/delete those things as needed.</p>
+                
+                <p>For other areas of the site, we request that our clients trust us to make those edits, so to maintain the integrity of their website.</p>
+                
+                <p>It is very common for clients who have full control over their site to see it deteriorate after a while due to non-designers & non-developers adding content to the site using markup & styling that is not cohesive with the rest of the site. What results is a website filled with pages containing broken-looking content, and improperly formatted text.</p>
+                
+                <p>Because we care about the quality of our sites, the reputations of our clients, and the results that they see - we prefer to let our clients be the experts at what they do - and us to be the experts at what we do.</p>
+                  
+              </div>
+            </li>
+        </ul>
       </div>
-      <div id="tab2" class="tab-content">222222
+      <div id="tab2" class="tab-content">
+        <ul class="accordion-list">
+          <li>
+            <h3>We're just starting out. How can we afford your services?</h3>
+            <div class="answer">
+              <p>We started this business from scratch, and know full-well how tight money can be when you are first starting out. We empathize with the struggles of new business owners, and therefore work diligently so that the new businesses that we work with succeed.</p>
+              
+              <p>The primary criteria we look for when working with new businesses is the seriousness of the business owner. While it is natural for a new business owner to be cautious with the money they spend - we do look for a commitment to growth. If you do not have a specific plan for how you intend to grow your business, then the reality is - you will probably never be in a good position to afford our services.</p>
+              
+              <p>With that said - if you are growth-minded, then we are happy to help you achieve that growth, and are willing to work with you to come up with a plan that fits within your budget and comfort level. Whether this is a smaller site, financing options, or a payment plan - we are confident that we can figure out something that will be mutually beneficial.</p>
+              
+            </div>
+          </li>
+          <li>
+            <h3>What is the difference between a pre-designed site and a custom site?</h3>
+            <div class="answer">
+              <p>The difference between pre-designed and custom sites is a lot like the difference between buying a home versus building a home.</p>
+              
+              <p>Pre-designed sites start with a website that has already been designed and coded. These sites will allow you to customize colors, fonts, photos, content, and your logo - but does not allow you to rearrange, reposition, or change the layout of the site. This option is great for newer businesses or businesses with a smaller budget. You not only get the benefit of a hand-coded, customized site, but you also benefit from a smaller price tag and faster turnaround time.</p>
+              
+              <p>Custom sites are built from scratch, exactly to your businesses needs. While custom sites often have a bigger price tag attached to them, they are also going to be more effective at converting your visitors into paying customers.</p>
+                
+            </div>
+          </li>
+          <li>
+            <h3>Can I make edits to my own website once it launches?</h3>
+            <div class="answer">
+              <p>Yes and no. With each client that we work with, we designate time to figure out what content clients will need to edit on a regular basis, and create tools to allow them to do that easily. For things such as news, articles, blogs, and portfolios, clients will have access to the Content Management System, and add/edit/delete those things as needed.</p>
+              
+              <p>For other areas of the site, we request that our clients trust us to make those edits, so to maintain the integrity of their website.</p>
+              
+              <p>It is very common for clients who have full control over their site to see it deteriorate after a while due to non-designers & non-developers adding content to the site using markup & styling that is not cohesive with the rest of the site. What results is a website filled with pages containing broken-looking content, and improperly formatted text.</p>
+              
+              <p>Because we care about the quality of our sites, the reputations of our clients, and the results that they see - we prefer to let our clients be the experts at what they do - and us to be the experts at what we do.</p>
+                
+            </div>
+          </li>
+        </ul>
       </div>
-      <div id="tab3" class="tab-content">3333333
+      <div id="tab3" class="tab-content">
+        <ul class="accordion-list">
+          <li>
+            <h3>What is the difference between a pre-designed site and a custom site?</h3>
+            <div class="answer">
+              <p>The difference between pre-designed and custom sites is a lot like the difference between buying a home versus building a home.</p>
+              
+              <p>Pre-designed sites start with a website that has already been designed and coded. These sites will allow you to customize colors, fonts, photos, content, and your logo - but does not allow you to rearrange, reposition, or change the layout of the site. This option is great for newer businesses or businesses with a smaller budget. You not only get the benefit of a hand-coded, customized site, but you also benefit from a smaller price tag and faster turnaround time.</p>
+              
+              <p>Custom sites are built from scratch, exactly to your businesses needs. While custom sites often have a bigger price tag attached to them, they are also going to be more effective at converting your visitors into paying customers.</p>
+                
+            </div>
+          </li>
+          <li>
+            <h3>Can I make edits to my own website once it launches?</h3>
+            <div class="answer">
+              <p>Yes and no. With each client that we work with, we designate time to figure out what content clients will need to edit on a regular basis, and create tools to allow them to do that easily. For things such as news, articles, blogs, and portfolios, clients will have access to the Content Management System, and add/edit/delete those things as needed.</p>
+              
+              <p>For other areas of the site, we request that our clients trust us to make those edits, so to maintain the integrity of their website.</p>
+              
+              <p>It is very common for clients who have full control over their site to see it deteriorate after a while due to non-designers & non-developers adding content to the site using markup & styling that is not cohesive with the rest of the site. What results is a website filled with pages containing broken-looking content, and improperly formatted text.</p>
+              
+              <p>Because we care about the quality of our sites, the reputations of our clients, and the results that they see - we prefer to let our clients be the experts at what they do - and us to be the experts at what we do.</p>
+                
+            </div>
+          </li>
+        </ul>
       </div>
-      <div id="tab4" class="tab-content">44444
+      <div id="tab4" class="tab-content">
+        <ul class="accordion-list">
+          <li>
+            <h3>Can I make edits to my own website once it launches?</h3>
+            <div class="answer">
+              <p>Yes and no. With each client that we work with, we designate time to figure out what content clients will need to edit on a regular basis, and create tools to allow them to do that easily. For things such as news, articles, blogs, and portfolios, clients will have access to the Content Management System, and add/edit/delete those things as needed.</p>
+              
+              <p>For other areas of the site, we request that our clients trust us to make those edits, so to maintain the integrity of their website.</p>
+              
+              <p>It is very common for clients who have full control over their site to see it deteriorate after a while due to non-designers & non-developers adding content to the site using markup & styling that is not cohesive with the rest of the site. What results is a website filled with pages containing broken-looking content, and improperly formatted text.</p>
+              
+              <p>Because we care about the quality of our sites, the reputations of our clients, and the results that they see - we prefer to let our clients be the experts at what they do - and us to be the experts at what we do.</p>
+                
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
 </section>
+{% schema %}
+  {
+    "name": "Accordian",
+    "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Testimonials"
+    },
+    {
+      "type": "textarea",
+      "id": "sub_title",
+      "label": "Sub Text"
+    },
+    {
+      "type": "select",
+      "id": "sub_font",
+      "default": "2",
+      "options": [
+       {
+          "value": "1",
+          "label": "Body font"
+       },
+       {
+          "value": "2",
+          "label": "Sub title font"
+        }
+      ],
+      "label": "Sub Text use font:"
+    },
+    {
+      "type": "select",
+      "id": "style_title",
+      "options": [
+       {
+          "value": "title_1",
+          "label": "Design 1"
+       },
+       {
+          "value": "title_2",
+          "label": "Design 2"
+        },
+       {
+          "value": "title_3",
+          "label": "Design 3"
+        },
+       {
+          "value": "title_4",
+          "label": "Design 4"
+        },
+       {
+          "value": "title_5 lazyload",
+          "label": "Design 5"
+        },
+       {
+          "value": "title_6",
+          "label": "Design 6"
+        },
+       {
+          "value": "title_7 +la",
+          "label": "Design 7 (with line-awesome)"
+        },
+       {
+          "value": "title_8",
+          "label": "Design 8"
+        },
+       {
+          "value": "title_9",
+          "label": "Design 9"
+        },
+       {
+          "value": "title_10",
+          "label": "Design 10"
+        },
+       {
+          "value": "title_11",
+          "label": "Design 11"
+        },
+       {
+          "value": "title_12",
+          "label": "Design 12"
+        },
+       {
+          "value": "title_13",
+          "label": "Design 13"
+        }
+      ],
+      "label": "Design Title:"
+    },
+    {
+      "type": "text",
+      "id": "ic_tt",
+      "label": "Style 7 icon line-awesome",
+      "default": "gem"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_clpr",
+      "label": "Use icon color primary?",
+      "default": false
+    },
+    {
+      "type": "paragraph",
+      "content": "[Get icons Line awesome](https://icons8.com/line-awesome)"
+    }
+    ],
+    "presets" : [
+      {
+        "name" : "Accordian"
+      }
+    ]
+  }
+{% endschema %} 
 <script>
     $(document).ready(function(){
      // Show the first tab and hide the rest
@@ -35,5 +278,117 @@
         $(activeTab).fadeIn();
         return false;
       });
-  });
+
+      $('.accordion-list > li > .answer').hide();
+        
+      $('.accordion-list > li').click(function() {
+        if ($(this).hasClass("active")) {
+          $(this).removeClass("active").find(".answer").slideUp();
+        } else {
+          $(".accordion-list > li.active .answer").slideUp();
+          $(".accordion-list > li.active").removeClass("active");
+          $(this).addClass("active").find(".answer").slideDown();
+        }
+        return false;
+      });
+});
 </script>
+<style>
+  
+ #tabs-nav{
+  list-style: none;
+    display: flex;
+    overflow-x: scroll;
+    justify-content: center;
+    border-bottom: 2px solid #EDE9EB;
+    font-family: Montserrat Alternates;
+    font-weight: 600;
+    font-size: 24px;
+ }
+ #tabs-nav li{
+    padding: 0 20px;
+ }
+
+  #tabs-nav::-webkit-scrollbar-track,#tabs-nav::-webkit-scrollbar-track{
+    background-color: #fff;
+  }
+  #tabs-nav::-webkit-scrollbar,#tabs-nav::-webkit-scrollbar{
+    width: 0px;
+    background-color: #fff;
+  }
+
+  #tabs-nav::-webkit-scrollbar-thumb,#tabs-nav::-webkit-scrollbar-thumb{
+    background-color: #fff;	
+  }
+
+ ul.accordion-list {
+	 position: relative;
+	 display: block;
+	 width: 90%;
+	 height: auto;
+	 margin: 20px auto;
+	 list-style: none;
+	 background-color: #F9F9F9;
+}
+ ul.accordion-list li {
+	 position: relative;
+	 display: block;
+	 width: 100%;
+	 height: auto;
+	 background-color: #F9F9F9;
+	 padding: 20px;
+	 border-bottom: 1px solid #e4e5e6;
+	 border-radius: 5px;
+	 cursor: pointer;
+}
+ ul.accordion-list li.active h3:after {
+	 transform: rotate(45deg);
+}
+ ul.accordion-list li h3 {
+	 font-weight: 700;
+	 position: relative;
+	 display: block;
+	 width: 100%;
+	 height: auto;
+	 padding: 0 0 0 0;
+	 margin: 0;
+	 font-size: 24px;
+	 letter-spacing: 0.01em;
+	 cursor: pointer;
+}
+ ul.accordion-list li h3:after {
+	 content: "\f278";
+	 font-family: "material-design-iconic-font";
+	 position: absolute;
+	 right: 0;
+	 top: 0;
+	 color: #fcc110;
+	 transition: all 0.3s ease-in-out;
+	 font-size: 18px;
+}
+ ul.accordion-list li div.answer {
+	 position: relative;
+	 display: block;
+	 width: 100%;
+	 height: auto;
+	 margin: 0;
+	 padding: 0;
+	 cursor: pointer;
+   font-size: 20px;
+   font-family: 'Montserrat Alternates';
+}
+ ul.accordion-list li div.answer p {
+	 position: relative;
+	 display: block;
+	 font-weight: 300;
+	 padding: 10px 0 0 0;
+	 cursor: pointer;
+	 line-height: 150%;
+	 font-size: 14px;
+}
+@media (max-width:768px) {
+#tabs-nav,ul.accordion-list li h3{
+  font-size: 16px;
+}
+}
+</style>

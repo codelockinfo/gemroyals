@@ -4476,10 +4476,26 @@
       },
       "our_collection_KhNBUN": {
         "type": "our_collection",
+        "blocks": {
+          "text_DDaaXP": {
+            "type": "text",
+            "settings": {
+              "collection_image": "shopify:\/\/shop_images\/c4386e9f1dcf0c7841f89d03b02894d8.jpg",
+              "product_name": "Cluster Emerald Cut Red Garnet Engagement Ring",
+              "span_price": "₹ 21,263.32",
+              "price": "₹ 19,155.84",
+              "btn_name": "Add to cart",
+              "collection_url_1": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_DDaaXP"
+        ],
         "settings": {
-          "collection_head": "",
-          "collection_paragraph": "",
-          "collection_btn": ""
+          "collection_head": "our collection",
+          "collection_paragraph": "Choosing a gemstone ring can be a meaningful and stylish choice for several reasons. Gemstones come in a wide range of <br> colors, from deep blues to vibrant reds and sparkling greens. Each gemstone has its unique beauty and allure, allowing <br> you to express your individual style and preferences.",
+          "collection_btn": "View Collection"
         }
       }
     },

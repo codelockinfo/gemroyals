@@ -25,16 +25,16 @@
                   <h6>
                     <span>{{ block.settings.span_price }}</span>
                     {{ block.settings.price }}</h6>
-<<<<<<< HEAD
-                  <form method="post" action="/cart/add">
-                    <a href="{{ block.settings.collection_url_1 }}">
-                      <button>{{ block.settings.btn_name }}</button>
-                    </a>
+                  <form
+                    action="/cart/add"
+                    method="post"
+                    enctype="multipart/form-data">
+                    <input
+                      type="hidden"
+                      name="id"
+                      value="{{ product.collection_url_1 }}">
+                    <button type="submit">{{ block.settings.btn_name }}</button>
                   </form>
-=======
-                  <button>{{ block.settings.btn_name }}<a href="{{ block.settings.collection_url_1 }}"></a>
-                  </button>
->>>>>>> dd7877322121719b11b67e215fbb27731cd77731
                 </div>
               </div>
             </div>

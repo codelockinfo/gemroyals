@@ -192,7 +192,7 @@
     "sort_enable": true,
     "cat_sticky": false,
     "shop_filters": true,
-    "pop_style": "pop_default",
+    "pop_style": "nt_pop_sidebar",
     "type_filters": "1",
     "logic_filter": "2",
     "auto_hide_ofsock": false,

@@ -236,7 +236,7 @@
     "img_pos_thumb": "8",
     "share_source": "2",
     "use_quickview": false,
-    "use_pr_rating": false,
+    "use_pr_rating": true,
     "hide_btns": true,
     "use_qty": true,
     "sw_limit": true,

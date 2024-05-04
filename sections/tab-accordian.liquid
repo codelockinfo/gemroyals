@@ -11,7 +11,11 @@
       <div id="tab1" class="tab-content">
           <ul class="accordion-list">
             <li>
-              <h3>What separates Right Creative from other top design agencies in the area?</h3>
+                <div class="accordian-heading">
+                  <span class="accordian-number">01</span>
+                <h3>What separates Right Creative from other top design agencies in the area?</h3>
+                <i class="fa-solid fa-plus"></i>
+               </div>
               <div class="answer">
                 <p>Experience, quality, and results.</p>
                 <p><strong>Experience.</strong> We have been designing websites professional since the early days of the web - before CSS was mainstream, and people still used tables for their website layouts. In the 20+ years that we have been doing this, we have work with and learned from many of the top voices in several industries. To put it simply - there are very few people in the world, let alone the area that can top our years of experience.</p>
@@ -22,6 +26,7 @@
                 
                 <p><strong>Other distinguishing features</strong> Some of the other things that separate Right Creative from other top-rated agencies are: we hand-code all of our websites for maximum results. We don't rely on Wordpress, plugins, templates or themes to accomplish things, and are therefore not locked in to the limits they pose.</p>
               </div>
+        
             </li>
             <li>
               <h3>We're just starting out. How can we afford your services?</h3>
@@ -340,9 +345,29 @@
 	 border-bottom: 1px solid #e4e5e6;
 	 border-radius: 5px;
 	 cursor: pointer;
+   /* display: flex; */
+  
 }
- ul.accordion-list li.active h3:after {
+ ul.accordion-list li .accordian-number {
+	 font-size: 48px;
+   line-height: 100px;
+   margin-right: 20px;
+}
+ ul.accordion-list li .accordian-main-box {
+	 /* font-size: 48px; */
+   display: flex;
+   align-items: flex-start;
+}
+ ul.accordion-list li.active .accordian-heading i {
 	 transform: rotate(45deg);
+   background-color: #282828;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   line-height: 30px;
+   text-align: center;
+   transition: all 1s;
+   color: #ffffff;
 }
  ul.accordion-list li h3 {
 	 font-weight: 700;
@@ -355,17 +380,25 @@
 	 font-size: 24px;
 	 letter-spacing: 0.01em;
 	 cursor: pointer;
+   color: #000000;
 }
- ul.accordion-list li h3:after {
-	 content: "\f278";
-	 font-family: "material-design-iconic-font";
-	 position: absolute;
-	 right: 0;
-	 top: 0;
-	 color: #fcc110;
-	 transition: all 0.3s ease-in-out;
-	 font-size: 18px;
+ ul.accordion-list li .accordian-heading {
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: all 1s;
 }
+ ul.accordion-list li .accordian-heading i {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+   line-height: 30px;
+   text-align: center;
+   transition: all 1s;
+   color: #000000;
+}
+
+
  ul.accordion-list li div.answer {
 	 position: relative;
 	 display: block;
@@ -376,6 +409,7 @@
 	 cursor: pointer;
    font-size: 20px;
    font-family: 'Montserrat Alternates';
+   padding:0 70px;
 }
  ul.accordion-list li div.answer p {
 	 position: relative;
@@ -385,6 +419,7 @@
 	 cursor: pointer;
 	 line-height: 150%;
 	 font-size: 14px;
+   color: #3c3c43dc;
 }
 @media (max-width:768px) {
 #tabs-nav,ul.accordion-list li h3{

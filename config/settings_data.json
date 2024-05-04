@@ -122,9 +122,9 @@
     "atc_btn": "#ffffff",
     "bgatc_btn_hover": "#b59677",
     "atc_btn_hover": "#fff",
-    "bgatc_pg": "#b59677",
+    "bgatc_pg": "#282828",
     "atc_pg": "#fff",
-    "bgatc_pg_hover": "#222",
+    "bgatc_pg_hover": "#282828",
     "atc_pg_hover": "#fff",
     "bgck_btn": "#000",
     "ck_btn": "#fff",
@@ -236,7 +236,7 @@
     "img_pos_thumb": "8",
     "share_source": "2",
     "use_quickview": false,
-    "use_pr_rating": false,
+    "use_pr_rating": true,
     "hide_btns": true,
     "use_qty": true,
     "sw_limit": true,
@@ -4562,6 +4562,14 @@
       "testimonials_YytaNL",
       "brand_list_Kbyikt",
       "instagram_feed_EJfntL"
-    ]
+    ],
+    "blocks": {
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   }
 }

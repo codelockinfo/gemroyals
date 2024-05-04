@@ -4232,7 +4232,7 @@ html.wf-fontawesome5free-n4-loading .fas:before {opacity: 0}
     height: 30px;
 }
 .title_5.lazyloaded:after {
-    background-image: url(svg_title.svg);
+    background-image: url(star_png);
 }
 .title_6 + .tt_divider {
   display: block;

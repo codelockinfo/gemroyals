@@ -4440,16 +4440,6 @@
               "count": true
             }
           },
-          "color_CbdrV9": {
-            "type": "color",
-            "settings": {
-              "hidden_block": false,
-              "title": "Diamond Type",
-              "arra_enter": "Moissanite,Lab Grown Diamond,Gemstone",
-              "use_auto_filter_tag": false,
-              "key": "Diamond Type"
-            }
-          },
           "brand_KhkDKH": {
             "type": "brand",
             "settings": {
@@ -4460,12 +4450,23 @@
               "key": "Diamond Shape",
               "style": "df"
             }
+          },
+          "other_aq7Ljz": {
+            "type": "other",
+            "settings": {
+              "hidden_block": false,
+              "title": "Diamond Type",
+              "arra_enter": "Moissanite,Lab Grown Diamond,Gemstone",
+              "use_auto_filter_tag": false,
+              "key": "Diamond Type",
+              "style": "ck"
+            }
           }
         },
         "block_order": [
           "category_794q9y",
-          "color_CbdrV9",
-          "brand_KhkDKH"
+          "brand_KhkDKH",
+          "other_aq7Ljz"
         ],
         "settings": {
         }

@@ -235,7 +235,7 @@
     "img_size_thumb": "nt_cover",
     "img_pos_thumb": "8",
     "share_source": "2",
-    "use_quickview": true,
+    "use_quickview": false,
     "use_pr_rating": false,
     "hide_btns": false,
     "use_qty": true,

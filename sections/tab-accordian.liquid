@@ -3,66 +3,65 @@
   <div class="tabs">
     <ul id="tabs-nav">
       {%- for block in section.blocks -%}
-      <li><a href="#tab{{index}}">{{block.settings.tabheading}}</a></li>
+      <li><a href="#tab{{ forloop.index   }}">{{block.settings.tabheading}}</a></li>
     {% endfor %}
     </ul> 
     <div id="tabs-content">
       {%- for block in section.blocks -%}
-        {% assign block = block.settings %}
-      <div id="tab{{index}}" class="tab-content">
-          <ul class="accordion-list">
-            {% if  block.question1 != blank %}
-              <li>
-                  <div class="accordian-heading">
-                    <span class="accordian-number">01</span>
-                    <h3>{{ block.question1 }}</h3>
-                    <i class="fa-solid fa-plus"></i>
-                </div>
-                <div class="answer">{{ block.answer1 }}</div>
-              </li>
-            {% endif %}
-            {% if  block.question2 != blank %}
-              <li>
-                  <div class="accordian-heading">
-                    <span class="accordian-number">02</span>
-                    <h3>{{ block.question2 }}</h3>
-                    <i class="fa-solid fa-plus"></i>
-                </div>
-                <div class="answer">{{ block.answer2 }}</div>
-              </li>
-            {% endif %}
-            {% if  block.question3 != blank %}
-              <li>
-                  <div class="accordian-heading">
-                    <span class="accordian-number">03</span>
-                    <h3>{{ block.question3 }}</h3>
-                    <i class="fa-solid fa-plus"></i>
-                </div>
-                <div class="answer">{{ block.answer3 }}</div>
-              </li>
-            {% endif %}
-            {% if  block.question4 != blank %}
-              <li>
-                  <div class="accordian-heading">
-                    <span class="accordian-number">04</span>
-                    <h3>{{ block.question4 }}</h3>
-                    <i class="fa-solid fa-plus"></i>
-                </div>
-                <div class="answer">{{ block.answer4 }}</div>
-              </li>
-            {% endif %}
-            {% if  block.question5 != blank %}
-              <li>
-                  <div class="accordian-heading">
-                    <span class="accordian-number">05</span>
-                    <h3>{{ block.question5 }}</h3>
-                    <i class="fa-solid fa-plus"></i>
-                </div>
-                <div class="answer">{{ block.answer5 }}</div>
-              </li>
-            {% endif %}
-        </ul>
-      </div>
+        <div id="tab{{ forloop.index }}" class="tab-content">
+            <ul class="accordion-list">
+              {% if  block.settings.question1 != blank %}
+                <li>
+                    <div class="accordian-heading">
+                      <span class="accordian-number">01</span>
+                      <h3>{{ block.settings.question1 }}</h3>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <div class="answer">{{ block.settings.answer1 }}</div>
+                </li>
+              {% endif %}
+              {% if  block.settings.question2 != blank %}
+                <li>
+                    <div class="accordian-heading">
+                      <span class="accordian-number">02</span>
+                      <h3>{{ block.settings.question2 }}</h3>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <div class="answer">{{ block.settings.answer2 }}</div>
+                </li>
+              {% endif %}
+              {% if  block.settings.question3 != blank %}
+                <li>
+                    <div class="accordian-heading">
+                      <span class="accordian-number">03</span>
+                      <h3>{{ block.settings.question3 }}</h3>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <div class="answer">{{ block.settings.answer3 }}</div>
+                </li>
+              {% endif %}
+              {% if  block.settings.question4 != blank %}
+                <li>
+                    <div class="accordian-heading">
+                      <span class="accordian-number">04</span>
+                      <h3>{{ block.settings.question4 }}</h3>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <div class="answer">{{ block.settings.answer4 }}</div>
+                </li>
+              {% endif %}
+              {% if  block.settings.question5 != blank %}
+                <li>
+                    <div class="accordian-heading">
+                      <span class="accordian-number">05</span>
+                      <h3>{{ block.settings.question5 }}</h3>
+                      <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <div class="answer">{{ block.settings.answer5 }}</div>
+                </li>
+              {% endif %}
+          </ul>
+        </div>
       {% endfor %}
     </div>
   </div>
@@ -190,7 +189,7 @@
             "label": "Question 1"
           },
           {
-            "type": "text",
+            "type": "richtext",
             "id": "answer1",
             "label": "Answer 1"
           },
@@ -200,7 +199,7 @@
             "label": "Question 2"
           },
           {
-            "type": "text",
+            "type": "richtext",
             "id": "answer2",
             "label": "Answer 2"
           },
@@ -210,7 +209,7 @@
             "label": "Question 3"
           },
           {
-            "type": "text",
+            "type": "richtext",
             "id": "answer3",
             "label": "Answer 3"
           },
@@ -220,7 +219,7 @@
             "label": "Question 4"
           },
           {
-            "type": "text",
+            "type": "richtext",
             "id": "answer4",
             "label": "Answer 4"
           },
@@ -230,7 +229,7 @@
             "label": "Question 5"
           },
           {
-            "type": "text",
+            "type": "richtext",
             "id": "answer5",
             "label": "Answer 5"
           }

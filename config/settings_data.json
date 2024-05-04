@@ -4445,7 +4445,7 @@
             "settings": {
               "hidden_block": false,
               "title": "Diamond Type",
-              "arra_enter": "Moissanite",
+              "arra_enter": "Moissanite,Lab Grown Diamond,Gemstone",
               "use_auto_filter_tag": false,
               "key": "Diamond Type"
             }

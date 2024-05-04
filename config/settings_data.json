@@ -1471,8 +1471,8 @@
           "space": 30,
           "use_pagination": "default",
           "use_bar_lm": true,
-          "col_pr": "3",
-          "col_pr_tb": "3",
+          "col_pr": "4",
+          "col_pr_tb": "4",
           "col_pr_mb": "6",
           "pr_des": "1",
           "show_vendor": false,
@@ -4426,6 +4426,11 @@
           "style_title": "title_1",
           "ic_tt": "gem",
           "show_clpr": false
+        }
+      },
+      "sidebar_shop": {
+        "type": "sidebar_shop",
+        "settings": {
         }
       }
     },

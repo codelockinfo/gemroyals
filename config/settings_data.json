@@ -4430,6 +4430,20 @@
       },
       "sidebar_shop": {
         "type": "sidebar_shop",
+        "blocks": {
+          "category_794q9y": {
+            "type": "category",
+            "settings": {
+              "title": "Design Style",
+              "cat_source": "1",
+              "cat_link_list": "",
+              "count": true
+            }
+          }
+        },
+        "block_order": [
+          "category_794q9y"
+        ],
         "settings": {
         }
       }

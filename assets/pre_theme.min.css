@@ -33,3 +33,22 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 @font-face {
     font-family: 'vindea';
     src: url(https://cdn.shopify.com/s/files/1/0863/4718/6487/files/Vindea.woff?v=1714547590) }
+
+    .products  .product-inner{
+        padding: 10px;
+        background-color: #f9f9f9;
+        text-align: center;
+      }
+      .products  h3.product-title>a{
+        font-size: 14px  !important;
+        color: #282828 !important;
+      }
+      .products .price {
+        font-size: 16px  !important;
+        color: #282828 !important;
+        font-weight: 700 !important;
+      }
+      .products .product-inner .hover_button .nt_add_w, .hover_button .nt_add_w>a{
+        color: #282828 !important;
+        border-radius: 50% !important;
+      }

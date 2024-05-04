@@ -4431,15 +4431,6 @@
       "sidebar_shop": {
         "type": "sidebar_shop",
         "blocks": {
-          "category_794q9y": {
-            "type": "category",
-            "settings": {
-              "title": "Design Style",
-              "cat_source": "1",
-              "cat_link_list": "",
-              "count": true
-            }
-          },
           "brand_KhkDKH": {
             "type": "brand",
             "settings": {
@@ -4449,6 +4440,15 @@
               "use_auto_filter_tag": false,
               "key": "Diamond Shape",
               "style": "df"
+            }
+          },
+          "category_794q9y": {
+            "type": "category",
+            "settings": {
+              "title": "Design Style",
+              "cat_source": "1",
+              "cat_link_list": "",
+              "count": true
             }
           },
           "other_aq7Ljz": {
@@ -4464,8 +4464,8 @@
           }
         },
         "block_order": [
-          "category_794q9y",
           "brand_KhkDKH",
+          "category_794q9y",
           "other_aq7Ljz"
         ],
         "settings": {

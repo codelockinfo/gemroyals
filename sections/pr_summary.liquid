@@ -530,15 +530,20 @@ assign locale_url = product.url | split:'/products/' | first -%}
         {% if block.settings.complementaryproductheading  %}
           <h4>{{ block.settings.complementaryproductheading }}</h4>
         {% endif %}
-          {%- for product in collections[block.settings.complementaryproduct].products -%}
-            {% comment %} {%- render 'pr_loop_list',product:product -%} {% endcomment %}
+        <div class="ddddddddddd">
+          {%- for product in collections[block.settings.complementaryproduct].products limit:6 -%}
+            {%- render 'pr_loop_list',page_t4:page_t4,product:product,inc_pr:inc_pr,use_cdt:use_cdt,txt_cd:txt_cd, col:col, col_tb:col_tb, col_mb:col_mb,url_cat:url_cat,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}
           {%- endfor -%}
+       </div>
+          {% comment %} {%- for compproduct in collections[block.settings.complementaryproduct].products limit:5 -%}
+          {% render 'pr_loop_list',product:compproduct %}
+          {%- endfor -%} {% endcomment %}
         </div>
       {%- comment -%}
       {%- when 'metafield' -%}
         {%- if pr_metafields_meta.option -%}{%- continue -%}{%- endif -%}
-        <div class="meta_{{block.id}}">{{pr_metafields_meta.option}}</div>
-      {%- endcomment -%}
+          <div class="meta_{{block.id}}">{{pr_metafields_meta.option}}</div>
+        {%- endcomment -%}
 
    {%- endcase -%}
 {%- endfor -%}

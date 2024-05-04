@@ -4473,6 +4473,14 @@
         ],
         "settings": {
         }
+      },
+      "our_collection_KhNBUN": {
+        "type": "our_collection",
+        "settings": {
+          "collection_head": "",
+          "collection_paragraph": "",
+          "collection_btn": ""
+        }
       }
     },
     "content_for_index": [
@@ -4483,6 +4491,7 @@
       "collection_list_bWEJ4G",
       "our_mission_F7HaXC",
       "ring_collection_section_K9qq3c",
+      "our_collection_KhNBUN",
       "slider_image_zEAAR8",
       "image_para_gdjHEA",
       "testimonials_J6TrF9",

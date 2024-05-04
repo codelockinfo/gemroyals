@@ -188,7 +188,7 @@
     "ajax_shop": true,
     "ajax_scroll_top": false,
     "show_column_switch": false,
-    "show_list_switch": true,
+    "show_list_switch": false,
     "sort_enable": true,
     "cat_sticky": false,
     "shop_filters": true,

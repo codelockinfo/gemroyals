@@ -4492,6 +4492,7 @@
           },
           "category_794q9y": {
             "type": "category",
+            "disabled": true,
             "settings": {
               "title": "Design Style",
               "cat_source": "1",
@@ -4500,6 +4501,17 @@
             }
           },
           "other_aq7Ljz": {
+            "type": "other",
+            "settings": {
+              "hidden_block": false,
+              "title": "Design Style",
+              "arra_enter": "Solitaire Ring,\nHalo Ring,\nThree Stone Ring,\nPave Ring,\nVintage Ring",
+              "use_auto_filter_tag": false,
+              "key": "Design Style",
+              "style": "ck"
+            }
+          },
+          "other_GnRPQi": {
             "type": "other",
             "settings": {
               "hidden_block": false,
@@ -4514,7 +4526,8 @@
         "block_order": [
           "brand_KhkDKH",
           "category_794q9y",
-          "other_aq7Ljz"
+          "other_aq7Ljz",
+          "other_GnRPQi"
         ],
         "settings": {
         }

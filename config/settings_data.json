@@ -194,7 +194,7 @@
     "cat_sticky": false,
     "shop_filters": false,
     "pop_style": "pop_default",
-    "type_filters": "2",
+    "type_filters": "1",
     "logic_filter": "2",
     "auto_hide_ofsock": false,
     "show_hide_ofsock": false,
@@ -4488,7 +4488,7 @@
               "arra_enter": "Round,Oval,Emerald,Pear,Cushion,Princess,Radiant,Asscher,Marquise",
               "use_auto_filter_tag": false,
               "key": "Diamond Shape",
-              "style": "ck"
+              "style": "df"
             }
           },
           "category_794q9y": {

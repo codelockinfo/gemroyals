@@ -181,7 +181,7 @@
     "shop_layout": "full",
     "shop_des": "default",
     "cat_des": "1",
-    "shop_sidebar": "left",
+    "shop_sidebar": "right",
     "shop_size_sidebar": "2",
     "use_hidden_cat": false,
     "space_sidebar": 30,

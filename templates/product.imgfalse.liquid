@@ -9,7 +9,7 @@
   {%- capture url_last -%}{{product.url | split:'/products/' | first}}{% if collection %}/collections/{{collection.handle}}{% endif %}/products/{{product.handle}}{%- endcapture -%}
   {%- if images_0 != blank -%}{%- if settings.show_pr_img == '2' -%}{%- render 'pr_img_2',product:product,url_last:url_last -%}{%- else -%}{%- render 'pr_img',product:product,url_last:url_last -%}{%- endif -%}{%- endif -%}
   {%- unless hide_btns %}</div>{% endunless -%}
-  <div class="hover_button op__0 tc pa flex column ts__03">
+  <div class="hover_button tc pa flex column ts__03">
     {%- assign tooltip = "ttip_nt tooltip_left" -%}
     {%- render 'nt_add_w',product:product,tooltip:tooltip,url_last:url_last -%}
     {%- render 'nt_add_qvcp',product:product,tooltip:tooltip,pr_id:pr_id,url_last:url_last -%}

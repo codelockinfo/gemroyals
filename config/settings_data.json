@@ -2223,9 +2223,8 @@
           "pages_heading-0"
         ],
         "settings": {
-          "image": "",
           "parallax": false,
-          "color": "#000",
+          "color": "#ffffff",
           "overlay": 54,
           "padding": 50,
           "bg_pos": "center center",

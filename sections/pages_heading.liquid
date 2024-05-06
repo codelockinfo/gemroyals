@@ -7,10 +7,10 @@
 
   {%- capture bk_contents -%}
     {%- if se_bks.size > 0 -%}
-       <div class="container pr z_100">
+       <div class="width-container pr z_100">
           {%- for block in se_bks -%}
             {%- case block.type -%}
-               {%- when '1' -%}<h1 class="mb__5 cw">{{ page.title}}</h1>
+               {%- when '1' -%}<h1 class="mb__5 cw title-page">{{ page.title}}</h1>
                {%- else -%}{% if block.settings.text == blank %}{% continue %}{% endif %}<p class="mg__0">{{ block.settings.text }}</p>
             {%- endcase -%}
           {%- endfor -%}
@@ -235,3 +235,12 @@
     }
   }
 {% endschema %}
+
+<style>
+  .width-container .title-page{
+    color: #282828;
+    font-size: 40px;
+    font-family: 'Vindea' !important;
+    font-weight: 900;
+  }
+</style>

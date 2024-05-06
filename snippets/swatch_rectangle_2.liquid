@@ -1,5 +1,5 @@
 {%- liquid
-	assign color_ck = settings.color_ck | append:',color,colors,couleur,colour' 
+	assign color_ck = settings.color_ck | append:',color,colors,couleur,colour,metal color' 
 	assign get_color = color_ck | downcase | replace: ' ,', ',' | replace: ', ', ',' | split: ',' | uniq 
 	assign size = product.options_with_values.size 
 	assign ck = true 

@@ -194,6 +194,63 @@ assign locale_url = product.url | split:'/products/' | first -%}
                  {%- assign id_frm = 'cart-form' | append:call_cl -%}{%- assign cl_frm = 'nt_cart_form variations_form variations_form' | append:call_cl -%}
                  {%- form 'product', product, id: id_frm, data-productid: pid, class: cl_frm -%}
                     {{ form | payment_terms }}
+                      {% comment %} custom properties  {% endcomment %}
+                      {% if product.metafields.custom.diamond_shape != blank %}
+                        {% assign diamond_shapes = product.metafields.custom.diamond_shape | remove: '["' | remove: '"]' %}
+                        {%  if diamond_shapes != blank %}
+                        <div class="customproperties">
+                          <div class="flex main-box-properties">
+                            {% assign diamond_shape = diamond_shapes | split:  '","' %}
+                            {% for diamond_shape_value in diamond_shape %}
+                               {% if diamond_shape_value == "Round" %}
+                                <div class="diamond-box radio-toolbar">
+                                  <div class="diamond-img-box">
+                                      <img src="https://gemroyals.com/cdn/shop/files/1-removebg-preview.png?v=1714394158" class="diamond-img">
+                                  </div>
+                                  <h2 class="diamondshape-name">
+                                    <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}" checked> <label class="diamondshape-name">{{ diamond_shape_value }}</label>
+                                  </h2>
+                                  {% comment %} <h2 class="diamondshape-name">
+                                      {{ diamond_shape_value }}
+                                  </h2> {% endcomment %}
+                                </div>
+                               {% endif %}
+                               {% if diamond_shape_value == "Oval" %}
+                                <div class="diamond-box radio-toolbar">
+                                  <div class="diamond-img-box">
+                                      <img src="https://gemroyals.com/cdn/shop/files/2-removebg-preview.png?v=1714394158" class="diamond-img">
+                                  </div>
+                                  <h2 class="diamondshape-name">
+                                    <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label class="diamondshape-name">{{ diamond_shape_value }}</label>
+                                  </h2>
+                                </div>
+                               {% endif %}
+                               {% if diamond_shape_value == "Radiant" %}
+                                <div class="diamond-box radio-toolbar">
+                                  <div class="diamond-img-box">
+                                      <img src="https://gemroyals.com/cdn/shop/files/6-removebg-preview.png?v=1714394158" class="diamond-img">
+                                  </div>
+                                  <h2 class="diamondshape-name">
+                                    <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label class="diamondshape-name">{{ diamond_shape_value }}</label>
+                                  </h2>
+                                </div>
+                               {% endif %}
+                               {% if diamond_shape_value == "Asscher" %}
+                                <div class="diamond-box radio-toolbar">
+                                  <div class="diamond-img-box">
+                                      <img src="https://gemroyals.com/cdn/shop/files/9-removebg-preview.png?v=1714394159" class="diamond-img">
+                                  </div>
+                                  <h2 class="diamondshape-name">
+                                    <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label class="diamondshape-name">{{ diamond_shape_value }}</label>
+                                  </h2>
+                                </div>
+                               {% endif %}
+                            {% endfor %}
+                          </div>
+                        </div>
+                      {% endif  %}
+                      {% endif  %}
+                      {% comment %} custom properties  {% endcomment %}
                     {%- if no_sold_out and settings.enable_sub_reCharge %}{% include 'subscription-product' %}{% endif -%} 
                     {%- if settings.enable_infiniteoptions %}<div id="infiniteoptions-container"></div>{% endif -%} 
                     {%- if default -%}
@@ -2029,3 +2086,31 @@ assign locale_url = product.url | split:'/products/' | first -%}
     }
   }
 {% endschema %}
+<style>
+  
+/* add for custom properties  */
+.main-box-properties{ 
+    gap:15px;
+}
+.diamondshape-name{
+    font-size: 14px;
+    text-align: center;
+}
+.diamond-img-box{
+    background-color: #f0eeef;
+}
+
+.radio-toolbar input[type="radio"] {
+  display: none;
+}
+.radio-toolbar label {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
+.radio-toolbar input[type="radio"]:checked+label {
+  background-color: #333;
+  color:#fff
+}
+/* add for custom properties  */
+</style>

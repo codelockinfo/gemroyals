@@ -4439,33 +4439,33 @@
               "answer5": ""
             }
           },
-          "content_jmjYiD": {
-            "type": "content",
-            "settings": {
-              "tabheading": "",
-              "textcontent": ""
-            }
-          },
-          "content_b6UYnq": {
-            "type": "content",
-            "settings": {
-              "tabheading": "",
-              "textcontent": ""
-            }
-          },
           "content_xxkDeK": {
             "type": "content",
             "settings": {
               "tabheading": "<p>shipping<\/p>",
               "textcontent": "<p><strong>Here's our production timeframes for different types of jewelry:<\/strong><br\/><\/p><p>Rings: 10 Days<\/p><p>Necklaces & Bracelets: 15 Days<\/p><p>Hip Hop Jewelry: 20 Days<\/p><p>Having these distinct timelines allows customers to plan accordingly, especially if they have specific deadlines or events for which they need their jewelry. It also showcases our commitment to craftsmanship and attention to detail, as each piece is given the necessary time and care to ensure its quality.<br\/><br\/><\/p><p>For customers in the USA, knowing that transit time is approximately 8-10 days after production is valuable information. Similarly, for international customers, providing an estimated transit time of 10-15 days helps manage expectations for delivery.<\/p><p>Additionally, specifying that these timeframes exclude weekends (Saturday and Sunday) is helpful for customers to accurately calculate the total delivery time. This prevents any confusion and ensures that customers have a clear understanding of when they can expect their orders to arrive.<\/p><p><br\/>: Once an order has been packed and handed over to the shipping carrier, send the customer a notification confirming that their order has been dispatched. This notification should include relevant details such as the tracking number and the name of the shipping carrier.<br\/><\/p><p><br\/>: Provide clear instructions on how customers can track their order using the provided tracking details. Include links to the shipping carrier's website or tracking portal, as well as any relevant customer support contacts in case they encounter any issues with tracking their package.<br\/><\/p><p><br\/>: Encourage customers to actively track their order using the provided tracking information. Assure them that they will receive real-time updates on the status and location of their package as it makes its way to its destination.<br\/><\/p><p><br\/>: Reassure customers that they can reach out to your customer support team for assistance with any shipping-related inquiries or concerns. Provide customer support channels such as email or live chat.<br\/><\/p><p>If the order is stuck in customs or any other natural disaster reasons (Earthquake, Cyclone Etc.) is there then the order will be delayed.<\/p><p>Offering worldwide shipping through multiple reputable shipping partners is a smart strategy to cater to a global customer base. Each shipping partner may have its own strengths and specialties, providing flexibility and options for customers based on their preferences and location. (Shipping Partners like UPS Service, USPS Service, Aramex, FedEx, DHL Etc.)<\/p>"
             }
+          },
+          "content_jmjYiD": {
+            "type": "content",
+            "settings": {
+              "tabheading": "<p>Packaging<\/p>",
+              "textcontent": "<p>We are offering both elegance and protection for customers' luxury jewelry purchases. Here's how the packaging enhances the overall shopping experience:<br\/><br\/>Sophisticated Jewelry Box: Providing customers with a standard, sophisticated jewelry box crafted from high-quality materials adds to the perceived value of the item. This elegant packaging reflects the premium quality of customer's jewelry and enhances the unboxing experience for customers.<br\/><br\/>Durable Outer Packaging: Enclosing each jewelry box in a durable outer packaging ensures additional security during transit. This outer packaginig protects the jewelry box from external damage, such as bumps or impacts, minimizing the risk of any damage to the precious contents inside.<br\/><br\/>Jewelry Cleaning Cloth: Including jewelry cleaning cloth inside the box  further enhances protection and cleaning the jewelry.<br\/>By offering such a comprehensive packaging solution, we demonstrate our commitment to delivering not only high-quality jewelry but also a premium packaging experience. Customers will appreciate the attention to detail and care taken to ensure that their purchase arrives safely and beautifully presented, enhancing their overall satisfaction with their shopping experience.<\/p>"
+            }
+          },
+          "content_b6UYnq": {
+            "type": "content",
+            "settings": {
+              "tabheading": "<p>Return and refund<\/p>",
+              "textcontent": "<p>Bad Review Policy: Products cannot be returned solely based on receiving a bad review. This policy is in place to prevent negative impacts on the shop's performance due to reviews, even after issuing a refund.<br\/><br\/>Return Shipping Costs: Buyers are responsible for return shipping costs, unless otherwise agreed upon by the seller. In some cases, the seller may provide a return label or cover return shipping costs. Buyers are advised to contact the seller for further details before shipping the item back.<br\/><br\/>Refund Process: If a refund is agreed upon, the seller will initiate the refund within 72 hours upon confirmation of receiving the return parcel. If any damage or issues are found with the returned product, the buyer is responsible for any loss in value.<br\/><br\/>Product Condition: Returned products must be in new condition. Damaged or worn-out products will not be accepted under the Easy Returns and Exchange Policy.<br\/><br\/>Exclusions from Policy: Purchases made during discount\/coupon offers are not eligible for returns or exchanges under the Easy Returns and Exchange Policy. Additionally, customized designs or pieces with personalized engraving cannot be returned or exchanged, but may be eligible for upgrades or repairs.<br\/><br\/>Return and Exchange Process:<br\/>Buyers must contact the seller within 24 hours of receiving the product to initiate a return or exchange. After 24 hours, products are only eligible for exchange.<br\/>A replenishment fee of 30% of the full amount of the jewelry will be deducted in both return and exchange cases.<br\/>Any issues reported after 30 days from the delivery date are only eligible for repair, and return\/exchange requests will not be accepted after this time frame.<br\/>Contact Information: Buyers are encouraged to contact the seller for further assistance or clarification regarding the return and exchange process.<br\/><br\/>This policy aims to provide clear guidelines and procedures for returning or exchanging products, while also addressing specific scenarios such as bad reviews, customized items, and time limitations for returns and exchanges.<\/p>"
+            }
           }
         },
         "block_order": [
           "text_7w4hhP",
+          "content_xxkDeK",
           "content_jmjYiD",
-          "content_b6UYnq",
-          "content_xxkDeK"
+          "content_b6UYnq"
         ],
         "settings": {
           "title": "Testimonials",

@@ -8,60 +8,69 @@
     </ul> 
     <div id="tabs-content">
       {%- for block in section.blocks -%}
-        <div id="tab{{ forloop.index }}" class="tab-content">
-            <ul class="accordion-list">
-              {% if  block.settings.question1 != blank %}
-                <li>
-                    <div class="accordian-heading">
-                      <span class="accordian-number">01</span>
-                      <h3>{{ block.settings.question1 }}</h3>
-                      <i class="fa-solid fa-plus"></i>
-                  </div>
-                  <div class="answer">{{ block.settings.answer1 }}</div>
-                </li>
-              {% endif %}
-              {% if  block.settings.question2 != blank %}
-                <li>
-                    <div class="accordian-heading">
-                      <span class="accordian-number">02</span>
-                      <h3>{{ block.settings.question2 }}</h3>
-                      <i class="fa-solid fa-plus"></i>
-                  </div>
-                  <div class="answer">{{ block.settings.answer2 }}</div>
-                </li>
-              {% endif %}
-              {% if  block.settings.question3 != blank %}
-                <li>
-                    <div class="accordian-heading">
-                      <span class="accordian-number">03</span>
-                      <h3>{{ block.settings.question3 }}</h3>
-                      <i class="fa-solid fa-plus"></i>
-                  </div>
-                  <div class="answer">{{ block.settings.answer3 }}</div>
-                </li>
-              {% endif %}
-              {% if  block.settings.question4 != blank %}
-                <li>
-                    <div class="accordian-heading">
-                      <span class="accordian-number">04</span>
-                      <h3>{{ block.settings.question4 }}</h3>
-                      <i class="fa-solid fa-plus"></i>
-                  </div>
-                  <div class="answer">{{ block.settings.answer4 }}</div>
-                </li>
-              {% endif %}
-              {% if  block.settings.question5 != blank %}
-                <li>
-                    <div class="accordian-heading">
-                      <span class="accordian-number">05</span>
-                      <h3>{{ block.settings.question5 }}</h3>
-                      <i class="fa-solid fa-plus"></i>
-                  </div>
-                  <div class="answer">{{ block.settings.answer5 }}</div>
-                </li>
-              {% endif %}
-          </ul>
-        </div>
+        {%- case block.type -%}
+          {%- when 'text' -%}
+              <div id="tab{{ forloop.index }}" class="tab-content">
+                  <ul class="accordion-list">
+                    {% if  block.settings.question1 != blank %}
+                      <li>
+                          <div class="accordian-heading">
+                            <span class="accordian-number">01</span>
+                            <h3>{{ block.settings.question1 }}</h3>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="answer">{{ block.settings.answer1 }}</div>
+                      </li>
+                    {% endif %}
+                    {% if  block.settings.question2 != blank %}
+                      <li>
+                          <div class="accordian-heading">
+                            <span class="accordian-number">02</span>
+                            <h3>{{ block.settings.question2 }}</h3>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="answer">{{ block.settings.answer2 }}</div>
+                      </li>
+                    {% endif %}
+                    {% if  block.settings.question3 != blank %}
+                      <li>
+                          <div class="accordian-heading">
+                            <span class="accordian-number">03</span>
+                            <h3>{{ block.settings.question3 }}</h3>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="answer">{{ block.settings.answer3 }}</div>
+                      </li>
+                    {% endif %}
+                    {% if  block.settings.question4 != blank %}
+                      <li>
+                          <div class="accordian-heading">
+                            <span class="accordian-number">04</span>
+                            <h3>{{ block.settings.question4 }}</h3>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="answer">{{ block.settings.answer4 }}</div>
+                      </li>
+                    {% endif %}
+                    {% if  block.settings.question5 != blank %}
+                      <li>
+                          <div class="accordian-heading">
+                            <span class="accordian-number">05</span>
+                            <h3>{{ block.settings.question5 }}</h3>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="answer">{{ block.settings.answer5 }}</div>
+                      </li>
+                    {% endif %}
+                </ul>
+              </div>
+          {%- when 'content' -%}
+              <div id="tab{{ forloop.index }}" class="tab-content">
+                <ul class="accordion-list">
+                  <li>{{ block.settings.textcontent }}</li>
+                </ul>
+              </div>
+        {%- endcase -%}
       {% endfor %}
     </div>
   </div>
@@ -234,6 +243,22 @@
             "label": "Answer 5"
           }
         ] 
+      },
+      {
+        "name": "content",
+        "type": "content",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "tabheading",
+            "label": "tabheading"
+          },
+          {
+            "type": "richtext",
+            "id": "textcontent",
+            "label": "Content"
+          }
+        ]
       }
     ],
     "presets" : [

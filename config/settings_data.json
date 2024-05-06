@@ -37,9 +37,9 @@
     "wishlist_type": "1",
     "enable_compe": false,
     "app_review": "1",
-    "label_settings": "rectangular",
+    "label_settings": "rounded",
     "use_sale_label": true,
-    "label_sale_style": "2",
+    "label_sale_style": "1",
     "use_sold_out_label": true,
     "use_new_label": true,
     "new_day_added": 10,
@@ -189,6 +189,7 @@
     "ajax_scroll_top": false,
     "show_column_switch": true,
     "show_list_switch": true,
+    "default_list_view": false,
     "sort_enable": true,
     "cat_sticky": false,
     "shop_filters": false,
@@ -4487,11 +4488,12 @@
               "arra_enter": "Round,Oval,Emerald,Pear,Cushion,Princess,Radiant,Asscher,Marquise",
               "use_auto_filter_tag": false,
               "key": "Diamond Shape",
-              "style": "df"
+              "style": "ck"
             }
           },
           "category_794q9y": {
             "type": "category",
+            "disabled": true,
             "settings": {
               "title": "Design Style",
               "cat_source": "1",
@@ -4500,6 +4502,17 @@
             }
           },
           "other_aq7Ljz": {
+            "type": "other",
+            "settings": {
+              "hidden_block": false,
+              "title": "Design Style",
+              "arra_enter": "Solitaire Ring,\nHalo Ring,\nThree Stone Ring,\nPave Ring,\nVintage Ring",
+              "use_auto_filter_tag": false,
+              "key": "Design Style",
+              "style": "ck"
+            }
+          },
+          "other_GnRPQi": {
             "type": "other",
             "settings": {
               "hidden_block": false,
@@ -4514,7 +4527,8 @@
         "block_order": [
           "brand_KhkDKH",
           "category_794q9y",
-          "other_aq7Ljz"
+          "other_aq7Ljz",
+          "other_GnRPQi"
         ],
         "settings": {
         }

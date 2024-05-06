@@ -2826,11 +2826,12 @@ html.wf-fontawesome5free-n4-loading .fas:before {opacity: 0}
     padding: 50px 0;
     color: #ededed;
   }
-  .page-head h1 {
+  /* .page-head h1 {
     font-size: 20px;
     line-height: 20px;
     font-weight: 500;
-  }
+    color: #282828 !important;
+  } */
   .page-head:before {
     content: '';
     opacity: .5;

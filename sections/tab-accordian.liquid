@@ -1,4 +1,4 @@
-<section class="tab_section" style="background-color: {{ section.settings.bg }};">
+<section class="tab_section tab-main-heading width-container" style="background-color: {{ section.settings.bg }};">
   {%- render 'section_title',section_title:'mb__40' -%}
   <div class="tabs">
     <ul id="tabs-nav">
@@ -423,9 +423,17 @@
 	 font-size: 14px;
    color: #3c3c43dc;
 }
+.tab-main-heading{
+  justify-content: center !important;
+}
 @media (max-width:768px) {
 #tabs-nav,ul.accordion-list li h3{
   font-size: 16px;
 }
+}
+@media (max-width:576px) {
+  #tabs-nav {
+    justify-content: flex-start;
+  }
 }
 </style>

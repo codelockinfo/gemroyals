@@ -423,17 +423,44 @@
 	 font-size: 14px;
    color: #3c3c43dc;
 }
+.tab-main-heading .section-title{
+  font-family: 'Vindea'; 
+font-weight:  400;
+font-size: 64px;
+line-height:83.43px;  
+}
 .tab-main-heading{
   justify-content: center !important;
 }
-@media (max-width:768px) {
-#tabs-nav,ul.accordion-list li h3{
+
+
+@media (max-width: 1024px) {
+    .tab-main-heading .section-title {
+      font-size: 50px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .tab-main-heading .section-title{
+      line-height: 50px;
+      font-size: 50px;
+    }
+    #tabs-nav,ul.accordion-list li h3{
   font-size: 16px;
 }
-}
-@media (max-width:576px) {
-  #tabs-nav {
+  }
+  @media (max-width: 576px) {
+    .tab-main-heading .section-title {
+      font-size: 40px;
+      line-height: 60px;
+    }
+    #tabs-nav {
     justify-content: flex-start;
   }
-}
+  }
+  @media (max-width: 400px) {
+    .tab-main-heading .section-title {
+      font-size: 30px;
+    }
+  }
 </style>

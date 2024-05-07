@@ -8,7 +8,7 @@
   assign ter_des = se_stts.ter_des
   assign image = se_stts.image
   if layout == 'wrap'
-   assign html_layout = '<div class="width-container">__</div>' | split:'__'
+   assign html_layout = '<div class="width-container review-start">__</div>' | split:'__'
   else
    assign html_layout = '__' | split:'__'
   endif -%}
@@ -18,8 +18,9 @@
         max-width: 100%;
         padding: 0 20px;
       }
-      .width-container .section-title{
+       .review-start .section-title{
         justify-content: start;
+      
       }
     </style>
   {% endif %}
@@ -554,12 +555,10 @@
     line-height: 21.94px;
   }
   .width-container .section-title{
-    font-size: 64px;
-    font-family: 'vindea';
-    font-weight: 400;
-    line-height: 83.43px;
-    color:#282828;
-    text-align: center;
+    font-size: 36px;
+    color: #282828;
+    font-weight: 700;
+    font-family: 'Montserrat Alternates';
   }
   .width-container .flickity-page-dots{
     display: flex;
@@ -590,11 +589,7 @@
   }
 
 
-  @media (max-width: 1024px) {
-    .width-container .section-title{
-      
-   }
-  }
+
   @media (max-width: 768px) {
     .width-container .section-title{
     font-size: 50px;

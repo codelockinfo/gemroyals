@@ -17,7 +17,9 @@
                           <div class="accordian-heading">
                             <span class="accordian-number">01</span>
                             <h3>{{ block.settings.question1 }}</h3>
-                            <i class="fa-solid fa-plus"></i>
+                             <div class="icon-plus">
+                              <i class="fa-solid fa-plus"></i>
+                             </div>
                         </div>
                         <div class="answer">{{ block.settings.answer1 }}</div>
                       </li>
@@ -27,7 +29,9 @@
                           <div class="accordian-heading">
                             <span class="accordian-number">02</span>
                             <h3>{{ block.settings.question2 }}</h3>
-                            <i class="fa-solid fa-plus"></i>
+                            <div class="icon-plus">
+                              <i class="fa-solid fa-plus"></i>
+                             </div>
                         </div>
                         <div class="answer">{{ block.settings.answer2 }}</div>
                       </li>
@@ -37,7 +41,9 @@
                           <div class="accordian-heading">
                             <span class="accordian-number">03</span>
                             <h3>{{ block.settings.question3 }}</h3>
-                            <i class="fa-solid fa-plus"></i>
+                            <div class="icon-plus">
+                              <i class="fa-solid fa-plus"></i>
+                             </div>
                         </div>
                         <div class="answer">{{ block.settings.answer3 }}</div>
                       </li>
@@ -47,7 +53,9 @@
                           <div class="accordian-heading">
                             <span class="accordian-number">04</span>
                             <h3>{{ block.settings.question4 }}</h3>
-                            <i class="fa-solid fa-plus"></i>
+                            <div class="icon-plus">
+                              <i class="fa-solid fa-plus"></i>
+                             </div>
                         </div>
                         <div class="answer">{{ block.settings.answer4 }}</div>
                       </li>
@@ -57,7 +65,9 @@
                           <div class="accordian-heading">
                             <span class="accordian-number">05</span>
                             <h3>{{ block.settings.question5 }}</h3>
-                            <i class="fa-solid fa-plus"></i>
+                            <div class="icon-plus">
+                              <i class="fa-solid fa-plus"></i>
+                             </div>
                         </div>
                         <div class="answer">{{ block.settings.answer5 }}</div>
                       </li>
@@ -360,7 +370,7 @@
    display: flex;
    align-items: flex-start;
 }
- ul.accordion-list li.active .accordian-heading i {
+ ul.accordion-list li.active .accordian-heading .icon-plus {
 	 transform: rotate(45deg);
    background-color: #282828;
    width: 30px;
@@ -369,7 +379,22 @@
    line-height: 30px;
    text-align: center;
    transition: all 1s;
-   color: #ffffff;
+   
+}
+ul.accordion-list li.active .accordian-heading .icon-plus i{
+  color: #ffffff;
+}
+ul.accordion-list li .accordian-heading .icon-plus i{
+  color: #000000;   
+}
+ul.accordion-list li .accordian-heading .icon-plus {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+   line-height: 30px;
+   text-align: center;
+   transition: all 1s;
+   color: #000000;
 }
  ul.accordion-list li h3 {
 	 font-weight: 700;
@@ -390,15 +415,7 @@
    justify-content: center;
    transition: all 1s;
 }
- ul.accordion-list li .accordian-heading i {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-   line-height: 30px;
-   text-align: center;
-   transition: all 1s;
-   color: #000000;
-}
+
 
 
  ul.accordion-list li div.answer {
@@ -428,6 +445,7 @@
 font-weight:  400;
 font-size: 64px;
 line-height:83.43px;  
+color: #282828;
 }
 .tab-main-heading{
   justify-content: center !important;

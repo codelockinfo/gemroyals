@@ -3937,9 +3937,12 @@ html.wf-fontawesome5free-n4-loading .fas:before {opacity: 0}
   .variations.style__rectangle .swatch:not(.is-color) li:hover,
   .variations.style__rectangle .swatch:not(.is-color) li.is-selected,
   .variations.style__rectangle .swatch:not(.is-color) li.is-selected-nt { 
-     border-color: rgba(33,43,54,0.9);
-     background-color: rgba(33,43,54,0.9);
-     color: #fff;
+    border-color: #B69D62 !important;
+    background-color: #EDE9EB !important;
+    color: #B69D62 !important;
+  }
+  .variations.style__rectangle .swatch:not(.is-color) li.is-selected{
+   
   }
   .variations.style__rectangle .swatch.is-label .swatch_pr_item:not(.is-selected):not(.is-selected-nt):hover .swatch__value_pr {
       color: #fff;

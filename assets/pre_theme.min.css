@@ -11973,7 +11973,7 @@ body.dark_mode_true {
 
 .footer__top_wrap .txt_title {
   font-family: 'Vindea';
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 40.9px;
   text-align: left;
@@ -12032,3 +12032,4 @@ body.dark_mode_true {
 .btn_des_3 .variations_button .nt_add_w {
   border-radius: 50% !important;
 }
+

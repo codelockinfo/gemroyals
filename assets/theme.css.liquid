@@ -509,7 +509,7 @@ background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w
 {% endcomment %}
 {% if settings.sticky_header %}{% assign opnavst = settings.opnavst | divided_by: 100.0 %}
 
-    .ntheader.live_stuck .push-menu-btn>svg {fill: {{ clnavst }} }
+    .ntheader.live_stuck .push-menu-btn>svg {fill: #ffffff }
     .ntheader.live_stuck .sp_header_mid { background-color: {{ settings.bgnavst | color_modify: 'alpha', opnavst }} }
     .ntheader.live_stuck .nt_menu>li>a,
     .ntheader.live_stuck .nt_action>a,
@@ -566,6 +566,7 @@ background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w
 .nt_action .tcount,.toolbar_count {
   background-color: {{settings.bg_hc}};
   color: {{settings.cl_hc}};
+  text-align:center;
 }
 input[type="submit"]:hover, button:hover, a.button:hover,
 .address-edit-toggle:focus {

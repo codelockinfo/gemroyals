@@ -1602,7 +1602,7 @@
           "pr_summary-0": {
             "type": "title",
             "settings": {
-              "size": 16
+              "size": 32
             }
           },
           "pr_summary-1": {

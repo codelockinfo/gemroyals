@@ -265,7 +265,9 @@
 .nt_label.out-of-stock {background-color: #999}
 .nt_label.new,.lb_new {background-color: #109533}
 h3.product-title, h3.product-title>a, h1.product_title.entry-title, .widget .product_list_widget .product-title, .widget .post_list_widget .article-title {
-    color: #4d5959;
+    color: #282828 !important; 
+    font-size: 32px !important;
+    font-weight: 600 !important;
 }
 .price,.price_range,.grouped-pr-list-item__price {
     color: #696969;

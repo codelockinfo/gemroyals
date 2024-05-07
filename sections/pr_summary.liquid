@@ -259,18 +259,18 @@ assign locale_url = product.url | split:'/products/' | first -%}
                             <h4 class="swatch__title">Diamond Size</h4>
                             <select id="your-name" name="properties[Lab Grown Diamond Size]">
                               <option value="">Select Size</option>
-                              {% comment %} <option value="Option1">Option1</option>
+                              <option value="Option1">Option1</option>
                               <option value="Option2">Option2</option>
-                              <option value="Option3">Option3</option> {% endcomment %}
+                              <option value="Option3">Option3</option> 
                             </select>
                         </div>
                         <div class="ringsize">
                             <div class="ringsizelabel"><h4 class="swatch__title">Ring Size (US)</h4> <div><a class="sizechartlabel cd chp btn_size_guide mr__20" href="#" data-no-instant="" rel="nofollow" data-src="https://cdn.shopify.com/s/files/1/0863/4718/6487/files/Ring_Size_Chart.jpg?v=1715061728" data-width="600" data-height="600">SIZE CHART</a></div></div>
                             <select id="your-name" name="properties[Ring Size (US)]">
                               <option value="">Select Ring Size</option>
-                              {% comment %} <option value="Option1">Option1</option>
+                              <option value="Option1">Option1</option>
                               <option value="Option2">Option2</option>
-                              <option value="Option3">Option3</option> {% endcomment %}
+                              <option value="Option3">Option3</option> 
                             </select>
                         </div>
                       </div>
@@ -339,7 +339,7 @@ assign locale_url = product.url | split:'/products/' | first -%}
                    {%- elsif price_varies -%}<span class="price price_varies">{{ current_variant.price | money }}</span>{%- endif -%}
                     <div class="variations_button in_flex column w__100">
                        <div class="flex wrap">
-                          {%- if ck_external -%}<a href="{{link}}" rel="nofollow" target="_blank" class="truncate external_btn button">{{title}}</a>{%- render 'nt_add_w',class:"order-3",tooltip:"ttip_nt tooltip_top_left" -%}
+                          {%- if ck_external -%}<a href="{{link}}" rel="nofollow" target="_blank" class="truncate external_btn button">{{title}}</a>{%- render 'nt_add_w ',class:" ddddd order-3",tooltip:"ttip_nt tooltip_top_left" -%}
                           {%- elsif no_sold_out == false -%}
                                 <a rel="nofollow" data-no-instant href="#" class="truncate out_stock button pe_none" id="out_stock{{call_cl}}">{{'products.product.outofstock' | t}}</a>
                                 {%- render 'nt_add_w',tooltip:"ttip_nt tooltip_top_left" -%}
@@ -2155,7 +2155,7 @@ assign locale_url = product.url | split:'/products/' | first -%}
 }
 
 .diamondshape-name input[type="radio"]:checked + label {
-  border:2px solid #333;
+  border:2px solid #B69D62 !important
 }
 
 .diamondshape-name label {

@@ -16,7 +16,7 @@
   <div class="mt__30 nt_banner_holder align-center brand_hover_{{se_stts.brand_hover}} row equal_nt nt_contain position_8 fl_center cat_space_{{se_stts.cat_space}}{% if se_stts.brand_layout == '2' %} nt_slider js_carousel prev_next_{{se_stts.btn_color}} btn_owl_{{se_stts.btn_owl}} dot_owl_{{se_stts.dot_owl}} dot_color_{{se_stts.dot_color}} btn_vi_{{se_stts.btn_vi}}{% endif %}"{% if se_stts.brand_layout == '2' %} data-flickity='{"imagesLoaded": false, "adaptiveHeight": true, "contain": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": {{se_stts.loop}},"prevNextButtons": {{se_stts.button}},"percentPosition": true,"pageDots": {{se_stts.dot}}, "autoPlay" : {% if se_stts.autoplay %}{{ se_stts.au_time | times: 1000 }}{% else %}false{% endif %}, "pauseAutoPlayOnHover" : {{se_stts.au_hover}}, "rightToLeft": {{settings.use_rtl}} }'{% endif %}>
     {%- for block in section.blocks -%}
       {%- assign image = block.settings.image -%}{%- assign url = block.settings.url -%}
-      <div class="cat_space_item {{ccol}} brand_item nt_{{block.id}} tc">
+      <div class="cat_space_item brand-item {{ccol}} brand_item nt_{{block.id}} tc">
           {%- if url != blank -%}<a href="{{ url }}" class="db" target="{{block.settings.open_link}}">{%- endif -%}
             {%- if image != blank %}{% assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
               <img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20{{image.width}}%20{{image.height}}%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="{{ img_url }}" data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-sizes="auto" class="lazyload lz_op_ef w__100" alt="{{image.alt}}" style="max-width:{{image.width}}px">
@@ -555,7 +555,7 @@
       }
     ]
   }
-{% endschema %}
+{% endschema %} 
    
 
 <style>
@@ -570,5 +570,18 @@
   }
   .width-container .cat_space_item{
     margin: 0;
+  }
+  .width-container .brand-item img{
+     max-width: 200px !important;
+  }
+  @media (max-width:768px) {
+    .width-container .brand-item img{
+     max-width: 150px !important;
+  }
+  }
+  @media (max-width:576px) {
+    .width-container .brand-item img{
+     max-width: 100px !important;
+  }
   }
 </style>

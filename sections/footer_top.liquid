@@ -22,7 +22,7 @@
                     <span class="nav_link_icon ml__5"></span>
                   </h3>
                 {%- endif -%}
-                <div class="textwidget widget_footer">
+                <div class="textwidget widget_footer" style="display: none;">
                   <div class="footer-contact">
                     {%- if image != blank -%}
                       <p>
@@ -111,7 +111,7 @@
             {%- when 'collection' -%}
               {%- liquid
                 assign on_sale_txt = 'products.product.on_sale' | t
-                assign save_js = 'products.product.save_js' | t: saved_amount: 'saved_amount' -%}
+                assign save_js = 'products.product.save_js' | t: saved_amount: 'saved_amount'-%}
               <aside id="block_{{block.id}}" class="widget widget_product_list">
                 {%- if bk_stts.title != blank -%}
                   <h3 class="widget-title fwsb flex al_center fl_between fs__16 mg__0 mb__30">
@@ -228,7 +228,7 @@
                     <span class="nav_link_icon ml__5"></span>
                   </h3>
                 {%- endif -%}
-                <div class="menu_footer widget_footer">
+                <div class="menu_footer widget_footer" style="display: none;">
                   {%- assign menu = bk_stts.menu -%}
                   {%- if menu != blank -%}
                     <ul class="menu">

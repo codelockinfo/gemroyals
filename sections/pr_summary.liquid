@@ -83,7 +83,7 @@ assign locale_url = product.url | split:'/products/' | first -%}
         {%- endif -%}
 
       {%- when 'pricereview' -%}
-        <div class="flex wrap fl_between al_center price-review mt__15 pb__10 mb__20 price_stock">
+        <div class="flex wrap fl_between al_center price-review mt__15 pb__10 mb__20">
            <p class="price_range" id="price{{call_cl}}">
             {%- if nav_up_size == 0 and current_variant.unit_price_measurement -%}
                 {%- if price_varies -%}<span class="price_varies">{%- endif -%}
@@ -194,11 +194,14 @@ assign locale_url = product.url | split:'/products/' | first -%}
                  {%- assign id_frm = 'cart-form' | append:call_cl -%}{%- assign cl_frm = 'nt_cart_form variations_form variations_form' | append:call_cl -%}
                  {%- form 'product', product, id: id_frm, data-productid: pid, class: cl_frm -%}
                     {{ form | payment_terms }}
-                      {% comment %} custom properties  {% endcomment %}
+                      {% comment %} custom properties Diamond shape {% endcomment %}
                       {% if product.metafields.custom.diamond_shape != blank %}
                         {% assign diamond_shapes = product.metafields.custom.diamond_shape | remove: '["' | remove: '"]' %}
                         {%  if diamond_shapes != blank %}
                         <div class="customproperties">
+                          <h4 class="swatch__title">
+                            Diamond Shape
+                          </h4>
                           <div class="flex main-box-properties">
                             {% assign diamond_shape = diamond_shapes | split:  '","' %}
                             {% for diamond_shape_value in diamond_shape %}
@@ -207,12 +210,9 @@ assign locale_url = product.url | split:'/products/' | first -%}
                                   <div class="diamond-img-box">
                                       <img src="https://gemroyals.com/cdn/shop/files/1-removebg-preview.png?v=1714394158" class="diamond-img">
                                   </div>
-                                  <h2 class="diamondshape-name">
-                                    <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}" checked> <label class="diamondshape-name">{{ diamond_shape_value }}</label>
+                                  <h2  class="diamondshape-name">
+                                    <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}" checked> <label>{{ diamond_shape_value }}</label>
                                   </h2>
-                                  {% comment %} <h2 class="diamondshape-name">
-                                      {{ diamond_shape_value }}
-                                  </h2> {% endcomment %}
                                 </div>
                                {% endif %}
                                {% if diamond_shape_value == "Oval" %}
@@ -220,8 +220,8 @@ assign locale_url = product.url | split:'/products/' | first -%}
                                   <div class="diamond-img-box">
                                       <img src="https://gemroyals.com/cdn/shop/files/2-removebg-preview.png?v=1714394158" class="diamond-img">
                                   </div>
-                                  <h2 class="diamondshape-name">
-                                    <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label class="diamondshape-name">{{ diamond_shape_value }}</label>
+                                  <h2  class="diamondshape-name">
+                                    <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label >{{ diamond_shape_value }}</label>
                                   </h2>
                                 </div>
                                {% endif %}
@@ -230,8 +230,8 @@ assign locale_url = product.url | split:'/products/' | first -%}
                                   <div class="diamond-img-box">
                                       <img src="https://gemroyals.com/cdn/shop/files/6-removebg-preview.png?v=1714394158" class="diamond-img">
                                   </div>
-                                  <h2 class="diamondshape-name">
-                                    <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label class="diamondshape-name">{{ diamond_shape_value }}</label>
+                                  <h2  class="diamondshape-name">
+                                    <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label >{{ diamond_shape_value }}</label>
                                   </h2>
                                 </div>
                                {% endif %}
@@ -240,8 +240,8 @@ assign locale_url = product.url | split:'/products/' | first -%}
                                   <div class="diamond-img-box">
                                       <img src="https://gemroyals.com/cdn/shop/files/9-removebg-preview.png?v=1714394159" class="diamond-img">
                                   </div>
-                                  <h2 class="diamondshape-name">
-                                    <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label class="diamondshape-name">{{ diamond_shape_value }}</label>
+                                  <h2  class="diamondshape-name">
+                                    <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label >{{ diamond_shape_value }}</label>
                                   </h2>
                                 </div>
                                {% endif %}
@@ -250,7 +250,31 @@ assign locale_url = product.url | split:'/products/' | first -%}
                         </div>
                       {% endif  %}
                       {% endif  %}
-                      {% comment %} custom properties  {% endcomment %}
+
+                    {% comment %} custom properties Diamond shape {% endcomment %}
+                      {% comment %} custom properties Lab grawn diamond size & ring size {% endcomment %}
+                 
+                      <div class="flex propertiessize">
+                        <div class="diamondsize">
+                            <h4 class="swatch__title">Diamond Size</h4>
+                            <select id="your-name" name="properties[Lab Grown Diamond Size]">
+                              <option value="">Select Size</option>
+                              {% comment %} <option value="Option1">Option1</option>
+                              <option value="Option2">Option2</option>
+                              <option value="Option3">Option3</option> {% endcomment %}
+                            </select>
+                        </div>
+                        <div class="ringsize">
+                            <div class="ringsizelabel"><h4 class="swatch__title">Ring Size (US)</h4> <div><a class="sizechartlabel cd chp btn_size_guide mr__20" href="#" data-no-instant="" rel="nofollow" data-src="https://cdn.shopify.com/s/files/1/0863/4718/6487/files/Ring_Size_Chart.jpg?v=1715061728" data-width="600" data-height="600">SIZE CHART</a></div></div>
+                            <select id="your-name" name="properties[Ring Size (US)]">
+                              <option value="">Select Ring Size</option>
+                              {% comment %} <option value="Option1">Option1</option>
+                              <option value="Option2">Option2</option>
+                              <option value="Option3">Option3</option> {% endcomment %}
+                            </select>
+                        </div>
+                      </div>
+                      {% comment %} custom properties Lab grawn diamond size & ring size{% endcomment %}
                     {%- if no_sold_out and settings.enable_sub_reCharge %}{% include 'subscription-product' %}{% endif -%} 
                     {%- if settings.enable_infiniteoptions %}<div id="infiniteoptions-container"></div>{% endif -%} 
                     {%- if default -%}
@@ -2089,8 +2113,15 @@ assign locale_url = product.url | split:'/products/' | first -%}
 <style>
   
 /* add for custom properties  */
+.customproperties,.swatch{
+  margin:30px 0;
+}
+.propertiessize{
+  margin: 20px 0;
+}
 .main-box-properties{ 
     gap:15px;
+    flex-wrap:wrap;
 }
 .diamondshape-name{
     font-size: 14px;
@@ -2099,18 +2130,62 @@ assign locale_url = product.url | split:'/products/' | first -%}
 .diamond-img-box{
     background-color: #f0eeef;
 }
+.diamondshape-name {
+  float: left;
+  margin: 0;
+  width: 100px;
+  height: 40px;
+  position: relative;
+  color:#777777;
+}
 
-.radio-toolbar input[type="radio"] {
-  display: none;
-}
-.radio-toolbar label {
+.diamondshape-name label,
+.diamondshape-name input {
   display: block;
-  text-align: center;
-  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
-.radio-toolbar input[type="radio"]:checked+label {
-  background-color: #333;
-  color:#fff
+
+.diamondshape-name input[type="radio"] {
+  opacity: 0.011;
+  z-index: 100;
+}
+
+.diamondshape-name input[type="radio"]:checked + label {
+  border:2px solid #333;
+}
+
+.diamondshape-name label {
+  cursor: pointer;
+  z-index: 90;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+.propertiessize{
+  justify-content: space-between;
+  align-items: end;
+}
+.diamondsize{
+  margin-right:10px;
+}
+.ringsize,.diamondsize{
+  width: -webkit-fill-available;
+}
+.sizechartlabel{
+  color:#53C7D7;
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.07px;
+  text-align: right;
+}
+.ringsizelabel{
+  display: flex;
+  justify-content: space-between;
 }
 /* add for custom properties  */
 </style>

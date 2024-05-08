@@ -1271,10 +1271,22 @@
 {% endschema %}
 
 <style>
+  
+    #nt_menu_id li:not(:last-child) a::after {
+      content: "|";
+      margin: 0 15px;
+      color: #fff;
+    }
+    #nt_menu_id li:nth-child(5) a::after,
+    #nt_menu_id li:nth-child(6) a::after {
+      content: "";
+      margin: 0 15px;
+      color: #fff;
+    }
   .width-container  .nt_menu>li>a {
     font-size: 14px !important;
     font-family: 'Montserrat Alternates';
-    padding: 0 10px;
+    padding: 0;
     color: #ffffff !important;
     letter-spacing: -2px;
     font-weight: 700;

@@ -106,6 +106,9 @@ assign locale_url = product.url | split:'/products/' | first -%}
                    {%- elsif block.settings.price == '2' -%}<span class="cb fwn">{{ 'products.product.from' | t }}</span> {{ product.price_min | money }}
                    {%- else -%}
                      {%- if on_sale -%}<span class="price_varies current_price"><del>{{ current_variant.compare_at_price | money }}</del> <ins>{{ current_variant.price | money }}</ins></span><style>.nt_cart_form .price {display: none}</style>
+                      {% comment %} {% if product.compare_at_price > product.price %}
+                        <span> ({{ product.compare_at_price | minus: product.price | times: 100 | divided_by: product.compare_at_price | round }}% OFF)</span>
+                      {% endif %} {% endcomment %}
                    {%- else -%}<span class="price_varies current_price">{{ current_variant.price | money }}</span><style type="text/css">.nt_cart_form .price {display: none}</style>{%- endif -%}
                      {%- endif -%}
                {%- elsif on_sale -%}<del>{{ current_variant.compare_at_price | money }}</del> <ins>{{ current_variant.price | money }}</ins>
@@ -206,7 +209,7 @@ assign locale_url = product.url | split:'/products/' | first -%}
                             {% assign diamond_shape = diamond_shapes | split:  '","' %}
                             {% for diamond_shape_value in diamond_shape %}
                                {% if diamond_shape_value == "Round" %}
-                                <div class="diamond-box radio-toolbar">
+                                <div class="diamond-box radio-toolbar selected">
                                   <div class="diamond-img-box">
                                       <img src="https://gemroyals.com/cdn/shop/files/1-removebg-preview.png?v=1714394158" class="diamond-img">
                                   </div>
@@ -338,7 +341,7 @@ assign locale_url = product.url | split:'/products/' | first -%}
                    {%- elsif price_varies and on_sale -%}<span class="price price_varies"><del>{{ current_variant.compare_at_price | money }}</del> <ins>{{ current_variant.price | money }}</ins></span>
                    {%- elsif price_varies -%}<span class="price price_varies">{{ current_variant.price | money }}</span>{%- endif -%}
                     <div class="variations_button in_flex column w__100">
-                       <div class="flex wrap">
+                       <div class="flex wrap w-90">
                           {%- if ck_external -%}<a href="{{link}}" rel="nofollow" target="_blank" class="truncate external_btn button">{{title}}</a>{%- render 'nt_add_w ',class:" ddddd order-3",tooltip:"ttip_nt tooltip_top_left" -%}
                           {%- elsif no_sold_out == false -%}
                                 <a rel="nofollow" data-no-instant href="#" class="truncate out_stock button pe_none" id="out_stock{{call_cl}}">{{'products.product.outofstock' | t}}</a>
@@ -630,7 +633,7 @@ assign locale_url = product.url | split:'/products/' | first -%}
         <div class="complementary_product">
           
             {% if block.settings.complementaryproductheading  %}
-              <h4>{{ block.settings.complementaryproductheading }}</h4>
+              <h4 class="complementary_title">{{ block.settings.complementaryproductheading }}</h4>
             {% endif %}
 
             <div class="ddddddddddd">
@@ -2659,10 +2662,10 @@ assign locale_url = product.url | split:'/products/' | first -%}
 <style>
   
 /* add for custom properties  */
-.customproperties,.swatch{
+.customproperties{
   margin:30px 0;
 }
-.propertiessize{
+.propertiessize,.swatch{
   margin: 20px 0;
 }
 .main-box-properties{ 
@@ -2675,6 +2678,7 @@ assign locale_url = product.url | split:'/products/' | first -%}
 }
 .diamond-img-box{
     background-color: #f0eeef;
+    cursor:pointer;
 }
 .diamondshape-name {
   float: left;
@@ -2701,9 +2705,11 @@ assign locale_url = product.url | split:'/products/' | first -%}
 }
 
 .diamondshape-name input[type="radio"]:checked + label {
-  border:2px solid #B69D62 !important
+  /* border:2px solid #B69D62 !important */
 }
-
+.radio-toolbar.selected {
+  border:2px solid #B69D62 !important;
+}
 .diamondshape-name label {
   cursor: pointer;
   z-index: 90;
@@ -2749,5 +2755,42 @@ assign locale_url = product.url | split:'/products/' | first -%}
   text-align: left;
   color: #282828;
 }
+#cart-form_ppr .nt_select_ppr1.is-color{
+  float: left;
+  width: 50%;
+}
+#cart-form_ppr .variations_button {
+  width: 50%;
+  margin: 20px 0;
+  align-items: end;
+}
+.complementary_product{
+  width: 100%;
+  display: inline-block;
+}
+.complementary_product .mt__30{
+  margin-top:0;
+}
+.complementary_title{
+  color: #282828;
+  font-family: Montserrat Alternates;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.38px;
+  text-align: left;
+}
+#cart-form_ppr .single_add_to_cart_button{
+  width: 100%;
+}
+#cart-form_ppr .variations_button  .w-90{
+  width:90%;
+}
 /* add for custom properties  */
 </style>
+<script>
+$(document).on("click",".diamond-img-box",function(){
+    $(".radio-toolbar").removeClass("selected");
+    $(this).closest(".radio-toolbar").addClass("selected");
+    $(this).closest(".radio-toolbar").find(".diamondshape-name input").prop("checked", true);
+});
+</script>

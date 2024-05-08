@@ -1,10 +1,8 @@
 <div class="slider-category">
   <div class="width-container">
     <div class="common-heading">
-      <h1 class="slider-category-h1">Shop By Category</h1>
-      <p class="slider-category-p">Conveys a sense of heritage and high-end luxury appealing to those who appreciate tradition 
-          and quality
-      </p>
+      <h1 class="slider-category-h1">{{ section.settings.title }}</h1>
+      <p class="slider-category-p">{{ section.settings.sub_title }}</p>
     </div>
   </div>
   <div class="slider-container">
@@ -31,15 +29,24 @@
         {% endfor %}
       </div>
     </div>
-
-
   </div>
 </div>
 
 {% schema %}
   {
     "name": "category slider Section",
-    "settings": [
+    "settings": [{
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Custom Process"
+      },
+      {
+        "type": "textarea",
+        "id": "sub_title",
+        "label": "Sub Text",
+        "default": "Learn more about how to customize a moissanite ring that you will love for a lifetime."
+      },
       {
         "type": "color",
         "id": "background",

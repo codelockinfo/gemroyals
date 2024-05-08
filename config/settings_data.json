@@ -4240,6 +4240,7 @@
           "text_nD8JDG",
           "text_fahWLm"
         ],
+        "disabled": true,
         "settings": {
           "main_head": "Custom Process",
           "main_paragraph": "Learn more about how to customize a moissanite ring that you will love for a lifetime."
@@ -4620,6 +4621,67 @@
           "collection_btn": "View Collection",
           "collectionurl": "shopify:\/\/collections\/moissanite-rings"
         }
+      },
+      "processbar_carousel_mny3Nt": {
+        "type": "processbar-carousel",
+        "blocks": {
+          "text_MW9Vm8": {
+            "type": "text",
+            "settings": {
+              "Custom_image": "shopify:\/\/shop_images\/0b7f1dffb18224d0b1135dc538599489.jpg",
+              "Custom_h1": "Contact Us",
+              "Custom_p": "Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.",
+              "Custom_text": "INQUIRY"
+            }
+          },
+          "text_cVWCph": {
+            "type": "text",
+            "settings": {
+              "Custom_image": "shopify:\/\/shop_images\/c9339e127bf168a697248a20153f3c27.png",
+              "Custom_h1": "Customize Design",
+              "Custom_p": "Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.",
+              "Custom_text": "INQUIRY"
+            }
+          },
+          "text_R46t3w": {
+            "type": "text",
+            "settings": {
+              "Custom_image": "shopify:\/\/shop_images\/4bfdd68606f69e195984098672efdc78.jpg",
+              "Custom_h1": "Production",
+              "Custom_p": "Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.",
+              "Custom_text": "INQUIRY"
+            }
+          },
+          "text_BGnkjg": {
+            "type": "text",
+            "settings": {
+              "Custom_image": "shopify:\/\/shop_images\/cf66ed4104a812cdee3abdc42d96e79c.jpg",
+              "Custom_h1": "Confirmation",
+              "Custom_p": "Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.",
+              "Custom_text": "INQUIRY"
+            }
+          },
+          "text_3YJgB8": {
+            "type": "text",
+            "settings": {
+              "Custom_image": "shopify:\/\/shop_images\/22a3b78eccb067259a92bd1dbaf3fa59.jpg",
+              "Custom_h1": "Dispatch",
+              "Custom_p": "Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.",
+              "Custom_text": "INQUIRY"
+            }
+          }
+        },
+        "block_order": [
+          "text_MW9Vm8",
+          "text_cVWCph",
+          "text_R46t3w",
+          "text_BGnkjg",
+          "text_3YJgB8"
+        ],
+        "settings": {
+          "main_head": "",
+          "main_paragraph": ""
+        }
       }
     },
     "content_for_index": [
@@ -4632,6 +4694,7 @@
       "ring_collection_section_K9qq3c",
       "our_collection_KhNBUN",
       "slider_image_zEAAR8",
+      "processbar_carousel_mny3Nt",
       "image_para_gdjHEA",
       "testimonials_J6TrF9",
       "testimonials_YytaNL",

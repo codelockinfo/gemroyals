@@ -3308,8 +3308,8 @@
           "dot_color": "1",
           "layout": "wrap",
           "cl_bg": "#f2e7d8",
-          "mg": "100px,,100px,",
-          "pd": "",
+          "mg": "50px,,50px,",
+          "pd": "10px,,10px,",
           "mg_mb": "",
           "pd_mb": ""
         }

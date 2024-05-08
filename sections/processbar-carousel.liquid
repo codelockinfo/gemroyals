@@ -1,0 +1,522 @@
+<div class="main_section_1">
+  <div class="main_section_2">
+    <div class="sec_para">
+      <h1>{{ section.settings.main_head }}</h1>
+      <p>{{ section.settings.main_paragraph }}</p>
+    </div>
+    <div class="image_slider">
+      <div class="swiper progressswiper">
+        <div class="swiper-wrapper">
+          {%- for block in section.blocks -%}
+            <div class="swiper-slide">
+              <div class="slider_1">
+                <div class="img_section_slider">
+                  {% if block.settings.Custom_image != blank %}
+                    <img src="{{ block.settings.Custom_image |  img_url: 'master' }}" alt="">
+                  {% endif %}
+                </div>
+                <div class="para_section_slider">
+                  <h1>{{ block.settings.Custom_h1 }}</h1>
+                  <p>{{ block.settings.Custom_p }}</p>
+                  <h2>{{ block.settings.Custom_text }}</h2>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class="container progressbar-container">
+      <div class="row">
+        <div class="col">
+          <ul id="progress-bar" class="progressbar">
+            {%- for block in section.blocks -%}
+              {% if block.settings.Custom_h1 != blank %}
+                <li data-slide="{{ forloop.index }}">Step {{ forloop.index }} <br>{{ block.settings.Custom_h1 }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Progress bar carousel",
+    "settings": [
+      {
+        "type": "text",
+        "id": "main_head",
+        "label": "heading"
+      }, {
+        "type": "text",
+        "id": "main_paragraph",
+        "label": "paragraph"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "block",
+        "type": "text",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "Custom_image",
+            "label": "Custom_image"
+          }, {
+            "type": "text",
+            "id": "Custom_h1",
+            "label": "Custom_h1"
+          }, {
+            "type": "text",
+            "id": "Custom_p",
+            "label": "Custom_p"
+          }, {
+            "type": "text",
+            "id": "Custom_text",
+            "label": "Custom_text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Progress bar carousel"
+      }
+    ]
+  }
+{% endschema %}
+
+
+<style>
+  .image_slider {
+    margin-top: 30px;
+    width: 100%;
+    height: 370px;
+  }
+
+  .main_section_1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 30px;
+    background-color: #F0F0F0;
+  }
+
+  .main_section_2 {
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .sec_para {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sec_para h1 {
+    font-family: 'Vindea';
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 83.43px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #282828;
+  }
+
+  .sec_para p {
+    font-family: 'Montserrat Alternates';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #777777;
+  }
+
+  .slider_1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .slider_2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .img_section_slider {
+    width: 40%;
+    height: 100%;
+  }
+
+  .img_section_slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .para_section_slider {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .para_section_slider h1 {
+    font-family: 'Vindea';
+    font-size: 40px;
+    font-weight: 400;
+    color: #282828;
+    text-align: left;
+  }
+
+  .para_section_slider p {
+    font-family: 'Montserrat Alternates';
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #777777;
+  }
+
+  .para_section_slider h2 {
+    font-family: 'Montserrat Alternates';
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    color: #B69D62 !important;
+    text-decoration: underline;
+  }
+
+  .slider_dot {
+    width: 100%;
+    margin-top: 90px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .border_top {
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    width: 88%;
+    bottom: 70px;
+  }
+  .dot_main {
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .dot1 p {
+    font-family: 'Montserrat Alternates';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin: 4px 0 7px;
+
+  }
+
+  .dot1 h6 {
+    font-family: 'Montserrat Alternates';
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .dot2 p {
+    font-family: 'Montserrat Alternates';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin: 4px 0 7px;
+  }
+
+  .dot2 h6 {
+    font-family: 'Montserrat Alternates';
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 30px;
+    text-align: left;
+  }
+
+
+  .dot3 p {
+    font-family: 'Montserrat Alternates';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin: 4px 0 7px;
+  }
+  .dot3 h6 {
+    font-family: 'Montserrat Alternates';
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .dot4 p {
+    font-family: 'Montserrat Alternates';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin: 4px 0 7px;
+  }
+
+  .dot4 h6 {
+    font-family: 'Montserrat Alternates';
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .dot5 p {
+    font-family: 'Montserrat Alternates';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin: 4px 0 7px;
+  }
+
+  .dot5 h6 {
+    font-family: 'Montserrat Alternates';
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 30px;
+    text-align: left;
+  }
+
+
+  .progressbar {
+    margin: 50px 0;
+    cursor: pointer;
+    counter-reset: step;
+  }
+
+  .progressbar li {
+    list-style-type: none;
+    width: 20%;
+    float: left;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates';
+  }
+
+  .progressbar li:before {
+    width: 15px;
+    height: 15px;
+    content: '';
+    line-height: 30px;
+    border: 2px solid #000000;
+    background-color: #fff;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    transition: all 0.8s;
+    z-index: 99;
+    position: relative;
+  }
+
+  .progressbar li:after {
+    width: 100%;
+    height: 2px;
+    content: '';
+    position: absolute;
+    background-color: #000000;
+    top: 7px;
+    left: -50%;
+    z-index: 9;
+    transition: all 0.8s;
+  }
+  .progressbar li:first-child:after {
+    content: none;
+  }
+ 
+  .btn:hover {
+    color: white;
+  }
+  .btn:focus {
+    color: white;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+  body {
+    background-color: #000000;
+  }
+
+  .progressbar li:first-child:before {
+    background-color: #B69D62;
+    border-color: #000 ;
+    transition: all 0.8s;
+    }
+  .progressbar li.selected:before {
+    background-color: #B69D62;
+    border-color: #000 ;
+    transition: all 0.8s;
+    }
+  .progressbar li.selected:after {
+    background-color: #000 ;
+    transition: all 0.8s;
+  }
+
+  @media (max-width: 1203px) {
+    .para_section_slider h1 {
+      font-size: 30px;
+    }
+
+    .para_section_slider p {
+      font-size: 14px;
+    }
+
+    .para_section_slider h2 {
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 990px) {
+    .slider_dot {
+      display: none;
+    }
+  }
+  @media (max-width: 787px) {
+    .main_section_1 {
+      padding: 0 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .sec_para h1 {
+      font-size: 40px;
+      line-height: 60px;
+    }
+  }
+  @media (max-width: 525px) {
+    .progressbar-container .col {
+      overflow-y: hidden;
+    }
+    .progressbar {
+      width: 550px;
+      overflow-x: scroll;
+    }
+    .slider_1 {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      gap: 7px;
+    }
+
+    .img_section_slider {
+      width: 100%;
+      height: 40%;
+    }
+    .para_section_slider {
+      width: 100%;
+      height: 60%;
+    }
+
+    .para_section_slider h1 {
+      font-size: 22px;
+    }
+
+    .para_section_slider p {
+      font-size: 11px;
+      margin-bottom: 9px;
+    }
+
+    .para_section_slider h2 {
+      font-size: 13px;
+      margin: 0;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .sec_para h1 {
+      font-size: 30px;
+    }
+    .sec_para p {
+      font-size: 14px;
+      line-height: 20px;
+
+    }
+  }
+</style>
+
+
+<script>
+  var progressswiper = new Swiper(".progressswiper", {
+    slidesPerView: 1,
+    loop:false,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints :{
+      990:{
+        slidesPerView: 2,
+        spaceBetween: 30,
+      }   
+    }
+  });
+  $('.progressbar li[data-slide]').click(function(e) {
+   e.preventDefault();
+   var slideno = $(this).data('slide');
+   progressswiper.slideTo(slideno - 1, 0);
+   $(".progressbar li").removeClass("selected");
+    $(this).prevAll().addBack().addClass('selected');
+ });
+ progressswiper.on('slideChange', function () {
+    console.log("slideChange");
+    var slideno = progressswiper.realIndex + 1;
+    console.log(slideno);
+    $(".progressbar li").removeClass("selected");
+
+    $(".progressbar li[data-slide='"+slideno+"']").prevAll().addBack().addClass('selected');
+
+});
+</script>

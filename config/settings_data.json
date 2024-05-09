@@ -90,7 +90,7 @@
     "h_icon": "iccl",
     "show_search": true,
     "show_wis": true,
-    "show_acc": true,
+    "show_acc": false,
     "cart_des": "1",
     "bg_hc": "#000000",
     "cl_hc": "#ffffff",

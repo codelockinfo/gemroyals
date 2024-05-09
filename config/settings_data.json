@@ -74,7 +74,7 @@
     "h_transparent": false,
     "h_tr_top": false,
     "h_navmb": 62,
-    "mb_cat": true,
+    "mb_cat": false,
     "only_icon": false,
     "first_cat": false,
     "h__bgimg": "",

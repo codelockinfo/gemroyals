@@ -954,8 +954,8 @@
           "1585642902196": {
             "type": "menu",
             "settings": {
-              "title": "Sale",
-              "url": "",
+              "title": "Fine Jewelrys",
+              "url": "shopify:\/\/collections\/earrings",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -966,8 +966,8 @@
           "1585642908420": {
             "type": "menu",
             "settings": {
-              "title": "Portfolio",
-              "url": "",
+              "title": "Customization",
+              "url": "shopify:\/\/pages\/contact",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -978,8 +978,8 @@
           "mb_nav-3": {
             "type": "menu",
             "settings": {
-              "title": "Lookbook",
-              "url": "",
+              "title": "Review",
+              "url": "shopify:\/\/blogs\/news",
               "open_link": "_self",
               "menu": "",
               "icon": "",

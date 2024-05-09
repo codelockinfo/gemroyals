@@ -1078,6 +1078,7 @@
         "blocks": {
           "1585641915360": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "",
               "title": "Women’s Clothing",
@@ -1091,6 +1092,7 @@
           },
           "1585642130935": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "",
               "title": "Men’s Clothing",
@@ -1104,6 +1106,7 @@
           },
           "1585642167981": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "",
               "title": "Watches",
@@ -1117,6 +1120,7 @@
           },
           "1585642277236": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "",
               "title": "Acessories",
@@ -1130,6 +1134,7 @@
           },
           "1585642450066": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "",
               "title": "",
@@ -1143,6 +1148,7 @@
           },
           "1585642600575": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "",
               "title": "Shoes",
@@ -1156,6 +1162,7 @@
           },
           "1585642629333": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "",
               "title": "Jewellery",
@@ -1169,6 +1176,7 @@
           },
           "1585642644518": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "",
               "title": "T-Shirt",
@@ -1182,6 +1190,7 @@
           },
           "1585642780875": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "",
               "title": "Toys, Kids & Baby",
@@ -1195,6 +1204,7 @@
           },
           "1585642798957": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "",
               "title": "Decor",

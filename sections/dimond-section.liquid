@@ -7,16 +7,18 @@
     <div class="diamond-main-box">
       {% for block in section.blocks %}
         <div class="diamond-box">
-          <div class="diamond-img-box " style="background-color:{{block.settings.diamond_back}};">
-            {% if block.settings.diamond_img != blank %}
-              <img src="{{ block.settings.diamond_img | img_url: 'master' }}" class="diamond-img">
-            {% endif %}
-          </div>
-          <h2 class="diamond-h2">
-            {% if block.settings.dia_title != blank %}
-              {{ block.settings.dia_title }}
-            {% endif %}
-          </h2>
+      {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
+            <div class="diamond-img-box " style="background-color:{{block.settings.diamond_back}};">
+              {% if block.settings.diamond_img != blank %}
+                <img src="{{ block.settings.diamond_img | img_url: 'master' }}" class="diamond-img">
+              {% endif %}
+            </div>
+            <h2 class="diamond-h2">
+              {% if block.settings.dia_title != blank %}
+                {{ block.settings.dia_title }}
+              {% endif %}
+            </h2>
+            {% if block.settings.url != blank %}</a>{% endif %}
         </div>
       {% endfor %}
     </div>
@@ -46,7 +48,13 @@
             "id": "diamond_img",
             "type": "image_picker",
             "label": "Image"
-          }, {
+          }, 
+          {
+            "label": "Link",
+            "id": "url",
+            "type": "url"
+          },
+          {
             "id": "dia_title",
             "type": "text",
             "label": "Image heading"

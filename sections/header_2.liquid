@@ -9,7 +9,7 @@
   {%- render 'menu_import',section:section -%}
 {%- else -%}
   <div class="header__mid{% if h__bgimg != blank %} lazyload h__lz_img" data-bgset="{{ h__bgimg | img_url: '1x1' }}" data-ratio="{{h__bgimg.aspect_ratio}}" data-sizes="auto"{% else %}"{% endif %}>
-    <div class="width-container">
+    <div class="header-width-container">
      <div class="row al_center css_h_se">
         <div class="col-lg-2 col-md-4 col-3">
            {%- render 'push_menu' with 'dn_lg' -%}
@@ -20,8 +20,8 @@
             {%- elsif section.settings.social == '2' -%}{%- render 'social-sharing',follow_social:true,class_tooltip:'ttip_nt tooltip_top_right' -%}{%- endif -%}
            </div> 
         </div>
-        <div class="col-lg-12 col-md-7 col-8 flex">{%- render 'menu_inc',admin_sp:admin_sp,se_blocks:se_blocks,tp_blocks:tp_blocks -%}
-          {%- render 'nt_group_btns' -%}
+        <div class="col-lg-12 col-md-7 col-8 flex menu_inc_custom">{%- render 'menu_inc_custom',admin_sp:admin_sp,se_blocks:se_blocks,tp_blocks:tp_blocks -%}
+   
         </div>
         {% comment %} <div class="col-lg-2 col-md-4 col-3 tr">{%- render 'nt_group_btns' -%}</div> {% endcomment %}
      </div>
@@ -1271,28 +1271,55 @@
 {% endschema %}
 
 <style>
-  
-    #nt_menu_id li:not(:last-child) a::after {
-      content: "|";
-      margin: 0 15px;
-      color: #fff;
-    }
-    #nt_menu_id li:nth-child(5) a::after,
-    #nt_menu_id li:nth-child(6) a::after {
-      content: "";
-      margin: 0 15px;
-      color: #fff;
-    }
-  .width-container  .nt_menu>li>a {
+  .ntheader.live_stuck .nt_menu>li.has-children>a:after{
+    color:#fff;
+  }
+  .nt_navigation {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+  }
+  .width-menu{
+    width:45%;
+  }
+  .width-logo{
+    justify-content: center;
+    width:10%;
+  }
+  .menu-2{
+    justify-content: end;
+  }
+
+ .ntheader .nt_menu li:not(:last-child) a::after {
+    content: "|";
+    margin: 0 10px;
+    color: #fff;
+  }
+  .ntheader  .nt_navigation .menu-2 li:nth-child(4) a::after,
+  .ntheader  .nt_navigation  li:nth-child(5) a::after,
+  .ntheader  .nt_navigation  li:nth-child(6) a::after {
+    content: "";
+    margin: 0 15px;
+    color: #fff;
+  }
+  .ntheader .nt_menu.menu-2 li:last-child a::after {
+    content: "";
+    margin: 0 15px;
+    color: #fff;
+ }
+  .ntheader_wrapper  .nt_menu>li>a {
     font-size: 14px !important;
     font-family: 'Montserrat Alternates';
+    padding: 0 10px;
     padding: 0;
     color: #ffffff !important;
     letter-spacing: -2px;
     font-weight: 700;
     position: relative;
   }
-  /* .width-container  .nt_menu>li>a::after {
+  /* .header-width-container  .nt_menu>li>a::after {
    position: absolute;
    width: 2px;
    height: 10px;
@@ -1300,30 +1327,40 @@
    background-color: #ffffff;
    left: -5px;
   } */
-  .width-container  .nt_menu>li>a:hover {
+  .header-width-container  .nt_menu>li>a:hover {
     color: #282828 !important;
   }
-  .width-container  .ntheader.live_stuck .nt_menu>li>a {
+  .header-width-container  .ntheader.live_stuck .nt_menu>li>a {
     color: #ffffff !important;
   }
-  .width-container .css_h_se  .flex {
+  .header-width-container .css_h_se  .flex {
     justify-content: space-between !important;
   }
-  .width-container .ntheader.live_stuck .nt_menu>li>a:focus{
+  .header-width-container .ntheader.live_stuck .nt_menu>li>a:focus{
      color: #ffffff !important;
   }
-  .header__mid .width-container .row{
+  .header__mid .header-width-container .row{
     justify-content: space-between;
   }
-
+  @media (max-width: 1024px) {
+    .header-width-container .width-logo{
+      width:auto;
+    }
+    .menu-1{
+      display: none;
+    }
+    .nt_navigation{
+      justify-content: space-between !important;
+    }
+  }
   @media(max-width:1239px) {
-    .width-container  .nt_menu>li>a {
+    .header-width-container  .nt_menu>li>a {
     font-size: 12px !important;
     /* text-decoration:  */
 }
 }
   @media(max-width:1136px) {
-    .width-container  .nt_menu>li>a {
+    .header-width-container  .nt_menu>li>a {
     font-size: 10px !important;
     /* text-decoration:  */
 }

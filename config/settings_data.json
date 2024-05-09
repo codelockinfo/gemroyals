@@ -918,8 +918,8 @@
           "mb_nav-0": {
             "type": "menu",
             "settings": {
-              "title": "Demo",
-              "url": "",
+              "title": "Home",
+              "url": "\/",
               "open_link": "_self",
               "menu": "",
               "icon": "",

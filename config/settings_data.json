@@ -930,8 +930,8 @@
           "mb_nav-1": {
             "type": "menu",
             "settings": {
-              "title": "Shop",
-              "url": "",
+              "title": "Engagement Rings",
+              "url": "shopify:\/\/collections\/engagement-rings",
               "open_link": "_self",
               "menu": "",
               "icon": "",

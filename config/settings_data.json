@@ -942,8 +942,8 @@
           "mb_nav-2": {
             "type": "menu",
             "settings": {
-              "title": "Product",
-              "url": "",
+              "title": "Wedding Bands",
+              "url": "shopify:\/\/collections\/wedding-bands",
               "open_link": "_self",
               "menu": "",
               "icon": "",

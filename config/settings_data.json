@@ -979,7 +979,7 @@
             "type": "menu",
             "settings": {
               "title": "Review",
-              "url": "shopify:\/\/blogs\/news",
+              "url": "\/",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -991,7 +991,31 @@
             "type": "menu",
             "settings": {
               "title": "Blog",
-              "url": "",
+              "url": "shopify:\/\/blogs\/news",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "menu_JWjbk6": {
+            "type": "menu",
+            "settings": {
+              "title": "About Us",
+              "url": "shopify:\/\/pages\/about-us",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "menu_mW4jcf": {
+            "type": "menu",
+            "settings": {
+              "title": "Login",
+              "url": "\/account",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1001,16 +1025,13 @@
           },
           "mb_nav-4": {
             "type": "wis",
-            "settings": {
-            }
-          },
-          "b30e9037-eb1b-450d-b6e5-b0fbdc6c3063": {
-            "type": "compe",
+            "disabled": true,
             "settings": {
             }
           },
           "mb_nav-5": {
             "type": "sea",
+            "disabled": true,
             "settings": {
             }
           },
@@ -1028,6 +1049,7 @@
           },
           "mb_nav-8": {
             "type": "cur",
+            "disabled": true,
             "settings": {
             }
           }
@@ -1040,8 +1062,9 @@
           "1585642908420",
           "mb_nav-3",
           "1585642887352",
+          "menu_JWjbk6",
+          "menu_mW4jcf",
           "mb_nav-4",
-          "b30e9037-eb1b-450d-b6e5-b0fbdc6c3063",
           "mb_nav-5",
           "mb_nav-6",
           "mb_nav-7",

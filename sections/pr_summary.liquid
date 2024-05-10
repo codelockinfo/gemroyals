@@ -259,22 +259,42 @@ assign locale_url = product.url | split:'/products/' | first -%}
                  
                       <div class="flex propertiessize">
                         <div class="diamondsize">
-                            <h4 class="swatch__title">Diamond Size</h4>
-                            <select id="your-name" name="properties[Lab Grown Diamond Size]">
-                              <option value="">Select Size</option>
-                              <option value="Option1">Option1</option>
-                              <option value="Option2">Option2</option>
-                              <option value="Option3">Option3</option> 
-                            </select>
+                            {% if product.metafields.custom.diamond_size != blank %}
+                              {% assign diamond_sizes = product.metafields.custom.diamond_size | remove: '["' | remove: '"]' %}
+                              {%  if diamond_sizes != blank %}
+                                <h4 class="swatch__title">Diamond Size</h4>
+                                <select id="your-name" name="properties[Diamond Size]">
+                                  {% assign diamond_size = diamond_sizes | split:  '","' %}
+                                  {% for diamond_size_value in diamond_size %}
+                                      <option value="{{ diamond_size_value }}">{{ diamond_size_value }}</option>
+                                  {% endfor %}
+                                </select>
+                              {% endif %}     
+                            {% endif %}
                         </div>
                         <div class="ringsize">
-                            <div class="ringsizelabel"><h4 class="swatch__title">Ring Size (US)</h4> <div><a class="sizechartlabel cd chp btn_size_guide mr__20" href="#" data-no-instant="" rel="nofollow" data-src="https://cdn.shopify.com/s/files/1/0863/4718/6487/files/Ring_Size_Chart.jpg?v=1715061728" data-width="600" data-height="600">SIZE CHART</a></div></div>
-                            <select id="your-name" name="properties[Ring Size (US)]">
-                              <option value="">Select Ring Size</option>
-                              <option value="Option1">Option1</option>
-                              <option value="Option2">Option2</option>
-                              <option value="Option3">Option3</option> 
-                            </select>
+                            <div class="ringsizelabel">
+                              {% if product.metafields.custom.ring_size != blank %}
+                                {% assign ring_sizes = product.metafields.custom.ring_size | remove: '["' | remove: '"]' %}
+                                {%  if ring_sizes != blank %}
+                                    <h4 class="swatch__title">Ring Size (US)</h4> 
+                                    <div>
+                                    <a class="sizechartlabel cd chp btn_size_guide mr__20" href="#" data-no-instant="" rel="nofollow" data-src="https://cdn.shopify.com/s/files/1/0863/4718/6487/files/Ring_Size_Chart.jpg?v=1715061728" data-width="600" data-height="600">SIZE CHART</a>
+                                    </div>
+                                  {% endif %}     
+                                {% endif %}
+                            </div>
+                            {% if product.metafields.custom.ring_size != blank %}
+                              {% assign ring_sizes = product.metafields.custom.ring_size | remove: '["' | remove: '"]' %}
+                              {%  if ring_sizes != blank %}
+                                <select id="your-name" name="properties[Ring Size (US)]">
+                                  {% assign ring_size = ring_sizes | split:  '","' %}
+                                  {% for ring_size_value in ring_size %}
+                                      <option value="{{ ring_size_value }}">{{ ring_size_value }}</option>
+                                  {% endfor %}
+                                </select>
+                              {% endif %}     
+                            {% endif %}
                         </div>
                       </div>
                       {% comment %} custom properties Lab grawn diamond size & ring size{% endcomment %}

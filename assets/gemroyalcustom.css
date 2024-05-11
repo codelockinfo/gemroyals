@@ -11,7 +11,7 @@
 }
 .product-width-container{
     width: 100%;
-    padding: 0 20px;
+    padding:50px 20px 0;
 }
 #shopify-section-header_2 .nt_menu>li>a{
     letter-spacing: 1px;
@@ -43,3 +43,34 @@
     visibility: visible;
 }
 /* add for wishlist button */
+/* For product description */
+.product  .product-description{
+    font-family: 'Montserrat Alternates';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #777777;
+}
+.product-description h1{
+    font-family: 'Montserrat Alternates';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.88px;
+    text-align: left;
+    color: #282828;
+}
+.product-description{
+    padding-top: 50px;
+}
+/* For product description */
+.price_range del{
+    color: #282828;
+}
+.price_range ins{
+    color: #777777;
+}
+.priceoff{
+    color: #C02727;
+    margin-left: 6px;
+}

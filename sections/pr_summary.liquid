@@ -106,9 +106,9 @@ assign locale_url = product.url | split:'/products/' | first -%}
                    {%- elsif block.settings.price == '2' -%}<span class="cb fwn">{{ 'products.product.from' | t }}</span> {{ product.price_min | money }}
                    {%- else -%}
                      {%- if on_sale -%}<span class="price_varies current_price"><del>{{ current_variant.compare_at_price | money }}</del> <ins>{{ current_variant.price | money }}</ins></span><style>.nt_cart_form .price {display: none}</style>
-                      {% comment %} {% if product.compare_at_price > product.price %}
-                        <span> ({{ product.compare_at_price | minus: product.price | times: 100 | divided_by: product.compare_at_price | round }}% OFF)</span>
-                      {% endif %} {% endcomment %}
+                      {% if product.compare_at_price > product.price %}
+                        <span class="priceoff"> ({{ product.compare_at_price | minus: product.price | times: 100 | divided_by: product.compare_at_price | round }}% OFF)</span>
+                      {% endif %}
                    {%- else -%}<span class="price_varies current_price">{{ current_variant.price | money }}</span><style type="text/css">.nt_cart_form .price {display: none}</style>{%- endif -%}
                      {%- endif -%}
                {%- elsif on_sale -%}<del>{{ current_variant.compare_at_price | money }}</del> <ins>{{ current_variant.price | money }}</ins>
@@ -651,11 +651,29 @@ assign locale_url = product.url | split:'/products/' | first -%}
           endif -%}
 
         <div class="complementary_product">
-          
+
+          {% if product.metafields.custom.matching_product != blank %}
             {% if block.settings.complementaryproductheading  %}
               <h4 class="complementary_title">{{ block.settings.complementaryproductheading }}</h4>
             {% endif %}
+          
+          
+            {%- capture url_cat -%}{% if collection %}/collections/{{collection.handle}}{% endif %}{%- endcapture -%}
+              {%- assign inc_price = settings.price_format -%}
+              {%- assign use_rating = settings.use_pr_rating -%}
+              {%- assign inc_rating = settings.app_review -%}
+              {%- assign show_color = settings.show_pr_color -%}
+              {%- assign show_cl_type = settings.show_color_type -%}
+              {%- assign show_size = settings.show_pr_size -%}
+              <div class="products nt_products_holder row row_pr_{{inc_pr}} cdt_des_{{se_stts.cdt_des}} round_cd_{{se_stts.round_cd}} js_carousel nt_slider {{se_stts.image_size}} {{se_stts.image_ratio}} position_{{se_stts.image_position}} space_{{se_stts.space}} prev_next_{{se_stts.btn_color}} btn_owl_{{se_stts.btn_owl}} dot_owl_{{se_stts.dot_owl}} dot_color_{{se_stts.dot_color}} btn_vi_{{se_stts.btn_vi}}{% if sett_equal %} equal_nt{% endif %}" data-flickity='{"imagesLoaded": 0,"adaptiveHeight": 0, "contain": 1, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": {{se_stts.loop}},"prevNextButtons": {{se_stts.button}},"percentPosition": 1,"pageDots": {{se_stts.dot}}, "autoPlay" : {{ se_stts.au_time | times: 1000 }}, "pauseAutoPlayOnHover" : {{se_stts.au_hover}}, "rightToLeft": {{settings.use_rtl}} }'>
+                  {%- for product in product.metafields.custom.matching_product.value -%}
+                    {%- render 'pr_loop_grid_1',product:product,use_cdt:use_cdt,txt_cd:txt_cd, col:col, col_tb:col_tb, col_mb:col_mb,url_cat:url_cat,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}
+                  {%- endfor -%}
+              </div>
+          {% endif %}
 
+
+     {% comment %}
             <div class="ddddddddddd">
                 {%- assign collection = collections[block.settings.complementaryproduct] -%}
                 {% if collection != blank %}
@@ -674,7 +692,7 @@ assign locale_url = product.url | split:'/products/' | first -%}
                     {%- endfor -%} {% endcomment %}
                   </div>
                 {% endif %}
-            </div>
+            </div>{% endcomment %}
         </div>
       {%- comment -%}
       {%- when 'metafield' -%}

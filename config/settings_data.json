@@ -194,7 +194,7 @@
     "cat_sticky": false,
     "shop_filters": false,
     "pop_style": "pop_default",
-    "type_filters": "1",
+    "type_filters": "2",
     "logic_filter": "2",
     "auto_hide_ofsock": false,
     "show_hide_ofsock": false,
@@ -2485,13 +2485,6 @@
       "sidebar_shop2": {
         "type": "sidebar_shop2",
         "blocks": {
-          "sidebar_shop2-0": {
-            "type": "title",
-            "settings": {
-              "hidden_block": false,
-              "title": "By Title"
-            }
-          },
           "sidebar_shop2-1": {
             "type": "price",
             "settings": {
@@ -2499,82 +2492,42 @@
               "title": "By Price"
             }
           },
-          "sidebar_shop2-2": {
-            "type": "variants",
+          "tag2_KmRmjP": {
+            "type": "tag2",
             "settings": {
               "hidden_block": false,
               "count": true,
-              "title": "By Size",
-              "key": "Size",
+              "title": "Diamond Shape",
+              "arra_enter": "Round,Oval,Emerald,Pear,Cushion,Princess,Radiant,Asscher,Marquise",
               "style": "ck"
             }
           },
-          "sidebar_shop2-3": {
-            "type": "color",
+          "tag2_Qim6Gh": {
+            "type": "tag2",
             "settings": {
               "hidden_block": false,
               "count": true,
-              "title": "By Color",
-              "key": "Color"
-            }
-          },
-          "sidebar_shop2-4": {
-            "type": "vendor",
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "By Vendor",
+              "title": "Design Style",
+              "arra_enter": "Solitaire Ring,\nHalo Ring,\nThree Stone Ring,\nPave Ring,\nVintage Ring",
               "style": "ck"
             }
           },
-          "sidebar_shop2-5": {
-            "type": "available",
+          "tag2_74HaQc": {
+            "type": "tag2",
             "settings": {
               "hidden_block": false,
               "count": true,
-              "title": "Product status"
-            }
-          },
-          "1596191009077": {
-            "type": "variants",
-            "settings": {
-              "hidden_block": false,
-              "count": false,
-              "title": "By Shoes Size",
-              "key": "Shoes Size",
-              "style": "ck"
-            }
-          },
-          "1596419303044": {
-            "type": "tags",
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "By Tags",
-              "style": "ck"
-            }
-          },
-          "1596419377121": {
-            "type": "tag",
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "By Tag Color",
-              "key": "color",
+              "title": "Diamond Type",
+              "arra_enter": "Moissanite,Lab Grown Diamond,Gemstone",
               "style": "ck"
             }
           }
         },
         "block_order": [
-          "sidebar_shop2-0",
           "sidebar_shop2-1",
-          "sidebar_shop2-2",
-          "sidebar_shop2-3",
-          "sidebar_shop2-4",
-          "sidebar_shop2-5",
-          "1596191009077",
-          "1596419303044",
-          "1596419377121"
+          "tag2_KmRmjP",
+          "tag2_Qim6Gh",
+          "tag2_74HaQc"
         ],
         "settings": {
         }

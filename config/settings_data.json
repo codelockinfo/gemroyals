@@ -35,7 +35,7 @@
     "enable_growave": false,
     "enable_infiniteoptions": true,
     "wishlist_type": "1",
-    "enable_compe": false,
+    "enable_compe": true,
     "app_review": "1",
     "label_settings": "rounded",
     "use_sale_label": true,
@@ -236,7 +236,7 @@
     "img_size_thumb": "nt_cover",
     "img_pos_thumb": "8",
     "share_source": "2",
-    "use_quickview": false,
+    "use_quickview": true,
     "use_pr_rating": true,
     "hide_btns": true,
     "use_qty": true,
@@ -3491,31 +3491,31 @@
           "text_8xB7Xa": {
             "type": "text",
             "settings": {
-              "ring_img": "shopify:\/\/shop_images\/1_0faa480d-1efe-420c-9bc9-a9461d5e62d7.jpg",
+              "ring_img": "shopify:\/\/shop_images\/DSC09424.jpg",
               "ring_h2": "<p>Moissanite<\/p>",
               "ring_p1": "Browse our bespoke collection of brilliant and durable moissanite jewelry.",
               "ring_p2": "DISCOVER",
-              "ring_p2url": ""
+              "ring_p2url": "shopify:\/\/collections\/moissanite-rings"
             }
           },
           "text_ANNjJn": {
             "type": "text",
             "settings": {
-              "ring_img": "shopify:\/\/shop_images\/2_3bd1c867-a6d7-48e4-9328-18a40c1b53a4.jpg",
+              "ring_img": "shopify:\/\/shop_images\/DSC09687_166dc070-7204-4e80-91eb-171481646610.jpg",
               "ring_h2": "<p>Lab Grown Diamond<\/p>",
               "ring_p1": "Discover luxury with our collection of conflict-free lab-diamond jewelry.",
               "ring_p2": "DISCOVER",
-              "ring_p2url": ""
+              "ring_p2url": "shopify:\/\/collections\/lab-grown-diamond-rings"
             }
           },
           "text_ARBaNC": {
             "type": "text",
             "settings": {
-              "ring_img": "shopify:\/\/shop_images\/3_41eaeec4-4164-49b0-b02c-93f3b1a139ec.jpg",
-              "ring_h2": "<p>Bespoke Engagement Rings<br\/><\/p>",
-              "ring_p1": "",
+              "ring_img": "shopify:\/\/shop_images\/IMG_7332_bfd908f3-70fa-4047-a792-66fc39dc9df6.jpg",
+              "ring_h2": "<p>Gemstone<\/p>",
+              "ring_p1": "Make you unique style with our gemstone collection.",
               "ring_p2": "DISCOVER",
-              "ring_p2url": ""
+              "ring_p2url": "shopify:\/\/collections\/gemstone-rings"
             }
           }
         },
@@ -4621,36 +4621,36 @@
           "text_DDaaXP": {
             "type": "text",
             "settings": {
-              "collection_image": "shopify:\/\/shop_images\/c4386e9f1dcf0c7841f89d03b02894d8.jpg",
+              "collection_image": "shopify:\/\/shop_images\/IMG_7332_831942d4-bf81-4130-9959-ab1486afcfa2.jpg",
               "product": "cluster-emerald-cut-red-garnet-engagement-ring"
             }
           },
           "text_p9TWNi": {
             "type": "text",
             "settings": {
-              "collection_image": "shopify:\/\/shop_images\/6df9c9e65f4cebb5f201e11b791d6c76.jpg",
-              "product": "cluster-emerald-cut-red-garnet-engagement-ring"
+              "collection_image": "shopify:\/\/shop_images\/DSC06477.jpg",
+              "product": "art-deco-hexagon-cut-natural-moss-agate-engagement-ring"
             }
           },
           "text_i7p4kz": {
             "type": "text",
             "settings": {
-              "collection_image": "shopify:\/\/shop_images\/af1bf5a3a4f14f865f6368233fbaa144.jpg",
-              "product": "cluster-emerald-cut-red-garnet-engagement-ring"
+              "collection_image": "shopify:\/\/shop_images\/FRONT_DOM.jpg",
+              "product": "dainty-round-natural-amethyst-engagement-ring"
             }
           },
           "text_Qeq7Cm": {
             "type": "text",
             "settings": {
-              "collection_image": "shopify:\/\/shop_images\/6df9c9e65f4cebb5f201e11b791d6c76.jpg",
-              "product": "cluster-emerald-cut-red-garnet-engagement-ring"
+              "collection_image": "shopify:\/\/shop_images\/FRONT_DOM_a2f87dc5-9d0c-48dd-b6d3-a797db11fdac.jpg",
+              "product": "cluster-oval-cut-rainbow-moonstone-engagement-ring"
             }
           },
           "text_N6ejMr": {
             "type": "text",
             "settings": {
-              "collection_image": "shopify:\/\/shop_images\/6df9c9e65f4cebb5f201e11b791d6c76.jpg",
-              "product": "cluster-emerald-cut-red-garnet-engagement-ring"
+              "collection_image": "shopify:\/\/shop_images\/FRONT_DOM_5b50c31b-c382-40d0-a22b-845e97eb6bc9.jpg",
+              "product": "vintage-style-round-cut-purple-alexandrite-engagement-ring"
             }
           }
         },

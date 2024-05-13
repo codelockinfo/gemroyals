@@ -3,7 +3,7 @@
     <div class="ring-grid-box">
       {%- for block in section.blocks -%}
         <div class="ring-box-img">
-          <img src="{{ block.settings.ring_img | img_url:'master' }}" class="ring-img">
+          <a href="{{ block.settings.ring_p2url }}" class="ringbox-img"><img src="{{ block.settings.ring_img | img_url:'master' }}" class="ring-img"></a>
           <div class="ring-content">
             <h2 class="ring-h2">{{ block.settings.ring_h2 }}</h2>
             <p class="ring-p1">{{ block.settings.ring_p1 }}</p>
@@ -70,6 +70,11 @@
 {% endschema %}
 
 <style>
+  .ringbox-img{
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+  }
   .ring-section {
     background-color: {{ section.settings.background }};
   }
@@ -101,6 +106,7 @@
     height: 100%;
     object-position: center;
     object-fit: cover;
+    opacity: 0.5;
   }
   .ring-content {
     margin-left: 20px;

@@ -40,7 +40,7 @@
 	endif
 	assign img_variants = pr_variants | where: "featured_image" -%}
 
-<div class="fimg_{{settings.use_fimg}} variations mb__40 style__rectangle size_{{block.settings.swatch_size | default:settings.swatch_size }} style_color des_color_{{block.settings.style_color | default:settings.style_color }} remove_soldout_{{remove_soldout}}">
+<div class="fimg_{{settings.use_fimg}} variations mb__0 style__rectangle size_{{block.settings.swatch_size | default:settings.swatch_size }} style_color des_color_{{block.settings.style_color | default:settings.style_color }} remove_soldout_{{remove_soldout}}">
 	{%- for option in product.options_with_values -%}{%- assign name = option.name | downcase -%}{%- assign svc = '' -%}{%- assign option_index = forloop.index0 -%}{%- assign color_class = '' -%}
 		{%- case option_index -%}{%- when 0 -%}{%- assign selected_value = current_variant.option1 |default:choose_an_option -%}{%- when 1 -%}{%- assign selected_value = current_variant.option2 |default:choose_an_option -%}{%- else -%}{%- assign selected_value = current_variant.option3 |default:choose_an_option -%}{%- endcase -%}
 		{%- if get_color contains name -%}

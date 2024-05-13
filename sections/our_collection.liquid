@@ -27,7 +27,7 @@
                         </div>
                       </div>
                       {% if block.settings.collection_image != blank %}
-                        <img src="{{ block.settings.collection_image |  img_url: 'master' }}" alt="">
+                        <a href="{{ product.url }}"><img src="{{ block.settings.collection_image |  img_url: 'master' }}" alt=""></a>
                       {% endif %}
                     </div>
                     <div class="box_paragraph">

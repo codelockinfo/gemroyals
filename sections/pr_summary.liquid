@@ -340,7 +340,12 @@ assign locale_url = product.url | split:'/products/' | first -%}
                           {%- endif -%}
                        {%- endif -%}
                     {%- endif -%}
-
+                  {% comment %} custom properties {% endcomment %}
+                  <div class="customize-properties">
+                      <h4 for="customization" class="swatch__title">Customization</h4>
+                        <input  class="required" id="customization" name="properties[customization]" value="" />
+                  </div>
+                  {% comment %} custom properties {% endcomment %}
                    {%- if price_varies and current_variant.unit_price_measurement -%}
                         <span class="price">
                            <span class="price_varies">
@@ -2793,13 +2798,13 @@ assign locale_url = product.url | split:'/products/' | first -%}
   text-align: left;
   color: #282828;
 }
-#cart-form_ppr .is-color{
+.customize-properties{
   float: left;
   width: 50%;
 }
 #cart-form_ppr .variations_button {
   width: 50%;
-  margin: 20px 0;
+  margin: 36px 0 0;
   align-items: end;
 }
 .complementary_product{
@@ -2832,7 +2837,23 @@ assign locale_url = product.url | split:'/products/' | first -%}
 .gap-20{
   gap: 20px;
 }
+#customization{
+  border-color: #B69D62 !important;
+    background-color: #f9f9f9 !important;
+    width: 50%;
+    padding: 5px;
+}
+#customization,#customization::placeholder {
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-weight: 500;
+  color: #282828;
+  padding: 5px 25px;
+  width:100%;
+  min-height: 40px;
+}
 @media(max-width: 475px){
+  .customize-properties,
   #cart-form_ppr .variations_button,
   #cart-form_ppr .variations_button .w-90{
     width:100%;
@@ -2841,7 +2862,7 @@ assign locale_url = product.url | split:'/products/' | first -%}
     order:1;
   }
   #cart-form_ppr .is-color{
-    width:100%;
+    /* width:100%; */
   }
 }
 /* add for custom properties  */

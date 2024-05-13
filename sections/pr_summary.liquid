@@ -83,7 +83,7 @@ assign locale_url = product.url | split:'/products/' | first -%}
         {%- endif -%}
 
       {%- when 'pricereview' -%}
-        <div class="flex wrap fl_between al_center price-review mt__15 pb__10 mb__20">
+        <div class="gap-20 flex wrap fl_between al_center price-review mt__15 pb__10 mb__20">
            <p class="price_range" id="price{{call_cl}}">
             {%- if nav_up_size == 0 and current_variant.unit_price_measurement -%}
                 {%- if price_varies -%}<span class="price_varies">{%- endif -%}
@@ -198,61 +198,61 @@ assign locale_url = product.url | split:'/products/' | first -%}
                  {%- form 'product', product, id: id_frm, data-productid: pid, class: cl_frm -%}
                     {{ form | payment_terms }}
                       {% comment %} custom properties Diamond shape {% endcomment %}
-                      {% if product.metafields.custom.diamond_shape != blank %}
+                      {% comment %} {% if product.metafields.custom.diamond_shape != blank %}
                         {% assign diamond_shapes = product.metafields.custom.diamond_shape | remove: '["' | remove: '"]' %}
                         {%  if diamond_shapes != blank %}
-                        <div class="customproperties">
-                          <h4 class="swatch__title">
-                            Diamond Shape
-                          </h4>
-                          <div class="flex main-box-properties">
-                            {% assign diamond_shape = diamond_shapes | split:  '","' %}
-                            {% for diamond_shape_value in diamond_shape %}
-                               {% if diamond_shape_value == "Round" %}
-                                <div class="diamond-box radio-toolbar selected">
-                                  <div class="diamond-img-box">
-                                      <img src="https://gemroyals.com/cdn/shop/files/1-removebg-preview.png?v=1714394158" class="diamond-img">
+                          <div class="customproperties">
+                            <h4 class="swatch__title">
+                              Diamond Shape
+                            </h4>
+                            <div class="flex main-box-properties">
+                              {% assign diamond_shape = diamond_shapes | split:  '","' %}
+                              {% for diamond_shape_value in diamond_shape %}
+                                {% if diamond_shape_value == "Round" %}
+                                  <div class="diamond-box radio-toolbar selected">
+                                    <div class="diamond-img-box">
+                                        <img src="https://gemroyals.com/cdn/shop/files/1-removebg-preview.png?v=1714394158" class="diamond-img">
+                                    </div>
+                                    <h2  class="diamondshape-name">
+                                      <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}" checked> <label>{{ diamond_shape_value }}</label>
+                                    </h2>
                                   </div>
-                                  <h2  class="diamondshape-name">
-                                    <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}" checked> <label>{{ diamond_shape_value }}</label>
-                                  </h2>
-                                </div>
-                               {% endif %}
-                               {% if diamond_shape_value == "Oval" %}
-                                <div class="diamond-box radio-toolbar">
-                                  <div class="diamond-img-box">
-                                      <img src="https://gemroyals.com/cdn/shop/files/2-removebg-preview.png?v=1714394158" class="diamond-img">
+                                {% endif %}
+                                {% if diamond_shape_value == "Oval" %}
+                                  <div class="diamond-box radio-toolbar">
+                                    <div class="diamond-img-box">
+                                        <img src="https://gemroyals.com/cdn/shop/files/2-removebg-preview.png?v=1714394158" class="diamond-img">
+                                    </div>
+                                    <h2  class="diamondshape-name">
+                                      <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label >{{ diamond_shape_value }}</label>
+                                    </h2>
                                   </div>
-                                  <h2  class="diamondshape-name">
-                                    <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label >{{ diamond_shape_value }}</label>
-                                  </h2>
-                                </div>
-                               {% endif %}
-                               {% if diamond_shape_value == "Radiant" %}
-                                <div class="diamond-box radio-toolbar">
-                                  <div class="diamond-img-box">
-                                      <img src="https://gemroyals.com/cdn/shop/files/6-removebg-preview.png?v=1714394158" class="diamond-img">
+                                {% endif %}
+                                {% if diamond_shape_value == "Radiant" %}
+                                  <div class="diamond-box radio-toolbar">
+                                    <div class="diamond-img-box">
+                                        <img src="https://gemroyals.com/cdn/shop/files/6-removebg-preview.png?v=1714394158" class="diamond-img">
+                                    </div>
+                                    <h2  class="diamondshape-name">
+                                      <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label >{{ diamond_shape_value }}</label>
+                                    </h2>
                                   </div>
-                                  <h2  class="diamondshape-name">
-                                    <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label >{{ diamond_shape_value }}</label>
-                                  </h2>
-                                </div>
-                               {% endif %}
-                               {% if diamond_shape_value == "Asscher" %}
-                                <div class="diamond-box radio-toolbar">
-                                  <div class="diamond-img-box">
-                                      <img src="https://gemroyals.com/cdn/shop/files/9-removebg-preview.png?v=1714394159" class="diamond-img">
+                                {% endif %}
+                                {% if diamond_shape_value == "Asscher" %}
+                                  <div class="diamond-box radio-toolbar">
+                                    <div class="diamond-img-box">
+                                        <img src="https://gemroyals.com/cdn/shop/files/9-removebg-preview.png?v=1714394159" class="diamond-img">
+                                    </div>
+                                    <h2  class="diamondshape-name">
+                                      <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label >{{ diamond_shape_value }}</label>
+                                    </h2>
                                   </div>
-                                  <h2  class="diamondshape-name">
-                                    <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label >{{ diamond_shape_value }}</label>
-                                  </h2>
-                                </div>
-                               {% endif %}
-                            {% endfor %}
+                                {% endif %}
+                              {% endfor %}
+                            </div>
                           </div>
-                        </div>
-                      {% endif  %}
-                      {% endif  %}
+                        {% endif  %}
+                      {% endif  %} {% endcomment %}
 
                     {% comment %} custom properties Diamond shape {% endcomment %}
                       {% comment %} custom properties Lab grawn diamond size & ring size {% endcomment %}
@@ -361,7 +361,7 @@ assign locale_url = product.url | split:'/products/' | first -%}
                    {%- elsif price_varies and on_sale -%}<span class="price price_varies"><del>{{ current_variant.compare_at_price | money }}</del> <ins>{{ current_variant.price | money }}</ins></span>
                    {%- elsif price_varies -%}<span class="price price_varies">{{ current_variant.price | money }}</span>{%- endif -%}
                     <div class="variations_button in_flex column w__100">
-                       <div class="flex wrap w-90">
+                       <div class="flex  w-90">
                           {%- if ck_external -%}<a href="{{link}}" rel="nofollow" target="_blank" class="truncate external_btn button">{{title}}</a>{%- render 'nt_add_w ',class:" ddddd order-3",tooltip:"ttip_nt tooltip_top_left" -%}
                           {%- elsif no_sold_out == false -%}
                                 <a rel="nofollow" data-no-instant href="#" class="truncate out_stock button pe_none" id="out_stock{{call_cl}}">{{'products.product.outofstock' | t}}</a>
@@ -375,7 +375,7 @@ assign locale_url = product.url | split:'/products/' | first -%}
                              </div> 
                              <a rel="nofollow" data-no-instant href="#" class="single_stt out_stock button pe_none order-2" id="out_stock{{call_cl}}">{{'products.product.outofstock' | t}}</a>
                              {%- render 'nt_add_w',class:"order-3",tooltip:"ttip_nt tooltip_top_left" -%}
-                             <button type="submit" data-time='{{block.settings.time}}000' data-ani='{{block.settings.ani}}' class="single_add_to_cart_button button truncate js_frm_cart w__100 mt__20 order-4{% if PR_no_pick %} disabled{% endif %}"><span class="txt_add {{classdn1}}">{{'products.product.add_to_cart' | t}}</span><span class="txt_pre {{classdn2}}">{{'products.product.pre_orders' | t}}</span></button>
+                             <button type="submit" data-time='{{block.settings.time}}000' data-ani='{{block.settings.ani}}' class="single_add_to_cart_button button truncate js_frm_cart w__100  order-4{% if PR_no_pick %} disabled{% endif %}"><span class="txt_add {{classdn1}}">{{'products.product.add_to_cart' | t}}</span><span class="txt_pre {{classdn2}}">{{'products.product.pre_orders' | t}}</span></button>
                           {%- endif -%}
                        </div>
                        {%- if block.settings.enable_payment_btn and ck_external == false and no_sold_out -%}{{- form | payment_button -}}{%- endif -%} 
@@ -2793,7 +2793,7 @@ assign locale_url = product.url | split:'/products/' | first -%}
   text-align: left;
   color: #282828;
 }
-#cart-form_ppr .nt_select_ppr1.is-color{
+#cart-form_ppr .is-color{
   float: left;
   width: 50%;
 }
@@ -2822,6 +2822,27 @@ assign locale_url = product.url | split:'/products/' | first -%}
 }
 #cart-form_ppr .variations_button  .w-90{
   width:90%;
+}
+.flex-columns{
+  display: flex;
+  flex-direction: column;
+  padding:0;
+  padding-bottom: 5px;
+}
+.gap-20{
+  gap: 20px;
+}
+@media(max-width: 475px){
+  #cart-form_ppr .variations_button,
+  #cart-form_ppr .variations_button .w-90{
+    width:100%;
+  }
+  #cart-form_ppr .single_add_to_cart_button{
+    order:1;
+  }
+  #cart-form_ppr .is-color{
+    width:100%;
+  }
 }
 /* add for custom properties  */
 </style>

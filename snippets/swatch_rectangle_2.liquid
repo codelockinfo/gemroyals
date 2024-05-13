@@ -47,7 +47,7 @@
 		    {%- if ck and has_img == '2' and img_variants.size > 0 -%}{%- assign color_class = 'fimg_ratio' -%}<div class="lazypreload nt_pre_img op__0" data-include="{% if se_id != blank %}{{routes.search_url}}/?section_id={{se_id}}{% else %}{{locale_url}}/products/{{product.handle}}/?view=cl{{call_cl}}{% endif %}"></div>{%- assign ck = false -%}{%- endif -%}
 			<div data-opname="{{option.name | handleize}}" class="{{select_class}}{{ option_index }} {{color_class}} swatch is-color{% cycle ' is-ntcolor','','' %}" id="{{select_id}}_{{ option_index }}">
 				<h4 class="swatch__title">{{option.name}}: <span class="nt_name_current">{{selected_value}}</span></h4>
-				<ul class="swatches-select swatch__list_pr" data-id="{{ option_index }}" data-size="{{size}}">
+				<ul class="11111 swatches-select swatch__list_pr" data-id="{{ option_index }}" data-size="{{size}}">
 			   	   {%- for value in option.values -%}
 			   	      {%- assign vh = value | handle -%}{%- assign sclass = '' -%}{%- if selected_value == value -%}{%- assign sclass = bclass -%}{%- endif -%}
 			   		   <li data-index="{{ forloop.index0 }}" data-value='{{ vh }}' class="ttip_nt tooltip_top{%- if forloop.first == true -%}_right{%- endif %} nt-swatch swatch_pr_item bg_css_{{ vh }} {{sclass}}" data-escape="{{ value | escape }}"><span class="tt_txt">{{ value }}</span><span class="swatch__value_pr pr bg_color_{{ vh }} lazyload"></span></li>
@@ -55,14 +55,41 @@
 				</ul>
 			</div>
 		{%- else -%}
+		{%- assign optionname = option.name | downcase -%}
 			<div data-opname="{{option.name | handleize}}" class="{{select_class}}{{ option_index }} swatch is-label is-{{option.name | handleize}}" id="{{select_id}}_{{ option_index }}">
 				<h4 class="swatch__title">{{option.name}}: <span class="nt_name_current">{{selected_value}}</span></h4>
-				<ul class="swatches-select swatch__list_pr" data-id="{{ option_index }}" data-size="{{size}}">
-		   	   {%- for value in option.values -%}
-		   	      {%- assign vh = value | handle -%}{%- assign sclass = '' -%}{%- if selected_value == value -%}{%- assign sclass = bclass -%}{%- endif -%}
-		   		   <li data-index="{{ forloop.index0 }}" data-value='{{ vh }}' class="nt-swatch swatch_pr_item pr bg_css_{{ vh }} {{sclass}}" data-escape="{{ value | escape }}"><span class="swatch__value_pr">{{ value }}</span></li>
-		   	   {%- endfor -%}
-				</ul>
+				{% if optionname == "diamond shape" %}
+					<ul class="33333 swatches-select swatch__list_pr" data-id="{{ option_index }}" data-size="{{size}}">
+					  {%- for value in option.values -%}
+						{%- assign value_downcase = value | downcase -%}
+						 {%- assign vh = value | handle -%}{%- assign sclass = '' -%}{%- if selected_value == value -%}{%- assign sclass = bclass -%}{%- endif -%}
+						  <li data-index="{{ forloop.index0 }}" data-value='{{ vh }}' class="nt-swatch swatch_pr_item pr bg_css_{{ vh }} {{sclass}}" data-escape="{{ value | escape }}">
+							<span class="swatch__value_pr flex-columns">
+								{% if value_downcase == "round" %}
+									<img src="https://gemroyals.com/cdn/shop/files/1-removebg-preview.png?v=1714394158" class="diamond-img">
+								{% elsif value_downcase == "oval" %}
+									<img src="https://gemroyals.com/cdn/shop/files/2-removebg-preview.png?v=1714394158" class="diamond-img">
+								{% elsif value_downcase == "radiant" %}
+									<img src="https://gemroyals.com/cdn/shop/files/6-removebg-preview.png?v=1714394158" class="diamond-img">
+								{% elsif value_downcase == "asscher" %}
+									<img src="https://gemroyals.com/cdn/shop/files/9-removebg-preview.png?v=1714394159" class="diamond-img">
+								{% else %}
+									<img src="https://gemroyals.com/cdn/shop/files/9-removebg-preview.png?v=1714394159" class="diamond-img">
+								{% endif %}
+									{{ value }}
+							</span>
+						  </li>
+					  {%- endfor -%}
+					</ul>
+
+				{% else %}
+					<ul class="22222 swatches-select swatch__list_pr" data-id="{{ option_index }}" data-size="{{size}}">
+					  {%- for value in option.values -%}
+						 {%- assign vh = value | handle -%}{%- assign sclass = '' -%}{%- if selected_value == value -%}{%- assign sclass = bclass -%}{%- endif -%}
+						  <li data-index="{{ forloop.index0 }}" data-value='{{ vh }}' class="nt-swatch swatch_pr_item pr bg_css_{{ vh }} {{sclass}}" data-escape="{{ value | escape }}"><span class="swatch__value_pr">{{ value }}</span></li>
+					  {%- endfor -%}
+					</ul>
+				{% endif %}
 			</div>
 		{%- endif -%}
 	{%- endfor -%}

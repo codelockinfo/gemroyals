@@ -74,3 +74,20 @@
     color: #C02727;
     margin-left: 6px;
 }
+/* for filter */
+.cat_filter  .btn_filter {
+    display: none;
+}
+.cat_shop_wrap{
+    background: #F9F9F9;
+    padding: 20px;
+}
+.container_cat .sidebar .widget:not(:first-child) {
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid #EDE9EB;
+}
+.container_cat .sidebar .widget.blockid_price{
+    border-top: unset;  
+}
+/* for filter */

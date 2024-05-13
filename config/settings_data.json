@@ -192,7 +192,7 @@
     "default_list_view": false,
     "sort_enable": true,
     "cat_sticky": false,
-    "shop_filters": false,
+    "shop_filters": true,
     "pop_style": "pop_default",
     "type_filters": "2",
     "logic_filter": "2",

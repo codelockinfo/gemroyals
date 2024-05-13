@@ -342,8 +342,8 @@ assign locale_url = product.url | split:'/products/' | first -%}
                     {%- endif -%}
                   {% comment %} custom properties {% endcomment %}
                   <div class="customize-properties">
-                      <h4 for="customization" class="swatch__title">Customization</h4>
-                        <input  class="required" id="customization" name="properties[customization]" value="" />
+                      <h4 for="customization" class="swatch__title">PERSONALIZATION</h4>
+                        <input  class="required" id="customization" name="properties[Personalization]" value="" />
                   </div>
                   {% comment %} custom properties {% endcomment %}
                    {%- if price_varies and current_variant.unit_price_measurement -%}

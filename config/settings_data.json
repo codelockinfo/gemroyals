@@ -3941,7 +3941,7 @@
           "simple_m64fjK": {
             "type": "simple",
             "settings": {
-              "title": "Blogs",
+              "title": "Blog",
               "url": "shopify:\/\/blogs\/news",
               "open_link": "_self",
               "icon": "",

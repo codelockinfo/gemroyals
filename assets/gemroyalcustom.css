@@ -91,3 +91,24 @@
     border-top: unset;  
 }
 /* for filter */
+/* for price */
+.price ins{
+    color: #282828;
+}
+.product-info .money{
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    text-align: center;
+}
+.product-info  .product-title,
+.products .product-info__inner h3.product-title>a{
+    font-family: Montserrat Alternates;
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 24.38px;
+    text-align: center;
+
+}
+/* for price */

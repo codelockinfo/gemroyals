@@ -33,8 +33,8 @@
                     <div class="box_paragraph">
                       <p>{{ product.title | escape }}</p>
                       <h6>
-                        <span class="line-through">{{ product.price_min | money }}</span>
-                        {{ product.price_max | money  }}
+                        <span class="line-through">{{ product.compare_at_price | money }}</span>
+                        {{ product.price | money  }}
                       </h6>
                       <form
                         action="/cart/add"

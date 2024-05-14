@@ -1,5 +1,11 @@
 <div class="product-width-container ring-details">
-{% if product.metafields.custom.height != blank or product.metafields.custom.width != blank or product.metafields.custom.features != blank %}{%- render 'section_title' -%}{% endif %}
+  
+    {% if product.type == "Rings" %}
+    {% if product.metafields.custom.height != blank or product.metafields.custom.width != blank or product.metafields.custom.features != blank %}
+    {%- render 'section_title' -%}
+    {% endif %}
+    {% endif %}
+
     <div class="flex displayflex-gap flex-wrap align-item-center">
        <div class="w-60 flex displayflex-gap flex-column w-100">
          <div class="flex box3-container">

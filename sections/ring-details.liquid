@@ -71,10 +71,12 @@
          </div>
        </div>
        <div class="w-40 w-100">
-        {% assign file_url = product.metafields.custom.video | file_url %}
+        {% if product.metafields.custom.video != blank %}
+          {% assign file_url = product.metafields.custom.video | file_url %}
           <video autoplay="" loop="" controls="" width="100%">
             <source src="{{ file_url  }}" type="video/mp4" id="{{ section.id }}">
           </video>
+        {% endif %}
        </div>
     </div>
 </div>

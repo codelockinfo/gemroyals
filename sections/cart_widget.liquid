@@ -44,7 +44,7 @@
       <div class="mini_cart_wrap">
          <div class="mini_cart_content fixcl-scroll">
             <div class="fixcl-scroll-content">
-               <div class="empty tc mt__40{% if ccount > 0 %} dn{% endif %}"><i class="las la-shopping-bag pr mb__10"></i><p>{{ 'cart.general.empty' | t }}</p>
+               <div class="tc_lg empty tc mt__40{% if ccount > 0 %} dn{% endif %}"><i class="las la-shopping-bag pr mb__10"></i><p>{{ 'cart.general.empty' | t }}</p>
                   {%- assign btn_blocks = section_blocks | where: "type", 'btn' -%}
                   {%- if btn_blocks.size > 0 -%}
                   {%- for block in btn_blocks -%}

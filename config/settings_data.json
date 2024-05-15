@@ -1720,7 +1720,7 @@
           "complementary_product_BNe7nG": {
             "type": "complementary_product",
             "settings": {
-              "complementaryproductheading": "Matching Product",
+              "complementaryproductheading": "Pairs Well With",
               "complementaryproduct": "earrings",
               "limit": 8,
               "space": 30,
@@ -3417,6 +3417,7 @@
           "heading": "Etsy.com",
           "paragraph": "Gem Royals is a brand who is dealing in all types of Gems and <br> Jewelry like Gemstone, Moissanite, Lab Grown Diamond Etc. <br> We are also available in Etsy as well and continuously <br> expanding our business.",
           "button_name": "Explore More",
+          "btn_link": "",
           "image1": "shopify:\/\/shop_images\/bbe5e6c2b9bdc03c19bdfb785e5806d0.jpg",
           "image_head": "Etsy.com",
           "image2": "shopify:\/\/shop_images\/415d2c7eae996a9e0f9c48d849481485.jpg"

@@ -2956,7 +2956,7 @@
           "Paragraph_text": "Conveys a sense of heritage and high-end luxury appealing to those who appreciate tradition  and quality",
           "button_text": "View Collection",
           "button_background": "",
-          "button_link": ""
+          "button_link": "shopify:\/\/collections"
         }
       },
       "instagram_feed_EJfntL": {
@@ -2976,29 +2976,29 @@
           "img_KpzXcT": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1_c2abb65d-bab8-4247-a77d-edc877309b91.jpg",
-              "url": ""
+              "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-05-15_at_10.35.08_AM.jpg",
+              "url": "https:\/\/www.instagram.com\/p\/C5kRggDI3rk\/"
             }
           },
           "img_rzXeJd": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/2.jpg",
-              "url": ""
+              "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-05-15_at_10.36.56_AM.jpg",
+              "url": "https:\/\/www.instagram.com\/p\/C6IWVS0LH7v\/?img_index=1"
             }
           },
           "img_AYBR7r": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/3.jpg",
-              "url": ""
+              "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-05-15_at_10.37.24_AM.jpg",
+              "url": "https:\/\/www.instagram.com\/p\/C6LIs-9r6Zz\/?img_index=1"
             }
           },
           "img_rFXzwJ": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/4.jpg",
-              "url": ""
+              "image": "shopify:\/\/shop_images\/12.jpg",
+              "url": "https:\/\/www.instagram.com\/p\/C6dHKl7sxAW\/"
             }
           },
           "img_nTzKFg": {
@@ -3599,7 +3599,7 @@
             "settings": {
               "category_img": "shopify:\/\/shop_images\/c-1.png",
               "category_text": "<p>Engagement Rings<\/p>",
-              "collection_url": ""
+              "collection_url": "shopify:\/\/collections\/engagement-rings"
             }
           },
           "text_K9CUgr": {
@@ -3607,7 +3607,7 @@
             "settings": {
               "category_img": "shopify:\/\/shop_images\/c-2.png",
               "category_text": "<p>Wedding Bands<\/p>",
-              "collection_url": ""
+              "collection_url": "shopify:\/\/collections\/wedding-bands"
             }
           },
           "text_g9UbG7": {
@@ -3615,7 +3615,7 @@
             "settings": {
               "category_img": "shopify:\/\/shop_images\/c-3.png",
               "category_text": "<p>Men's Band<\/p>",
-              "collection_url": ""
+              "collection_url": "shopify:\/\/collections\/moissanite-mens-band"
             }
           },
           "text_XfmJf4": {
@@ -3623,7 +3623,7 @@
             "settings": {
               "category_img": "shopify:\/\/shop_images\/c-4.png",
               "category_text": "<p>Earrings<\/p>",
-              "collection_url": ""
+              "collection_url": "shopify:\/\/collections\/earrings"
             }
           },
           "text_UeDQQj": {
@@ -3631,7 +3631,7 @@
             "settings": {
               "category_img": "shopify:\/\/shop_images\/c-5.png",
               "category_text": "<p>Necklace<\/p>",
-              "collection_url": ""
+              "collection_url": "shopify:\/\/collections\/necklace"
             }
           },
           "text_HUprR4": {
@@ -3639,7 +3639,7 @@
             "settings": {
               "category_img": "shopify:\/\/shop_images\/c-6.png",
               "category_text": "<p>Bracelets<\/p>",
-              "collection_url": ""
+              "collection_url": "shopify:\/\/collections\/bracelet"
             }
           },
           "text_htJNAT": {
@@ -3647,7 +3647,7 @@
             "settings": {
               "category_img": "shopify:\/\/shop_images\/LR2201-3_600x_crop_center_175fa2b9-e28b-487e-878c-519cca65588f.png",
               "category_text": "<p>Ring Set<\/p>",
-              "collection_url": ""
+              "collection_url": "shopify:\/\/collections\/ring-set"
             }
           }
         },
@@ -4504,7 +4504,7 @@
           "content_b6UYnq"
         ],
         "settings": {
-          "title": "Testimonials",
+          "title": "",
           "sub_title": "",
           "sub_font": "2",
           "style_title": "title_5 lazyload",

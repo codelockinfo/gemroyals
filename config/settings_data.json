@@ -3034,7 +3034,7 @@
           "col_pr_tb": "3",
           "col_pr_mb": "6",
           "loop": false,
-          "au_time": 0,
+          "au_time": 1,
           "au_hover": true,
           "button": false,
           "btn_vi": "1",

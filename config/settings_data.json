@@ -3033,7 +3033,7 @@
           "col_pr": "2",
           "col_pr_tb": "3",
           "col_pr_mb": "6",
-          "loop": true,
+          "loop": false,
           "au_time": 1,
           "au_hover": true,
           "button": false,

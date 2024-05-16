@@ -15,10 +15,12 @@
             <div class="slider-category-collection-box">
               <div class="slider-category-img-box">
                 {% if block.settings.category_img != blank %}
-                  <img
-                    src="{{ block.settings.category_img | img_url:'master' }}"
-                    class="collection-img"
-                    alt="">
+                  <a href="{{ block.settings.collection_url }}">
+                    <img
+                      src="{{ block.settings.category_img | img_url:'master' }}"
+                      class="collection-img"
+                      alt="">
+                  </a>
                 {% endif %}
               </div>
               <a href="{{block.settings.collection_url}}">

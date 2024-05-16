@@ -195,7 +195,7 @@
     "shop_filters": true,
     "pop_style": "pop_default",
     "type_filters": "2",
-    "logic_filter": "2",
+    "logic_filter": "1",
     "auto_hide_ofsock": false,
     "show_hide_ofsock": false,
     "pr_layout": "full",

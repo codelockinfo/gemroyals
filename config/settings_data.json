@@ -4413,7 +4413,7 @@
           "col_md": "4",
           "col_mb": "6",
           "brand_hover": "0",
-          "loop": false,
+          "loop": true,
           "autoplay": true,
           "au_time": 0,
           "au_hover": true,

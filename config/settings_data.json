@@ -731,13 +731,13 @@
           "logo_JHqENb": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/logo_img_prev_ui.png",
-              "logo_width": 100,
+              "image": "shopify:\/\/shop_images\/GEMROYALS_logo_png_1.png",
+              "logo_width": 120,
               "title": "",
-              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit",
+              "content": "",
               "social_mode": "1",
               "order": "1",
-              "cl": "4",
+              "cl": "3",
               "cl_tb": "6",
               "cl_mb": "12"
             }

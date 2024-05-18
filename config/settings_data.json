@@ -95,7 +95,7 @@
     "bg_hc": "#000000",
     "cl_hc": "#ffffff",
     "btnt4_style": "1",
-    "cl_bd_text": "#878787",
+    "cl_bd_text": "#999999",
     "color_primary": "#b59677",
     "cl_hd": "#4d5959",
     "cl_se_tt": "#4d5959",
@@ -3217,7 +3217,7 @@
           "brand_gkyREq": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/04_ef2c68e2-813a-4a12-ad58-1ea8f7021f53.png",
+              "image": "shopify:\/\/shop_images\/04_copy.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3225,7 +3225,7 @@
           "brand_WdwQRc": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/001_1.png",
+              "image": "shopify:\/\/shop_images\/001_copy.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3233,7 +3233,7 @@
           "brand_9ig3qm": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/01_2.png",
+              "image": "shopify:\/\/shop_images\/01_copy.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3241,7 +3241,7 @@
           "brand_RDwknK": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/02_copy2.png",
+              "image": "shopify:\/\/shop_images\/02_copy2_copy.png",
               "url": "",
               "open_link": "_blank"
             }

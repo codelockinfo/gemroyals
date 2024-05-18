@@ -3679,7 +3679,7 @@
             "type": "mega",
             "settings": {
               "title": "Engagement Ring",
-              "url": "",
+              "url": "shopify:\/\/collections\/engagement-rings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3696,7 +3696,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Moissanite Rings",
-              "url": "",
+              "url": "shopify:\/\/collections\/moissanite-rings",
               "open_link": "_self",
               "menu": "engagement-rings",
               "col": "3"
@@ -3706,7 +3706,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Lab Grown Diamond Rings",
-              "url": "",
+              "url": "shopify:\/\/collections\/lab-grown-diamond-rings",
               "open_link": "_self",
               "menu": "lab-grown-diamond-rings",
               "col": "3"
@@ -3716,7 +3716,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Gemstone Rings",
-              "url": "",
+              "url": "shopify:\/\/collections\/gemstone-rings",
               "open_link": "_self",
               "menu": "gemstone-rings",
               "col": "3"
@@ -3737,7 +3737,7 @@
             "type": "mega",
             "settings": {
               "title": "Wedding Band",
-              "url": "",
+              "url": "shopify:\/\/collections\/wedding-bands",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3754,7 +3754,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Moissanite Bands",
-              "url": "",
+              "url": "shopify:\/\/collections\/moissanite-band",
               "open_link": "_self",
               "menu": "moissanite-bands",
               "col": "3"
@@ -3764,7 +3764,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Lab Grown Diamond Bands",
-              "url": "",
+              "url": "shopify:\/\/collections\/lab-grown-diamond-band",
               "open_link": "_self",
               "menu": "lab-grown-diamond-bands",
               "col": "3"
@@ -3796,7 +3796,7 @@
             "type": "mega",
             "settings": {
               "title": "Fine Jewelry",
-              "url": "",
+              "url": "shopify:\/\/collections\/fine-jewelry",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3813,7 +3813,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "",
-              "url": "",
+              "url": "shopify:\/\/collections\/fine-jewelry",
               "open_link": "_self",
               "menu": "fine-jewelry",
               "col": "3"

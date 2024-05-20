@@ -76,6 +76,10 @@
           <video autoplay="" loop="" controls="" width="100%">
             <source src="{{ file_url  }}" type="video/mp4" id="{{ section.id }}">
           </video>
+          {% else %}
+          <video autoplay="" loop="" controls="" width="100%">
+            <source src="https://cdn.shopify.com/videos/c/o/v/7556d74d1c094ca6b97d250827f5af9a.mp4" type="video/mp4" id="{{ section.id }}">
+          </video>
         {% endif %}
        </div>
     </div>

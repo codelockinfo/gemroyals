@@ -76,7 +76,8 @@
 
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  </head>
+  {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
+</head>
   <body {{ class_body_theme | strip_newlines -}}>
     {%- render 'lazypreload' -%}
     <div id="nt_wrapper">

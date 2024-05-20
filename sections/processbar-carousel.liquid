@@ -30,10 +30,17 @@
     <div class="container progressbar-container">
       <div class="row">
         <div class="col">
-          <ul id="progress-bar" class="progressbar">
+          <ul id="progress-bar" class="progressbar show_desktop">
             {%- for block in section.blocks -%}
               {% if block.settings.Custom_h1 != blank %}
                 <li data-slide="{{ forloop.index }}">Step {{ forloop.index }} <br>{{ block.settings.Custom_h1 }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+          <ul id="progress-bar" class="progressbar show_mobile">
+            {%- for block in section.blocks -%}
+              {% if block.settings.Custom_h1 != blank %}
+                <li data-slide="{{ forloop.index }}"></li>
               {% endif %}
             {% endfor %}
           </ul>
@@ -403,6 +410,12 @@
     background-color: #000 ;
     transition: all 0.8s;
   }
+  .show_desktop{
+      display:block;
+    }
+    .show_mobile{
+      display: none;
+    }
 
   @media (max-width: 1203px) {
     .para_section_slider h1 {
@@ -429,9 +442,14 @@
     }
   }
   @media (max-width: 576px) {
-    
     .progressbar-container{
+      padding: 20px 0;
+    }
+    .show_desktop{
       display:none;
+    }
+    .show_mobile{
+      display: contents;
     }
     .sec_para h1 {
       font-size: 40px;
@@ -441,11 +459,11 @@
   @media (max-width: 525px) {
    
     .progressbar-container .col {
-      overflow-y: hidden;
+      /* overflow-y: hidden; */
     }
     .progressbar {
-      width: 550px;
-      overflow-x: scroll;
+      /* width: 550px;
+      overflow-x: scroll; */
     }
     .slider_1 {
       display: flex;

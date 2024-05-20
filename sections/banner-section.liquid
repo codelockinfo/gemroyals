@@ -107,6 +107,17 @@
     background-color: #f0f0f0dc;
     z-index: -1;
   }
+  /* .banner::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #27272749;
+    top: 0;
+    z-index: 9;
+
+  } */
+  
   .banner .banner-box {
     z-index: 9;
   }
@@ -183,7 +194,7 @@
     height: 100%;
     position: absolute;
     object-fit: cover;
-    object-position: bottom;
+    object-position: right ;
     z-index: 1;
     top: 0;
     right: -5%;
@@ -237,10 +248,10 @@
     }
   }
 
-  @media  (min-width: 670px) and (max-width:768px) {
-    /* .banner-content {
-      padding-bottom: 350px !important;
-    } */
+  @media (max-width: 660px){
+    .banner .banner-box .banner-content .heading-h1{
+      font-size: 60px
+    }
   }
 
   @media (max-width: 576px) {

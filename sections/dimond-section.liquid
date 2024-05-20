@@ -1,27 +1,33 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <div class=" dimond-grid-section">
   <div class="width-container">
     <div class="head">
       <h2 class="diamond-h1">{{ section.settings.dia_heading }}</h2>
     </div>
 
-    <div class="diamond-main-box">
-      {% for block in section.blocks %}
-        <div class="diamond-box">
-      {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
-            <div class="diamond-img-box " style="background-color:{{block.settings.diamond_back}};">
-              {% if block.settings.diamond_img != blank %}
-                <img src="{{ block.settings.diamond_img | img_url: 'master' }}" class="diamond-img">
-              {% endif %}
-            </div>
-            <h2 class="diamond-h2">
-              {% if block.settings.dia_title != blank %}
-                {{ block.settings.dia_title }}
-              {% endif %}
-            </h2>
-            {% if block.settings.url != blank %}</a>{% endif %}
-        </div>
-      {% endfor %}
-    </div>
+     <div class="swiper diamondSlider">
+      <div class="diamond-main-box swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="diamond-box swiper-slide">
+        {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
+              <div class="diamond-img-box " style="background-color:{{block.settings.diamond_back}};">
+                {% if block.settings.diamond_img != blank %}
+                  <img src="{{ block.settings.diamond_img | img_url: 'master' }}" class="diamond-img">
+                {% endif %}
+              </div>
+              <h2 class="diamond-h2">
+                {% if block.settings.dia_title != blank %}
+                  {{ block.settings.dia_title }}
+                {% endif %}
+              </h2>
+              {% if block.settings.url != blank %}</a>{% endif %}
+          </div>
+        {% endfor %}
+      </div>
+     </div>
+     
+
   </div>
 </div>
 
@@ -120,25 +126,30 @@
       font-size: 50px;
     }
   }
-  @media (max-width: 576px) {
+  @media (max-width: 680px) {
     .diamond-main-box {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
     }
-    /* .dimond-grid-section {
-      padding: 100px 30px;
-    } */
+    .diamond-h1 {
+      font-size: 50px;
+    }
+  }
+  @media (max-width: 576px) {
+    
+  .diamond-main-box {
+      /* grid-template-columns: repeat(1, 1fr); */
+      display: flex;
+    }
     .diamond-h1 {
       font-size: 40px;
       line-height: 60px;
     }
   }
   @media (max-width: 400px) {
-    .diamond-main-box {
-      grid-template-columns: repeat(2, 1fr);
-    }
+   
     .diamond-h1 {
       font-size: 30px;
-      /* line-height: 60px; */
+      line-height: 60px;
     }
     
   }
@@ -148,3 +159,17 @@
     }
   }
 </style>
+<script>
+    if ( $(window).width() <=  576 ) {
+      var swiper = new Swiper(".diamondSlider", {
+        slidesPerView: 3,
+        spaceBetween: 5,
+        breakpoints:{
+          375:{
+            slidesPerView: 2,
+        spaceBetween: 5,
+          }
+        }
+      });
+    }
+  </script>

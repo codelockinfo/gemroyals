@@ -24,10 +24,8 @@
       </div>
     </div>
   </div>
-  <img
-    src="{{section.settings.banner_img |  img_url: 'master'}}"
-    class="banner-img"
-    alt="">
+{% if section.settings.banner_img != blank %}<img src="{{ section.settings.banner_img |  img_url: 'master'}}" class="banner-img" alt=""> {% endif %}
+{% if section.settings.banner_img_mobile != blank %}<img src="{{ section.settings.banner_img_mobile |  img_url: 'master'}}" class="banner-img banner-img-mobile" alt="">{% endif %}
 </div>
 
 {% schema %}
@@ -48,6 +46,11 @@
         "type": "image_picker",
         "id": "banner_png_img",
         "label": "Select png img"
+      },
+      {
+        "type": "image_picker",
+        "id": "banner_img_mobile",
+        "label": "Select Img for Mobile view" 
       },
       {
         "type": "richtext",
@@ -82,6 +85,9 @@
 
 <style>
   /* BANNER SECTION  */
+  .banner-img-mobile{
+    display: none;
+  }
   .width-container {
     max-width: 1440px;
     margin: 0 auto;
@@ -217,6 +223,28 @@
   }
 
   @media (max-width: 768px) {
+    .banner .banner-img,.banner-png{
+      display:none;
+    }
+    .banner .banner-img.banner-img-mobile{
+      display: block;
+      right:0;
+      height: auto;
+    }
+    .heading-h1{
+      line-height: 1;
+    }
+    .banner .banner-box .banner-content .banner-p{
+      line-height: 2;
+    }
+    .banner .banner-box .banner-content{
+      padding-top: 50px;
+    }
+    .banner{
+      background-color: #f9f9f9 !important;
+      background-image: unset;
+      z-index: unset;
+    }
     .banner .banner-box .banner-content .heading-h1 {
       font-size: 70px;
     }

@@ -12036,4 +12036,11 @@ body.dark_mode_true {
 .btn_des_3 .variations_button .nt_add_w {
   border-radius: 50% !important;
 }
-
+/* c016 */
+@media (max-width:576px) {
+  #ShopifyChat{
+    top: 50% !important;
+    right: 16px !important;
+    left: unset !important;
+  }
+}

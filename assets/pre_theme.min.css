@@ -12038,7 +12038,7 @@ body.dark_mode_true {
 }
 /* c016 */
 @media (max-width:1024px) {
-  #ShopifyChat{
+  #ShopifyChat[is-open="false"]{
     bottom: 10% !important;
     /* top: 50% !important;
     right: 16px !important;

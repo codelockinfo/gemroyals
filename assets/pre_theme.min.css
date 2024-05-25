@@ -12039,8 +12039,9 @@ body.dark_mode_true {
 /* c016 */
 @media (max-width:576px) {
   #ShopifyChat{
-    top: 50% !important;
+    bottom: 7% !important;
+    /* top: 50% !important;
     right: 16px !important;
-    left: unset !important;
+    left: unset !important; */
   }
 }

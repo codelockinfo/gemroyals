@@ -12037,7 +12037,7 @@ body.dark_mode_true {
   border-radius: 50% !important;
 }
 /* c016 */
-@media (max-width:576px) {
+@media (max-width:1024px) {
   #ShopifyChat{
     bottom: 10% !important;
     /* top: 50% !important;

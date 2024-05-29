@@ -1509,7 +1509,7 @@
         "settings": {
           "limit": 12,
           "space": 30,
-          "use_pagination": "default",
+          "use_pagination": "infinite",
           "use_bar_lm": true,
           "col_pr": "4",
           "col_pr_tb": "4",

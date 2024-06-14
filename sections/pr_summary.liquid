@@ -340,6 +340,7 @@ assign locale_url = product.url | split:'/products/' | first -%}
                           {%- endif -%}
                        {%- endif -%}
                     {%- endif -%}
+                  {% if product.metafields.custom.est_day != blank %} <div class=" dispatch-class"> <h4 class="swatch__title"> Dispatch Within {{ product.metafields.custom.est_day}} Days</h4> </div> {% endif %}
                   {% comment %} custom properties {% endcomment %}
                   <div class="customize-properties">
                       <h4 for="customization" class="swatch__title">PERSONALIZATION</h4>

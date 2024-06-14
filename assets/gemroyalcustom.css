@@ -110,4 +110,10 @@
     line-height: 24.38px;
     text-align: center;
 }
+.dispatch-class {
+    margin-bottom: 15px;
+}
+.dispatch-class h4{
+  text-transform: capitalize;
+}
 /* for price */

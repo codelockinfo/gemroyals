@@ -12043,5 +12043,9 @@ body.dark_mode_true {
     /* top: 50% !important;
     right: 16px !important;
     left: unset !important; */
+   
   }
+}
+#ShopifyChat[is-open="false"]{
+  z-index: 9 !important;
 }

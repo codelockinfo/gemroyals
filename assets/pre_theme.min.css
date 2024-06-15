@@ -12047,5 +12047,5 @@ body.dark_mode_true {
   }
 }
 #ShopifyChat[is-open="false"]{
-  z-index: 9 !important;
+  z-index: 99 !important;
 }

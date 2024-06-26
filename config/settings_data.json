@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "general_layout": "full_width",
@@ -3313,7 +3322,7 @@
               "diamond_img": "shopify:\/\/shop_images\/1-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-round",
               "dia_title": "Round",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           },
           "text_PPCdQC": {
@@ -3322,7 +3331,7 @@
               "diamond_img": "shopify:\/\/shop_images\/2-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-oval",
               "dia_title": "Oval",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           },
           "text_NLnPKt": {
@@ -3331,7 +3340,7 @@
               "diamond_img": "shopify:\/\/shop_images\/3-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-emerald",
               "dia_title": "Emerald",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           },
           "text_tqP4U6": {
@@ -3340,7 +3349,7 @@
               "diamond_img": "shopify:\/\/shop_images\/4-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-cushion",
               "dia_title": "Cushion",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           },
           "text_KEJ7Di": {
@@ -3349,7 +3358,7 @@
               "diamond_img": "shopify:\/\/shop_images\/5-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-pear",
               "dia_title": "Pear",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           },
           "text_z3cxke": {
@@ -3358,7 +3367,7 @@
               "diamond_img": "shopify:\/\/shop_images\/6-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-radiant",
               "dia_title": "Radiant",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           },
           "text_aUtB33": {
@@ -3367,7 +3376,7 @@
               "diamond_img": "shopify:\/\/shop_images\/7-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-princess",
               "dia_title": "Princess",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           },
           "text_hUHfxH": {
@@ -3376,7 +3385,7 @@
               "diamond_img": "shopify:\/\/shop_images\/fa4e1337d5e3b7fde22414341b33cb80-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-marquise",
               "dia_title": "Marquise",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           },
           "text_hn4bLX": {
@@ -3385,7 +3394,7 @@
               "diamond_img": "shopify:\/\/shop_images\/9-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-asscher",
               "dia_title": "Asscher",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           },
           "text_ktYQyP": {
@@ -3394,7 +3403,7 @@
               "diamond_img": "shopify:\/\/shop_images\/e70c85cf1fca2cbd90628491e92e6c1e-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-heart",
               "dia_title": "Heart",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           }
         },

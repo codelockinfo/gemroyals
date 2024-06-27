@@ -4,11 +4,10 @@
          {%- for block in section.blocks -%}
          <div class="col-lg-{{col}} col-md-12 col-12 col_{{forloop.index}}">
             {%- case block.type -%}
-
                {%- when 'copy' -%}
                   {%- assign now_y = 'now' | date:'%Y' -%}
                   {{- block.settings.text | replace:"[year]",now_y -}}
-
+                  &nbsp;&nbsp;&nbsp;Powered by <a href="https://codelocksolutions.in">Codelock Solutions</a>
                {%- when 'menu' -%}
                   {%- assign menu = block.settings.menu -%}
                   {%- if menu != blank -%}

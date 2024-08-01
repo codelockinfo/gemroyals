@@ -976,7 +976,7 @@
             "type": "menu",
             "settings": {
               "title": "Customization",
-              "url": "shopify:\/\/pages\/contact",
+              "url": "shopify:\/\/pages\/contact-us",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -3866,7 +3866,7 @@
             "type": "simple",
             "settings": {
               "title": "Customization",
-              "url": "shopify:\/\/pages\/contact",
+              "url": "shopify:\/\/pages\/contact-us",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,

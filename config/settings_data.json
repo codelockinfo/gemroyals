@@ -3617,7 +3617,7 @@
             "settings": {
               "category_img": "shopify:\/\/shop_images\/c-3.png",
               "category_text": "<p>Men's Band<\/p>",
-              "collection_url": "shopify:\/\/collections\/moissanite-mens-band"
+              "collection_url": "shopify:\/\/collections\/mens-band"
             }
           },
           "text_XfmJf4": {
@@ -3738,7 +3738,7 @@
               "image": "shopify:\/\/shop_images\/c-3.png",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "moissanite-mens-band",
+              "collection": "mens-band",
               "title": "Engagement Ring",
               "col": "3"
             }
@@ -3786,7 +3786,7 @@
               "image": "shopify:\/\/shop_images\/DSC06449.jpg",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "moissanite-mens-band",
+              "collection": "mens-band",
               "title": "Wedding Band",
               "col": "3"
             }
@@ -3797,7 +3797,7 @@
               "image": "shopify:\/\/shop_images\/c-2.png",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "moissanite-mens-band",
+              "collection": "mens-band",
               "title": "Engagement band",
               "col": "3"
             }

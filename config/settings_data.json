@@ -3450,7 +3450,7 @@
               "ring_h2": "<p>Moissanite<\/p>",
               "ring_p1": "Browse our bespoke collection of brilliant and durable moissanite jewelry.",
               "ring_p2": "DISCOVER",
-              "ring_p2url": "shopify:\/\/collections\/moissanite-rings"
+              "ring_p2url": "shopify:\/\/collections\/moissanite-diamond-rings"
             }
           },
           "text_ANNjJn": {
@@ -3706,7 +3706,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Moissanite Rings",
-              "url": "shopify:\/\/collections\/moissanite-rings",
+              "url": "shopify:\/\/collections\/moissanite-diamond-rings",
               "open_link": "_self",
               "menu": "engagement-rings",
               "col": "3"
@@ -4607,7 +4607,7 @@
           "collection_head": "our collection",
           "collection_paragraph": "Choosing a gemstone ring can be a meaningful and stylish choice for several reasons. Gemstones come in a wide range of <br> colors, from deep blues to vibrant reds and sparkling greens. Each gemstone has its unique beauty and allure, allowing <br> you to express your individual style and preferences.",
           "collection_btn": "View Collection",
-          "collectionurl": "shopify:\/\/collections\/moissanite-rings"
+          "collectionurl": "shopify:\/\/collections\/moissanite-diamond-rings"
         }
       },
       "processbar_carousel_mny3Nt": {

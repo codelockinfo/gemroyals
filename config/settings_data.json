@@ -964,7 +964,7 @@
             "type": "menu",
             "settings": {
               "title": "Fine Jewelrys",
-              "url": "shopify:\/\/collections\/earrings",
+              "url": "shopify:\/\/collections\/earrings-for-women",
               "open_link": "_self",
               "menu": "fine-jewelry",
               "icon": "",
@@ -1733,7 +1733,7 @@
             "type": "complementary_product",
             "settings": {
               "complementaryproductheading": "Pairs Well With",
-              "complementaryproduct": "earrings",
+              "complementaryproduct": "earrings-for-women",
               "limit": 8,
               "space": 30,
               "use_pagination": "none",
@@ -3625,7 +3625,7 @@
             "settings": {
               "category_img": "shopify:\/\/shop_images\/c-4.png",
               "category_text": "<p>Earrings<\/p>",
-              "collection_url": "shopify:\/\/collections\/earrings"
+              "collection_url": "shopify:\/\/collections\/earrings-for-women"
             }
           },
           "text_UeDQQj": {
@@ -3846,7 +3846,7 @@
               "image": "shopify:\/\/shop_images\/DSC01637.jpg",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "earrings",
+              "collection": "earrings-for-women",
               "title": "Earrings",
               "col": "3"
             }

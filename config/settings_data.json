@@ -3641,7 +3641,7 @@
             "settings": {
               "category_img": "shopify:\/\/shop_images\/c-6.png",
               "category_text": "<p>Bracelets<\/p>",
-              "collection_url": "shopify:\/\/collections\/bracelet"
+              "collection_url": "shopify:\/\/collections\/bracelets-for-women"
             }
           },
           "text_htJNAT": {
@@ -3835,7 +3835,7 @@
               "image": "shopify:\/\/shop_images\/DSC01817.jpg",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "bracelet",
+              "collection": "bracelets-for-women",
               "title": "Bracelet",
               "col": "3"
             }

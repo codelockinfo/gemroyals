@@ -3633,7 +3633,7 @@
             "settings": {
               "category_img": "shopify:\/\/shop_images\/02_b8f93a9b-2796-4e80-b092-d7f17dabd915.jpg",
               "category_text": "<p>Necklace<\/p>",
-              "collection_url": "shopify:\/\/collections\/necklace"
+              "collection_url": "shopify:\/\/collections\/pendant-necklace"
             }
           },
           "text_HUprR4": {
@@ -3857,7 +3857,7 @@
               "image": "shopify:\/\/shop_images\/FRONTDOM_5fe42a5a-47a9-455a-9b03-49a5007fc2ae.jpg",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "necklace",
+              "collection": "pendant-necklace",
               "title": "Wedding Bands",
               "col": "3"
             }

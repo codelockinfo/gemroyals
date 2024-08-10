@@ -117,3 +117,10 @@
   text-transform: capitalize;
 }
 /* for price */
+
+.template-page .width-container{
+    max-width: 1150px;
+}  
+.template-page .page-head  {
+    text-align: center;
+}

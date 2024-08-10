@@ -124,3 +124,6 @@
 .template-page .page-head  {
     text-align: center;
 }
+html{
+    scroll-behavior: smooth !important;
+}

@@ -1,4 +1,20 @@
 {%- section 'pages_heading' -%}<div class="width-container content mt__60 mb__60">{{ page.content }}</div>
+<!-- Start of Judge.me code -->
+<div data-id="{{ product.id }}" class="jdgm-widget jdgm-preview-badge">{{ product.metafields.judgeme.badge }}</div>
+<!-- End of Judge.me code --> <!-- Start of Judge.me code -->
+<div style="clear: both;"></div>
+<div data-id="{{ product.id }}" class="jdgm-widget jdgm-review-widget" id="judgeme_product_reviews">{{ product.metafields.judgeme.widget }}</div>
+<!-- End of Judge.me code --> <!-- Start of Judge.me code -->
+<div class="jdgm-carousel-wrapper">{% assign jm_metafields = shop.metafields.judgeme %}
+<div class="jdgm-carousel-title-and-link"><span class="jdgm-all-reviews-rating-wrapper"> <span role="img" tabindex="0" aria-label="{{ jm_metafields.all_reviews_rating }} stars" class="jdgm-all-reviews-rating" data-score="{{ jm_metafields.all_reviews_rating }}" style="display: block;"></span> <span data-number-of-reviews="{{ jm_metafields.all_reviews_count }}" class="jdgm-carousel-number-of-reviews" style="display: block;"> from {{ shop.metafields.judgeme.all_reviews_count }} reviews </span> </span></div>
+{{ jm_metafields.featured_carousel }}</div>
+<!-- End of Judge.me code --> <!-- Start of Judge.me code --> {{ shop.metafields.judgeme.medals }} <!-- End of Judge.me code -->
+<div class="jdgm-widget jdgm-ugc-media-wrapper">{{ shop.metafields.judgeme.ugc_media_grid }}</div>
+<!-- Start of Judge.me code -->
+<div style="clear: both;"></div>
+<div style="text-align: center;"><a class="jdgm-verified-count-badget"> {{ shop.metafields.judgeme.verified_badge }} </a></div>
+<!-- End of Judge.me code -->
+<div class="jdgm-widget jdgm-all-reviews-text"><a> <span class="jdgm-all-reviews-rating" data-score="{{ shop.metafields.judgeme.all_reviews_rating }}"></span> <span data-locale="en" data-number-of-reviews="{{ shop.metafields.judgeme.all_reviews_count }}" data-score="{{ shop.metafields.judgeme.all_reviews_rating }}" class="jdgm-all-reviews-text__text"> Customers rate us {{ shop.metafields.judgeme.all_reviews_rating | round: 1 }}/5 based on {{ shop.metafields.judgeme.all_reviews_count }} reviews. </span> </a></div>
  <style>
      .content{
         font-family: 'Montserrat Alternates';

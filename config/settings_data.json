@@ -3898,7 +3898,7 @@
             "type": "simple",
             "settings": {
               "title": "Review",
-              "url": "\/",
+              "url": "shopify:\/\/pages\/reviews",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,

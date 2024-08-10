@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "general_layout": "full_width",
@@ -955,7 +964,7 @@
             "type": "menu",
             "settings": {
               "title": "Fine Jewelrys",
-              "url": "shopify:\/\/collections\/earrings",
+              "url": "shopify:\/\/collections\/earrings-for-women",
               "open_link": "_self",
               "menu": "fine-jewelry",
               "icon": "",
@@ -967,7 +976,7 @@
             "type": "menu",
             "settings": {
               "title": "Customization",
-              "url": "shopify:\/\/pages\/contact",
+              "url": "shopify:\/\/pages\/contact-us",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1724,7 +1733,7 @@
             "type": "complementary_product",
             "settings": {
               "complementaryproductheading": "Pairs Well With",
-              "complementaryproduct": "earrings",
+              "complementaryproduct": "earrings-for-women",
               "limit": 8,
               "space": 30,
               "use_pagination": "none",
@@ -3313,7 +3322,7 @@
               "diamond_img": "shopify:\/\/shop_images\/1-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-round",
               "dia_title": "Round",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           },
           "text_PPCdQC": {
@@ -3322,7 +3331,7 @@
               "diamond_img": "shopify:\/\/shop_images\/2-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-oval",
               "dia_title": "Oval",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           },
           "text_NLnPKt": {
@@ -3331,7 +3340,7 @@
               "diamond_img": "shopify:\/\/shop_images\/3-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-emerald",
               "dia_title": "Emerald",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           },
           "text_tqP4U6": {
@@ -3340,7 +3349,7 @@
               "diamond_img": "shopify:\/\/shop_images\/4-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-cushion",
               "dia_title": "Cushion",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           },
           "text_KEJ7Di": {
@@ -3349,7 +3358,7 @@
               "diamond_img": "shopify:\/\/shop_images\/5-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-pear",
               "dia_title": "Pear",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           },
           "text_z3cxke": {
@@ -3358,7 +3367,7 @@
               "diamond_img": "shopify:\/\/shop_images\/6-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-radiant",
               "dia_title": "Radiant",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           },
           "text_aUtB33": {
@@ -3367,7 +3376,7 @@
               "diamond_img": "shopify:\/\/shop_images\/7-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-princess",
               "dia_title": "Princess",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           },
           "text_hUHfxH": {
@@ -3376,7 +3385,7 @@
               "diamond_img": "shopify:\/\/shop_images\/fa4e1337d5e3b7fde22414341b33cb80-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-marquise",
               "dia_title": "Marquise",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           },
           "text_hn4bLX": {
@@ -3385,7 +3394,7 @@
               "diamond_img": "shopify:\/\/shop_images\/9-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-asscher",
               "dia_title": "Asscher",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           },
           "text_ktYQyP": {
@@ -3394,7 +3403,7 @@
               "diamond_img": "shopify:\/\/shop_images\/e70c85cf1fca2cbd90628491e92e6c1e-removebg-preview.png",
               "url": "shopify:\/\/collections\/all-heart",
               "dia_title": "Heart",
-              "diamond_back": "#f0eeef"
+              "diamond_back": "#f9f9f9"
             }
           }
         },
@@ -3441,7 +3450,7 @@
               "ring_h2": "<p>Moissanite<\/p>",
               "ring_p1": "Browse our bespoke collection of brilliant and durable moissanite jewelry.",
               "ring_p2": "DISCOVER",
-              "ring_p2url": "shopify:\/\/collections\/moissanite-rings"
+              "ring_p2url": "shopify:\/\/collections\/moissanite-diamond-rings"
             }
           },
           "text_ANNjJn": {
@@ -3608,7 +3617,7 @@
             "settings": {
               "category_img": "shopify:\/\/shop_images\/c-3.png",
               "category_text": "<p>Men's Band<\/p>",
-              "collection_url": "shopify:\/\/collections\/moissanite-mens-band"
+              "collection_url": "shopify:\/\/collections\/mens-band"
             }
           },
           "text_XfmJf4": {
@@ -3616,15 +3625,15 @@
             "settings": {
               "category_img": "shopify:\/\/shop_images\/c-4.png",
               "category_text": "<p>Earrings<\/p>",
-              "collection_url": "shopify:\/\/collections\/earrings"
+              "collection_url": "shopify:\/\/collections\/earrings-for-women"
             }
           },
           "text_UeDQQj": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/c-5.png",
+              "category_img": "shopify:\/\/shop_images\/02_b8f93a9b-2796-4e80-b092-d7f17dabd915.jpg",
               "category_text": "<p>Necklace<\/p>",
-              "collection_url": "shopify:\/\/collections\/necklace"
+              "collection_url": "shopify:\/\/collections\/pendant-necklace"
             }
           },
           "text_HUprR4": {
@@ -3632,13 +3641,13 @@
             "settings": {
               "category_img": "shopify:\/\/shop_images\/c-6.png",
               "category_text": "<p>Bracelets<\/p>",
-              "collection_url": "shopify:\/\/collections\/bracelet"
+              "collection_url": "shopify:\/\/collections\/bracelets-for-women"
             }
           },
           "text_htJNAT": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/LR2201-3_600x_crop_center_175fa2b9-e28b-487e-878c-519cca65588f.png",
+              "category_img": "shopify:\/\/shop_images\/01_029b05e6-b856-446a-9976-57003ffa0751.jpg",
               "category_text": "<p>Ring Set<\/p>",
               "collection_url": "shopify:\/\/collections\/ring-set"
             }
@@ -3697,7 +3706,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Moissanite Rings",
-              "url": "shopify:\/\/collections\/moissanite-rings",
+              "url": "shopify:\/\/collections\/moissanite-diamond-rings",
               "open_link": "_self",
               "menu": "engagement-rings",
               "col": "3"
@@ -3729,7 +3738,7 @@
               "image": "shopify:\/\/shop_images\/c-3.png",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "moissanite-mens-band",
+              "collection": "mens-band",
               "title": "Engagement Ring",
               "col": "3"
             }
@@ -3777,7 +3786,7 @@
               "image": "shopify:\/\/shop_images\/DSC06449.jpg",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "moissanite-mens-band",
+              "collection": "mens-band",
               "title": "Wedding Band",
               "col": "3"
             }
@@ -3788,7 +3797,7 @@
               "image": "shopify:\/\/shop_images\/c-2.png",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "moissanite-mens-band",
+              "collection": "mens-band",
               "title": "Engagement band",
               "col": "3"
             }
@@ -3826,7 +3835,7 @@
               "image": "shopify:\/\/shop_images\/DSC01817.jpg",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "bracelet",
+              "collection": "bracelets-for-women",
               "title": "Bracelet",
               "col": "3"
             }
@@ -3837,7 +3846,7 @@
               "image": "shopify:\/\/shop_images\/DSC01637.jpg",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "earrings",
+              "collection": "earrings-for-women",
               "title": "Earrings",
               "col": "3"
             }
@@ -3848,7 +3857,7 @@
               "image": "shopify:\/\/shop_images\/FRONTDOM_5fe42a5a-47a9-455a-9b03-49a5007fc2ae.jpg",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "necklace",
+              "collection": "pendant-necklace",
               "title": "Wedding Bands",
               "col": "3"
             }
@@ -3857,7 +3866,7 @@
             "type": "simple",
             "settings": {
               "title": "Customization",
-              "url": "shopify:\/\/pages\/contact",
+              "url": "shopify:\/\/pages\/customization",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3872,6 +3881,20 @@
             }
           },
           "simple_P6G6HD": {
+            "type": "simple",
+            "disabled": true,
+            "settings": {
+              "title": "Customization",
+              "url": "shopify:\/\/pages\/customization",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "simple_yqmnJd": {
             "type": "simple",
             "settings": {
               "title": "Review",
@@ -3944,6 +3967,7 @@
           "simple_kwz7zm",
           "header_2-1",
           "simple_P6G6HD",
+          "simple_yqmnJd",
           "simple_m64fjK",
           "simple_HQhATF",
           "simple_YWQtjT"
@@ -4598,7 +4622,7 @@
           "collection_head": "our collection",
           "collection_paragraph": "Choosing a gemstone ring can be a meaningful and stylish choice for several reasons. Gemstones come in a wide range of <br> colors, from deep blues to vibrant reds and sparkling greens. Each gemstone has its unique beauty and allure, allowing <br> you to express your individual style and preferences.",
           "collection_btn": "View Collection",
-          "collectionurl": "shopify:\/\/collections\/moissanite-rings"
+          "collectionurl": "shopify:\/\/collections\/moissanite-diamond-rings"
         }
       },
       "processbar_carousel_mny3Nt": {
@@ -4714,6 +4738,18 @@
           "button_horizontal_position": "bottom_left",
           "button_vertical_position": "lowest",
           "greeting_message": ""
+        }
+      },
+      "478144830049398400": {
+        "type": "shopify:\/\/apps\/storeseo\/blocks\/store_seo_meta\/64b24496-16f9-4afc-a800-84e6acc4a36c",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "6279071938380501511": {
+        "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "disabled": false,
+        "settings": {
         }
       }
     }

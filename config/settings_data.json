@@ -4740,14 +4740,14 @@
           "greeting_message": ""
         }
       },
-      "478144830049398400": {
-        "type": "shopify:\/\/apps\/storeseo\/blocks\/store_seo_meta\/64b24496-16f9-4afc-a800-84e6acc4a36c",
+      "6279071938380501511": {
+        "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
         "disabled": false,
         "settings": {
         }
       },
-      "6279071938380501511": {
-        "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+      "478144830049398400": {
+        "type": "shopify:\/\/apps\/storeseo\/blocks\/store_seo_meta\/64b24496-16f9-4afc-a800-84e6acc4a36c",
         "disabled": false,
         "settings": {
         }

@@ -127,3 +127,8 @@
 html{
     scroll-behavior: smooth !important;
 }
+/* add for font change */
+.type_rich_text .section-subtitle{
+      font-size: 16px;
+}
+/* add for font change */

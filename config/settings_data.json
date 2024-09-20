@@ -4817,20 +4817,8 @@
       },
       "faq_section": {
         "type": "faq_section",
-        "blocks": {
-          "faq_DFBrEr": {
-            "type": "faq",
-            "settings": {
-              "title": "Question and answer",
-              "content": "<p>This section doesn’t currently include any content. <strong>Add content to this section using the sidebar.<\/strong><\/p>"
-            }
-          }
-        },
-        "block_order": [
-          "faq_DFBrEr"
-        ],
         "settings": {
-          "title": "faq",
+          "title": "",
           "sub_title": "",
           "sub_font": "2",
           "style_title": "title_1",

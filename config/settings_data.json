@@ -4772,13 +4772,21 @@
               "title": "Question and answer",
               "content": "<p>This section doesn’t currently include any content. <strong>Add content to this section using the sidebar.<\/strong><\/p>"
             }
+          },
+          "faq_FjGUX4": {
+            "type": "faq",
+            "settings": {
+              "title": "Question and answer",
+              "content": "<p>This section doesn’t currently include any content. <b>Add content to this section using the sidebar.<\/b><\/p>"
+            }
           }
         },
         "block_order": [
           "faq_TWMEGQ",
           "faq_FnC7WE",
           "faq_xzdVQc",
-          "faq_cj9zVb"
+          "faq_cj9zVb",
+          "faq_FjGUX4"
         ],
         "settings": {
           "title": "",

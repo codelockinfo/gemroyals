@@ -132,3 +132,35 @@ html{
       font-size: 18px;
 }
 /* add for font change */
+
+
+
+/* FAQ SECTION CSS  */
+
+.faq_des1 .entry-content{
+    border-bottom: 1px solid #d9dbdd !important; 
+}
+.faq_des1 .txt_h_tab{
+    font-family: 'Montserrat Alternates' !important;
+    font-size:16px !important;
+}
+.faq_des1 .sp-tab-content p{
+    font-family: 'Montserrat Alternates' !important;
+    font-size:16px !important;
+}
+.faq_des1 .sp-tabs .active .txt_h_tab{
+    font-weight: 600;
+}
+
+.faq_des1 .des_style_2.sp-tab>.sp-tab-content{
+    padding: 20px 0 !important;
+    border: 0 !important;
+}
+.faq_des1 .col-12{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.tab-heading .txt_h_tab{
+    padding-bottom: 20px !important;
+    padding-left: 0;
+}

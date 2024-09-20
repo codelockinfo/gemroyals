@@ -4752,6 +4752,7 @@
           },
           "faq_FnC7WE": {
             "type": "faq",
+            "disabled": true,
             "settings": {
               "title": "do you offer gold plated jewelry?",
               "content": "<p>We don't offer gold-plated jewelry because it tends to fade over time. However, if you'd like, we can create a custom piece just for you upon request.<\/p>"
@@ -4759,6 +4760,7 @@
           },
           "faq_xzdVQc": {
             "type": "faq",
+            "disabled": true,
             "settings": {
               "title": "Do you offer customization option for jewelry and Diamond?",
               "content": "<p>yes, we accept customization options for both jewelry and Diamonds. Whether you are looking to desing a uniqe piece or select a specifice stone, we can make it as per your preferences. <\/p>"
@@ -4766,9 +4768,10 @@
           },
           "faq_cj9zVb": {
             "type": "faq",
+            "disabled": true,
             "settings": {
               "title": "Question and answer",
-              "content": "<p>This section doesn’t currently include any content. <b>Add content to this section using the sidebar.<\/b><\/p>"
+              "content": "<p>This section doesn’t currently include any content. <strong>Add content to this section using the sidebar.<\/strong><\/p>"
             }
           }
         },

@@ -4381,6 +4381,7 @@
           },
           "brand_xQDVcL": {
             "type": "brand",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/001_copy.png",
               "url": "",

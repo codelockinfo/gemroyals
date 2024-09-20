@@ -4747,7 +4747,7 @@
             "type": "faq",
             "settings": {
               "title": "How is Solid Gold jewelry compared to gold plated jewelry?",
-              "content": "<p>Solid gold jewelry is made entirely of gold, offering durability,resistance to tarnish, and long-lasting value. In contrast, gold-plated jewelry has a thin layer of gold over a base metal, making it more affordable but less durable, as the gold can wear off over time.<\/p>"
+              "content": "<p>Solid gold jewelry is made entirely of gold, offering durability,resistance to tarnish, and long-lasting value. <\/p>"
             }
           },
           "faq_FnC7WE": {
@@ -4777,7 +4777,7 @@
             "type": "faq",
             "settings": {
               "title": "Question and answer",
-              "content": "<p>This section doesn’t currently include any content. <b>Add content to this section using the sidebar.<\/b><\/p>"
+              "content": "<p>This section doesn’t currently include any content. <strong>Add content to this section using the sidebar.<\/strong><\/p>"
             }
           }
         },

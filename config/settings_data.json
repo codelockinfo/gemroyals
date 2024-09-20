@@ -4763,12 +4763,20 @@
               "title": "Do you offer customization option for jewelry and Diamond?",
               "content": "<p>yes, we accept customization options for both jewelry and Diamonds. Whether you are looking to desing a uniqe piece or select a specifice stone, we can make it as per your preferences. <\/p>"
             }
+          },
+          "faq_cj9zVb": {
+            "type": "faq",
+            "settings": {
+              "title": "Question and answer",
+              "content": "<p>This section doesn’t currently include any content. <b>Add content to this section using the sidebar.<\/b><\/p>"
+            }
           }
         },
         "block_order": [
           "faq_TWMEGQ",
           "faq_FnC7WE",
-          "faq_xzdVQc"
+          "faq_xzdVQc",
+          "faq_cj9zVb"
         ],
         "settings": {
           "title": "Have Any Questions?",
@@ -4782,20 +4790,20 @@
           "use_pr": false,
           "layout": "nt_boxed",
           "cl_bg": "#ffffff",
-          "cl_overlay": "#000",
+          "cl_overlay": "#000000",
           "cl_opacity": 0,
           "section_bg_color": "#ffffff",
           "tt_cl": "#282828",
-          "hd_bg": "#fff",
-          "hd_cl": "#222",
+          "hd_bg": "#ffffff",
+          "hd_cl": "#222222",
           "hd_bg_atc": "#ffffff",
-          "hd_cl_atc": "#000",
+          "hd_cl_atc": "#000000",
           "btn_bg": "#ffffff",
-          "btn_cl": "#000",
-          "btn_bg_atc": "#fff",
+          "btn_cl": "#000000",
+          "btn_bg_atc": "#ffffff",
           "btn_cl_atc": "#b9a16b",
           "ct_bg": "#ffffff",
-          "ct_cl": "#222",
+          "ct_cl": "#222222",
           "bd_cl": "#f5f5f5",
           "mg": "",
           "pd": "100px,,100px,",

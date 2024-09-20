@@ -4807,7 +4807,7 @@
           "ct_bg": "#ffffff",
           "ct_cl": "#222222",
           "bd_cl": "#f5f5f5",
-          "mg": "",
+          "mg": "50px,,50px,",
           "pd": "100px,,100px,",
           "mg_mb": "",
           "pd_mb": "50px,,50px,"

@@ -4722,6 +4722,86 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "metafield_rich_text": {
+        "type": "metafield_rich_text",
+        "settings": {
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "align": "tc",
+          "layout": "container",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "faq": {
+        "type": "faq",
+        "blocks": {
+          "faq_TWMEGQ": {
+            "type": "faq",
+            "settings": {
+              "title": "How is Solid Gold jewelry compared to gold plated jewelry?",
+              "content": "<p>Solid gold jewelry is made entirely of gold, offering durability,resistance to tarnish, and long-lasting value. In contrast, gold-plated jewelry has a thin layer of gold over a base metal, making it more affordable but less durable, as the gold can wear off over time.<\/p>"
+            }
+          },
+          "faq_FnC7WE": {
+            "type": "faq",
+            "settings": {
+              "title": "do you offer gold plated jewelry?",
+              "content": "<p>We don't offer gold-plated jewelry because it tends to fade over time. However, if you'd like, we can create a custom piece just for you upon request.<\/p>"
+            }
+          },
+          "faq_xzdVQc": {
+            "type": "faq",
+            "settings": {
+              "title": "Do you offer customization option for jewelry and Diamond?",
+              "content": "<p>yes, we accept customization options for both jewelry and Diamonds. Whether you are looking to desing a uniqe piece or select a specifice stone, we can make it as per your preferences. <\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "faq_TWMEGQ",
+          "faq_FnC7WE",
+          "faq_xzdVQc"
+        ],
+        "settings": {
+          "title": "Have Any Questions?",
+          "sub_title": "",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "faq_des": "1",
+          "active_first": true,
+          "use_pr": false,
+          "layout": "nt_boxed",
+          "cl_bg": "#ffffff",
+          "cl_overlay": "#000",
+          "cl_opacity": 0,
+          "section_bg_color": "#ffffff",
+          "tt_cl": "#282828",
+          "hd_bg": "#fff",
+          "hd_cl": "#222",
+          "hd_bg_atc": "#ffffff",
+          "hd_cl_atc": "#000",
+          "btn_bg": "#ffffff",
+          "btn_cl": "#000",
+          "btn_bg_atc": "#fff",
+          "btn_cl_atc": "#b9a16b",
+          "ct_bg": "#ffffff",
+          "ct_cl": "#222",
+          "bd_cl": "#f5f5f5",
+          "mg": "",
+          "pd": "100px,,100px,",
+          "mg_mb": "",
+          "pd_mb": "50px,,50px,"
+        }
       }
     },
     "content_for_index": [

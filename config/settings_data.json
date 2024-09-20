@@ -4742,6 +4742,34 @@
       },
       "faq": {
         "type": "faq",
+        "blocks": {
+          "faq_TWMEGQ": {
+            "type": "faq",
+            "settings": {
+              "title": "Question and answer",
+              "content": "<p>This section doesn’t currently include any content. <strong>Add content to this section using the sidebar.<\/strong><\/p>"
+            }
+          },
+          "faq_FnC7WE": {
+            "type": "faq",
+            "settings": {
+              "title": "Question and answer",
+              "content": "<p>This section doesn’t currently include any content. <strong>Add content to this section using the sidebar.<\/strong><\/p>"
+            }
+          },
+          "faq_xzdVQc": {
+            "type": "faq",
+            "settings": {
+              "title": "Question and answer",
+              "content": "<p>This section doesn’t currently include any content. <strong>Add content to this section using the sidebar.<\/strong><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "faq_TWMEGQ",
+          "faq_FnC7WE",
+          "faq_xzdVQc"
+        ],
         "settings": {
           "title": "Have Any Questions?",
           "sub_title": "",
@@ -4749,7 +4777,7 @@
           "style_title": "title_1",
           "ic_tt": "gem",
           "show_clpr": false,
-          "faq_des": "2",
+          "faq_des": "1",
           "active_first": true,
           "use_pr": false,
           "layout": "nt_boxed",

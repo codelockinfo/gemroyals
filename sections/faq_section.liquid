@@ -10,18 +10,20 @@ assign check_first = true -%}
   <div class="{{section.settings.layout}} pr z_100">
     {%- render 'section_title' -%}
     <div class="mt__30 row al_center">
-       {%- if se_blocks.size > 0 -%}
 
            {%- capture get_vl -%}
-             {%- for block in se_blocks -%}
-                {%- if block.type == 'faq' -%}
-                <div class="col-12 panel entry-content sp-tab des_mb_2 des_style_2{%- if check_first and active_first %} active{%- endif -%}" id="tab_{{block.id}}" {{ block.shopify_attributes }}>
-                  <div class="js_ck_view"></div><div class="heading bgbl dn"><a class="tab-heading flex al_center fl_between pr cd chp fwm" href="#tab_{{block.id}}" rel="nofollow"><span class="txt_h_tab">{{block.settings.title}}</span><span class="nav_link_icon ml__5"></span></a></div>
-                  <div class="sp-tab-content">{{block.settings.content}}</div>
-                </div>{%- assign check_first = false -%}
-               {%- else -%}[break_col]{%- assign check = true %}{% assign check_first = true -%}
-               {%- endif -%}
-             {%- endfor -%}
+            {% assign faqcontents = collection.metafields.custom.faqcontent | remove: '["' | remove: '"]' %}
+            {%  if faqcontents != blank %}
+                  {% assign faqcontent = faqcontents | split:  '","' %}
+                      {% for faqcontent_datas in faqcontent %}
+                        {% assign faqcontent_data = faqcontent_datas | split:  ':' %}
+                            <div class="col-12 panel entry-content sp-tab des_mb_2 des_style_2{%- if check_first and active_first %} active{%- endif -%}" id="tab_{{forloop.index}}" {{ block.shopify_attributes }}>
+                              <div class="js_ck_view"></div><div class="heading bgbl dn"><a class="tab-heading flex al_center fl_between pr cd chp fwm" href="#tab_{{forloop.index}}" rel="nofollow"><span class="txt_h_tab">{{faqcontent_data[0]}}</span><span class="nav_link_icon ml__5"></span></a></div>
+                              <div class="sp-tab-content">{{faqcontent_data[1]}}</div>
+                            </div>{%- assign check_first = false -%}
+                      {% endfor %}
+            {% endif %}
+             
            {%- endcapture -%}
 
            {%- if check -%} {%- assign arr = get_vl | split:'[break_col]' -%}
@@ -32,7 +34,6 @@ assign check_first = true -%}
            {%- else -%}<div class="col-12"><div class="row shopify-tabs sp-tabs">{{get_vl}}</div></div>
            {%- endif -%} 
 
-       {%- endif -%}
     </div>
   </div>
 </div>
@@ -76,7 +77,6 @@ assign check_first = true -%}
   {
     "name": "FAQs",
     "class": "nt_section type_faq js_faq_ad",
-    "max_blocks": 30,
     "settings": [
       {
         "type": "header",
@@ -380,41 +380,10 @@ assign check_first = true -%}
         "placeholder": "50px,,50px,"
       }
     ],
-    "blocks": [{
-    "type": "faq",
-    "name": "FAQ",
-    "settings": [
-      {
-      "type": "text",
-      "id": "title",
-      "default": "Question and answer",
-      "label": "Heading"
-      },
-      {
-      "type": "richtext",
-      "id": "content",
-      "default": "<p>This section doesn’t currently include any content. <b>Add content to this section using the sidebar.<\/b><\/p>",
-      "label": "Text"
-      }
-      ]
-    },
-      {
-      "type": "break",
-      "name": "Break column",
-      "limit": 1
-      }],
     "presets": [
       {
         "name": "9. FAQs",
         "category": "V. Text",
-        "blocks": [
-          { "type": "faq" },
-          { "type": "faq" },
-          { "type": "faq" },
-          { "type": "faq" },
-          { "type": "faq" },
-          { "type": "faq" }
-        ]
       }
     ]
   }

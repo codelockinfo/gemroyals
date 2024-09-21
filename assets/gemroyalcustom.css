@@ -164,3 +164,10 @@ html{
     padding-bottom: 20px !important;
     padding-left: 0;
 }
+
+@media (max-width: 829px) {
+    .type_faq .sp-tabs {
+        /* padding-top: 0; */
+        padding: 0 15px;
+    }
+}

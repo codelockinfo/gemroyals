@@ -12,7 +12,7 @@ assign check_first = true -%}
     <div class="mt__30 row al_center">
 
            {%- capture get_vl -%}
-            {% assign faqcontents = collection.metafields.custom.faqcontent | remove: '["' | remove: '"]' %}
+            {% assign faqcontents = collection.metafields.custom.faqcontent | remove: '["' | remove: '"]' | remove: '"/' %}
             {%  if faqcontents != blank %}
                   {% assign faqcontent = faqcontents | split:  '","' %}
                       {% for faqcontent_datas in faqcontent %}

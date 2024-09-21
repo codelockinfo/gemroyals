@@ -155,6 +155,8 @@ html{
 .faq_des1 .des_style_2.sp-tab>.sp-tab-content{
     padding: 20px 0 !important;
     border: 0 !important;
+  font-family: 'Montserrat Alternates' !important;
+      font-size:16px !important;
 }
 .faq_des1 .col-12{
     padding-left: 0 !important;
@@ -163,8 +165,7 @@ html{
 .tab-heading .txt_h_tab{
     padding-bottom: 20px !important;
     padding-left: 0;
-   font-family: 'Montserrat Alternates' !important;
-      font-size:16px !important;
+   
 }
 
 @media (max-width: 829px) {

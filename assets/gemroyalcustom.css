@@ -167,6 +167,9 @@ html{
     padding-left: 0;
    
 }
+.type_faq .nt_boxed{
+      max-width: 1000px !important;
+}
 
 @media (max-width: 829px) {
     .type_faq .sp-tabs {

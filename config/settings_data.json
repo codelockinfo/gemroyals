@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "general_layout": "full_width",
@@ -56,12 +56,12 @@
     "c_2": "",
     "c_3": "",
     "c_4": "",
-    "placeholder_img": "shopify:\/\/shop_images\/brand-logo_1.jpg",
+    "placeholder_img": "shopify://shop_images/brand-logo_1.jpg",
     "enable_meta": true,
     "enable_tag": true,
     "filter_price_list": "$7-$50, $50-$150, $150-$500",
     "logo_svg": "",
-    "logo": "shopify:\/\/shop_images\/GEMROYALS_logo_png_1.png",
+    "logo": "shopify://shop_images/GEMROYALS_logo_png_1.png",
     "logo_retina": "",
     "logo_width": 80,
     "logos": "",
@@ -308,7 +308,7 @@
     "currency_format": "money_format",
     "round_currency": false,
     "notify_currency": true,
-    "mess_currency": "All charges are billed in {{ currency }}. While the content of your cart is currently displayed in <span class=\"selected-currency\"><\/span>, the checkout will use {{ currency }} at the most current exchange rate.",
+    "mess_currency": "All charges are billed in {{ currency }}. While the content of your cart is currently displayed in <span class=\"selected-currency\"></span>, the checkout will use {{ currency }} at the most current exchange rate.",
     "hover_currency": false,
     "custom_css": false,
     "global_css": "",
@@ -327,16 +327,16 @@
     "share_whatsapp": false,
     "social_facebook_link": "",
     "social_twitter_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/gem_royals?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    "social_instagram_link": "https://www.instagram.com/gemroyals/",
     "social_dribbble_link": "",
     "social_linkedin_link": "",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/salesgemroyals\/",
+    "social_pinterest_link": "https://www.pinterest.com/salesgemroyals/",
     "social_tumblr_link": "",
-    "social_youtube_link": "https:\/\/www.youtube.com\/@GemRoyals",
+    "social_youtube_link": "https://www.youtube.com/@GemRoyals",
     "social_behance_link": "",
     "social_soundcloud_link": "",
-    "favicon": "shopify:\/\/shop_images\/GEMROYALS_logo_png_1.png",
-    "favicon_apple": "shopify:\/\/shop_images\/GEMROYALS_logo_png_1.png",
+    "favicon": "shopify://shop_images/GEMROYALS_logo_png_1.png",
+    "favicon_apple": "shopify://shop_images/GEMROYALS_logo_png_1.png",
     "checkout_header_image": "",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
@@ -369,7 +369,7 @@
     "fv_txtcolor": "#ffffff",
     "enable_pro_pp": false,
     "operation_days": "Mon:1700-2100,Tue:1700-2100,Wed:1700-2200,Thu:1700-2200,Fri:1700-2300,Sat:1200-2300,Sun:1200-2100",
-    "timezones": "America\/Los_Angeles",
+    "timezones": "America/Los_Angeles",
     "sale_cl": "#ec0101",
     "color_body_text": "#555555",
     "color_price_sale": "#ec0101",
@@ -445,7 +445,7 @@
           "1596007070336": {
             "type": "text2",
             "settings": {
-              "text": "<p>Summer sale discount off <a href=\"#cr\" title=\"#cr\"><strong>50%<\/strong><\/a>! <a href=\"\/collections\/clothing\" title=\"Clothing\">Shop Now<\/a>;;;<\/p><p>The Best Shopify Themes.;;;<\/p><p>MADE WITH LOVE;;;<\/p><p>Customer support is second to none;;;<\/p><p>Fantastic theme! Beautifully designed!<\/p>",
+              "text": "<p>Summer sale discount off <a href=\"#cr\" title=\"#cr\"><strong>50%</strong></a>! <a href=\"/collections/clothing\" title=\"Clothing\">Shop Now</a>;;;</p><p>The Best Shopify Themes.;;;</p><p>MADE WITH LOVE;;;</p><p>Customer support is second to none;;;</p><p>Fantastic theme! Beautifully designed!</p>",
               "effect": "1",
               "au_time": 2.5,
               "hide": false,
@@ -491,7 +491,7 @@
             "type": "mega",
             "settings": {
               "title": "DEMO",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -508,7 +508,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "HOMEPAGES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -518,7 +518,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "HOMEPAGES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -528,7 +528,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Header Layouts",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -538,7 +538,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "FEATURES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -548,7 +548,7 @@
             "type": "mega",
             "settings": {
               "title": "SHOP",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -565,7 +565,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "SHOP PAGES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "2"
@@ -575,7 +575,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "FEATURES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "2"
@@ -605,7 +605,7 @@
             "type": "mega",
             "settings": {
               "title": "PRODUCT",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -622,7 +622,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "PRODUCT LAYOUT",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -632,7 +632,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "PRODUCT DETAIL",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -642,7 +642,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "PRODUCT SWATCH",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -652,7 +652,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "PRODUCT FEATURES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -662,7 +662,7 @@
             "type": "dropdown",
             "settings": {
               "title": "PORTFOLIO",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -678,7 +678,7 @@
             "type": "dropdown",
             "settings": {
               "title": "LOOKBOOK",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -694,7 +694,7 @@
             "type": "dropdown",
             "settings": {
               "title": "BLOG",
-              "url": "shopify:\/\/blogs\/life-style",
+              "url": "shopify://blogs/life-style",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -740,7 +740,7 @@
           "logo_JHqENb": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/GEMROYALS_logo_png_1.png",
+              "image": "shopify://shop_images/GEMROYALS_logo_png_1.png",
               "logo_width": 120,
               "title": "",
               "content": "Elevate your style with Gemroyals. Explore our exquisite fine jewelry collection, from rings to earrings, each piece meticulously crafted for timeless elegance.",
@@ -778,7 +778,7 @@
             "settings": {
               "logo_width": 100,
               "title": "Contact Details",
-              "content": "<p><i class=\"pegk pe-7s-map-marker\"> <\/i><span>Houston, Texas 77039,<br> <span class=\"pl__30\">United States<\/span><\/span><\/p><p><i class=\"pegk pe-7s-mail\"><\/i><span> <a href=\"mailto:sales.gemroyals@gmail.com\">sales.gemroyals@gmail.com<\/a><\/span><\/p>",
+              "content": "<p><i class=\"pegk pe-7s-map-marker\"> </i><span>Houston, Texas 77039,<br> <span class=\"pl__30\">United States</span></span></p><p><i class=\"pegk pe-7s-mail\"></i><span> <a href=\"mailto:sales.gemroyals@gmail.com\">sales.gemroyals@gmail.com</a></span></p>",
               "social_mode": "3",
               "order": "1",
               "cl": "3",
@@ -850,46 +850,38 @@
         "block_order": [
           "1600078759493"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "cart_widget": {
         "type": "cart_widget",
         "blocks": {
           "cart_widget-0": {
             "type": "price",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-1": {
             "type": "tax",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-2": {
             "type": "agree",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-3": {
             "type": "btnc",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-4": {
             "type": "btnck",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-5": {
             "type": "btnmr",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-6": {
             "type": "img",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-7": {
             "type": "btn",
@@ -928,7 +920,7 @@
             "type": "menu",
             "settings": {
               "title": "Home",
-              "url": "\/",
+              "url": "/",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -940,7 +932,7 @@
             "type": "menu",
             "settings": {
               "title": "Engagement Rings",
-              "url": "shopify:\/\/collections\/engagement-rings",
+              "url": "shopify://collections/engagement-rings",
               "open_link": "_self",
               "menu": "mobile-engagement-ring",
               "icon": "",
@@ -952,7 +944,7 @@
             "type": "menu",
             "settings": {
               "title": "Wedding Bands",
-              "url": "shopify:\/\/collections\/wedding-bands",
+              "url": "shopify://collections/wedding-bands",
               "open_link": "_self",
               "menu": "mobile-wedding-bands",
               "icon": "",
@@ -964,7 +956,7 @@
             "type": "menu",
             "settings": {
               "title": "Fine Jewelrys",
-              "url": "shopify:\/\/collections\/earrings-for-women",
+              "url": "shopify://collections/earrings-for-women",
               "open_link": "_self",
               "menu": "fine-jewelry",
               "icon": "",
@@ -976,7 +968,7 @@
             "type": "menu",
             "settings": {
               "title": "Customization",
-              "url": "shopify:\/\/pages\/contact-us",
+              "url": "shopify://pages/contact-us",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -988,7 +980,7 @@
             "type": "menu",
             "settings": {
               "title": "Review",
-              "url": "\/",
+              "url": "/",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1000,7 +992,7 @@
             "type": "menu",
             "settings": {
               "title": "Blog",
-              "url": "shopify:\/\/blogs\/news",
+              "url": "shopify://blogs/news",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1012,7 +1004,7 @@
             "type": "menu",
             "settings": {
               "title": "About Us",
-              "url": "shopify:\/\/pages\/about-us",
+              "url": "shopify://pages/about-us",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1024,7 +1016,7 @@
             "type": "menu",
             "settings": {
               "title": "Login",
-              "url": "\/account",
+              "url": "/account",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1035,32 +1027,28 @@
           "mb_nav-4": {
             "type": "wis",
             "disabled": true,
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-5": {
             "type": "sea",
             "disabled": true,
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-6": {
             "type": "acc",
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-7": {
             "type": "help",
             "settings": {
               "title": "Need help?",
-              "text": "<i class=\"pegk pe-7s-mail fwb mr__10\"><\/i><a class=\"cg\" href=\"mailto:sales.gemroyals@gmail.com\">sales.gemroyals@gmail.com<\/a>"
+              "text": "<i class=\"pegk pe-7s-mail fwb mr__10\"></i><a class=\"cg\" href=\"mailto:sales.gemroyals@gmail.com\">sales.gemroyals@gmail.com</a>"
             }
           },
           "mb_nav-8": {
             "type": "cur",
             "disabled": true,
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -1079,8 +1067,7 @@
           "mb_nav-7",
           "mb_nav-8"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "mb_cat": {
         "type": "mb_cat",
@@ -1238,8 +1225,7 @@
           "1585642780875",
           "1585642798957"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "toolbar_mobile": {
         "type": "toolbar_mobile",
@@ -1304,9 +1290,9 @@
       "header_banner": {
         "type": "header_banner",
         "settings": {
-          "link": "shopify:\/\/collections\/trending",
-          "text": "Today deal sale off <strong>70% <\/strong>. End in [countdown].  Hurry Up <i class=\"las la-arrow-right\"><\/i>",
-          "countdown": "2020\/12\/19",
+          "link": "shopify://collections/trending",
+          "text": "Today deal sale off <strong>70% </strong>. End in [countdown].  Hurry Up <i class=\"las la-arrow-right\"></i>",
+          "countdown": "2020/12/19",
           "dayx": 0,
           "effect": "1",
           "au_time": 3.5,
@@ -1428,13 +1414,11 @@
         "blocks": {
           "cat_heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           },
           "cat_heading-1": {
             "type": "2",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -1510,8 +1494,7 @@
           "1581913909406",
           "1581913174211"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "collection_page": {
         "type": "collection_page",
@@ -1539,18 +1522,15 @@
         "blocks": {
           "article-heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           },
           "article-heading-1": {
             "type": "2",
-            "settings": {
-            }
+            "settings": {}
           },
           "article-heading-2": {
             "type": "3",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -1577,13 +1557,11 @@
         "blocks": {
           "article-template-0": {
             "type": "content",
-            "settings": {
-            }
+            "settings": {}
           },
           "article-template-1": {
             "type": "tags",
-            "settings": {
-            }
+            "settings": {}
           },
           "article-template-2": {
             "type": "social",
@@ -1595,8 +1573,7 @@
           },
           "article-template-3": {
             "type": "nav",
-            "settings": {
-            }
+            "settings": {}
           },
           "article-template-4": {
             "type": "related",
@@ -1626,8 +1603,7 @@
           },
           "article-template-5": {
             "type": "comments",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -1638,8 +1614,7 @@
           "article-template-4",
           "article-template-5"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "pr_summary": {
         "type": "pr_summary",
@@ -1776,8 +1751,7 @@
           "pr_summary-6",
           "complementary_product_BNe7nG"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "pr_description": {
         "type": "pr_description",
@@ -1962,28 +1936,23 @@
         "blocks": {
           "cart-template-0": {
             "type": "price",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart-template-1": {
             "type": "tax",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart-template-2": {
             "type": "agree",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart-template-3": {
             "type": "btnck",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart-template-4": {
             "type": "btnmr",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart-template-5": {
             "type": "img",
@@ -2049,13 +2018,11 @@
         "blocks": {
           "blog-heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           },
           "blog-heading-1": {
             "type": "2",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -2144,13 +2111,11 @@
         "blocks": {
           "bptf-heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           },
           "bptf-heading-1": {
             "type": "2",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -2197,13 +2162,11 @@
         "blocks": {
           "aptf-heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           },
           "aptf-heading-1": {
             "type": "2",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -2229,8 +2192,7 @@
         "blocks": {
           "aptf-template-0": {
             "type": "content",
-            "settings": {
-            }
+            "settings": {}
           },
           "aptf-template-1": {
             "type": "infos",
@@ -2250,8 +2212,7 @@
           },
           "aptf-template-3": {
             "type": "nav",
-            "settings": {
-            }
+            "settings": {}
           },
           "aptf-template-4": {
             "type": "related",
@@ -2296,8 +2257,7 @@
         "blocks": {
           "pages_heading-0": {
             "type": "1",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -2421,13 +2381,11 @@
       },
       "page_meta_ntt4": {
         "type": "page_meta_ntt4",
-        "settings": {
-        }
+        "settings": {}
       },
       "img_meta_ntt4": {
         "type": "img_meta_ntt4",
-        "settings": {
-        }
+        "settings": {}
       },
       "nt_filter2": {
         "type": "nt_filter2",
@@ -2491,8 +2449,7 @@
           "nt_filter2-4",
           "nt_filter2-5"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "sidebar_shop2": {
         "type": "sidebar_shop2",
@@ -2541,8 +2498,7 @@
           "tag2_Qim6Gh",
           "tag2_74HaQc"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header_4": {
         "type": "header_4",
@@ -2728,7 +2684,7 @@
           "hover": "hover_side_up",
           "bg": "#56cfe1",
           "cl_txt": "#ffffff",
-          "text": "<i class=\"las la-phone fs__14\"><\/i> +01 23456789 <i class=\"las la-envelope fs__14 ml__15\"><\/i> <a class=\"cg\" href=\"mailto:Gecko@domain.com\">Gecko@domain.com<\/a>",
+          "text": "<i class=\"las la-phone fs__14\"></i> +01 23456789 <i class=\"las la-envelope fs__14 ml__15\"></i> <a class=\"cg\" href=\"mailto:Gecko@domain.com\">Gecko@domain.com</a>",
           "shop_cat": true,
           "txt_cat": "SHOP BY CATEGORY",
           "bgcat": "#007e91",
@@ -2769,8 +2725,7 @@
           "hcat_nav-0",
           "hcat_nav-1"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header_9": {
         "type": "header_9",
@@ -2831,7 +2786,7 @@
           "us_heading-1": {
             "type": "2",
             "settings": {
-              "text": "<p>Follow your passion, and sucess will follow you<\/p>"
+              "text": "<p>Follow your passion, and sucess will follow you</p>"
             }
           }
         },
@@ -2857,7 +2812,7 @@
             "type": "1",
             "settings": {
               "title": "OUR MISSION",
-              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.",
               "al": "txtn",
               "cl": "6",
               "cl_mb": "12"
@@ -2867,7 +2822,7 @@
             "type": "1",
             "settings": {
               "title": "OUR MISSION",
-              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.",
               "al": "txtn",
               "cl": "6",
               "cl_mb": "12"
@@ -2877,7 +2832,7 @@
             "type": "1",
             "settings": {
               "title": "OUR MISSION",
-              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.",
               "al": "txtn",
               "cl": "6",
               "cl_mb": "12"
@@ -2887,7 +2842,7 @@
             "type": "1",
             "settings": {
               "title": "OUR MISSION",
-              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.",
               "al": "txtn",
               "cl": "6",
               "cl_mb": "12"
@@ -2935,7 +2890,7 @@
           "4143db8f-06cf-493a-ae3c-e9974cd2e53f": {
             "type": "6",
             "settings": {
-              "html": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.<\/p>",
+              "html": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.</p>",
               "cl": "12",
               "cl_mb": "12"
             }
@@ -2952,8 +2907,7 @@
           "page_about_us-7",
           "4143db8f-06cf-493a-ae3c-e9974cd2e53f"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "banner_section_GgqCN4": {
         "type": "banner-section",
@@ -2961,15 +2915,15 @@
           "p {margin-bottom: 0;}"
         ],
         "settings": {
-          "bannarbackimg": "shopify:\/\/shop_images\/8b3ced88ac7ed54cc0ffa1abf7205673.jpg",
-          "banner_img": "shopify:\/\/shop_images\/002_OK_copy--_1.jpg",
-          "banner_png_img": "shopify:\/\/shop_images\/sparkle.png",
-          "banner_img_mobile": "shopify:\/\/shop_images\/0000_ea4dda60-fca9-4364-9e06-5f64bb1b9359.jpg",
-          "banner_heading": "<p>A legacy of luxury<br\/><\/p>",
+          "bannarbackimg": "shopify://shop_images/8b3ced88ac7ed54cc0ffa1abf7205673.jpg",
+          "banner_img": "shopify://shop_images/002_OK_copy--_1.jpg",
+          "banner_png_img": "shopify://shop_images/sparkle.png",
+          "banner_img_mobile": "shopify://shop_images/0000_ea4dda60-fca9-4364-9e06-5f64bb1b9359.jpg",
+          "banner_heading": "<p>A legacy of luxury<br/></p>",
           "Paragraph_text": "Conveys a sense of heritage and high-end luxury appealing to those who appreciate tradition  and quality",
           "button_text": "View Collection",
           "button_background": "",
-          "button_link": "shopify:\/\/collections"
+          "button_link": "shopify://collections"
         }
       },
       "instagram_feed_EJfntL": {
@@ -2989,43 +2943,43 @@
           "img_KpzXcT": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-05-15_at_10.35.08_AM.jpg",
-              "url": "https:\/\/www.instagram.com\/p\/C5kRggDI3rk\/?utm_source=ig_web_copy_link"
+              "image": "shopify://shop_images/WhatsApp_Image_2024-05-15_at_10.35.08_AM.jpg",
+              "url": "https://www.instagram.com/p/C5kRggDI3rk/?utm_source=ig_web_copy_link"
             }
           },
           "img_rzXeJd": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-05-15_at_10.36.56_AM.jpg",
-              "url": "https:\/\/www.instagram.com\/p\/C6IWVS0LH7v\/?utm_source=ig_web_copy_link"
+              "image": "shopify://shop_images/WhatsApp_Image_2024-05-15_at_10.36.56_AM.jpg",
+              "url": "https://www.instagram.com/p/C6IWVS0LH7v/?utm_source=ig_web_copy_link"
             }
           },
           "img_rFXzwJ": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/12.jpg",
-              "url": "https:\/\/www.instagram.com\/p\/C6dHKl7sxAW\/?utm_source=ig_web_copy_link"
+              "image": "shopify://shop_images/12.jpg",
+              "url": "https://www.instagram.com/p/C6dHKl7sxAW/?utm_source=ig_web_copy_link"
             }
           },
           "img_AYBR7r": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-05-15_at_10.37.24_AM.jpg",
-              "url": "https:\/\/www.instagram.com\/p\/C6LIs-9r6Zz\/?utm_source=ig_web_copy_link"
+              "image": "shopify://shop_images/WhatsApp_Image_2024-05-15_at_10.37.24_AM.jpg",
+              "url": "https://www.instagram.com/p/C6LIs-9r6Zz/?utm_source=ig_web_copy_link"
             }
           },
           "img_nTzKFg": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/01.jpg",
-              "url": "https:\/\/www.instagram.com\/p\/C6-fBimrV1Y\/?utm_source=ig_web_copy_link"
+              "image": "shopify://shop_images/01.jpg",
+              "url": "https://www.instagram.com/p/C6-fBimrV1Y/?utm_source=ig_web_copy_link"
             }
           },
           "img_PcQ4Kz": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/02.jpg",
-              "url": "https:\/\/www.instagram.com\/p\/C6DKw2uLySV\/?utm_source=ig_web_copy_link"
+              "image": "shopify://shop_images/02.jpg",
+              "url": "https://www.instagram.com/p/C6DKw2uLySV/?utm_source=ig_web_copy_link"
             }
           }
         },
@@ -3073,28 +3027,28 @@
           "img_33T7tU": {
             "type": "img",
             "settings": {
-              "our_img": "shopify:\/\/shop_images\/quality-service.png",
+              "our_img": "shopify://shop_images/quality-service.png",
               "our_content": "Superior Quality Moissanite"
             }
           },
           "img_bcxqPN": {
             "type": "img",
             "settings": {
-              "our_img": "shopify:\/\/shop_images\/leaves.png",
+              "our_img": "shopify://shop_images/leaves.png",
               "our_content": "Conflict Free Gems & Metals"
             }
           },
           "img_43W64r": {
             "type": "img",
             "settings": {
-              "our_img": "shopify:\/\/shop_images\/guarantee.png",
+              "our_img": "shopify://shop_images/guarantee.png",
               "our_content": "Lifetime Gem Warranty"
             }
           },
           "img_KJiKeX": {
             "type": "img",
             "settings": {
-              "our_img": "shopify:\/\/shop_images\/rating.png",
+              "our_img": "shopify://shop_images/rating.png",
               "our_content": "100,000 Happy Customers"
             }
           }
@@ -3109,7 +3063,7 @@
           "p {margin: 0;}"
         ],
         "settings": {
-          "ourmission_h1": "<p>Our Mission<\/p>",
+          "ourmission_h1": "<p>Our Mission</p>",
           "ourmission_p": "The #1 trusted source for Moissanite jewelry for 15 years"
         }
       },
@@ -3119,9 +3073,9 @@
           "quote_aFQt3H": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
-              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "image": "shopify://shop_images/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. </p>",
               "title": "Leo",
               "pos": "Lead Designer",
               "rating": 4
@@ -3130,9 +3084,9 @@
           "quote_8rmGL6": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
-              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "image": "shopify://shop_images/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. </p>",
               "title": "Leo",
               "pos": "Lead Designer",
               "rating": 4
@@ -3141,9 +3095,9 @@
           "quote_DUy8kV": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
-              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "image": "shopify://shop_images/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. </p>",
               "title": "Leo",
               "pos": "Lead Designer",
               "rating": 4
@@ -3152,9 +3106,9 @@
           "quote_ArjiFb": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
-              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "image": "shopify://shop_images/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. </p>",
               "title": "Leo",
               "pos": "Lead Designer",
               "rating": 5
@@ -3163,9 +3117,9 @@
           "quote_QCjPtn": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
-              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "image": "shopify://shop_images/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. </p>",
               "title": "Leo",
               "pos": "Lead Designer",
               "rating": 5
@@ -3174,9 +3128,9 @@
           "quote_cX3eU4": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
-              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. <\/p>",
+              "image": "shopify://shop_images/c67fcc94303218eaac9537322049e3f4_a7ef59e1-98a7-4e87-8319-31ca916c9313.jpg",
+              "testi_img": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. </p>",
               "title": "Leo",
               "pos": "Lead Designer",
               "rating": 5
@@ -3227,7 +3181,7 @@
           "brand_gkyREq": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/04_copy.png",
+              "image": "shopify://shop_images/04_copy.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3235,7 +3189,7 @@
           "brand_WdwQRc": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/001_copy.png",
+              "image": "shopify://shop_images/001_copy.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3243,7 +3197,7 @@
           "brand_9ig3qm": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/01_copy.png",
+              "image": "shopify://shop_images/01_copy.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3251,7 +3205,7 @@
           "brand_RDwknK": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/02_copy2_copy.png",
+              "image": "shopify://shop_images/02_copy2_copy.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3259,7 +3213,7 @@
           "brand_GMtzdq": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/03_copy_6.png",
+              "image": "shopify://shop_images/03_copy_6.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3267,7 +3221,7 @@
           "brand_gk7JJc": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/03_copy_3_5.png",
+              "image": "shopify://shop_images/03_copy_3_5.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -3319,8 +3273,8 @@
           "text_zjmtM8": {
             "type": "text",
             "settings": {
-              "diamond_img": "shopify:\/\/shop_images\/1-removebg-preview.png",
-              "url": "shopify:\/\/collections\/round-shape-diamonds",
+              "diamond_img": "shopify://shop_images/1-removebg-preview.png",
+              "url": "shopify://collections/round-shape-diamonds",
               "dia_title": "Round",
               "diamond_back": "#f9f9f9"
             }
@@ -3328,8 +3282,8 @@
           "text_PPCdQC": {
             "type": "text",
             "settings": {
-              "diamond_img": "shopify:\/\/shop_images\/2-removebg-preview.png",
-              "url": "shopify:\/\/collections\/oval-shape-diamonds",
+              "diamond_img": "shopify://shop_images/2-removebg-preview.png",
+              "url": "shopify://collections/oval-shape-diamonds",
               "dia_title": "Oval",
               "diamond_back": "#f9f9f9"
             }
@@ -3337,8 +3291,8 @@
           "text_NLnPKt": {
             "type": "text",
             "settings": {
-              "diamond_img": "shopify:\/\/shop_images\/3-removebg-preview.png",
-              "url": "shopify:\/\/collections\/emerald-shape-diamonds",
+              "diamond_img": "shopify://shop_images/3-removebg-preview.png",
+              "url": "shopify://collections/emerald-shape-diamonds",
               "dia_title": "Emerald",
               "diamond_back": "#f9f9f9"
             }
@@ -3346,8 +3300,8 @@
           "text_tqP4U6": {
             "type": "text",
             "settings": {
-              "diamond_img": "shopify:\/\/shop_images\/4-removebg-preview.png",
-              "url": "shopify:\/\/collections\/cushion-shape-diamonds",
+              "diamond_img": "shopify://shop_images/4-removebg-preview.png",
+              "url": "shopify://collections/cushion-shape-diamonds",
               "dia_title": "Cushion",
               "diamond_back": "#f9f9f9"
             }
@@ -3355,8 +3309,8 @@
           "text_KEJ7Di": {
             "type": "text",
             "settings": {
-              "diamond_img": "shopify:\/\/shop_images\/5-removebg-preview.png",
-              "url": "shopify:\/\/collections\/pear-shape-diamonds",
+              "diamond_img": "shopify://shop_images/5-removebg-preview.png",
+              "url": "shopify://collections/pear-shape-diamonds",
               "dia_title": "Pear",
               "diamond_back": "#f9f9f9"
             }
@@ -3364,8 +3318,8 @@
           "text_z3cxke": {
             "type": "text",
             "settings": {
-              "diamond_img": "shopify:\/\/shop_images\/6-removebg-preview.png",
-              "url": "shopify:\/\/collections\/radiant-shape-diamonds",
+              "diamond_img": "shopify://shop_images/6-removebg-preview.png",
+              "url": "shopify://collections/radiant-shape-diamonds",
               "dia_title": "Radiant",
               "diamond_back": "#f9f9f9"
             }
@@ -3373,8 +3327,8 @@
           "text_aUtB33": {
             "type": "text",
             "settings": {
-              "diamond_img": "shopify:\/\/shop_images\/7-removebg-preview.png",
-              "url": "shopify:\/\/collections\/princess-shape-diamonds",
+              "diamond_img": "shopify://shop_images/7-removebg-preview.png",
+              "url": "shopify://collections/princess-shape-diamonds",
               "dia_title": "Princess",
               "diamond_back": "#f9f9f9"
             }
@@ -3382,8 +3336,8 @@
           "text_hUHfxH": {
             "type": "text",
             "settings": {
-              "diamond_img": "shopify:\/\/shop_images\/fa4e1337d5e3b7fde22414341b33cb80-removebg-preview.png",
-              "url": "shopify:\/\/collections\/marquise-shape-diamonds",
+              "diamond_img": "shopify://shop_images/fa4e1337d5e3b7fde22414341b33cb80-removebg-preview.png",
+              "url": "shopify://collections/marquise-shape-diamonds",
               "dia_title": "Marquise",
               "diamond_back": "#f9f9f9"
             }
@@ -3391,8 +3345,8 @@
           "text_hn4bLX": {
             "type": "text",
             "settings": {
-              "diamond_img": "shopify:\/\/shop_images\/9-removebg-preview.png",
-              "url": "shopify:\/\/collections\/asscher-shape-diamonds",
+              "diamond_img": "shopify://shop_images/9-removebg-preview.png",
+              "url": "shopify://collections/asscher-shape-diamonds",
               "dia_title": "Asscher",
               "diamond_back": "#f9f9f9"
             }
@@ -3400,8 +3354,8 @@
           "text_ktYQyP": {
             "type": "text",
             "settings": {
-              "diamond_img": "shopify:\/\/shop_images\/e70c85cf1fca2cbd90628491e92e6c1e-removebg-preview.png",
-              "url": "shopify:\/\/collections\/heart-shape-diamonds",
+              "diamond_img": "shopify://shop_images/e70c85cf1fca2cbd90628491e92e6c1e-removebg-preview.png",
+              "url": "shopify://collections/heart-shape-diamonds",
               "dia_title": "Heart",
               "diamond_back": "#f9f9f9"
             }
@@ -3428,15 +3382,15 @@
         "type": "Commitment",
         "settings": {
           "Commitment_head": "Our Commitment to Excellence",
-          "Commitment_img_1": "shopify:\/\/shop_images\/9585979.png",
+          "Commitment_img_1": "shopify://shop_images/9585979.png",
           "Commitment_para_1": "World Wide <br> Shipping",
-          "Commitment_img_2": "shopify:\/\/shop_images\/3917727.png",
-          "Commitment_para_2": "24\/7 Customer <br> Service",
-          "Commitment_img_3": "shopify:\/\/shop_images\/7653682.png",
+          "Commitment_img_2": "shopify://shop_images/3917727.png",
+          "Commitment_para_2": "24/7 Customer <br> Service",
+          "Commitment_img_3": "shopify://shop_images/7653682.png",
           "Commitment_para_3": "100% Money <br> Back Guarantee",
-          "Commitment_img_4": "shopify:\/\/shop_images\/7661461.png",
+          "Commitment_img_4": "shopify://shop_images/7661461.png",
           "Commitment_para_4": "Unbeatable <br> Market Price",
-          "Commitment_img_5": "shopify:\/\/shop_images\/14655978.png",
+          "Commitment_img_5": "shopify://shop_images/14655978.png",
           "Commitment_para_5": "Eco Friendly <br> Element"
         }
       },
@@ -3446,31 +3400,31 @@
           "text_8xB7Xa": {
             "type": "text",
             "settings": {
-              "ring_img": "shopify:\/\/shop_images\/DSC09424.jpg",
-              "ring_h2": "<p>Moissanite<\/p>",
+              "ring_img": "shopify://shop_images/DSC09424.jpg",
+              "ring_h2": "<p>Moissanite</p>",
               "ring_p1": "Browse our bespoke collection of brilliant and durable moissanite jewelry.",
               "ring_p2": "DISCOVER",
-              "ring_p2url": "shopify:\/\/collections\/moissanite-diamond-rings"
+              "ring_p2url": "shopify://collections/moissanite-diamond-rings"
             }
           },
           "text_ANNjJn": {
             "type": "text",
             "settings": {
-              "ring_img": "shopify:\/\/shop_images\/DSC09687_166dc070-7204-4e80-91eb-171481646610.jpg",
-              "ring_h2": "<p>Lab Grown Diamond<\/p>",
+              "ring_img": "shopify://shop_images/DSC09687_166dc070-7204-4e80-91eb-171481646610.jpg",
+              "ring_h2": "<p>Lab Grown Diamond</p>",
               "ring_p1": "Discover luxury with our collection of conflict-free lab-diamond jewelry.",
               "ring_p2": "DISCOVER",
-              "ring_p2url": "shopify:\/\/collections\/lab-grown-diamond-rings"
+              "ring_p2url": "shopify://collections/lab-grown-diamond-rings"
             }
           },
           "text_ARBaNC": {
             "type": "text",
             "settings": {
-              "ring_img": "shopify:\/\/shop_images\/IMG_7332_bfd908f3-70fa-4047-a792-66fc39dc9df6.jpg",
-              "ring_h2": "<p>Gemstone<\/p>",
+              "ring_img": "shopify://shop_images/IMG_7332_bfd908f3-70fa-4047-a792-66fc39dc9df6.jpg",
+              "ring_h2": "<p>Gemstone</p>",
               "ring_p1": "Make you unique style with our gemstone collection.",
               "ring_p2": "DISCOVER",
-              "ring_p2url": "shopify:\/\/collections\/gemstone-rings"
+              "ring_p2url": "shopify://collections/gemstone-rings"
             }
           }
         },
@@ -3493,7 +3447,7 @@
             "type": "collection",
             "settings": {
               "collection": "",
-              "image": "shopify:\/\/shop_images\/c-3.png",
+              "image": "shopify://shop_images/c-3.png",
               "img_align": "center",
               "title": "",
               "url": ""
@@ -3503,7 +3457,7 @@
             "type": "collection",
             "settings": {
               "collection": "",
-              "image": "shopify:\/\/shop_images\/c-4.png",
+              "image": "shopify://shop_images/c-4.png",
               "img_align": "center",
               "title": "",
               "url": ""
@@ -3599,57 +3553,57 @@
           "text_RijtBL": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/c-1.png",
-              "category_text": "<p>Engagement Rings<\/p>",
-              "collection_url": "shopify:\/\/collections\/engagement-rings"
+              "category_img": "shopify://shop_images/c-1.png",
+              "category_text": "<p>Engagement Rings</p>",
+              "collection_url": "shopify://collections/engagement-rings"
             }
           },
           "text_K9CUgr": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/c-2.png",
-              "category_text": "<p>Wedding Bands<\/p>",
-              "collection_url": "shopify:\/\/collections\/wedding-bands"
+              "category_img": "shopify://shop_images/c-2.png",
+              "category_text": "<p>Wedding Bands</p>",
+              "collection_url": "shopify://collections/wedding-bands"
             }
           },
           "text_g9UbG7": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/c-3.png",
-              "category_text": "<p>Men's Band<\/p>",
-              "collection_url": "shopify:\/\/collections\/mens-band"
+              "category_img": "shopify://shop_images/c-3.png",
+              "category_text": "<p>Men's Band</p>",
+              "collection_url": "shopify://collections/mens-band"
             }
           },
           "text_XfmJf4": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/c-4.png",
-              "category_text": "<p>Earrings<\/p>",
-              "collection_url": "shopify:\/\/collections\/earrings-for-women"
+              "category_img": "shopify://shop_images/c-4.png",
+              "category_text": "<p>Earrings</p>",
+              "collection_url": "shopify://collections/earrings-for-women"
             }
           },
           "text_UeDQQj": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/02_b8f93a9b-2796-4e80-b092-d7f17dabd915.jpg",
-              "category_text": "<p>Necklace<\/p>",
-              "collection_url": "shopify:\/\/collections\/pendant-necklace"
+              "category_img": "shopify://shop_images/02_b8f93a9b-2796-4e80-b092-d7f17dabd915.jpg",
+              "category_text": "<p>Necklace</p>",
+              "collection_url": "shopify://collections/pendant-necklace"
             }
           },
           "text_HUprR4": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/c-6.png",
-              "category_text": "<p>Bracelets<\/p>",
-              "collection_url": "shopify:\/\/collections\/bracelets-for-women"
+              "category_img": "shopify://shop_images/c-6.png",
+              "category_text": "<p>Bracelets</p>",
+              "collection_url": "shopify://collections/bracelets-for-women"
             }
           },
           "text_htJNAT": {
             "type": "text",
             "settings": {
-              "category_img": "shopify:\/\/shop_images\/01_029b05e6-b856-446a-9976-57003ffa0751.jpg",
-              "category_text": "<p>Ring Set<\/p>",
-              "collection_url": "shopify:\/\/collections\/ring-set"
+              "category_img": "shopify://shop_images/01_029b05e6-b856-446a-9976-57003ffa0751.jpg",
+              "category_text": "<p>Ring Set</p>",
+              "collection_url": "shopify://collections/ring-set"
             }
           }
         },
@@ -3676,7 +3630,7 @@
             "disabled": true,
             "settings": {
               "title": "Home",
-              "url": "\/",
+              "url": "/",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3689,7 +3643,7 @@
             "type": "mega",
             "settings": {
               "title": "Engagement Ring",
-              "url": "shopify:\/\/collections\/engagement-rings",
+              "url": "shopify://collections/engagement-rings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3706,7 +3660,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Moissanite Rings",
-              "url": "shopify:\/\/collections\/moissanite-diamond-rings",
+              "url": "shopify://collections/moissanite-diamond-rings",
               "open_link": "_self",
               "menu": "engagement-rings",
               "col": "3"
@@ -3716,7 +3670,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Lab Grown Diamond Rings",
-              "url": "shopify:\/\/collections\/lab-grown-diamond-rings",
+              "url": "shopify://collections/lab-grown-diamond-rings",
               "open_link": "_self",
               "menu": "lab-grown-diamond-rings",
               "col": "3"
@@ -3726,7 +3680,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Gemstone Rings",
-              "url": "shopify:\/\/collections\/gemstone-rings",
+              "url": "shopify://collections/gemstone-rings",
               "open_link": "_self",
               "menu": "gemstone-rings",
               "col": "3"
@@ -3735,7 +3689,7 @@
           "cat_d6fUM7": {
             "type": "cat",
             "settings": {
-              "image": "shopify:\/\/shop_images\/c-3.png",
+              "image": "shopify://shop_images/c-3.png",
               "cat_design": "1",
               "hoverz": true,
               "collection": "mens-band",
@@ -3747,7 +3701,7 @@
             "type": "mega",
             "settings": {
               "title": "Wedding Band",
-              "url": "shopify:\/\/collections\/wedding-bands",
+              "url": "shopify://collections/wedding-bands",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3764,7 +3718,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Moissanite Bands",
-              "url": "shopify:\/\/collections\/moissanite-band",
+              "url": "shopify://collections/moissanite-band",
               "open_link": "_self",
               "menu": "moissanite-bands",
               "col": "3"
@@ -3774,7 +3728,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Lab Grown Diamond Bands",
-              "url": "shopify:\/\/collections\/lab-grown-diamond-band",
+              "url": "shopify://collections/lab-grown-diamond-band",
               "open_link": "_self",
               "menu": "lab-grown-diamond-bands",
               "col": "3"
@@ -3783,7 +3737,7 @@
           "cat_n3Gnmg": {
             "type": "cat",
             "settings": {
-              "image": "shopify:\/\/shop_images\/DSC06449.jpg",
+              "image": "shopify://shop_images/DSC06449.jpg",
               "cat_design": "1",
               "hoverz": true,
               "collection": "mens-band",
@@ -3794,7 +3748,7 @@
           "cat_BjHtXB": {
             "type": "cat",
             "settings": {
-              "image": "shopify:\/\/shop_images\/c-2.png",
+              "image": "shopify://shop_images/c-2.png",
               "cat_design": "1",
               "hoverz": true,
               "collection": "mens-band",
@@ -3806,7 +3760,7 @@
             "type": "mega",
             "settings": {
               "title": "Fine Jewelry",
-              "url": "shopify:\/\/collections\/fine-jewelry",
+              "url": "shopify://collections/fine-jewelry",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3823,7 +3777,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "",
-              "url": "shopify:\/\/collections\/fine-jewelry",
+              "url": "shopify://collections/fine-jewelry",
               "open_link": "_self",
               "menu": "fine-jewelry",
               "col": "3"
@@ -3832,7 +3786,7 @@
           "cat_nKCjmy": {
             "type": "cat",
             "settings": {
-              "image": "shopify:\/\/shop_images\/DSC01817.jpg",
+              "image": "shopify://shop_images/DSC01817.jpg",
               "cat_design": "1",
               "hoverz": true,
               "collection": "bracelets-for-women",
@@ -3843,7 +3797,7 @@
           "cat_MiyAxH": {
             "type": "cat",
             "settings": {
-              "image": "shopify:\/\/shop_images\/DSC01637.jpg",
+              "image": "shopify://shop_images/DSC01637.jpg",
               "cat_design": "1",
               "hoverz": true,
               "collection": "earrings-for-women",
@@ -3854,7 +3808,7 @@
           "cat_rrBiLQ": {
             "type": "cat",
             "settings": {
-              "image": "shopify:\/\/shop_images\/FRONTDOM_5fe42a5a-47a9-455a-9b03-49a5007fc2ae.jpg",
+              "image": "shopify://shop_images/FRONTDOM_5fe42a5a-47a9-455a-9b03-49a5007fc2ae.jpg",
               "cat_design": "1",
               "hoverz": true,
               "collection": "pendant-necklace",
@@ -3866,7 +3820,7 @@
             "type": "simple",
             "settings": {
               "title": "Customization",
-              "url": "shopify:\/\/pages\/customization",
+              "url": "shopify://pages/customization",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3877,15 +3831,14 @@
           },
           "header_2-1": {
             "type": "logo",
-            "settings": {
-            }
+            "settings": {}
           },
           "simple_P6G6HD": {
             "type": "simple",
             "disabled": true,
             "settings": {
               "title": "Customization",
-              "url": "shopify:\/\/pages\/customization",
+              "url": "shopify://pages/customization",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3898,7 +3851,7 @@
             "type": "simple",
             "settings": {
               "title": "Review",
-              "url": "shopify:\/\/pages\/reviews",
+              "url": "shopify://pages/reviews",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3911,7 +3864,7 @@
             "type": "simple",
             "settings": {
               "title": "Blog",
-              "url": "shopify:\/\/blogs\/news",
+              "url": "shopify://blogs/news",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3924,7 +3877,7 @@
             "type": "simple",
             "settings": {
               "title": "About Us",
-              "url": "shopify:\/\/pages\/about-us",
+              "url": "shopify://pages/about-us",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3937,7 +3890,7 @@
             "type": "simple",
             "settings": {
               "title": "Login",
-              "url": "\/account",
+              "url": "/account",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3986,15 +3939,15 @@
         "type": "Commitment",
         "settings": {
           "Commitment_head": "Our Commitment to Excellence",
-          "Commitment_img_1": "shopify:\/\/shop_images\/9585979.png",
+          "Commitment_img_1": "shopify://shop_images/9585979.png",
           "Commitment_para_1": "World Wide <br> Shipping",
-          "Commitment_img_2": "shopify:\/\/shop_images\/3917727.png",
-          "Commitment_para_2": "24\/7 Customer <br> Service",
-          "Commitment_img_3": "shopify:\/\/shop_images\/7653682.png",
+          "Commitment_img_2": "shopify://shop_images/3917727.png",
+          "Commitment_para_2": "24/7 Customer <br> Service",
+          "Commitment_img_3": "shopify://shop_images/7653682.png",
           "Commitment_para_3": "100% Money <br> Back Guarantee",
-          "Commitment_img_4": "shopify:\/\/shop_images\/7661461.png",
+          "Commitment_img_4": "shopify://shop_images/7661461.png",
           "Commitment_para_4": "Unbeatable <br> Market Price",
-          "Commitment_img_5": "shopify:\/\/shop_images\/14655978.png",
+          "Commitment_img_5": "shopify://shop_images/14655978.png",
           "Commitment_para_5": "Eco Friendly <br> Element"
         }
       },
@@ -4004,8 +3957,8 @@
           "quote_E6wTVP": {
             "type": "quote",
             "settings": {
-              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>Treated myself to a stunning necklace, and it's become my favorite accessory. It's truly a statement piece.<\/p>",
+              "testi_img": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Treated myself to a stunning necklace, and it's become my favorite accessory. It's truly a statement piece.</p>",
               "title": "Ava Brown",
               "pos": "",
               "rating": 3.5
@@ -4014,8 +3967,8 @@
           "quote_3w4VEy": {
             "type": "quote",
             "settings": {
-              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>Absolutely in love with my recent necklace purchase. The craftsmanship is outstanding, and the diamonds are simply dazzling.<\/p>",
+              "testi_img": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Absolutely in love with my recent necklace purchase. The craftsmanship is outstanding, and the diamonds are simply dazzling.</p>",
               "title": "Ella Williams",
               "pos": "",
               "rating": 5
@@ -4024,8 +3977,8 @@
           "quote_xkTL9N": {
             "type": "quote",
             "settings": {
-              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>The birthday ring I got for my wife was a hit. She loves it, and it made her day extra special.<\/p>",
+              "testi_img": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>The birthday ring I got for my wife was a hit. She loves it, and it made her day extra special.</p>",
               "title": "Olivia Montague",
               "pos": "",
               "rating": 4.5
@@ -4034,8 +3987,8 @@
           "quote_BJjnCR": {
             "type": "quote",
             "settings": {
-              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>The engagement ring I purchased was alright. It's pretty standard<\/p>",
+              "testi_img": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>The engagement ring I purchased was alright. It's pretty standard</p>",
               "title": "Grace Taylor",
               "pos": "",
               "rating": 3
@@ -4044,8 +3997,8 @@
           "quote_tRB8NJ": {
             "type": "quote",
             "settings": {
-              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>Impressed by the quality of the earrings I bought recently. They make me feel special every time I wear them.<\/p>",
+              "testi_img": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Impressed by the quality of the earrings I bought recently. They make me feel special every time I wear them.</p>",
               "title": "Liam Davies",
               "pos": "",
               "rating": 4
@@ -4054,8 +4007,8 @@
           "quote_cG86PY": {
             "type": "quote",
             "settings": {
-              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>I decided to treat myself to something special from Gemroyals, and let me tell you, it was the best decision ever. The necklace I chose isn't just a piece of jewelry, it's a statement, an extension of who I am. The way it sparkles against my skin? Pure magic. I feel like a goddess every time I put it on.<\/p>",
+              "testi_img": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>I decided to treat myself to something special from Gemroyals, and let me tell you, it was the best decision ever. The necklace I chose isn't just a piece of jewelry, it's a statement, an extension of who I am. The way it sparkles against my skin? Pure magic. I feel like a goddess every time I put it on.</p>",
               "title": "Jack Jones",
               "pos": "",
               "rating": 4.5
@@ -4116,43 +4069,43 @@
           "img_rYE3AX": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-05-15_at_10.35.08_AM.jpg",
-              "url": "https:\/\/www.instagram.com\/p\/C5kRggDI3rk\/?utm_source=ig_web_copy_link"
+              "image": "shopify://shop_images/WhatsApp_Image_2024-05-15_at_10.35.08_AM.jpg",
+              "url": "https://www.instagram.com/p/C5kRggDI3rk/?utm_source=ig_web_copy_link"
             }
           },
           "img_TkV4hL": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-05-15_at_10.36.56_AM.jpg",
-              "url": "https:\/\/www.instagram.com\/p\/C6IWVS0LH7v\/?utm_source=ig_web_copy_link"
+              "image": "shopify://shop_images/WhatsApp_Image_2024-05-15_at_10.36.56_AM.jpg",
+              "url": "https://www.instagram.com/p/C6IWVS0LH7v/?utm_source=ig_web_copy_link"
             }
           },
           "img_fW48kU": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/12.jpg",
-              "url": "https:\/\/www.instagram.com\/p\/C6dHKl7sxAW\/?utm_source=ig_web_copy_link"
+              "image": "shopify://shop_images/12.jpg",
+              "url": "https://www.instagram.com/p/C6dHKl7sxAW/?utm_source=ig_web_copy_link"
             }
           },
           "img_BtQVRL": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-05-15_at_10.37.24_AM.jpg",
-              "url": "https:\/\/www.instagram.com\/p\/C6LIs-9r6Zz\/?utm_source=ig_web_copy_link"
+              "image": "shopify://shop_images/WhatsApp_Image_2024-05-15_at_10.37.24_AM.jpg",
+              "url": "https://www.instagram.com/p/C6LIs-9r6Zz/?utm_source=ig_web_copy_link"
             }
           },
           "img_7YWm6w": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/01.jpg",
-              "url": "https:\/\/www.instagram.com\/p\/C6-fBimrV1Y\/?utm_source=ig_web_copy_link"
+              "image": "shopify://shop_images/01.jpg",
+              "url": "https://www.instagram.com/p/C6-fBimrV1Y/?utm_source=ig_web_copy_link"
             }
           },
           "img_m9Cfjb": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/02.jpg",
-              "url": "https:\/\/www.instagram.com\/p\/C6DKw2uLySV\/?utm_source=ig_web_copy_link"
+              "image": "shopify://shop_images/02.jpg",
+              "url": "https://www.instagram.com/p/C6DKw2uLySV/?utm_source=ig_web_copy_link"
             }
           }
         },
@@ -4200,7 +4153,7 @@
           "text_Jp7Hey": {
             "type": "text",
             "settings": {
-              "Custom_image": "shopify:\/\/shop_images\/0b7f1dffb18224d0b1135dc538599489.jpg",
+              "Custom_image": "shopify://shop_images/0b7f1dffb18224d0b1135dc538599489.jpg",
               "Custom_h1": "Contact Us",
               "Custom_p": "Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.",
               "Custom_text": "INQUIRY"
@@ -4209,7 +4162,7 @@
           "text_3JFkGM": {
             "type": "text",
             "settings": {
-              "Custom_image": "shopify:\/\/shop_images\/c9339e127bf168a697248a20153f3c27.png",
+              "Custom_image": "shopify://shop_images/c9339e127bf168a697248a20153f3c27.png",
               "Custom_h1": "Customize Design",
               "Custom_p": "Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.",
               "Custom_text": "INQUIRY"
@@ -4218,7 +4171,7 @@
           "text_GfENG3": {
             "type": "text",
             "settings": {
-              "Custom_image": "shopify:\/\/shop_images\/4bfdd68606f69e195984098672efdc78.jpg",
+              "Custom_image": "shopify://shop_images/4bfdd68606f69e195984098672efdc78.jpg",
               "Custom_h1": "Production",
               "Custom_p": "Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.",
               "Custom_text": "INQUIRY"
@@ -4227,7 +4180,7 @@
           "text_nD8JDG": {
             "type": "text",
             "settings": {
-              "Custom_image": "shopify:\/\/shop_images\/cf66ed4104a812cdee3abdc42d96e79c.jpg",
+              "Custom_image": "shopify://shop_images/cf66ed4104a812cdee3abdc42d96e79c.jpg",
               "Custom_h1": "Confirmation",
               "Custom_p": "Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.",
               "Custom_text": "INQUIRY"
@@ -4236,7 +4189,7 @@
           "text_fahWLm": {
             "type": "text",
             "settings": {
-              "Custom_image": "shopify:\/\/shop_images\/22a3b78eccb067259a92bd1dbaf3fa59.jpg",
+              "Custom_image": "shopify://shop_images/22a3b78eccb067259a92bd1dbaf3fa59.jpg",
               "Custom_h1": "Dispatch",
               "Custom_p": "Start by envisioning your dream design. Share your inspiration with Zen Moissanite jewelry experts who will guide you through the process of designing your custom piece. At this stage, our team will suggest design details and customizations based on your preferences and prepare simple mock up designs.",
               "Custom_text": "INQUIRY"
@@ -4262,8 +4215,8 @@
           "quote_iYyygi": {
             "type": "quote",
             "settings": {
-              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>I absolutely love my moissanite jewelry! The brilliance and sparkle are incredible, and I appreciate knowing that it's an ethical and sustainable choice.<\/p>",
+              "testi_img": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>I absolutely love my moissanite jewelry! The brilliance and sparkle are incredible, and I appreciate knowing that it's an ethical and sustainable choice.</p>",
               "title": "Jessica Miller",
               "pos": "",
               "rating": 4
@@ -4272,8 +4225,8 @@
           "quote_rQmaUP": {
             "type": "quote",
             "settings": {
-              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>I was amazed by the quality of my moissanite ring. It looks just like a diamond but without the hefty price tag. I get compliments on it all the time!<\/p>",
+              "testi_img": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>I was amazed by the quality of my moissanite ring. It looks just like a diamond but without the hefty price tag. I get compliments on it all the time!</p>",
               "title": "Melanie V",
               "pos": "",
               "rating": 4
@@ -4282,8 +4235,8 @@
           "quote_RWeqri": {
             "type": "quote",
             "settings": {
-              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>I bought a moissanite bracelet for my wife. It's beautiful, durable, and the perfect addition to her jewelry collection.<\/p>",
+              "testi_img": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>I bought a moissanite bracelet for my wife. It's beautiful, durable, and the perfect addition to her jewelry collection.</p>",
               "title": "James",
               "pos": "",
               "rating": 4
@@ -4292,8 +4245,8 @@
           "quote_nRt8bz": {
             "type": "quote",
             "settings": {
-              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>I'm so glad I chose moissanite for my engagement ring. It's stunningly beautiful, and I love that it's an eco-friendly alternative to traditional diamonds.<\/p>",
+              "testi_img": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>I'm so glad I chose moissanite for my engagement ring. It's stunningly beautiful, and I love that it's an eco-friendly alternative to traditional diamonds.</p>",
               "title": "Angelica",
               "pos": "",
               "rating": 5
@@ -4302,8 +4255,8 @@
           "quote_qLUN7X": {
             "type": "quote",
             "settings": {
-              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>I bought moissanite ring and the reflective qualities of the stone rival \"real\" diamonds. I am in awe! 10 out 10! <\/p>",
+              "testi_img": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>I bought moissanite ring and the reflective qualities of the stone rival \"real\" diamonds. I am in awe! 10 out 10! </p>",
               "title": "Deborah Milheim",
               "pos": "",
               "rating": 5
@@ -4312,8 +4265,8 @@
           "quote_FGBHMf": {
             "type": "quote",
             "settings": {
-              "testi_img": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "content": "<p>Bought a bracelet from gemroyal for my mom, and she's in love with it. Timeless design, impeccable quality—it's now her favorite piece of jewelry.<\/p>",
+              "testi_img": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "content": "<p>Bought a bracelet from gemroyal for my mom, and she's in love with it. Timeless design, impeccable quality—it's now her favorite piece of jewelry.</p>",
               "title": "Elysian Adorn",
               "pos": "",
               "rating": 5
@@ -4374,7 +4327,7 @@
           "brand_Tyqp4D": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/04_copy.png",
+              "image": "shopify://shop_images/04_copy.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -4382,7 +4335,7 @@
           "brand_xQDVcL": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/001_copy.png",
+              "image": "shopify://shop_images/001_copy.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -4390,7 +4343,7 @@
           "brand_WYaVHm": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/01_copy.png",
+              "image": "shopify://shop_images/01_copy.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -4398,7 +4351,7 @@
           "brand_kTHXLL": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/02_copy2_copy.png",
+              "image": "shopify://shop_images/02_copy2_copy.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -4406,7 +4359,7 @@
           "brand_hYYNee": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/03_copy_6.png",
+              "image": "shopify://shop_images/03_copy_6.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -4414,7 +4367,7 @@
           "brand_33RFCU": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/03_copy_3_5.png",
+              "image": "shopify://shop_images/03_copy_3_5.png",
               "url": "",
               "open_link": "_blank"
             }
@@ -4466,15 +4419,15 @@
           "text_7w4hhP": {
             "type": "text",
             "settings": {
-              "tabheading": "<p>General<\/p>",
+              "tabheading": "<p>General</p>",
               "question1": "What are lab grown diamonds or lab created diamonds?",
-              "answer1": "<p>Lab-grown or lab-created diamonds are artificially produced in a laboratory, using advanced techniques that replicate the natural diamond formation process. They possess the same chemical, physical, and optical characteristics as mined diamonds. The two main methods are High Pressure, High Temperature (HPHT) and Chemical Vapor Deposition (CVD). These diamonds offer an ethical and environmentally friendly alternative to traditional mining, avoiding the associated conflicts and ecological impacts.<\/p>",
+              "answer1": "<p>Lab-grown or lab-created diamonds are artificially produced in a laboratory, using advanced techniques that replicate the natural diamond formation process. They possess the same chemical, physical, and optical characteristics as mined diamonds. The two main methods are High Pressure, High Temperature (HPHT) and Chemical Vapor Deposition (CVD). These diamonds offer an ethical and environmentally friendly alternative to traditional mining, avoiding the associated conflicts and ecological impacts.</p>",
               "question2": "Is the metal in this product solid or plated?",
-              "answer2": "<p>This jewelry comes with the metal and color you selected while placing an order. When you select 10K Gold, 14K Gold or 18K Gold and choose any color from White, Yellow, Rose all are solid metal while when you select 925 sterling silver metal and choose Yellow or Rose color, that will be a plating.<\/p>",
+              "answer2": "<p>This jewelry comes with the metal and color you selected while placing an order. When you select 10K Gold, 14K Gold or 18K Gold and choose any color from White, Yellow, Rose all are solid metal while when you select 925 sterling silver metal and choose Yellow or Rose color, that will be a plating.</p>",
               "question3": "Can you create bespoke engagement rings upon request?",
-              "answer3": "<p>Yes, We can make a designer ring according to customer preferances for their engagement. <br\/><\/p>",
+              "answer3": "<p>Yes, We can make a designer ring according to customer preferances for their engagement. <br/></p>",
               "question4": "Do you provide engraving services?",
-              "answer4": "<p>Yes, We are providing engraving services as well. Customer can engrave his\/her name or the name of the most lovable person and gift this jewelery.<\/p>",
+              "answer4": "<p>Yes, We are providing engraving services as well. Customer can engrave his/her name or the name of the most lovable person and gift this jewelery.</p>",
               "question5": "",
               "answer5": ""
             }
@@ -4482,22 +4435,22 @@
           "content_xxkDeK": {
             "type": "content",
             "settings": {
-              "tabheading": "<p>shipping<\/p>",
-              "textcontent": "<p><strong>Here's our production timeframes for different types of jewelry:<\/strong><br\/><\/p><p>Rings: 10 Days<\/p><p>Necklaces & Bracelets: 15 Days<\/p><p>Hip Hop Jewelry: 20 Days<\/p><p>Having these distinct timelines allows customers to plan accordingly, especially if they have specific deadlines or events for which they need their jewelry. It also showcases our commitment to craftsmanship and attention to detail, as each piece is given the necessary time and care to ensure its quality.<br\/><br\/><\/p><p>For customers in the USA, knowing that transit time is approximately 8-10 days after production is valuable information. Similarly, for international customers, providing an estimated transit time of 10-15 days helps manage expectations for delivery.<\/p><p>Additionally, specifying that these timeframes exclude weekends (Saturday and Sunday) is helpful for customers to accurately calculate the total delivery time. This prevents any confusion and ensures that customers have a clear understanding of when they can expect their orders to arrive.<\/p><p><br\/>: Once an order has been packed and handed over to the shipping carrier, send the customer a notification confirming that their order has been dispatched. This notification should include relevant details such as the tracking number and the name of the shipping carrier.<br\/><\/p><p><br\/>: Provide clear instructions on how customers can track their order using the provided tracking details. Include links to the shipping carrier's website or tracking portal, as well as any relevant customer support contacts in case they encounter any issues with tracking their package.<br\/><\/p><p><br\/>: Encourage customers to actively track their order using the provided tracking information. Assure them that they will receive real-time updates on the status and location of their package as it makes its way to its destination.<br\/><\/p><p><br\/>: Reassure customers that they can reach out to your customer support team for assistance with any shipping-related inquiries or concerns. Provide customer support channels such as email or live chat.<br\/><\/p><p>If the order is stuck in customs or any other natural disaster reasons (Earthquake, Cyclone Etc.) is there then the order will be delayed.<\/p><p>Offering worldwide shipping through multiple reputable shipping partners is a smart strategy to cater to a global customer base. Each shipping partner may have its own strengths and specialties, providing flexibility and options for customers based on their preferences and location. (Shipping Partners like UPS Service, USPS Service, Aramex, FedEx, DHL Etc.)<\/p>"
+              "tabheading": "<p>shipping</p>",
+              "textcontent": "<p><strong>Here's our production timeframes for different types of jewelry:</strong><br/></p><p>Rings: 10 Days</p><p>Necklaces & Bracelets: 15 Days</p><p>Hip Hop Jewelry: 20 Days</p><p>Having these distinct timelines allows customers to plan accordingly, especially if they have specific deadlines or events for which they need their jewelry. It also showcases our commitment to craftsmanship and attention to detail, as each piece is given the necessary time and care to ensure its quality.<br/><br/></p><p>For customers in the USA, knowing that transit time is approximately 8-10 days after production is valuable information. Similarly, for international customers, providing an estimated transit time of 10-15 days helps manage expectations for delivery.</p><p>Additionally, specifying that these timeframes exclude weekends (Saturday and Sunday) is helpful for customers to accurately calculate the total delivery time. This prevents any confusion and ensures that customers have a clear understanding of when they can expect their orders to arrive.</p><p><br/>: Once an order has been packed and handed over to the shipping carrier, send the customer a notification confirming that their order has been dispatched. This notification should include relevant details such as the tracking number and the name of the shipping carrier.<br/></p><p><br/>: Provide clear instructions on how customers can track their order using the provided tracking details. Include links to the shipping carrier's website or tracking portal, as well as any relevant customer support contacts in case they encounter any issues with tracking their package.<br/></p><p><br/>: Encourage customers to actively track their order using the provided tracking information. Assure them that they will receive real-time updates on the status and location of their package as it makes its way to its destination.<br/></p><p><br/>: Reassure customers that they can reach out to your customer support team for assistance with any shipping-related inquiries or concerns. Provide customer support channels such as email or live chat.<br/></p><p>If the order is stuck in customs or any other natural disaster reasons (Earthquake, Cyclone Etc.) is there then the order will be delayed.</p><p>Offering worldwide shipping through multiple reputable shipping partners is a smart strategy to cater to a global customer base. Each shipping partner may have its own strengths and specialties, providing flexibility and options for customers based on their preferences and location. (Shipping Partners like UPS Service, USPS Service, Aramex, FedEx, DHL Etc.)</p>"
             }
           },
           "content_jmjYiD": {
             "type": "content",
             "settings": {
-              "tabheading": "<p>Packaging<\/p>",
-              "textcontent": "<p>We are offering both elegance and protection for customers' luxury jewelry purchases. Here's how the packaging enhances the overall shopping experience:<br\/><br\/>Sophisticated Jewelry Box: Providing customers with a standard, sophisticated jewelry box crafted from high-quality materials adds to the perceived value of the item. This elegant packaging reflects the premium quality of customer's jewelry and enhances the unboxing experience for customers.<br\/><br\/>Durable Outer Packaging: Enclosing each jewelry box in a durable outer packaging ensures additional security during transit. This outer packaginig protects the jewelry box from external damage, such as bumps or impacts, minimizing the risk of any damage to the precious contents inside.<br\/><br\/>Jewelry Cleaning Cloth: Including jewelry cleaning cloth inside the box  further enhances protection and cleaning the jewelry.<br\/>By offering such a comprehensive packaging solution, we demonstrate our commitment to delivering not only high-quality jewelry but also a premium packaging experience. Customers will appreciate the attention to detail and care taken to ensure that their purchase arrives safely and beautifully presented, enhancing their overall satisfaction with their shopping experience.<\/p>"
+              "tabheading": "<p>Packaging</p>",
+              "textcontent": "<p>We are offering both elegance and protection for customers' luxury jewelry purchases. Here's how the packaging enhances the overall shopping experience:<br/><br/>Sophisticated Jewelry Box: Providing customers with a standard, sophisticated jewelry box crafted from high-quality materials adds to the perceived value of the item. This elegant packaging reflects the premium quality of customer's jewelry and enhances the unboxing experience for customers.<br/><br/>Durable Outer Packaging: Enclosing each jewelry box in a durable outer packaging ensures additional security during transit. This outer packaginig protects the jewelry box from external damage, such as bumps or impacts, minimizing the risk of any damage to the precious contents inside.<br/><br/>Jewelry Cleaning Cloth: Including jewelry cleaning cloth inside the box  further enhances protection and cleaning the jewelry.<br/>By offering such a comprehensive packaging solution, we demonstrate our commitment to delivering not only high-quality jewelry but also a premium packaging experience. Customers will appreciate the attention to detail and care taken to ensure that their purchase arrives safely and beautifully presented, enhancing their overall satisfaction with their shopping experience.</p>"
             }
           },
           "content_b6UYnq": {
             "type": "content",
             "settings": {
-              "tabheading": "<p>Return and refund<\/p>",
-              "textcontent": "<p>Bad Review Policy: Products cannot be returned solely based on receiving a bad review. This policy is in place to prevent negative impacts on the shop's performance due to reviews, even after issuing a refund.<br\/><br\/>Return Shipping Costs: Buyers are responsible for return shipping costs, unless otherwise agreed upon by the seller. In some cases, the seller may provide a return label or cover return shipping costs. Buyers are advised to contact the seller for further details before shipping the item back.<br\/><br\/>Refund Process: If a refund is agreed upon, the seller will initiate the refund within 72 hours upon confirmation of receiving the return parcel. If any damage or issues are found with the returned product, the buyer is responsible for any loss in value.<br\/><br\/>Product Condition: Returned products must be in new condition. Damaged or worn-out products will not be accepted under the Easy Returns and Exchange Policy.<br\/><br\/>Exclusions from Policy: Purchases made during discount\/coupon offers are not eligible for returns or exchanges under the Easy Returns and Exchange Policy. Additionally, customized designs or pieces with personalized engraving cannot be returned or exchanged, but may be eligible for upgrades or repairs.<br\/><br\/>Return and Exchange Process:<br\/>Buyers must contact the seller within 24 hours of receiving the product to initiate a return or exchange. After 24 hours, products are only eligible for exchange.<br\/>A replenishment fee of 30% of the full amount of the jewelry will be deducted in both return and exchange cases.<br\/>Any issues reported after 30 days from the delivery date are only eligible for repair, and return\/exchange requests will not be accepted after this time frame.<br\/>Contact Information: Buyers are encouraged to contact the seller for further assistance or clarification regarding the return and exchange process.<br\/><br\/>This policy aims to provide clear guidelines and procedures for returning or exchanging products, while also addressing specific scenarios such as bad reviews, customized items, and time limitations for returns and exchanges.<\/p>"
+              "tabheading": "<p>Return and refund</p>",
+              "textcontent": "<p>Bad Review Policy: Products cannot be returned solely based on receiving a bad review. This policy is in place to prevent negative impacts on the shop's performance due to reviews, even after issuing a refund.<br/><br/>Return Shipping Costs: Buyers are responsible for return shipping costs, unless otherwise agreed upon by the seller. In some cases, the seller may provide a return label or cover return shipping costs. Buyers are advised to contact the seller for further details before shipping the item back.<br/><br/>Refund Process: If a refund is agreed upon, the seller will initiate the refund within 72 hours upon confirmation of receiving the return parcel. If any damage or issues are found with the returned product, the buyer is responsible for any loss in value.<br/><br/>Product Condition: Returned products must be in new condition. Damaged or worn-out products will not be accepted under the Easy Returns and Exchange Policy.<br/><br/>Exclusions from Policy: Purchases made during discount/coupon offers are not eligible for returns or exchanges under the Easy Returns and Exchange Policy. Additionally, customized designs or pieces with personalized engraving cannot be returned or exchanged, but may be eligible for upgrades or repairs.<br/><br/>Return and Exchange Process:<br/>Buyers must contact the seller within 24 hours of receiving the product to initiate a return or exchange. After 24 hours, products are only eligible for exchange.<br/>A replenishment fee of 30% of the full amount of the jewelry will be deducted in both return and exchange cases.<br/>Any issues reported after 30 days from the delivery date are only eligible for repair, and return/exchange requests will not be accepted after this time frame.<br/>Contact Information: Buyers are encouraged to contact the seller for further assistance or clarification regarding the return and exchange process.<br/><br/>This policy aims to provide clear guidelines and procedures for returning or exchanging products, while also addressing specific scenarios such as bad reviews, customized items, and time limitations for returns and exchanges.</p>"
             }
           }
         },
@@ -4569,8 +4522,7 @@
           "other_aq7Ljz",
           "other_GnRPQi"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "our_collection_KhNBUN": {
         "type": "our_collection",
@@ -4578,35 +4530,35 @@
           "text_DDaaXP": {
             "type": "text",
             "settings": {
-              "collection_image": "shopify:\/\/shop_images\/IMG_7332_831942d4-bf81-4130-9959-ab1486afcfa2.jpg",
+              "collection_image": "shopify://shop_images/IMG_7332_831942d4-bf81-4130-9959-ab1486afcfa2.jpg",
               "product": "cluster-emerald-cut-red-garnet-engagement-ring"
             }
           },
           "text_p9TWNi": {
             "type": "text",
             "settings": {
-              "collection_image": "shopify:\/\/shop_images\/DSC06477.jpg",
+              "collection_image": "shopify://shop_images/DSC06477.jpg",
               "product": "art-deco-hexagon-cut-natural-moss-agate-engagement-ring"
             }
           },
           "text_i7p4kz": {
             "type": "text",
             "settings": {
-              "collection_image": "shopify:\/\/shop_images\/FRONT_DOM.jpg",
+              "collection_image": "shopify://shop_images/FRONT_DOM.jpg",
               "product": "dainty-round-natural-amethyst-engagement-ring"
             }
           },
           "text_Qeq7Cm": {
             "type": "text",
             "settings": {
-              "collection_image": "shopify:\/\/shop_images\/FRONT_DOM_a2f87dc5-9d0c-48dd-b6d3-a797db11fdac.jpg",
+              "collection_image": "shopify://shop_images/FRONT_DOM_a2f87dc5-9d0c-48dd-b6d3-a797db11fdac.jpg",
               "product": "cluster-oval-cut-rainbow-moonstone-engagement-ring"
             }
           },
           "text_N6ejMr": {
             "type": "text",
             "settings": {
-              "collection_image": "shopify:\/\/shop_images\/FRONT_DOM_5b50c31b-c382-40d0-a22b-845e97eb6bc9.jpg",
+              "collection_image": "shopify://shop_images/FRONT_DOM_5b50c31b-c382-40d0-a22b-845e97eb6bc9.jpg",
               "product": "vintage-style-round-cut-purple-alexandrite-engagement-ring"
             }
           }
@@ -4622,7 +4574,7 @@
           "collection_head": "our collection",
           "collection_paragraph": "Choosing a gemstone ring can be a meaningful and stylish choice for several reasons. Gemstones come in a wide range of colors, from deep blues to vibrant reds and sparkling greens. Each gemstone has its unique beauty and allure, allowing you to express your individual style and preferences.",
           "collection_btn": "View Collection",
-          "collectionurl": "shopify:\/\/collections\/moissanite-diamond-rings"
+          "collectionurl": "shopify://collections/moissanite-diamond-rings"
         }
       },
       "processbar_carousel_mny3Nt": {
@@ -4631,7 +4583,7 @@
           "text_MW9Vm8": {
             "type": "text",
             "settings": {
-              "Custom_image": "shopify:\/\/shop_images\/0b7f1dffb18224d0b1135dc538599489.jpg",
+              "Custom_image": "shopify://shop_images/0b7f1dffb18224d0b1135dc538599489.jpg",
               "Custom_h1": "Inquire",
               "Custom_p": "Contact Us to Begin Your Journey Your bespoke jewelry creation starts with a simple inquiry. Reach out to us via phone, email, or through our website. Our friendly team is eager to assist you in bringing your vision to life. Whether you have a clear idea in mind or need guidance, we're here to listen and understand your desires.",
               "Custom_text": ""
@@ -4640,7 +4592,7 @@
           "text_cVWCph": {
             "type": "text",
             "settings": {
-              "Custom_image": "shopify:\/\/shop_images\/c9339e127bf168a697248a20153f3c27.png",
+              "Custom_image": "shopify://shop_images/c9339e127bf168a697248a20153f3c27.png",
               "Custom_h1": "Customize Design",
               "Custom_p": "Crafting Your Unique Piece Once we've connected, it's time to dive into the customization process. Share your inspirations, preferences, and any specific details you envision for your jewelry. Our skilled artisans will work closely with you to transform your ideas into a stunning design. From selecting gemstones to choosing precious metals, every element will reflect your personal style and story.",
               "Custom_text": ""
@@ -4649,7 +4601,7 @@
           "text_R46t3w": {
             "type": "text",
             "settings": {
-              "Custom_image": "shopify:\/\/shop_images\/4bfdd68606f69e195984098672efdc78.jpg",
+              "Custom_image": "shopify://shop_images/4bfdd68606f69e195984098672efdc78.jpg",
               "Custom_h1": "Production",
               "Custom_p": "Bringing Your Design to Life With the design finalized and approved, our craftsmen begin the meticulous process of production. Combining traditional techniques with modern technology, we ensure the highest quality standards are met at every stage. Your jewelry piece takes shape with precision and care, capturing the essence of your vision.",
               "Custom_text": ""
@@ -4658,7 +4610,7 @@
           "text_BGnkjg": {
             "type": "text",
             "settings": {
-              "Custom_image": "shopify:\/\/shop_images\/cf66ed4104a812cdee3abdc42d96e79c.jpg",
+              "Custom_image": "shopify://shop_images/cf66ed4104a812cdee3abdc42d96e79c.jpg",
               "Custom_h1": "Confirmation",
               "Custom_p": "Reviewing Your Masterpiece Before your customized jewelry is completed, we provide you with the opportunity to review and confirm the design. We'll share detailed images or prototypes for your inspection, allowing you to make any final adjustments or refinements. Your satisfaction is paramount, and we strive to exceed your expectations at every turn.",
               "Custom_text": ""
@@ -4667,7 +4619,7 @@
           "text_3YJgB8": {
             "type": "text",
             "settings": {
-              "Custom_image": "shopify:\/\/shop_images\/22a3b78eccb067259a92bd1dbaf3fa59.jpg",
+              "Custom_image": "shopify://shop_images/22a3b78eccb067259a92bd1dbaf3fa59.jpg",
               "Custom_h1": "Dispatch",
               "Custom_p": "Your Treasure Awaits Once your bespoke creation has passed our rigorous quality checks and received your final approval, it's time for dispatch. Your one-of-a-kind jewelry piece is carefully packaged and prepared for delivery to your doorstep. From our hands to yours, we ensure a seamless and secure shipping process, so you can enjoy your treasure with confidence.",
               "Custom_text": ""
@@ -4681,9 +4633,7 @@
           "text_BGnkjg",
           "text_3YJgB8"
         ],
-        "custom_css": [
-
-        ],
+        "custom_css": [],
         "settings": {
           "main_head": "Custom Process",
           "main_paragraph": "Learn more about how to customize a moissanite ring that you will love for a lifetime."
@@ -4695,20 +4645,18 @@
           "heading": "Etsy.com",
           "paragraph": "Gem Royals is a brand who is dealing in all types of Gems and Jewelry like Gemstone, Moissanite, Lab Grown Diamond Etc. We are also available in Etsy as well and continuously expanding our business.",
           "button_name": "Explore More",
-          "btn_link": "https:\/\/www.etsy.com\/in-en\/shop\/GemRoyals",
-          "image1": "shopify:\/\/shop_images\/bbe5e6c2b9bdc03c19bdfb785e5806d0.jpg",
+          "btn_link": "https://www.etsy.com/in-en/shop/GemRoyals",
+          "image1": "shopify://shop_images/bbe5e6c2b9bdc03c19bdfb785e5806d0.jpg",
           "image_head": "",
-          "image2": "shopify:\/\/shop_images\/415d2c7eae996a9e0f9c48d849481485.jpg"
+          "image2": "shopify://shop_images/415d2c7eae996a9e0f9c48d849481485.jpg"
         }
       },
       "rich_text": {
         "type": "rich_text",
-        "custom_css": [
-
-        ],
+        "custom_css": [],
         "settings": {
           "title": "Lab Grown Diamond Solitaire Rings",
-          "sub_title": "abas\n\n<br>\nDiscover the elegance and fascinating infinity of <strong><a href=\"https:\/\/gemroyals.com\/collections\/lab-grown-diamond-rings\">Lab Grown Diamond Solitaire Rings<\/a><\/strong>, where cutting-edge technology meets exquisite craftsmanship. These stunning lab grown solitaire rings offer exceptional clarity and brilliance, all at a fraction of the cost of natural diamonds, making them one of the best choices for engagement rings on the market today.\n<br>\n<br>\nOur collection showcases the finest lab created solitaire <strong><a href=\"https:\/\/gemroyals.com\/collections\/engagement-rings\">Engagement Rings<\/a><\/strong>, expertly crafted to highlight the pure, radiant beauty of a single diamond. Each lab grown diamond solitaire is ethically and sustainably produced in a laboratory, ensuring that your choice is not only beautiful but also responsible. With a variety of designs and settings to choose from, you can customize your lab diamond solitaire to perfectly match your style and preferences.\n<br>\n<br>\nWhether you prefer the classic simplicity of a white gold setting or the warm, romantic glow of rose gold, our lab created diamond solitaire rings available in a range of metals and styles From the iconic round cut to the sophisticated oval, the charming cushion, the elegant marquise, the graceful pear, the geometric emerald, the sparkling radiant, the modern princess, and the enchanting heart shape, every diamond in our collection is designed to make a statement. \n<br>\n<br>\nChoose from our selection of solitaire rings with unique designs, including traditional solitaires, halos, or trilogy settings, and create a piece that is truly your own. When choosing a diamond, understanding the <strong><a href=\"https:\/\/millenniumjewelery.com\/blogs\/blogs\/what-you-need-to-know-about-the-4cs-of-moissanite-diamond\">4Cs<\/a><\/strong> of a diamond—cut, clarity, color, and carat weight—is essential when selecting the perfect stone for both brilliance and value.\n<br>\n<br>\nExplore the brilliance of lab grown solitaire rings and find the perfect symbol of your love and commitment. With options that cater to both traditional and contemporary tastes, you're sure to discover the lab grown diamond solitaire ring that reflects your personal style and values.\n<br>\n<br>\nYou could choose an emerald-shaped stone for an elegant appeal or a classic solitaire with an <strong><a href=\"https:\/\/gemroyals.com\/collections\/lab-grown-diamond-solitaire-rings\/products\/oval-shaped-lab-grown-diamond-cluster-engagement-ring\">Oval Cut<\/a><\/strong> for a timeless look. Try an inverted spear cut or a horizontally set pear shape if you're feeling bold. Alternatively, explore the charm of a radiant cut or the sophistication of a <strong><a href=\"https:\/\/gemroyals.com\/collections\/lab-grown-diamond-solitaire-rings\/products\/oval-shaped-lab-grown-diamond-cluster-engagement-ring\">Princess Cut<\/a><\/strong>\n\n<strong><h2>Lab Grown Diamond Rings<\/h2><\/strong>\n\nIn addition to our stunning solitaire collection, we also offer a wide range of <strong><a href=\"https:\/\/gemroyals.com\/collections\/lab-grown-diamond-rings\">Lab Grown Diamond Rings<\/a><\/strong> that cater to all tastes and occasions. Each lab grown diamond ring in our collection is crafted with the same attention to detail and ethical considerations, providing a dazzling alternative to traditional diamonds. \n<br>\n<br>\nWhether you're looking for a sophisticated engagement ring, a meaningful anniversary band, or a chic fashion statement, our diamond rings offer something for everyone. Explore the variety and versatility of lab grown diamond rings and find the perfect piece to express your individuality.",
+          "sub_title": "abas\n\n<br>\nDiscover the elegance and fascinating infinity of <strong><a href=\"https://gemroyals.com/collections/lab-grown-diamond-rings\">Lab Grown Diamond Solitaire Rings</a></strong>, where cutting-edge technology meets exquisite craftsmanship. These stunning lab grown solitaire rings offer exceptional clarity and brilliance, all at a fraction of the cost of natural diamonds, making them one of the best choices for engagement rings on the market today.\n<br>\n<br>\nOur collection showcases the finest lab created solitaire <strong><a href=\"https://gemroyals.com/collections/engagement-rings\">Engagement Rings</a></strong>, expertly crafted to highlight the pure, radiant beauty of a single diamond. Each lab grown diamond solitaire is ethically and sustainably produced in a laboratory, ensuring that your choice is not only beautiful but also responsible. With a variety of designs and settings to choose from, you can customize your lab diamond solitaire to perfectly match your style and preferences.\n<br>\n<br>\nWhether you prefer the classic simplicity of a white gold setting or the warm, romantic glow of rose gold, our lab created diamond solitaire rings available in a range of metals and styles From the iconic round cut to the sophisticated oval, the charming cushion, the elegant marquise, the graceful pear, the geometric emerald, the sparkling radiant, the modern princess, and the enchanting heart shape, every diamond in our collection is designed to make a statement. \n<br>\n<br>\nChoose from our selection of solitaire rings with unique designs, including traditional solitaires, halos, or trilogy settings, and create a piece that is truly your own. When choosing a diamond, understanding the <strong><a href=\"https://millenniumjewelery.com/blogs/blogs/what-you-need-to-know-about-the-4cs-of-moissanite-diamond\">4Cs</a></strong> of a diamond—cut, clarity, color, and carat weight—is essential when selecting the perfect stone for both brilliance and value.\n<br>\n<br>\nExplore the brilliance of lab grown solitaire rings and find the perfect symbol of your love and commitment. With options that cater to both traditional and contemporary tastes, you're sure to discover the lab grown diamond solitaire ring that reflects your personal style and values.\n<br>\n<br>\nYou could choose an emerald-shaped stone for an elegant appeal or a classic solitaire with an <strong><a href=\"https://gemroyals.com/collections/lab-grown-diamond-solitaire-rings/products/oval-shaped-lab-grown-diamond-cluster-engagement-ring\">Oval Cut</a></strong> for a timeless look. Try an inverted spear cut or a horizontally set pear shape if you're feeling bold. Alternatively, explore the charm of a radiant cut or the sophistication of a <strong><a href=\"https://gemroyals.com/collections/lab-grown-diamond-solitaire-rings/products/oval-shaped-lab-grown-diamond-cluster-engagement-ring\">Princess Cut</a></strong>\n\n<strong><h2>Lab Grown Diamond Rings</h2></strong>\n\nIn addition to our stunning solitaire collection, we also offer a wide range of <strong><a href=\"https://gemroyals.com/collections/lab-grown-diamond-rings\">Lab Grown Diamond Rings</a></strong> that cater to all tastes and occasions. Each lab grown diamond ring in our collection is crafted with the same attention to detail and ethical considerations, providing a dazzling alternative to traditional diamonds. \n<br>\n<br>\nWhether you're looking for a sophisticated engagement ring, a meaningful anniversary band, or a chic fashion statement, our diamond rings offer something for everyone. Explore the variety and versatility of lab grown diamond rings and find the perfect piece to express your individuality.",
           "sub_font": "1",
           "style_title": "title_1",
           "ic_tt": "gem",
@@ -4730,7 +4678,7 @@
           "style_title": "title_1",
           "ic_tt": "gem",
           "show_clpr": false,
-          "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
           "align": "tc",
           "layout": "container",
           "cl_bg": "",
@@ -4747,35 +4695,35 @@
             "type": "faq",
             "settings": {
               "title": "How is Solid Gold jewelry compared to gold plated jewelry?",
-              "content": "<p>Solid gold jewelry is made entirely of gold, offering durability,resistance to tarnish, and long-lasting value. In contrast, gold-plated jewelry has a thin layer of gold over a base metal, making it more affordable but less durable, as the gold can wear off over time.<\/p>"
+              "content": "<p>Solid gold jewelry is made entirely of gold, offering durability,resistance to tarnish, and long-lasting value. In contrast, gold-plated jewelry has a thin layer of gold over a base metal, making it more affordable but less durable, as the gold can wear off over time.</p>"
             }
           },
           "faq_FnC7WE": {
             "type": "faq",
             "settings": {
               "title": "do you offer gold plated jewelry?",
-              "content": "<p>We don't offer gold-plated jewelry because it tends to fade over time. However, if you'd like, we can create a custom piece just for you upon request.<\/p>"
+              "content": "<p>We don't offer gold-plated jewelry because it tends to fade over time. However, if you'd like, we can create a custom piece just for you upon request.</p>"
             }
           },
           "faq_xzdVQc": {
             "type": "faq",
             "settings": {
               "title": "Do you offer customization option for jewelry and Diamond?",
-              "content": "<p>yes, we accept customization options for both jewelry and Diamonds. Whether you are looking to desing a uniqe piece or select a specifice stone, we can make it as per your preferences. <\/p>"
+              "content": "<p>yes, we accept customization options for both jewelry and Diamonds. Whether you are looking to desing a uniqe piece or select a specifice stone, we can make it as per your preferences. </p>"
             }
           },
           "faq_cj9zVb": {
             "type": "faq",
             "settings": {
               "title": "Question and answer",
-              "content": "<p>This section doesn’t currently include any content. <strong>Add content to this section using the sidebar.<\/strong><\/p>"
+              "content": "<p>This section doesn’t currently include any content. <strong>Add content to this section using the sidebar.</strong></p>"
             }
           },
           "faq_FjGUX4": {
             "type": "faq",
             "settings": {
               "title": "Question and answer",
-              "content": "<p>This section doesn’t currently include any content. <strong>Add content to this section using the sidebar.<\/strong><\/p>"
+              "content": "<p>This section doesn’t currently include any content. <strong>Add content to this section using the sidebar.</strong></p>"
             }
           }
         },
@@ -4874,13 +4822,12 @@
     ],
     "blocks": {
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#ae975f",
@@ -4894,16 +4841,14 @@
         }
       },
       "6279071938380501511": {
-        "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "type": "shopify://apps/powerful-form-builder/blocks/app-embed/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "478144830049398400": {
-        "type": "shopify:\/\/apps\/storeseo\/blocks\/store_seo_meta\/64b24496-16f9-4afc-a800-84e6acc4a36c",
+        "type": "shopify://apps/storeseo/blocks/store_seo_meta/64b24496-16f9-4afc-a800-84e6acc4a36c",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   }
